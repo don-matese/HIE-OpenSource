@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{b563bc4d-f5d3-4d7b-8d43-2179f246d138}" Name="BPF - Enquiry Business Flow" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/BPF-EnquiryBusinessFlow-B563BC4D-F5D3-4D7B-8D43-2179F246D138.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>4</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <processorder>100</processorder>
+  <processroleassignment>&lt;DisplayConditions&gt;&lt;Role Id="{627090ff-40a3-4053-8790-584edc5be201}" /&gt;&lt;Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" /&gt;&lt;/DisplayConditions&gt;</processroleassignment>
+  <RunAs>1</RunAs>
+  <UniqueName>leidos_enquirybusinessflow</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
+  <PrimaryEntity>leidos_enquiry</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="BPF - Enquiry Business Flow" />
+  </LocalizedNames>
+  <labels>
+    <steplabels id="{e28d9059-970b-48a7-a529-18cbc628567c}">
+      <label languagecode="1033" description="New Enquiry" />
+    </steplabels>
+    <steplabels id="{ae81ea3f-c3ad-46e5-a9ce-9b9aed46e9c7}">
+      <label languagecode="1033" description="Enquiry Topic" />
+    </steplabels>
+    <steplabels id="{ad20728c-cfd2-402b-9bf7-81cb152b4ed7}">
+      <label languagecode="1033" description="Enquiry Source" />
+    </steplabels>
+    <steplabels id="{61e7a966-ad2c-49cc-87c5-6410c3225e5e}">
+      <label languagecode="1033" description="Forward to Enquiry Team" />
+    </steplabels>
+    <steplabels id="{9274cb69-45dd-42bd-ac0c-7462306e065a}">
+      <label languagecode="1033" description="Company Name" />
+    </steplabels>
+    <steplabels id="{a1887231-e8b3-47d2-ae2c-22a9dbeebe29}">
+      <label languagecode="1033" description="Company Postcode" />
+    </steplabels>
+    <steplabels id="{53277755-bffb-4012-a55d-f3e792c3f353}">
+      <label languagecode="1033" description="First Name" />
+    </steplabels>
+    <steplabels id="{a4bd4c9f-fa48-48f1-88fa-d48b4ddfb9b6}">
+      <label languagecode="1033" description="Last name" />
+    </steplabels>
+    <steplabels id="{a6885684-7f9b-441a-8c36-5eecc163141d}">
+      <label languagecode="1033" description="Email Address" />
+    </steplabels>
+    <steplabels id="{47b6dcd3-1eb0-436d-90db-ff28557b2084}">
+      <label languagecode="1033" description="Process Enquiry" />
+    </steplabels>
+    <steplabels id="{d49d3441-e9cf-4582-a245-590b5d058274}">
+      <label languagecode="1033" description="Account" />
+    </steplabels>
+    <steplabels id="{c54eb3b9-9e3b-40cb-a0a1-e8f4302233be}">
+      <label languagecode="1033" description="Contact" />
+    </steplabels>
+    <steplabels id="{b141e93e-1afe-4eeb-8540-59bdf5e421c9}">
+      <label languagecode="1033" description="Trading Status" />
+    </steplabels>
+    <steplabels id="{c8656bff-2c8a-4480-8e9e-4604425d7b44}">
+      <label languagecode="1033" description="Nature of Enquiry" />
+    </steplabels>
+    <steplabels id="{b32de95e-c45a-42cf-b5e4-eead1e5c7843}">
+      <label languagecode="1033" description="New Stage" />
+    </steplabels>
+    <steplabels id="{b903391e-0097-4928-964f-33dff022433d}">
+      <label languagecode="1033" description="Summary of Discussions" />
+    </steplabels>
+  </labels>
+</Workflow>

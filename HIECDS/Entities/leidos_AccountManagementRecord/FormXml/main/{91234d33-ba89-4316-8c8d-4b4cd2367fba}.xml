@@ -1,0 +1,529 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{91234d33-ba89-4316-8c8d-4b4cd2367fba}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{77ffc901-f999-48c5-b5b5-b292c0e1eab4}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{51216f8b-830f-49e0-82b0-c03ff389ed33}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{1c3d6d48-86f1-4337-8434-3ee12b123b49}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="leidos_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{65f60970-d92c-41fe-ab2f-169ca5aac66c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Parent Account" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_parentaccount" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_parentaccount" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2ad739cb-7cf8-4ebe-8cc2-fa627b7187ce}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Area Office" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_areaoffice" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_areaoffice" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{30fc3185-5dd9-479b-8d27-c45b3f480d4a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Type" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_type" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="leidos_type" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{89b8c1a0-956b-402e-958d-8e55707f3e86}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Proposed Segmentation" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_proposedsegmentation" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_proposedsegmentation" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ee665380-8d61-419d-964d-a6315dbeb525}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Social Enterprise ladder" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_socialenterpriseladder" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="leidos_socialenterpriseladder" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="Product and Services" id="d56db5aa-21d6-4110-a674-08f65ea5e17e" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Product and Services" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{6a9d7164-5065-4e74-a18b-cd2c4c1aac01}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Product and Service Description" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_productandservicedescription" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="leidos_productandservicedescription" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ea3bb0f2-ce62-46b1-aedf-053fe729d1a1}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Geographical Scope Description" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_geographicalscopedescription" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="leidos_geographicalscopedescription" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e0623cfa-fb55-4943-9040-557ed1b5afc2}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Geographical scope %" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_geographicalscope" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="leidos_geographicalscope" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{47973963-636c-4c61-a055-be7c59a8a983}" rowspan="7" colspan="1" auto="false">
+                        <labels>
+                          <label description="Current and Potential Trading Geographies" languagecode="1033" />
+                        </labels>
+                        <control id="InternationalTrade" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" indicationOfSubgrid="true" uniqueid="{eb9c14da-91ce-a06d-2b54-0913e699e627}">
+                          <parameters>
+                            <TargetEntityType>leidos_tradinggeography</TargetEntityType>
+                            <ViewId>{AA026E9C-3C38-EA11-A813-000D3A0BAD7C}</ViewId>
+                            <ViewIds>{03E911E8-67E9-4D18-A28D-2BE18A0D64CC},{AA026E9C-3C38-EA11-A813-000D3A0BAD7C}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>leidos_tradinggeography_ParentAMRRecord_l</RelationshipName>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <IsUserView>false</IsUserView>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="Finance" id="70e0ac02-e4ab-43e2-a099-75020dd0431a" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Finance" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{90601384-9005-4b4a-b6dd-6ff8ce83a803}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Turnover" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_turnover" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_turnover" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e3f41604-a72b-49d2-8b04-0c2017d8736a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Assets &amp; Capital" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_assetscapital" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_assetscapital" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b8d60a0c-13e4-46a0-a6f0-afb6c631f2ac}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="No Of employees" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_noofemployees" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="leidos_noofemployees" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{e6aca100-3f99-4609-8313-1b5f979642e2}" rowspan="7" colspan="1" auto="false">
+                        <labels>
+                          <label description="Employee Details" languagecode="1033" />
+                        </labels>
+                        <control id="EmployeeDetails" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" indicationOfSubgrid="true" uniqueid="{c620989c-e986-6a52-d03c-08a875696291}">
+                          <parameters>
+                            <TargetEntityType>leidos_employmentdetails</TargetEntityType>
+                            <ViewId>{9BD02821-3E38-EA11-A813-000D3A0BAD7C}</ViewId>
+                            <ViewIds>{55EEC1A8-AB6E-4A68-94A7-9833B93B40B5},{9BD02821-3E38-EA11-A813-000D3A0BAD7C}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>leidos_EmploymentDetails_ParentAMRRecord_</RelationshipName>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <IsUserView>false</IsUserView>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="Descriptions" id="78408e12-a28e-459a-b4ac-782cea11a410" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Descriptions" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_3_section_1" id="97f5d05e-f68b-43c8-8406-c59e0e1d991d" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Test Capture" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ad826eb1-e139-414e-8438-8c7ff04332cd}" showlabel="true" locklevel="0" rowspan="4">
+                        <labels>
+                          <label description="Short / Med Term Goals" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_shortmedtermgoals" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="leidos_shortmedtermgoals" disabled="false" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{644ba37b-b067-479f-b223-f23835000fb9}" showlabel="true" locklevel="0" rowspan="4">
+                        <labels>
+                          <label description="Long Term Vision" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_longtermvision" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="leidos_longtermvision" disabled="false" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{d563ed95-b3b3-482e-bdf1-02497baafa46}" showlabel="true" locklevel="0" rowspan="4">
+                        <labels>
+                          <label description="Account Management Assessment" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_accountmanagementassessment" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="leidos_accountmanagementassessment" disabled="false" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{749b4e5c-188e-4ca1-8b37-07640ce29402}" showlabel="true" locklevel="0" rowspan="4">
+                        <labels>
+                          <label description="Areas for Potential HIE Intervention" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_areasforpotentialhieintervention" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="leidos_areasforpotentialhieintervention" disabled="false" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{a7c77e9f-1c8d-44b1-a50c-c2011893c5ea}" showlabel="true" locklevel="0" rowspan="4">
+                        <labels>
+                          <label description="Previous HIE Assistance" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_previoushieassistance" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="leidos_previoushieassistance" disabled="false" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{b33a1bee-9d78-4c05-8665-46bb7cba6f2d}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="AMR Process" id="20e79d3e-fca0-4b0b-a094-ce8f5ee7d1f3" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115">
+                  <labels>
+                    <label description="AMR Process" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b2831e5a-bbb0-44c7-b830-82dfd1ca4f4f}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Completed By" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_completedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_completedby" disabled="false" />
+                      </cell>
+                      <cell id="{fc5df407-9610-4a07-8b12-4683429e547f}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Completed on" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_completedon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="leidos_completedon" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f6a60d01-ea89-47f4-8bd8-309746d899e1}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Area Manager Approval By" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_areamanagerapprovalby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_areamanagerapprovalby" disabled="false" />
+                      </cell>
+                      <cell id="{32b27001-327c-458d-b093-e01542eb51b2}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Area Manager Approval On" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_areamanagerapprovalon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="leidos_areamanagerapprovalon" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4fe4d927-7f38-4230-a1ac-93780c940fdd}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Portfolio Manager Endorsement By" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_portfoliomanagerendorsementby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_portfoliomanagerendorsementby" disabled="false" />
+                      </cell>
+                      <cell id="{300f55eb-be82-40f0-9370-7b113cb3cc83}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Portfolio Manager Endorsement On" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_portfoliomanagerendorsementon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="leidos_portfoliomanagerendorsementon" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="Time Line" id="6b7b0628-a7bc-46fb-8b04-9f2a7976ebac" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Time Line" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" id="{56043f0f-8272-4bd6-b6b0-d480c6f58536}" IsUserDefined="0" height="auto" name="Time Line_section_3">
+                  <labels>
+                    <label description="Notes" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" rowspan="15" auto="false" id="{cf6aed04-94ed-45ea-8b04-935406d74d3e}">
+                        <labels>
+                          <label description="Note Text" languagecode="1033" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}">
+                          <parameters>
+                            <DefaultTabId>NotesTab</DefaultTabId>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row height="auto" />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{db96d7d0-ea76-4911-bdc6-6d136d01e876}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{b15bb730-0c22-424c-8663-5d50673654c2}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{a3de0727-4671-4b3f-9221-df6d1158fec1}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{50e52c55-e7ea-4393-bac2-3fe2a8e4ee76}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{fa98b19b-6470-4e66-9153-e9f9357c857f}">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+            </cell>
+            <cell id="{530490da-73a8-48b9-bfe7-f6839c1e613a}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Status Reason" languagecode="1033" />
+              </labels>
+              <control id="header_statuscode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statuscode" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{28c75851-9bbb-4a5a-81a7-9197b7796f46}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{71fc4947-3859-4a03-9870-a43cfc594dd2}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{d6c8b45a-c5e5-40d0-9a94-3b81d722c4d9}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{81a48972-1143-4739-8adf-3077ba6f3109}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions>
+        <controlDescription forControl="{eb9c14da-91ce-a06d-2b54-0913e699e627}">
+          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" formFactor="0">
+            <parameters />
+          </customControl>
+          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" formFactor="1">
+            <parameters />
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{AA026E9C-3C38-EA11-A813-000D3A0BAD7C}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>leidos_tradinggeography_ParentAMRRecord_l</RelationshipName>
+                <TargetEntityType>leidos_tradinggeography</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{03E911E8-67E9-4D18-A28D-2BE18A0D64CC},{AA026E9C-3C38-EA11-A813-000D3A0BAD7C}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy static="true" type="Enum">no</EnableGroupBy>
+              <EnableEditing static="true" type="Enum">yes</EnableEditing>
+              <ReflowBehavior static="true" type="Enum">GridOnly</ReflowBehavior>
+              <EnableFiltering static="true" type="Enum">yes</EnableFiltering>
+              <HideNestedGridColumnHeader static="true" type="Enum">no</HideNestedGridColumnHeader>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{c620989c-e986-6a52-d03c-08a875696291}">
+          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" formFactor="0">
+            <parameters />
+          </customControl>
+          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" formFactor="1">
+            <parameters />
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{9BD02821-3E38-EA11-A813-000D3A0BAD7C}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>leidos_EmploymentDetails_ParentAMRRecord_</RelationshipName>
+                <TargetEntityType>leidos_employmentdetails</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{55EEC1A8-AB6E-4A68-94A7-9833B93B40B5},{9BD02821-3E38-EA11-A813-000D3A0BAD7C}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy static="true" type="Enum">no</EnableGroupBy>
+              <EnableEditing static="true" type="Enum">yes</EnableEditing>
+              <ReflowBehavior static="true" type="Enum">GridOnly</ReflowBehavior>
+              <EnableFiltering static="true" type="Enum">yes</EnableFiltering>
+              <HideNestedGridColumnHeader static="true" type="Enum">no</HideNestedGridColumnHeader>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <DisplayConditions Order="0" FallbackForm="true" />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

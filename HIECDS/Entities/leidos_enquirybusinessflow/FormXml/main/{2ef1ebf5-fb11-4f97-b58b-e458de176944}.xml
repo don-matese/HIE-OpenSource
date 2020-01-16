@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{2ef1ebf5-fb11-4f97-b58b-e458de176944}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{e28d9059-970b-48a7-a529-18cbc628567c}" name="StageStep3" locklevel="0" expanded="true" visible="false" labelid="{17e1c711-c6c0-4e8d-b38e-6798f83781f0}">
+          <labels>
+            <label description="New Enquiry" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{e28d9059-970b-48a7-a529-18cbc628567c}" name="StageStep3_section1" labelid="{c432affb-49b0-46ea-8946-453c58aa0b7d}">
+                  <labels>
+                    <label description="New Enquiry" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ae81ea3f-c3ad-46e5-a9ce-9b9aed46e9c7}" showlabel="true" visible="true" labelid="{91f55ead-9c3b-4514-8037-de99f3251cc3}">
+                        <labels>
+                          <label description="Enquiry Topic" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_leidos_enquiry_leidos_enquirybusinessflow:leidos_name" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="leidos_name" relationship="bpf_leidos_enquiry_leidos_enquirybusinessflow" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ad20728c-cfd2-402b-9bf7-81cb152b4ed7}" showlabel="true" visible="true" labelid="{19d3d6d8-be3f-4f9a-9ac5-bc97c42b882e}">
+                        <labels>
+                          <label description="Enquiry Source" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_leidos_enquiry_leidos_enquirybusinessflow:leidos_enquirysource" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="leidos_enquirysource" relationship="bpf_leidos_enquiry_leidos_enquirybusinessflow" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{61e7a966-ad2c-49cc-87c5-6410c3225e5e}" showlabel="true" visible="true" labelid="{6de2d6c4-a3ce-4d5e-b72d-fdc84096fcc3}">
+                        <labels>
+                          <label description="Forward to Enquiry Team" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_leidos_enquiry_leidos_enquirybusinessflow:leidos_forwardtoenquiryteam" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="leidos_forwardtoenquiryteam" relationship="bpf_leidos_enquiry_leidos_enquirybusinessflow" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9274cb69-45dd-42bd-ac0c-7462306e065a}" showlabel="true" visible="true" labelid="{7a0abf0e-9902-47a5-8cb6-201e15d1cfb9}">
+                        <labels>
+                          <label description="Company Name" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_leidos_enquiry_leidos_enquirybusinessflow:leidos_companyname" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="leidos_companyname" relationship="bpf_leidos_enquiry_leidos_enquirybusinessflow" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a1887231-e8b3-47d2-ae2c-22a9dbeebe29}" showlabel="true" visible="true" labelid="{2b73123c-adea-437e-8732-4de0022dbf51}">
+                        <labels>
+                          <label description="Company Postcode" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_leidos_enquiry_leidos_enquirybusinessflow:leidos_companypostcode" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="leidos_companypostcode" relationship="bpf_leidos_enquiry_leidos_enquirybusinessflow" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{53277755-bffb-4012-a55d-f3e792c3f353}" showlabel="true" visible="true" labelid="{7edc414e-87cf-4c11-9e39-33207134731f}">
+                        <labels>
+                          <label description="First Name" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_leidos_enquiry_leidos_enquirybusinessflow:leidos_firstname" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="leidos_firstname" relationship="bpf_leidos_enquiry_leidos_enquirybusinessflow" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a4bd4c9f-fa48-48f1-88fa-d48b4ddfb9b6}" showlabel="true" visible="true" labelid="{086f8f5b-feee-4943-a2f9-d1be17850354}">
+                        <labels>
+                          <label description="Last name" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_leidos_enquiry_leidos_enquirybusinessflow:leidos_lastname" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="leidos_lastname" relationship="bpf_leidos_enquiry_leidos_enquirybusinessflow" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a6885684-7f9b-441a-8c36-5eecc163141d}" showlabel="true" visible="true" labelid="{e2044299-bae4-49bb-a0b0-0e7e4001fcfb}">
+                        <labels>
+                          <label description="Email Address" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_leidos_enquiry_leidos_enquirybusinessflow:leidos_emailaddress" classid="{ada2203e-b4cd-49be-9ddf-234642b43b52}" datafieldname="leidos_emailaddress" relationship="bpf_leidos_enquiry_leidos_enquirybusinessflow" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{47b6dcd3-1eb0-436d-90db-ff28557b2084}" name="StageStep21" locklevel="0" expanded="true" visible="false" labelid="{2f788165-1e0e-440d-8766-8b4be1f8b0ff}">
+          <labels>
+            <label description="Process Enquiry" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{47b6dcd3-1eb0-436d-90db-ff28557b2084}" name="StageStep21_section1" labelid="{f34a8fdd-6097-411e-ac8e-3a478af19c5f}">
+                  <labels>
+                    <label description="Process Enquiry" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{d49d3441-e9cf-4582-a245-590b5d058274}" showlabel="true" visible="true" labelid="{39a587f6-15c1-4343-b87d-1b7b665b1b91}">
+                        <labels>
+                          <label description="Account" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_leidos_enquiry_leidos_enquirybusinessflow:leidos_account" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="leidos_account" relationship="bpf_leidos_enquiry_leidos_enquirybusinessflow" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c54eb3b9-9e3b-40cb-a0a1-e8f4302233be}" showlabel="true" visible="true" labelid="{04907760-33ee-4748-8d95-11527c0f737d}">
+                        <labels>
+                          <label description="Contact" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_leidos_enquiry_leidos_enquirybusinessflow:leidos_contact" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="leidos_contact" relationship="bpf_leidos_enquiry_leidos_enquirybusinessflow" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b141e93e-1afe-4eeb-8540-59bdf5e421c9}" showlabel="true" visible="true" labelid="{4e28e632-2743-4854-8f54-db6354f5bc47}">
+                        <labels>
+                          <label description="Trading Status" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_leidos_enquiry_leidos_enquirybusinessflow:leidos_tradingstatus" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="leidos_tradingstatus" relationship="bpf_leidos_enquiry_leidos_enquirybusinessflow" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c8656bff-2c8a-4480-8e9e-4604425d7b44}" showlabel="true" visible="true" labelid="{165dc923-208d-4212-bbba-937d802bb42b}">
+                        <labels>
+                          <label description="Nature of Enquiry" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_leidos_enquiry_leidos_enquirybusinessflow:leidos_natureofenquiry" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="leidos_natureofenquiry" relationship="bpf_leidos_enquiry_leidos_enquirybusinessflow" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{b32de95e-c45a-42cf-b5e4-eead1e5c7843}" name="StageStep31" locklevel="0" expanded="true" visible="false" labelid="{02f6fbec-8a72-4c22-9b55-9db8d59aaad5}">
+          <labels>
+            <label description="New Stage" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{b32de95e-c45a-42cf-b5e4-eead1e5c7843}" name="StageStep31_section1" labelid="{28df42de-c266-496e-8a9f-2959fcf305ad}">
+                  <labels>
+                    <label description="New Stage" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b903391e-0097-4928-964f-33dff022433d}" showlabel="true" visible="true" labelid="{19d5d78d-62c6-4b5d-b239-1fd8519f846e}">
+                        <labels>
+                          <label description="Summary of Discussions" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_leidos_enquiry_leidos_enquirybusinessflow:leidos_summaryofdiscussions" classid="{e0dece4b-6fc8-4a8f-a065-082708572369}" datafieldname="leidos_summaryofdiscussions" relationship="bpf_leidos_enquiry_leidos_enquirybusinessflow" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
