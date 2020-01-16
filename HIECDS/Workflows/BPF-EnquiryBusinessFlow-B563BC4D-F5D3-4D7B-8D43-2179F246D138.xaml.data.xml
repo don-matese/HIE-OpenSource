@@ -69,11 +69,20 @@
     <steplabels id="{c8656bff-2c8a-4480-8e9e-4604425d7b44}">
       <label languagecode="1033" description="Nature of Enquiry" />
     </steplabels>
-    <steplabels id="{b32de95e-c45a-42cf-b5e4-eead1e5c7843}">
+    <steplabels id="{848e35c2-9e3e-4335-886c-26ad11d1e25e}">
+      <label languagecode="1033" description="Suitable for Account Management" />
+    </steplabels>
+    <steplabels id="{e68795e6-5bdc-4891-8c2a-dfcc45dcc795}">
       <label languagecode="1033" description="New Stage" />
     </steplabels>
-    <steplabels id="{b903391e-0097-4928-964f-33dff022433d}">
+    <steplabels id="{6b5a8a39-df79-45f5-befa-e38bb820689b}">
       <label languagecode="1033" description="Summary of Discussions" />
+    </steplabels>
+    <steplabels id="{f913c53a-8c5c-46ab-bd38-d0047ef2ab28}">
+      <label languagecode="1033" description="Account Management" />
+    </steplabels>
+    <steplabels id="{18c3df67-e28e-426f-bd92-e4693d31b62c}">
+      <label languagecode="1033" description="Account" />
     </steplabels>
   </labels>
 </Workflow>

@@ -44,6 +44,14 @@
                       </cell>
                     </row>
                     <row>
+                      <cell id="{06b87147-9d4d-4733-91e5-39d45e1fe070}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Suitable for Account Management" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_suitableforaccountmanagement" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="leidos_suitableforaccountmanagement" disabled="false" uniqueid="{eb3190e2-e058-42a7-8255-bff592dbdee5}" />
+                      </cell>
+                    </row>
+                    <row>
                       <cell id="{1ef3a871-3bdf-43a5-af88-bb4fc19830cd}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Reference Number" languagecode="1033" />
@@ -243,17 +251,17 @@
       <header id="{2646d5d0-27f0-480d-80f2-5010a7ceb25a}" columns="111">
         <rows>
           <row>
+            <cell id="{98441aa4-8e18-45a4-9556-032161ce3477}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Reference Number" languagecode="1033" />
+              </labels>
+              <control id="header_leidos_referencenumber" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="leidos_referencenumber" disabled="false" />
+            </cell>
             <cell id="{729e3069-c6b2-652c-558c-150aa922d973}" showlabel="true" locklevel="0">
               <labels>
                 <label description="Account" languagecode="1033" />
               </labels>
               <control id="header_leidos_account" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_account" disabled="false" />
-            </cell>
-            <cell id="{e61044d3-945d-2144-372c-027e55c815e9}" showlabel="true" locklevel="0">
-              <labels>
-                <label description="Contact" languagecode="1033" />
-              </labels>
-              <control id="header_leidos_contact" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_contact" disabled="false" />
             </cell>
             <cell id="{5bcb08d4-0b75-d938-4541-467b928657ca}" showlabel="true" locklevel="0">
               <labels>
@@ -335,6 +343,23 @@
           <customControl formFactor="0" name="MscrmControls.FlipSwitch.FlipSwitchControl">
             <parameters>
               <value>leidos_forwardtoenquiryteam</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{eb3190e2-e058-42a7-8255-bff592dbdee5}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" formFactor="0">
+            <parameters>
+              <datafieldname>leidos_suitableforaccountmanagement</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>leidos_suitableforaccountmanagement</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>leidos_suitableforaccountmanagement</value>
             </parameters>
           </customControl>
         </controlDescription>

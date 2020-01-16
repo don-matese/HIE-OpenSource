@@ -31,11 +31,11 @@
           <attribute name="statuscode" />
           <order attribute="createdon" descending="true" />
           <order attribute="leidos_name" descending="false" />
+          <attribute name="leidos_enquiryid" />
           <filter type="and">
             <condition attribute="statecode" operator="eq" value="0" />
-            <condition attribute="ownerid" operator="eq" uiname="Enquiry Team" uitype="team" value="{41BBB90B-EF36-EA11-A813-000D3A0BAD7C}" />
+            <condition attribute="ownerid" operator="eq" value="{4077d59c-7938-ea11-a813-000d3a0ba151}" uiname="Enquiry Team" uitype="team" />
           </filter>
-          <attribute name="leidos_enquiryid" />
         </entity>
       </fetch>
     </fetchxml>

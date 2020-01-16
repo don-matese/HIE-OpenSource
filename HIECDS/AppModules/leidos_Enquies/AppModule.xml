@@ -8,9 +8,7 @@
   <NavigationType>0</NavigationType>
   <AppModuleComponents>
     <AppModuleComponent type="62" schemaName="leidos_Enquies" />
-    <AppModuleComponent type="29" id="{048f61e0-3e38-ea11-a813-000d3a0bad7c}" />
     <AppModuleComponent type="29" id="{b563bc4d-f5d3-4d7b-8d43-2179f246d138}" />
-    <AppModuleComponent type="29" id="{f64f33c2-9237-ea11-a813-000d3a0ba110}" />
     <AppModuleComponent type="60" id="{e85f3335-ca36-ea11-a813-000d3a0bad7c}" />
     <AppModuleComponent type="1" schemaName="account" />
     <AppModuleComponent type="60" id="{39151aa2-bee0-428d-94b4-463406a15ee0}" />
@@ -25,12 +23,12 @@
     <AppModuleComponent type="1" schemaName="leidos_clientenquiryorigin" />
     <AppModuleComponent type="1" schemaName="contact" />
     <AppModuleComponent type="60" id="{661157fe-2fc9-4eaa-835f-5bfa2f7b64f7}" />
-    <AppModuleComponent type="60" id="{c432ac4d-7254-4c1b-80d0-7e6597073db6}" />
     <AppModuleComponent type="60" id="{d880c3cf-80e2-42f3-82f9-24d040d09f17}" />
+    <AppModuleComponent type="60" id="{c432ac4d-7254-4c1b-80d0-7e6597073db6}" />
     <AppModuleComponent type="1" schemaName="leidos_employmentdetails" />
     <AppModuleComponent type="1" schemaName="leidos_enquiry" />
-    <AppModuleComponent type="60" id="{7e270050-4538-ea11-a813-000d3a0ba110}" />
     <AppModuleComponent type="60" id="{898bd476-4331-4ecb-87b7-8d8c52e9cdfd}" />
+    <AppModuleComponent type="60" id="{7e270050-4538-ea11-a813-000d3a0ba110}" />
     <AppModuleComponent type="60" id="{2f692349-4838-ea11-a813-000d3a0bad7c}" />
     <AppModuleComponent type="1" schemaName="leidos_enquirybusinessflow" />
     <AppModuleComponent type="1" schemaName="leidos_geographies" />
@@ -49,7 +47,7 @@
     <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
   </AppModuleRoleMaps>
   <LocalizedNames>
-    <LocalizedName description="Enquies" languagecode="1033" />
+    <LocalizedName description="Enquiry Service" languagecode="1033" />
   </LocalizedNames>
   <Descriptions>
     <Description description="Solution for Enquiry Service up to the Application Point" languagecode="1033" />
