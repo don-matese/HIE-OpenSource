@@ -18,6 +18,9 @@
     <RolePrivilege name="prvAppendImportFile" level="Basic" />
     <RolePrivilege name="prvAppendImportMap" level="Local" />
     <RolePrivilege name="prvAppendLanguageLocale" level="Global" />
+    <RolePrivilege name="prvAppendleidos_AreaOffice" level="Global" />
+    <RolePrivilege name="prvAppendleidos_ClientEnquiryOrigin" level="Global" />
+    <RolePrivilege name="prvAppendleidos_EmploymentDetails" level="Global" />
     <RolePrivilege name="prvAppendleidos_enquiry" level="Global" />
     <RolePrivilege name="prvAppendleidos_geographies" level="Global" />
     <RolePrivilege name="prvAppendleidos_natureofenquiry" level="Global" />
@@ -52,6 +55,9 @@
     <RolePrivilege name="prvAppendToImportFile" level="Basic" />
     <RolePrivilege name="prvAppendToImportMap" level="Local" />
     <RolePrivilege name="prvAppendToLanguageLocale" level="Global" />
+    <RolePrivilege name="prvAppendToleidos_AreaOffice" level="Global" />
+    <RolePrivilege name="prvAppendToleidos_ClientEnquiryOrigin" level="Global" />
+    <RolePrivilege name="prvAppendToleidos_EmploymentDetails" level="Global" />
     <RolePrivilege name="prvAppendToleidos_enquiry" level="Global" />
     <RolePrivilege name="prvAppendToleidos_geographies" level="Global" />
     <RolePrivilege name="prvAppendToleidos_natureofenquiry" level="Global" />
@@ -94,8 +100,9 @@
     <RolePrivilege name="prvAssignImport" level="Basic" />
     <RolePrivilege name="prvAssignImportFile" level="Basic" />
     <RolePrivilege name="prvAssignImportMap" level="Local" />
-    <RolePrivilege name="prvAssignleidos_enquiry" level="Basic" />
-    <RolePrivilege name="prvAssignleidos_tradinggeography" level="Global" />
+    <RolePrivilege name="prvAssignleidos_EmploymentDetails" level="Local" />
+    <RolePrivilege name="prvAssignleidos_enquiry" level="Local" />
+    <RolePrivilege name="prvAssignleidos_tradinggeography" level="Local" />
     <RolePrivilege name="prvAssignMailMergeTemplate" level="Basic" />
     <RolePrivilege name="prvAssignNote" level="Basic" />
     <RolePrivilege name="prvAssignPersonalDocumentTemplate" level="Basic" />
@@ -125,6 +132,7 @@
     <RolePrivilege name="prvCreateImport" level="Basic" />
     <RolePrivilege name="prvCreateImportFile" level="Basic" />
     <RolePrivilege name="prvCreateImportMap" level="Local" />
+    <RolePrivilege name="prvCreateleidos_EmploymentDetails" level="Global" />
     <RolePrivilege name="prvCreateleidos_enquiry" level="Global" />
     <RolePrivilege name="prvCreateleidos_tradinggeography" level="Global" />
     <RolePrivilege name="prvCreateMailboxTrackingFolder" level="Basic" />
@@ -163,7 +171,6 @@
     <RolePrivilege name="prvDeleteImport" level="Basic" />
     <RolePrivilege name="prvDeleteImportFile" level="Basic" />
     <RolePrivilege name="prvDeleteImportMap" level="Local" />
-    <RolePrivilege name="prvDeleteleidos_tradinggeography" level="Global" />
     <RolePrivilege name="prvDeleteMailboxTrackingFolder" level="Basic" />
     <RolePrivilege name="prvDeleteMailMergeTemplate" level="Basic" />
     <RolePrivilege name="prvDeleteNewProcess" level="Global" />
@@ -232,6 +239,9 @@
     <RolePrivilege name="prvReadImportMap" level="Global" />
     <RolePrivilege name="prvReadInteractionForEmail" level="Global" />
     <RolePrivilege name="prvReadLanguageLocale" level="Global" />
+    <RolePrivilege name="prvReadleidos_AreaOffice" level="Global" />
+    <RolePrivilege name="prvReadleidos_ClientEnquiryOrigin" level="Global" />
+    <RolePrivilege name="prvReadleidos_EmploymentDetails" level="Global" />
     <RolePrivilege name="prvReadleidos_enquiry" level="Global" />
     <RolePrivilege name="prvReadleidos_geographies" level="Global" />
     <RolePrivilege name="prvReadleidos_natureofenquiry" level="Global" />
@@ -306,8 +316,9 @@
     <RolePrivilege name="prvShareImport" level="Deep" />
     <RolePrivilege name="prvShareImportFile" level="Deep" />
     <RolePrivilege name="prvShareImportMap" level="Global" />
-    <RolePrivilege name="prvShareleidos_enquiry" level="Basic" />
-    <RolePrivilege name="prvShareleidos_tradinggeography" level="Global" />
+    <RolePrivilege name="prvShareleidos_EmploymentDetails" level="Local" />
+    <RolePrivilege name="prvShareleidos_enquiry" level="Local" />
+    <RolePrivilege name="prvShareleidos_tradinggeography" level="Local" />
     <RolePrivilege name="prvShareMailMergeTemplate" level="Global" />
     <RolePrivilege name="prvShareNote" level="Global" />
     <RolePrivilege name="prvSharePersonalDocumentTemplate" level="Global" />
@@ -344,8 +355,9 @@
     <RolePrivilege name="prvWriteImport" level="Basic" />
     <RolePrivilege name="prvWriteImportFile" level="Basic" />
     <RolePrivilege name="prvWriteImportMap" level="Local" />
-    <RolePrivilege name="prvWriteleidos_enquiry" level="Basic" />
-    <RolePrivilege name="prvWriteleidos_tradinggeography" level="Global" />
+    <RolePrivilege name="prvWriteleidos_EmploymentDetails" level="Local" />
+    <RolePrivilege name="prvWriteleidos_enquiry" level="Local" />
+    <RolePrivilege name="prvWriteleidos_tradinggeography" level="Local" />
     <RolePrivilege name="prvWriteMailbox" level="Basic" />
     <RolePrivilege name="prvWriteMailboxTrackingFolder" level="Basic" />
     <RolePrivilege name="prvWriteMailMergeTemplate" level="Basic" />

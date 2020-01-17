@@ -19,6 +19,7 @@
     <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001001}" />
     <AppModuleComponent type="1" schemaName="leidos_accountmanagementrecord" />
     <AppModuleComponent type="60" id="{91234d33-ba89-4316-8c8d-4b4cd2367fba}" />
+    <AppModuleComponent type="1" schemaName="activitypointer" />
     <AppModuleComponent type="1" schemaName="leidos_areaoffice" />
     <AppModuleComponent type="1" schemaName="leidos_clientenquiryorigin" />
     <AppModuleComponent type="1" schemaName="contact" />

@@ -54,6 +54,9 @@
     <steplabels id="{a6885684-7f9b-441a-8c36-5eecc163141d}">
       <label languagecode="1033" description="Email Address" />
     </steplabels>
+    <steplabels id="{84512fac-fede-46c1-bc90-a1f0987f7c7c}">
+      <label languagecode="1033" description="Privacy Statement Agreement" />
+    </steplabels>
     <steplabels id="{47b6dcd3-1eb0-436d-90db-ff28557b2084}">
       <label languagecode="1033" description="Process Enquiry" />
     </steplabels>

@@ -59,6 +59,14 @@
                         <control id="leidos_referencenumber" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="leidos_referencenumber" disabled="false" />
                       </cell>
                     </row>
+                    <row>
+                      <cell id="{f450421c-c1d9-4b08-9949-cc4f8acc76d4}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Privacy Statement Agreement" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_privacystatementagreement" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="leidos_privacystatementagreement" disabled="false" />
+                      </cell>
+                    </row>
                   </rows>
                 </section>
                 <section name="Contact Details" showlabel="false" showbar="false" locklevel="0" id="{2288b01d-167c-eb95-3b1c-54cd1ea25084}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
@@ -174,34 +182,35 @@
             </column>
             <column width="50%">
               <sections>
-                <section name="ref_pan_{28d41d28-2711-4e9c-974f-b37fd8f27a78}_section_3" showlabel="false" showbar="false" locklevel="0" id="{baac3e44-51db-7b0e-5c4d-129a4d1d8b24}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" rowheight="25" autoexpand="false" celllabelalignment="Left" celllabelposition="Left">
+                <section name="Enquiry_section_6" showlabel="false" showbar="false" locklevel="0" id="{c65c0663-1833-c971-30eb-40498959d0d6}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Top" height="auto">
                   <labels>
-                    <label description="Reference Panel" languagecode="1033" />
+                    <label description="Section" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{3165e7e2-abc4-a48d-b8cb-6909be797633}" showlabel="false" colspan="1" auto="false" rowspan="6">
+                      <cell id="{8d45422d-a584-1605-eba2-2b399b9670ed}" showlabel="true" rowspan="15" auto="true" colspan="1" locklevel="0">
                         <labels>
-                          <label description="Activities (Regarding)" languagecode="1033" />
+                          <label description="Note Text" languagecode="1033" />
                         </labels>
-                        <control id="Activities" classid="{02D4264B-47E2-4B4C-AA95-F439F3F4D458}">
+                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}" uniqueid="{180c0490-e5eb-9348-35ad-3c6d9e46baa9}" disabled="false">
                           <parameters>
-                            <ViewId>{00000000-0000-0000-00AA-000010001899}</ViewId>
-                            <IsUserView>false</IsUserView>
-                            <RelationshipName>leidos_enquiry_ActivityPointers</RelationshipName>
-                            <TargetEntityType>activitypointer</TargetEntityType>
-                            <AutoExpand>Fixed</AutoExpand>
-                            <EnableQuickFind>false</EnableQuickFind>
-                            <EnableViewPicker>false</EnableViewPicker>
-                            <ViewIds>{00000000-0000-0000-00AA-000010001899}</ViewIds>
-                            <EnableJumpBar>false</EnableJumpBar>
-                            <ChartGridMode>All</ChartGridMode>
-                            <VisualizationId>{EDF35649-5293-DE11-97D4-00155DA3B01E}</VisualizationId>
-                            <IsUserChart>false</IsUserChart>
-                            <EnableChartPicker>true</EnableChartPicker>
-                            <RecordsPerPage>4</RecordsPerPage>
-                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
-                            <ReferencePanelSubgridIconUrl>adx_Form_16.png</ReferencePanelSubgridIconUrl>
+                            <UClientUniqueName>Timeline</UClientUniqueName>
+                            <UClientModules>Activities,Notes</UClientModules>
+                            <UClientDefaultModuleForCreateExperience>Notes</UClientDefaultModuleForCreateExperience>
+                            <UClientShowFilterPane>false</UClientShowFilterPane>
+                            <UClientExpandFilterPane>false</UClientExpandFilterPane>
+                            <UClientOrderBy>descending</UClientOrderBy>
+                            <UClientRecordPerPage>10</UClientRecordPerPage>
+                            <UClientSortActivitiesByValue>modifiedon</UClientSortActivitiesByValue>
+                            <UClientDisplayActivityHeaderUsing>defaultformat</UClientDisplayActivityHeaderUsing>
+                            <UClientCreateActivityUsing>quickcreateform</UClientCreateActivityUsing>
+                            <UClientDisplayActivityUsing>defaultfields</UClientDisplayActivityUsing>
+                            <DefaultTabId>ActivitiesTab</DefaultTabId>
+                            <OrderByActivityWall>descending</OrderByActivityWall>
+                            <SortActivityWall>modifiedon</SortActivityWall>
+                            <EmailConversationView>true</EmailConversationView>
+                            <ShowArticleTab>false</ShowArticleTab>
+                            <SelectDefaultLanguage>00000000-0000-0000-0000-000000000000</SelectDefaultLanguage>
                           </parameters>
                         </control>
                       </cell>
@@ -211,6 +220,22 @@
                     <row />
                     <row />
                     <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row height="auto" />
+                  </rows>
+                </section>
+                <section name="ref_pan_{28d41d28-2711-4e9c-974f-b37fd8f27a78}_section_3" showlabel="false" showbar="false" locklevel="0" id="{baac3e44-51db-7b0e-5c4d-129a4d1d8b24}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" rowheight="4" autoexpand="false" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Reference Panel" languagecode="1033" />
+                  </labels>
+                  <rows>
                     <row>
                       <cell id="{8baa30be-6c59-5c00-2c37-242320c62958}" showlabel="true" colspan="1" auto="false">
                         <labels>
@@ -220,7 +245,7 @@
                           <parameters>
                             <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="account"&gt;098ae145-1567-41ec-8398-86dbaac70c9b&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
                             <ControlMode>Edit</ControlMode>
-                            <ReferencePanelQuickFormCollectionIconUrl>msdyncrm_/AssistEditControl/KBEditor/libs/ckeditor/skins/moono-lisa/images/arrow.png</ReferencePanelQuickFormCollectionIconUrl>
+                            <ReferencePanelQuickFormCollectionIconUrl>adx_List_32.png</ReferencePanelQuickFormCollectionIconUrl>
                             <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
                           </parameters>
                         </control>
@@ -235,7 +260,7 @@
                           <parameters>
                             <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="contact"&gt;d880c3cf-80e2-42f3-82f9-24d040d09f17&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
                             <ControlMode>Edit</ControlMode>
-                            <ReferencePanelQuickFormCollectionIconUrl>adx_List_16.png</ReferencePanelQuickFormCollectionIconUrl>
+                            <ReferencePanelQuickFormCollectionIconUrl>leidos_/enquiry/headicon.png</ReferencePanelQuickFormCollectionIconUrl>
                             <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
                           </parameters>
                         </control>
@@ -273,7 +298,7 @@
         </rows>
       </header>
       <Navigation>
-        <NavBar />
+        <NavBar></NavBar>
         <NavBarAreas>
           <NavBarArea Id="Info">
             <Titles>
