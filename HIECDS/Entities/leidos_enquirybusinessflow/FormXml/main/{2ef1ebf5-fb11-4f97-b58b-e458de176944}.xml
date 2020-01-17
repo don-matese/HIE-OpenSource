@@ -157,14 +157,14 @@
         </tab>
         <tab verticallayout="true" id="{e68795e6-5bdc-4891-8c2a-dfcc45dcc795}" name="StageStep35" locklevel="0" expanded="true" visible="false" labelid="{9e18a5ed-0730-4ad4-baac-4c944993849f}">
           <labels>
-            <label description="New Stage" languagecode="1033" />
+            <label description="ISA Stage" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
                 <section showbar="false" columns="1" id="{e68795e6-5bdc-4891-8c2a-dfcc45dcc795}" name="StageStep35_section1" labelid="{ec688e55-1da3-4042-b680-e7933636ecae}">
                   <labels>
-                    <label description="New Stage" languagecode="1033" />
+                    <label description="ISA Stage" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>

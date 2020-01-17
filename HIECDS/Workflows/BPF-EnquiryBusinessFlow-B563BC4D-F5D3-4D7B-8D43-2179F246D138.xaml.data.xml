@@ -76,7 +76,7 @@
       <label languagecode="1033" description="Suitable for Account Management" />
     </steplabels>
     <steplabels id="{e68795e6-5bdc-4891-8c2a-dfcc45dcc795}">
-      <label languagecode="1033" description="New Stage" />
+      <label languagecode="1033" description="ISA Stage" />
     </steplabels>
     <steplabels id="{6b5a8a39-df79-45f5-befa-e38bb820689b}">
       <label languagecode="1033" description="Summary of Discussions" />
