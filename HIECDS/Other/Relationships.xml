@@ -56,6 +56,10 @@
   <EntityRelationship Name="lk_leidos_tradinggeography_modifiedby" />
   <EntityRelationship Name="lk_leidos_tradingstatus_createdby" />
   <EntityRelationship Name="lk_leidos_tradingstatus_modifiedby" />
+  <EntityRelationship Name="msdyn_flow_actionapprovalmodelrelationship_systemuser" />
+  <EntityRelationship Name="msdyn_flow_awaitallactionmodelrelationship_user" />
+  <EntityRelationship Name="msdyn_flow_awaitallmodelrelationship_systemuser" />
+  <EntityRelationship Name="msdyn_flow_basicapprovalmodelrelationship_systemuser" />
   <EntityRelationship Name="organization_leidos_areaoffice" />
   <EntityRelationship Name="organization_leidos_clientenquiryorigin" />
   <EntityRelationship Name="organization_leidos_enquirybusinessflow" />
