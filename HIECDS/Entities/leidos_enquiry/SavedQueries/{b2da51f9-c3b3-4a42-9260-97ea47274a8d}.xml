@@ -33,6 +33,7 @@
             <condition attribute="leidos_contact" operator="like" value="{0}" />
             <condition attribute="leidos_companyname" operator="like" value="{0}" />
             <condition attribute="leidos_account" operator="like" value="{0}" />
+            <condition attribute="leidos_referencenumber" operator="like" value="{0}" />
           </filter>
           <attribute name="leidos_natureofenquiry" />
           <attribute name="leidos_contact" />

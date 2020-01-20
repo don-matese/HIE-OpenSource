@@ -175,20 +175,44 @@
                         <control id="bpf_leidos_enquiry_leidos_enquirybusinessflow:leidos_summaryofdiscussions" classid="{e0dece4b-6fc8-4a8f-a065-082708572369}" datafieldname="leidos_summaryofdiscussions" relationship="bpf_leidos_enquiry_leidos_enquirybusinessflow" isrequired="true" disabled="false" />
                       </cell>
                     </row>
+                    <row>
+                      <cell id="{8050b8d1-ea68-45cb-8a84-49e139fdb4ab}" showlabel="true" visible="true" labelid="{371bc2d6-8f8f-4752-88b5-707eab652797}">
+                        <labels>
+                          <label description="Assign Owner" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_leidos_enquiry_leidos_enquirybusinessflow:ownerid" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="ownerid" relationship="bpf_leidos_enquiry_leidos_enquirybusinessflow" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e12f6560-c756-4313-8538-8ad75aa3212d}" showlabel="true" visible="true" labelid="{8f7ed816-be56-433c-9d57-20ebcdcf3fbb}">
+                        <labels>
+                          <label description="Delegated Authority" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_leidos_enquiry_leidos_enquirybusinessflow:leidos_delegatedauthority" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="leidos_delegatedauthority" relationship="bpf_leidos_enquiry_leidos_enquirybusinessflow" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{69438c69-76d7-41a7-9b04-8e819f408803}" showlabel="true" visible="true" labelid="{71fd7897-410c-48e4-bd14-7d3188037f7a}">
+                        <labels>
+                          <label description="Submit ISA" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_leidos_enquiry_leidos_enquirybusinessflow:leidos_submitisaforapproval" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="leidos_submitisaforapproval" relationship="bpf_leidos_enquiry_leidos_enquirybusinessflow" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
                   </rows>
                 </section>
               </sections>
             </column>
           </columns>
         </tab>
-        <tab verticallayout="true" id="{f913c53a-8c5c-46ab-bd38-d0047ef2ab28}" name="StageStep39" locklevel="0" expanded="true" visible="false" labelid="{58a4e239-991b-40ae-95ac-989553b48818}">
+        <tab verticallayout="true" id="{f913c53a-8c5c-46ab-bd38-d0047ef2ab28}" name="StageStep45" locklevel="0" expanded="true" visible="false" labelid="{58a4e239-991b-40ae-95ac-989553b48818}">
           <labels>
             <label description="Account Management" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showbar="false" columns="1" id="{f913c53a-8c5c-46ab-bd38-d0047ef2ab28}" name="StageStep39_section1" labelid="{2a9052c1-bd82-4176-9e47-426b567cc96a}">
+                <section showbar="false" columns="1" id="{f913c53a-8c5c-46ab-bd38-d0047ef2ab28}" name="StageStep45_section1" labelid="{655add9a-82d6-4586-978a-f2bcabb935ed}">
                   <labels>
                     <label description="Account Management" languagecode="1033" />
                   </labels>
@@ -199,6 +223,14 @@
                           <label description="Account" languagecode="1033" />
                         </labels>
                         <control id="bpf_leidos_enquiry_leidos_enquirybusinessflow:leidos_account" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="leidos_account" relationship="bpf_leidos_enquiry_leidos_enquirybusinessflow" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ca40998f-d273-44e7-8630-e497aa715989}" showlabel="true" visible="true" labelid="{0f78b53c-c65e-43b3-a0a9-58093b13aafd}">
+                        <labels>
+                          <label description="AMR Record" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_leidos_enquiry_leidos_enquirybusinessflow:leidos_amrrecord" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="leidos_amrrecord" relationship="bpf_leidos_enquiry_leidos_enquirybusinessflow" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                   </rows>

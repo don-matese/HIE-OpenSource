@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Role id="{890b7dd9-b736-ea11-a813-000d3a0bad7c}" name="Project Manager" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Role id="{890b7dd9-b736-ea11-a813-000d3a0bad7c}" name="Project Manager" isinherited="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <IsCustomizable>1</IsCustomizable>
   <RolePrivileges>
     <RolePrivilege name="prvActivateSynchronousWorkflow" level="Basic" />
