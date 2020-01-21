@@ -288,7 +288,7 @@
               <labels>
                 <label description="Reference Number" languagecode="1033" />
               </labels>
-              <control id="header_leidos_referencenumber" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="leidos_referencenumber" disabled="false" />
+              <control id="header_leidos_referencenumber" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="leidos_referencenumber" disabled="true" uniqueid="{45c78dbb-617d-64a7-0482-3b0d26945ee0}" />
             </cell>
             <cell id="{729e3069-c6b2-652c-558c-150aa922d973}" showlabel="true" locklevel="0">
               <labels>
@@ -300,7 +300,13 @@
               <labels>
                 <label description="Status Reason" languagecode="1033" />
               </labels>
-              <control id="header_statuscode" classid="{5D68B988-0661-4db2-BC3E-17598AD3BE6C}" datafieldname="statuscode" disabled="false" />
+              <control id="header_statuscode" classid="{5D68B988-0661-4db2-BC3E-17598AD3BE6C}" datafieldname="statuscode" disabled="true" uniqueid="{8285c8a5-d83e-6ee7-4d3a-5cb9d9683c2e}" />
+            </cell>
+            <cell id="{98085a88-70b6-400d-9c88-707b32539393}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
             </cell>
           </row>
         </rows>

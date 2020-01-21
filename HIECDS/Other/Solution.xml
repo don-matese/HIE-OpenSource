@@ -6,7 +6,7 @@
       <LocalizedName description="HIE CDS" languagecode="1033" />
     </LocalizedNames>
     <Descriptions />
-    <Version>1.0.0.4</Version>
+    <Version>1.0.0.5</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>leidos</UniqueName>
@@ -102,7 +102,10 @@
       <RootComponent type="20" id="{ba7a6dcd-b736-ea11-a813-000d3a0bad7c}" behavior="0" />
       <RootComponent type="20" id="{ee097c7f-b736-ea11-a813-000d3a0bad7c}" behavior="0" />
       <RootComponent type="29" id="{048f61e0-3e38-ea11-a813-000d3a0bad7c}" behavior="0" />
+      <RootComponent type="29" id="{2d70f9b6-2b3c-ea11-a812-000d3a0bad17}" behavior="0" />
       <RootComponent type="29" id="{5f3ae00f-653b-ea11-a812-000d3a0bad17}" behavior="0" />
+      <RootComponent type="29" id="{67caa7a9-2b3c-ea11-a812-000d3a0ba151}" behavior="0" />
+      <RootComponent type="29" id="{773725f2-4f3c-ea11-a812-000d3a0ba151}" behavior="0" />
       <RootComponent type="29" id="{a3175653-8638-ea11-a813-000d3a0ba99a}" behavior="0" />
       <RootComponent type="29" id="{b1d6151c-673b-ea11-a812-000d3a0bad17}" behavior="0" />
       <RootComponent type="29" id="{b563bc4d-f5d3-4d7b-8d43-2179f246d138}" behavior="0" />
@@ -172,12 +175,12 @@
         <Dependent key="4" type="80" schemaName="leidos_EnquiryService" displayName="Enquiry Service" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="10" type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="BaseCustomControlsCore (9.0.1912.3024)" />
-        <Dependent key="9" type="60" displayName="HIE Client Form" parentDisplayName="Account" id="{39151aa2-bee0-428d-94b4-463406a15ee0}" />
+        <Required key="10" type="66" schemaName="MscrmControls.Grid.GridControl" displayName="MscrmControls.Grid.GridControl" solution="BaseCustomControlsCore (9.0.1912.3024)" />
+        <Dependent key="11" type="60" displayName="Information" parentDisplayName="Account Management Record" id="{91234d33-ba89-4316-8c8d-4b4cd2367fba}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="11" type="66" schemaName="MscrmControls.Grid.GridControl" displayName="MscrmControls.Grid.GridControl" solution="BaseCustomControlsCore (9.0.1912.3024)" />
-        <Dependent key="12" type="60" displayName="Information" parentDisplayName="Account Management Record" id="{91234d33-ba89-4316-8c8d-4b4cd2367fba}" />
+        <Required key="12" type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="BaseCustomControlsCore (9.0.1912.3024)" />
+        <Dependent key="9" type="60" displayName="HIE Client Form" parentDisplayName="Account" id="{39151aa2-bee0-428d-94b4-463406a15ee0}" />
       </MissingDependency>
       <MissingDependency>
         <Required key="13" type="66" schemaName="MscrmControls.FlipSwitch.FlipSwitchControl" displayName="MscrmControls.FlipSwitch.FlipSwitchControl" solution="CustomControlsCore (9.1.0000.12051)" />

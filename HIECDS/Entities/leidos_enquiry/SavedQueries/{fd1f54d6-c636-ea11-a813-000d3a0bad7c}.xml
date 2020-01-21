@@ -32,19 +32,22 @@
           <attribute name="statuscode" />
           <order attribute="createdon" descending="true" />
           <order attribute="leidos_name" descending="false" />
-          <filter type="and">
-            <condition attribute="statecode" operator="eq" value="0" />
-            <condition attribute="statuscode" operator="eq" value="445260000" />
-            <condition attribute="ownerid" operator="eq-userid" />
-          </filter>
           <attribute name="leidos_targetclosedate" />
           <attribute name="leidos_enquiryid" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+            <condition attribute="statuscode" operator="in">
+              <value>445260000</value>
+              <value>445260001</value>
+            </condition>
+            <condition attribute="ownerid" operator="eq-userid" />
+          </filter>
         </entity>
       </fetch>
     </fetchxml>
     <IntroducedVersion>1.0.0.0</IntroducedVersion>
     <LocalizedNames>
-      <LocalizedName description="My In Progress Enquiries" languagecode="1033" />
+      <LocalizedName description="My Actionable Enquiries" languagecode="1033" />
     </LocalizedNames>
   </savedquery>
 </savedqueries>

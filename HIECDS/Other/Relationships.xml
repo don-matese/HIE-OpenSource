@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <EntityRelationship Name="adx_webrole_systemuser" />
+  <EntityRelationship Name="bpf_leidos_accountmanagementrecord_leidos_enquirybusinessflow" />
   <EntityRelationship Name="bpf_leidos_enquiry_leidos_enquirybusinessflow" />
   <EntityRelationship Name="business_unit_leidos_accountmanagementrecord" />
   <EntityRelationship Name="business_unit_leidos_employmentdetails" />

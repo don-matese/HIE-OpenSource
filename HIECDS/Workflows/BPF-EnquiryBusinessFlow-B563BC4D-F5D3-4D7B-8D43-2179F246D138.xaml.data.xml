@@ -72,7 +72,13 @@
     <steplabels id="{c8656bff-2c8a-4480-8e9e-4604425d7b44}">
       <label languagecode="1033" description="Nature of Enquiry" />
     </steplabels>
-    <steplabels id="{848e35c2-9e3e-4335-886c-26ad11d1e25e}">
+    <steplabels id="{a46a38c1-b594-48f3-a694-52c969b2bac8}">
+      <label languagecode="1033" description="Route To Team" />
+    </steplabels>
+    <steplabels id="{3a5cdfe7-369a-43a5-ae2c-5009ef947c61}">
+      <label languagecode="1033" description="Owner" />
+    </steplabels>
+    <steplabels id="{33dda3d4-7d98-4240-8523-8e05fa89fbb3}">
       <label languagecode="1033" description="Suitable for Account Management" />
     </steplabels>
     <steplabels id="{e68795e6-5bdc-4891-8c2a-dfcc45dcc795}">

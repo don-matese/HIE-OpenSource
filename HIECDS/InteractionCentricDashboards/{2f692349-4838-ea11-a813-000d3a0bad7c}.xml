@@ -112,15 +112,19 @@
                                 <ShowAsTiles>false</ShowAsTiles>
                                 <StreamObject id="{e0d99c8d-8851-44ec-ba56-2e7babe31360}" type="1">
                                   <LogicalEntityName>leidos_enquiry</LogicalEntityName>
-                                  <EntityViewId>{B501B43E-4938-EA11-A813-000D3A0BAD7C}</EntityViewId>
+                                  <EntityViewId>{3abe7cc7-3c3c-ea11-a812-000d3a0bad17}</EntityViewId>
                                 </StreamObject>
                                 <StreamObject id="{46b90ed0-cb70-7278-0a7c-b2d5b8e3002c}" type="1">
                                   <LogicalEntityName>leidos_enquiry</LogicalEntityName>
-                                  <EntityViewId>{9D32C226-4938-EA11-A813-000D3A0BAD7C}</EntityViewId>
+                                  <EntityViewId>{b501b43e-4938-ea11-a813-000d3a0bad7c}</EntityViewId>
                                 </StreamObject>
                                 <StreamObject id="{0ac1e03e-5a19-8124-3c63-3e118a700315}" type="1">
                                   <LogicalEntityName>leidos_enquiry</LogicalEntityName>
-                                  <EntityViewId>{FD1F54D6-C636-EA11-A813-000D3A0BAD7C}</EntityViewId>
+                                  <EntityViewId>{9d32c226-4938-ea11-a813-000d3a0bad7c}</EntityViewId>
+                                </StreamObject>
+                                <StreamObject id="{0e994e95-5c9c-0dda-84d9-b09b4457cd62}" type="1">
+                                  <LogicalEntityName>leidos_enquiry</LogicalEntityName>
+                                  <EntityViewId>{2d964bb2-c636-ea11-a813-000d3a0bad7c}</EntityViewId>
                                 </StreamObject>
                               </StreamObjects>
                             </parameters>
