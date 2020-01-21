@@ -6,7 +6,7 @@
       <LocalizedName description="HIE CDS" languagecode="1033" />
     </LocalizedNames>
     <Descriptions />
-    <Version>1.0.0.5</Version>
+    <Version>1.0.0.6</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>leidos</UniqueName>
@@ -104,7 +104,6 @@
       <RootComponent type="29" id="{048f61e0-3e38-ea11-a813-000d3a0bad7c}" behavior="0" />
       <RootComponent type="29" id="{2d70f9b6-2b3c-ea11-a812-000d3a0bad17}" behavior="0" />
       <RootComponent type="29" id="{5f3ae00f-653b-ea11-a812-000d3a0bad17}" behavior="0" />
-      <RootComponent type="29" id="{67caa7a9-2b3c-ea11-a812-000d3a0ba151}" behavior="0" />
       <RootComponent type="29" id="{773725f2-4f3c-ea11-a812-000d3a0ba151}" behavior="0" />
       <RootComponent type="29" id="{a3175653-8638-ea11-a813-000d3a0ba99a}" behavior="0" />
       <RootComponent type="29" id="{b1d6151c-673b-ea11-a812-000d3a0bad17}" behavior="0" />
