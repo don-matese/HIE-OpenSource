@@ -46,7 +46,7 @@
                     <row>
                       <cell id="{06b87147-9d4d-4733-91e5-39d45e1fe070}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Suitable for Account Management" languagecode="1033" />
+                          <label description="Propose for Account Management" languagecode="1033" />
                         </labels>
                         <control id="leidos_suitableforaccountmanagement" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="leidos_suitableforaccountmanagement" disabled="false" uniqueid="{eb3190e2-e058-42a7-8255-bff592dbdee5}" />
                       </cell>

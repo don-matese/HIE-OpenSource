@@ -75,35 +75,23 @@
     <steplabels id="{a46a38c1-b594-48f3-a694-52c969b2bac8}">
       <label languagecode="1033" description="Route To Team" />
     </steplabels>
+    <steplabels id="{47380213-852f-492c-9618-2283bd10fa0b}">
+      <label languagecode="1033" description="Summary of Discussions" />
+    </steplabels>
     <steplabels id="{3a5cdfe7-369a-43a5-ae2c-5009ef947c61}">
       <label languagecode="1033" description="Owner" />
     </steplabels>
     <steplabels id="{33dda3d4-7d98-4240-8523-8e05fa89fbb3}">
-      <label languagecode="1033" description="Suitable for Account Management" />
+      <label languagecode="1033" description="Recommend for Account Management" />
     </steplabels>
-    <steplabels id="{e68795e6-5bdc-4891-8c2a-dfcc45dcc795}">
-      <label languagecode="1033" description="ISA Stage" />
+    <steplabels id="{949e71b8-fccb-434f-aa5f-8135c712965e}">
+      <label languagecode="1033" description="Complete" />
     </steplabels>
-    <steplabels id="{6b5a8a39-df79-45f5-befa-e38bb820689b}">
-      <label languagecode="1033" description="Summary of Discussions" />
+    <steplabels id="{e3faef71-dee6-4d0e-881a-85f11dd61fe1}">
+      <label languagecode="1033" description="Target Close Date" />
     </steplabels>
-    <steplabels id="{8050b8d1-ea68-45cb-8a84-49e139fdb4ab}">
-      <label languagecode="1033" description="Assign Owner" />
-    </steplabels>
-    <steplabels id="{e12f6560-c756-4313-8538-8ad75aa3212d}">
-      <label languagecode="1033" description="Delegated Authority" />
-    </steplabels>
-    <steplabels id="{69438c69-76d7-41a7-9b04-8e819f408803}">
-      <label languagecode="1033" description="Submit ISA" />
-    </steplabels>
-    <steplabels id="{f913c53a-8c5c-46ab-bd38-d0047ef2ab28}">
-      <label languagecode="1033" description="Account Management" />
-    </steplabels>
-    <steplabels id="{18c3df67-e28e-426f-bd92-e4693d31b62c}">
-      <label languagecode="1033" description="Account" />
-    </steplabels>
-    <steplabels id="{ca40998f-d273-44e7-8630-e497aa715989}">
-      <label languagecode="1033" description="AMR Record" />
+    <steplabels id="{399368e8-9b95-4a5c-9212-bf1da58ba69f}">
+      <label languagecode="1033" description="Modified On" />
     </steplabels>
   </labels>
 </Workflow>

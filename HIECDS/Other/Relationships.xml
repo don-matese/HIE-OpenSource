@@ -28,6 +28,7 @@
   <EntityRelationship Name="leidos_leidos_geographies_leidos_tradinggeography_Geography" />
   <EntityRelationship Name="leidos_leidos_natureofenquiry_leidos_enquiry_NatureofEnquiry" />
   <EntityRelationship Name="leidos_leidos_tradingstatus_leidos_enquiry_TradingStatus" />
+  <EntityRelationship Name="leidos_Team_TeamPrimaryContact_SystemUser" />
   <EntityRelationship Name="leidos_tradinggeography_ParentAMRRecord_l" />
   <EntityRelationship Name="lk_leidos_accountmanagementrecord_createdby" />
   <EntityRelationship Name="lk_leidos_accountmanagementrecord_modifiedby" />
