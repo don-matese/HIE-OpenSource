@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <EntityRelationship Name="adx_webrole_systemuser" />
-  <EntityRelationship Name="bpf_leidos_accountmanagementrecord_leidos_enquirybusinessflow" />
   <EntityRelationship Name="bpf_leidos_enquiry_leidos_enquirybusinessflow" />
   <EntityRelationship Name="business_unit_leidos_accountmanagementrecord" />
   <EntityRelationship Name="business_unit_leidos_employmentdetails" />
@@ -10,6 +9,7 @@
   <EntityRelationship Name="leidos_Account_AuthorisedSignatory_Contact" />
   <EntityRelationship Name="leidos_Account_HIETeamAllocation_Team" />
   <EntityRelationship Name="leidos_account_leidos_enquiry_Account" />
+  <EntityRelationship Name="leidos_account_leidos_HIEPrimaryContact_s" />
   <EntityRelationship Name="leidos_account_leidos_tradinggeography_ParentAccount" />
   <EntityRelationship Name="leidos_Account_OrganisationType_leidos_Organisat" />
   <EntityRelationship Name="leidos_Account_ProjectOfficerAllocation_SystemUs" />
