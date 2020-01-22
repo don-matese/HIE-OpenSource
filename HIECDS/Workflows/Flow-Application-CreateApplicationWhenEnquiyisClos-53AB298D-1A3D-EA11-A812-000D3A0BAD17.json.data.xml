@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Workflow WorkflowId="{67caa7a9-2b3c-ea11-a812-000d3a0ba151}" Name="Flow - Enquiry - Create or Populate Contact based on Email" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <JsonFileName>/Workflows/Flow-Enquiry-CreateorPopulateContactbasedonEmail-67CAA7A9-2B3C-EA11-A812-000D3A0BA151.json</JsonFileName>
+<Workflow WorkflowId="{53ab298d-1a3d-ea11-a812-000d3a0bad17}" Name="Flow - Application - Create Application When Enquiy is Closed" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <JsonFileName>/Workflows/Flow-Application-CreateApplicationWhenEnquiyisClos-53AB298D-1A3D-EA11-A812-000D3A0BAD17.json</JsonFileName>
   <Type>1</Type>
   <Subprocess>0</Subprocess>
   <Category>5</Category>
@@ -11,8 +11,8 @@
   <TriggerOnDelete>0</TriggerOnDelete>
   <AsyncAutodelete>0</AsyncAutodelete>
   <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
-  <StateCode>0</StateCode>
-  <StatusCode>1</StatusCode>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
   <RunAs>1</RunAs>
   <IsTransacted>1</IsTransacted>
   <IntroducedVersion>1.0</IntroducedVersion>
@@ -20,6 +20,6 @@
   <BusinessProcessType>0</BusinessProcessType>
   <PrimaryEntity>none</PrimaryEntity>
   <LocalizedNames>
-    <LocalizedName languagecode="1033" description="Flow - Enquiry - Create or Populate Contact based on Email" />
+    <LocalizedName languagecode="1033" description="Flow - Application - Create Application When Enquiy is Closed" />
   </LocalizedNames>
 </Workflow>

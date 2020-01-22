@@ -36,14 +36,6 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{61e7a966-ad2c-49cc-87c5-6410c3225e5e}" showlabel="true" visible="true" labelid="{6de2d6c4-a3ce-4d5e-b72d-fdc84096fcc3}">
-                        <labels>
-                          <label description="Forward to Enquiry Team" languagecode="1033" />
-                        </labels>
-                        <control id="bpf_leidos_enquiry_leidos_enquirybusinessflow:leidos_forwardtoenquiryteam" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="leidos_forwardtoenquiryteam" relationship="bpf_leidos_enquiry_leidos_enquirybusinessflow" isrequired="false" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
                       <cell id="{9274cb69-45dd-42bd-ac0c-7462306e065a}" showlabel="true" visible="true" labelid="{7a0abf0e-9902-47a5-8cb6-201e15d1cfb9}">
                         <labels>
                           <label description="Company Name" languagecode="1033" />
@@ -81,6 +73,14 @@
                           <label description="Email Address" languagecode="1033" />
                         </labels>
                         <control id="bpf_leidos_enquiry_leidos_enquirybusinessflow:leidos_emailaddress" classid="{ada2203e-b4cd-49be-9ddf-234642b43b52}" datafieldname="leidos_emailaddress" relationship="bpf_leidos_enquiry_leidos_enquirybusinessflow" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{61e7a966-ad2c-49cc-87c5-6410c3225e5e}" showlabel="true" visible="true" labelid="{6de2d6c4-a3ce-4d5e-b72d-fdc84096fcc3}">
+                        <labels>
+                          <label description="Forward to Enquiry Team" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_leidos_enquiry_leidos_enquirybusinessflow:leidos_forwardtoenquiryteam" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="leidos_forwardtoenquiryteam" relationship="bpf_leidos_enquiry_leidos_enquirybusinessflow" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>

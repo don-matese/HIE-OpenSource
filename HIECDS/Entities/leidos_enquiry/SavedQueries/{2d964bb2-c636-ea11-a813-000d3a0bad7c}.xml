@@ -17,6 +17,8 @@
           <cell name="leidos_enquirymessage" width="300" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
           <cell name="leidos_enquirysource" width="100" />
           <cell name="statuscode" width="100" />
+          <cell name="leidos_lastactivitydate" width="100" />
+          <cell name="modifiedon" width="100" />
           <cell name="createdon" width="125" />
         </row>
       </grid>
@@ -31,15 +33,17 @@
           <attribute name="leidos_contact" />
           <attribute name="leidos_enquirymessage" />
           <attribute name="statuscode" />
-          <order attribute="createdon" descending="true" />
-          <order attribute="leidos_name" descending="false" />
-          <filter type="and">
-            <condition attribute="statecode" operator="eq" value="0" />
-            <condition attribute="statuscode" operator="eq" value="445260000" />
-          </filter>
           <attribute name="leidos_enquirysource" />
           <attribute name="leidos_enquiryid" />
           <attribute name="leidos_referencenumber" />
+          <attribute name="modifiedon" />
+          <attribute name="leidos_lastactivitydate" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+            <condition attribute="statuscode" operator="ne" value="1" />
+          </filter>
+          <order attribute="createdon" descending="false" />
+          <order attribute="leidos_name" descending="false" />
         </entity>
       </fetch>
     </fetchxml>
