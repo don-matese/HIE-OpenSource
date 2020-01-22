@@ -20,7 +20,7 @@
         </Titles>
         <SubArea Id="New_SubArea" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" Entity="account" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
         <SubArea Id="NewSubArea_9509ce63" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="contact" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
-        <SubArea Id="NewSubArea_dc08d325" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="leidos_accountmanagementrecord" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_29334b0c" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="leidos_application" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
       </Group>
     </Area>
     <Area Id="NewArea_5fbbe7e" ResourceId="SitemapDesigner.NewArea" ShowGroups="false">

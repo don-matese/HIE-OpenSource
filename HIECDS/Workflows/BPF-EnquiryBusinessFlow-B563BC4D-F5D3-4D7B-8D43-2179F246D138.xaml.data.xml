@@ -78,8 +78,14 @@
     <steplabels id="{47380213-852f-492c-9618-2283bd10fa0b}">
       <label languagecode="1033" description="Summary of Discussions" />
     </steplabels>
-    <steplabels id="{3a5cdfe7-369a-43a5-ae2c-5009ef947c61}">
-      <label languagecode="1033" description="Owner" />
+    <steplabels id="{f8cd4217-b77a-4143-bd5a-7cbcbbe670bd}">
+      <label languagecode="1033" description="Relevant Person or Team" />
+    </steplabels>
+    <steplabels id="{0dbdd2d8-19c3-4f06-8975-937aa32f9a1f}">
+      <label languagecode="1033" description="Relevant Person" />
+    </steplabels>
+    <steplabels id="{d0979516-b0f1-4145-8840-c1af3fe4478b}">
+      <label languagecode="1033" description="Relevant Team" />
     </steplabels>
     <steplabels id="{33dda3d4-7d98-4240-8523-8e05fa89fbb3}">
       <label languagecode="1033" description="Recommend for Account Management" />

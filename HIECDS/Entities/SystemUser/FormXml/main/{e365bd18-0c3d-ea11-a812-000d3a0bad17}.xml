@@ -13,14 +13,14 @@
         <data id="incomingemaildeliverymethod" datafieldname="incomingemaildeliverymethod" classid="{5546E6CD-394C-4bee-94A8-4425E17EF6C6}" />
       </hiddencontrols>
       <tabs>
-        <tab name="SUMMARY_TAB" id="{33c4221d-ccb0-4a92-853e-369d2d0adb85}" IsUserDefined="0" showlabel="true" expanded="true" labelid="{b5f456ce-b44b-4c0b-acce-b7525b2c7b4e}">
+        <tab name="SUMMARY_TAB" id="{33c4221d-ccb0-4a92-853e-369d2d0adb85}" IsUserDefined="0" showlabel="true" expanded="true" labelid="{b5f456ce-b44b-4c0b-acce-b7525b2c7b4e}" visible="true">
           <labels>
-            <label description="Summary" languagecode="1033" />
+            <label description="Account Manager Information" languagecode="1033" />
           </labels>
           <columns>
-            <column width="33%">
+            <column width="100%">
               <sections>
-                <section name="onpremise account information" showlabel="true" showbar="true" id="{a89a591d-8259-4e19-8bc4-514f3312928f}" IsUserDefined="0" locklevel="0" labelid="{1c494cb2-18f2-4137-9852-8b8ebb252db1}">
+                <section name="onpremise account information" showlabel="true" showbar="true" id="{a89a591d-8259-4e19-8bc4-514f3312928f}" IsUserDefined="0" locklevel="0" labelid="{1c494cb2-18f2-4137-9852-8b8ebb252db1}" visible="false">
                   <labels>
                     <label description="Account Information" languagecode="1033" />
                   </labels>
@@ -35,7 +35,7 @@
                     </row>
                   </rows>
                 </section>
-                <section name="online account information" showlabel="true" showbar="true" id="{50c53b90-8e97-4da4-8069-041d6a58aa05}" IsUserDefined="0" locklevel="0" labelid="{7e445048-c4c1-414c-879f-2a0a7815dd7f}">
+                <section name="online account information" showlabel="true" showbar="true" id="{50c53b90-8e97-4da4-8069-041d6a58aa05}" IsUserDefined="0" locklevel="0" labelid="{7e445048-c4c1-414c-879f-2a0a7815dd7f}" visible="false">
                   <labels>
                     <label description="Account Information" languagecode="1033" />
                   </labels>
@@ -58,9 +58,9 @@
                     </row>
                   </rows>
                 </section>
-                <section name="user information" showlabel="true" showbar="true" id="{9b914e4e-027c-4e9c-90d7-59daed00fd53}" IsUserDefined="0" locklevel="0" labelid="{1e54da1d-0335-4d5b-b748-9bf792f80769}">
+                <section name="user information" showlabel="false" showbar="true" id="{9b914e4e-027c-4e9c-90d7-59daed00fd53}" IsUserDefined="0" locklevel="0" labelid="{1e54da1d-0335-4d5b-b748-9bf792f80769}">
                   <labels>
-                    <label description="User Information" languagecode="1033" />
+                    <label description="Account Manager Information" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
@@ -107,174 +107,9 @@
                 </section>
               </sections>
             </column>
-            <column width="42%">
-              <sections>
-                <section name="SOCIAL_PANE_TAB" showlabel="false" showbar="false" id="{ddd9570e-c22b-4fd9-84c0-84bb2b594766}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelposition="Top" locklevel="0" celllabelalignment="Left" labelid="{1152b4a5-359f-4c20-ad6a-603c9390c586}">
-                  <labels>
-                    <label description="SOCIAL PANE" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row height="stdwithlabel">
-                      <cell id="{f3367a48-b751-496b-9641-abd402e6be4a}" showlabel="false" rowspan="20" auto="false" colspan="1" labelid="{122560da-81a6-466f-8c98-7f2f5fc72e5b}">
-                        <labels>
-                          <label description="Note Text" languagecode="1033" />
-                        </labels>
-                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}" disabled="false" />
-                      </cell>
-                    </row>
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                  </rows>
-                </section>
-              </sections>
-            </column>
-            <column width="25%">
-              <sections>
-                <section name="teams information" showlabel="false" showbar="false" id="{bba8f882-2050-4d63-ba78-071401809ad5}" IsUserDefined="0" locklevel="0" labelid="{63fc60c1-deb5-44c7-ba18-6c89ade03ba7}">
-                  <labels>
-                    <label description="" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell id="{21dbb018-6a86-a856-7070-e7d9160ccd36}" showlabel="true" colspan="1" auto="false" rowspan="6" labelid="{ad22ceb0-0db3-4bcb-bdaf-2548976a1e78}">
-                        <labels>
-                          <label description="TEAMS" languagecode="1033" />
-                        </labels>
-                        <control id="TeamsSubGrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
-                          <parameters>
-                            <ViewId>{00000000-0000-0000-00AA-000010001205}</ViewId>
-                            <IsUserView>false</IsUserView>
-                            <RelationshipName>teammembership_association</RelationshipName>
-                            <TargetEntityType>team</TargetEntityType>
-                            <AutoExpand>Fixed</AutoExpand>
-                            <EnableQuickFind>false</EnableQuickFind>
-                            <EnableViewPicker>false</EnableViewPicker>
-                            <ViewIds>{00000000-0000-0000-00AA-000010001024},{00000000-0000-0000-00AA-000010001205}</ViewIds>
-                            <EnableJumpBar>false</EnableJumpBar>
-                            <ChartGridMode>Grid</ChartGridMode>
-                            <VisualizationId />
-                            <IsUserChart>false</IsUserChart>
-                            <EnableChartPicker>false</EnableChartPicker>
-                            <RecordsPerPage>4</RecordsPerPage>
-                            <RelationshipRoleOrdinal>2</RelationshipRoleOrdinal>
-                          </parameters>
-                        </control>
-                      </cell>
-                    </row>
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                  </rows>
-                </section>
-                <section name="organization information" showlabel="true" showbar="true" id="{81278426-fb20-424e-91bd-7ceb5a6248d2}" IsUserDefined="0" locklevel="0" labelid="{3112c456-96d2-44d6-a677-6d09b664fdf2}">
-                  <labels>
-                    <label description="Organization Information" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row />
-                    <row />
-                    <row>
-                      <cell id="{9d2ce97f-7bcc-4e5c-842b-465d803feb7c}" labelid="{0f6ac890-a5bc-47ae-8ea4-d1cc6dfd1402}">
-                        <labels>
-                          <label description="Business Unit" languagecode="1033" />
-                        </labels>
-                        <control id="businessunitid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="businessunitid" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{09dc8a22-4e40-4911-8576-a5f10d6ee7d1}" labelid="{dcb71a80-cd50-4b1b-a792-05252731ee36}">
-                        <labels>
-                          <label description="Manager" languagecode="1033" />
-                        </labels>
-                        <control id="parentsystemuserid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="parentsystemuserid" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{5d84e90b-6b5f-419c-8bfd-a7e4f21ab1bb}" labelid="{bc59ac68-063f-4971-8f5b-6d4bf32f190b}">
-                        <labels>
-                          <label description="Position" languagecode="1033" />
-                        </labels>
-                        <control id="positionid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="positionid" />
-                      </cell>
-                    </row>
-                  </rows>
-                </section>
-                <section name="queue selection" showlabel="true" showbar="true" locklevel="0" id="{11aec2bb-ecbc-4d53-a409-f4b849f03e6e}" IsUserDefined="0" labelid="{b88814b9-9dd6-448f-8892-f1f5363e1540}">
-                  <labels>
-                    <label description="Queue Information" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell id="{2a60273a-ec9b-4a97-9f28-b20899b1231c}" colspan="1" labelid="{59c5118f-5363-41db-89d8-665054d8e2b0}">
-                        <labels>
-                          <label description="Default Queue" languagecode="1033" />
-                        </labels>
-                        <control id="queueid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="queueid" />
-                      </cell>
-                    </row>
-                  </rows>
-                </section>
-                <section name="queue information" showlabel="true" showbar="true" id="{8b91768d-1e89-41e2-a9df-d9ef9e5adfaa}" IsUserDefined="0" locklevel="0" labelid="{db0a7d67-f2bd-402f-9abf-631fbcf2d49e}">
-                  <labels>
-                    <label description="" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell id="{2054092e-c447-42f1-b04b-7d42a2610111}" showlabel="true" colspan="1" auto="false" rowspan="6" labelid="{c4cdf414-3ddb-45f6-9eb6-ba63e0f3c8f8}">
-                        <labels>
-                          <label description="Queues I'm a member of" languagecode="1033" />
-                        </labels>
-                        <control id="PrivateQueuesSubGrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
-                          <parameters>
-                            <ViewId>{6692d3a5-268d-4392-9752-2acf707062bb}</ViewId>
-                            <IsUserView>false</IsUserView>
-                            <RelationshipName>queuemembership_association</RelationshipName>
-                            <TargetEntityType>queue</TargetEntityType>
-                            <AutoExpand>Fixed</AutoExpand>
-                            <EnableQuickFind>false</EnableQuickFind>
-                            <EnableViewPicker>false</EnableViewPicker>
-                            <EnableJumpBar>false</EnableJumpBar>
-                            <ChartGridMode>Grid</ChartGridMode>
-                            <VisualizationId />
-                            <IsUserChart>false</IsUserChart>
-                            <EnableChartPicker>false</EnableChartPicker>
-                            <EnableContextualActions>false</EnableContextualActions>
-                            <RecordsPerPage>4</RecordsPerPage>
-                          </parameters>
-                        </control>
-                      </cell>
-                    </row>
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                  </rows>
-                </section>
-              </sections>
-            </column>
           </columns>
         </tab>
-        <tab name="DETAILS_TAB" id="{4feff6ea-5874-4746-aa30-353a3da2bd8c}" IsUserDefined="0" expanded="false" showlabel="true" labelid="{16938537-1e0e-4b79-aad7-bba7cbebbd7a}">
+        <tab name="DETAILS_TAB" id="{4feff6ea-5874-4746-aa30-353a3da2bd8c}" IsUserDefined="0" expanded="false" showlabel="true" labelid="{16938537-1e0e-4b79-aad7-bba7cbebbd7a}" visible="false">
           <labels>
             <label description="Details" languagecode="1033" />
           </labels>
@@ -420,7 +255,7 @@
             </column>
           </columns>
         </tab>
-        <tab name="ADMINISTRATION_TAB" id="{cdb4e61c-1e67-48ae-a26b-2b6852eedc86}" IsUserDefined="0" expanded="false" showlabel="true" labelid="{1179ebf4-9097-4bf8-a609-448d9fae3916}">
+        <tab name="ADMINISTRATION_TAB" id="{cdb4e61c-1e67-48ae-a26b-2b6852eedc86}" IsUserDefined="0" expanded="false" showlabel="true" labelid="{1179ebf4-9097-4bf8-a609-448d9fae3916}" visible="false">
           <labels>
             <label description="Administration" languagecode="1033" />
           </labels>
@@ -635,7 +470,7 @@
       <LocalizedName description="Web - Account Manager" languagecode="1033" />
     </LocalizedNames>
     <Descriptions>
-      <Description description="Updated default User form" languagecode="1033" />
+      <Description description="Used to present account manager information in the Client Portal" languagecode="1033" />
     </Descriptions>
   </systemform>
 </forms>

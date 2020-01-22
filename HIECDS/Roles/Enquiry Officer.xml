@@ -19,6 +19,7 @@
     <RolePrivilege name="prvAppendImportMap" level="Local" />
     <RolePrivilege name="prvAppendLanguageLocale" level="Global" />
     <RolePrivilege name="prvAppendleidos_AccountManagementRecord" level="Global" />
+    <RolePrivilege name="prvAppendleidos_Application" level="Global" />
     <RolePrivilege name="prvAppendleidos_AreaOffice" level="Global" />
     <RolePrivilege name="prvAppendleidos_ClientEnquiryOrigin" level="Global" />
     <RolePrivilege name="prvAppendleidos_EmploymentDetails" level="Global" />
@@ -60,6 +61,7 @@
     <RolePrivilege name="prvAppendToImportMap" level="Local" />
     <RolePrivilege name="prvAppendToLanguageLocale" level="Global" />
     <RolePrivilege name="prvAppendToleidos_AccountManagementRecord" level="Global" />
+    <RolePrivilege name="prvAppendToleidos_Application" level="Global" />
     <RolePrivilege name="prvAppendToleidos_AreaOffice" level="Global" />
     <RolePrivilege name="prvAppendToleidos_ClientEnquiryOrigin" level="Global" />
     <RolePrivilege name="prvAppendToleidos_EmploymentDetails" level="Global" />
@@ -187,6 +189,7 @@
     <RolePrivilege name="prvDeleteImport" level="Basic" />
     <RolePrivilege name="prvDeleteImportFile" level="Basic" />
     <RolePrivilege name="prvDeleteImportMap" level="Local" />
+    <RolePrivilege name="prvDeleteleidos_Application" level="Global" />
     <RolePrivilege name="prvDeleteMailboxTrackingFolder" level="Basic" />
     <RolePrivilege name="prvDeleteMailMergeTemplate" level="Basic" />
     <RolePrivilege name="prvDeleteNewProcess" level="Global" />
@@ -256,6 +259,7 @@
     <RolePrivilege name="prvReadInteractionForEmail" level="Global" />
     <RolePrivilege name="prvReadLanguageLocale" level="Global" />
     <RolePrivilege name="prvReadleidos_AccountManagementRecord" level="Global" />
+    <RolePrivilege name="prvReadleidos_Application" level="Global" />
     <RolePrivilege name="prvReadleidos_AreaOffice" level="Global" />
     <RolePrivilege name="prvReadleidos_ClientEnquiryOrigin" level="Global" />
     <RolePrivilege name="prvReadleidos_EmploymentDetails" level="Global" />

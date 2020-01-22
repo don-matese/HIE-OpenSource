@@ -170,10 +170,10 @@
       </EntityRelationshipRole>
     </EntityRelationshipRoles>
   </EntityRelationship>
-  <EntityRelationship Name="leidos_enquiry_DelegatedAuthority_SystemU">
+  <EntityRelationship Name="leidos_enquiry_RelevantPerson_SystemUser">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IsCustomizable>1</IsCustomizable>
-    <IntroducedVersion>1.0.0.4</IntroducedVersion>
+    <IntroducedVersion>1.1.0.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
     <ReferencingEntityName>leidos_enquiry</ReferencingEntityName>
     <ReferencedEntityName>SystemUser</ReferencedEntityName>
@@ -184,7 +184,7 @@
     <CascadeUnshare>NoCascade</CascadeUnshare>
     <CascadeRollupView>NoCascade</CascadeRollupView>
     <IsValidForAdvancedFind>1</IsValidForAdvancedFind>
-    <ReferencingAttributeName>leidos_DelegatedAuthority</ReferencingAttributeName>
+    <ReferencingAttributeName>leidos_RelevantPerson</ReferencingAttributeName>
     <RelationshipDescription>
       <Descriptions>
         <Description description="" languagecode="1033" />
@@ -195,11 +195,11 @@
         <NavPaneDisplayOption>UseCollectionName</NavPaneDisplayOption>
         <NavPaneArea>Details</NavPaneArea>
         <NavPaneOrder>10000</NavPaneOrder>
-        <NavigationPropertyName>leidos_DelegatedAuthority</NavigationPropertyName>
+        <NavigationPropertyName>leidos_RelevantPerson</NavigationPropertyName>
         <RelationshipRoleType>1</RelationshipRoleType>
       </EntityRelationshipRole>
       <EntityRelationshipRole>
-        <NavigationPropertyName>leidos_enquiry_DelegatedAuthority_SystemU</NavigationPropertyName>
+        <NavigationPropertyName>leidos_enquiry_RelevantPerson_SystemUser</NavigationPropertyName>
         <RelationshipRoleType>0</RelationshipRoleType>
       </EntityRelationshipRole>
     </EntityRelationshipRoles>

@@ -24,8 +24,8 @@
   <EntityRelationship Name="leidos_AreaOffice_Officemanager_SystemUse" />
   <EntityRelationship Name="leidos_contact_leidos_enquiry_Contact" />
   <EntityRelationship Name="leidos_EmploymentDetails_ParentAMRRecord_" />
-  <EntityRelationship Name="leidos_enquiry_DelegatedAuthority_SystemU" />
-  <EntityRelationship Name="leidos_leidos_accountmanagementrecord_leidos_enquiry_AMRRecord" />
+  <EntityRelationship Name="leidos_enquiry_RelevantPerson_SystemUser" />
+  <EntityRelationship Name="leidos_enquiry_RelevantTeam_Team" />
   <EntityRelationship Name="leidos_leidos_geographies_leidos_tradinggeography_Geography" />
   <EntityRelationship Name="leidos_leidos_natureofenquiry_leidos_enquiry_NatureofEnquiry" />
   <EntityRelationship Name="leidos_leidos_tradingstatus_leidos_enquiry_TradingStatus" />

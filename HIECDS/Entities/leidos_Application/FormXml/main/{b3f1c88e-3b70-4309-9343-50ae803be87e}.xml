@@ -5,9 +5,9 @@
     <IntroducedVersion>1.0.1.6</IntroducedVersion>
     <FormPresentation>1</FormPresentation>
     <FormActivationState>1</FormActivationState>
-    <form>
+    <form headerdensity="HighWithControls">
       <tabs>
-        <tab verticallayout="true" id="{638a5079-6d4f-40cc-9e8e-0f65a3de789b}" IsUserDefined="1">
+        <tab verticallayout="true" id="{638a5079-6d4f-40cc-9e8e-0f65a3de789b}" IsUserDefined="1" name="general">
           <labels>
             <label description="General" languagecode="1033" />
           </labels>
@@ -35,6 +35,57 @@
                         <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
                       </cell>
                     </row>
+                    <row>
+                      <cell id="{6083f722-157c-42b3-a3fa-95f18f67f64f}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Parent Account" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_parentaccount" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_parentaccount" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a13918ea-b222-4d3c-9991-67a140b7d376}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Application Reference" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_applicationreference" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="leidos_applicationreference" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="Project" id="7a6072d0-26dc-4979-b3cb-84693d115233" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Project" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{92a84599-07ba-4fe0-b472-0deab49c9158}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Project Location (Post Code)" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_projectlocationpostcode" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="leidos_projectlocationpostcode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4183c7c9-437d-4605-8abf-1392eb9ecf9e}" showlabel="true" locklevel="0" rowspan="6" auto="true">
+                        <labels>
+                          <label description="Description of Project" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_descriptionofproject" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="leidos_descriptionofproject" disabled="false" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{7e2acbc2-2948-4a56-af95-208b13ebfad2}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
                   </rows>
                 </section>
               </sections>
@@ -43,13 +94,13 @@
               <sections>
                 <section showlabel="false" showbar="false" id="{04e0bdec-0447-4074-a6f0-12aded36a4dd}" IsUserDefined="0" height="auto">
                   <labels>
-                    <label description="Notes" languagecode="1033" />
+                    <label description="" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
                       <cell showlabel="false" rowspan="15" auto="false" id="{f65ee244-5a0a-4b57-8828-52c736638cdf}">
                         <labels>
-                          <label description="Note Text" languagecode="1033" />
+                          <label description="" languagecode="1033" />
                         </labels>
                         <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}">
                           <parameters>
@@ -79,6 +130,67 @@
           </columns>
         </tab>
       </tabs>
+      <header id="{9d37a448-31ef-4633-a811-1243b2101960}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{547af602-ae7b-4ebf-a8d5-74e83b461a6a}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{24bd38c0-f539-4329-9d6f-bafd67bed93c}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{add17f70-bd19-4a3a-b2bb-f431f30cd06b}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{408909f1-8d5f-41f3-8436-a47809d167c8}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Parent Account" languagecode="1033" />
+              </labels>
+              <control id="header_leidos_parentaccount" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_parentaccount" disabled="false" />
+            </cell>
+            <cell id="{6617d379-27e0-4991-9aa1-4c78cf1645f3}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Application Reference" languagecode="1033" />
+              </labels>
+              <control id="header_leidos_applicationreference" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="leidos_applicationreference" disabled="false" />
+            </cell>
+            <cell id="{27fba78f-566a-416a-8b32-aeb36d903e71}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Status Reason" languagecode="1033" />
+              </labels>
+              <control id="header_statuscode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statuscode" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{d9a1a427-e684-446d-ac84-67218da17681}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{f4ee094f-4f4e-4cbe-8b14-7b15b57ef22f}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{c245d99f-e143-424b-aa59-739367fa37a3}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{19997233-e585-429d-98a1-652d0e9e2a80}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true" />
     </form>
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>

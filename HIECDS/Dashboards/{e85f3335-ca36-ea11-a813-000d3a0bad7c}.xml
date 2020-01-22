@@ -23,68 +23,31 @@
                     </labels>
                     <rows>
                       <row>
-                        <cell colspan="2" rowspan="12" showlabel="false" id="{833e8d3b-d964-44b9-90bf-1f183fd0b423}" auto="false">
+                        <cell id="{28a065e1-3982-4745-98eb-ccd57db5b44a}" showlabel="false" colspan="1" auto="false" rowspan="12">
                           <labels>
                             <label description="Enquiry" languagecode="1033" />
                           </labels>
-                          <control id="Componentbaea845" uniqueid="{a2d9e383-c9b9-3a58-c1d0-a53a466688ca}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <control id="Component5325697" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
                             <parameters>
+                              <ViewId>{59220721-D2BA-4980-867E-AD785ACA299F}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <RelationshipName />
                               <TargetEntityType>leidos_enquiry</TargetEntityType>
-                              <ChartGridMode>Chart</ChartGridMode>
+                              <AutoExpand>Fixed</AutoExpand>
                               <EnableQuickFind>false</EnableQuickFind>
                               <EnableViewPicker>false</EnableViewPicker>
+                              <ViewIds />
                               <EnableJumpBar>false</EnableJumpBar>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <VisualizationId>{583D3D2F-ED36-EA11-A813-000D3A0BAD7C}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
                               <RecordsPerPage>10</RecordsPerPage>
                               <HeaderColorCode />
-                              <ViewId>{9E09DA59-C736-EA11-A813-000D3A0BAD7C}</ViewId>
-                              <IsUserView>false</IsUserView>
-                              <ViewIds />
-                              <AutoExpand>Fixed</AutoExpand>
-                              <VisualizationId>{85B0AD9B-C736-EA11-A813-000D3A0BAD7C}</VisualizationId>
-                              <IsUserChart>false</IsUserChart>
-                              <EnableChartPicker>false</EnableChartPicker>
-                              <RelationshipName />
                             </parameters>
                           </control>
                         </cell>
-                        <cell colspan="2" rowspan="12" showlabel="false" id="{545b4c62-2581-491e-91dc-5286b6af23a8}" auto="false">
-                          <labels>
-                            <label description="Enquiries" languagecode="1033" />
-                          </labels>
-                          <control id="Component58b9f04" uniqueid="{4223e08a-c572-784b-31cd-e4c5a5030c51}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
-                            <parameters>
-                              <TargetEntityType>leidos_enquiry</TargetEntityType>
-                              <ChartGridMode>Grid</ChartGridMode>
-                              <EnableQuickFind>true</EnableQuickFind>
-                              <EnableViewPicker>true</EnableViewPicker>
-                              <EnableJumpBar>true</EnableJumpBar>
-                              <RecordsPerPage>8</RecordsPerPage>
-                              <HeaderColorCode />
-                              <ViewId>{2D964BB2-C636-EA11-A813-000D3A0BAD7C}</ViewId>
-                              <IsUserView>false</IsUserView>
-                              <ViewIds />
-                              <AutoExpand>Fixed</AutoExpand>
-                              <VisualizationId />
-                              <IsUserChart>false</IsUserChart>
-                              <EnableChartPicker>false</EnableChartPicker>
-                              <RelationshipName />
-                            </parameters>
-                          </control>
-                        </cell>
-                      </row>
-                      <row />
-                      <row />
-                      <row />
-                      <row />
-                      <row />
-                      <row />
-                      <row />
-                      <row />
-                      <row />
-                      <row />
-                      <row />
-                      <row>
-                        <cell colspan="2" rowspan="12" showlabel="false" id="{6f52c4f1-4733-4426-88ac-aad531e1476b}" auto="false">
+                        <cell colspan="1" rowspan="12" showlabel="false" id="{6f52c4f1-4733-4426-88ac-aad531e1476b}" auto="false">
                           <labels>
                             <label description="Enquiry" languagecode="1033" />
                           </labels>
@@ -108,27 +71,27 @@
                             </parameters>
                           </control>
                         </cell>
-                        <cell id="{28a065e1-3982-4745-98eb-ccd57db5b44a}" showlabel="false" colspan="2" auto="false" rowspan="12">
+                        <cell colspan="2" rowspan="12" showlabel="false" id="{833e8d3b-d964-44b9-90bf-1f183fd0b423}" auto="false">
                           <labels>
                             <label description="Enquiry" languagecode="1033" />
                           </labels>
-                          <control id="Component5325697" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <control id="Componentbaea845" uniqueid="{a2d9e383-c9b9-3a58-c1d0-a53a466688ca}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
                             <parameters>
-                              <ViewId>{59220721-D2BA-4980-867E-AD785ACA299F}</ViewId>
-                              <IsUserView>false</IsUserView>
-                              <RelationshipName />
                               <TargetEntityType>leidos_enquiry</TargetEntityType>
-                              <AutoExpand>Fixed</AutoExpand>
+                              <ChartGridMode>Chart</ChartGridMode>
                               <EnableQuickFind>false</EnableQuickFind>
                               <EnableViewPicker>false</EnableViewPicker>
-                              <ViewIds />
                               <EnableJumpBar>false</EnableJumpBar>
-                              <ChartGridMode>Chart</ChartGridMode>
-                              <VisualizationId>{583D3D2F-ED36-EA11-A813-000D3A0BAD7C}</VisualizationId>
-                              <IsUserChart>false</IsUserChart>
-                              <EnableChartPicker>false</EnableChartPicker>
                               <RecordsPerPage>10</RecordsPerPage>
                               <HeaderColorCode />
+                              <ViewId>{9E09DA59-C736-EA11-A813-000D3A0BAD7C}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds />
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId>{85B0AD9B-C736-EA11-A813-000D3A0BAD7C}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName />
                             </parameters>
                           </control>
                         </cell>
