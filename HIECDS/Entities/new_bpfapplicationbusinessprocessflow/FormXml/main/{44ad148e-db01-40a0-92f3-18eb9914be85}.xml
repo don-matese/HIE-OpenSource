@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{44ad148e-db01-40a0-92f3-18eb9914be85}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{d4869582-06ff-0470-3c36-003fc9de853a}" name="StageStep3" locklevel="0" expanded="true" visible="false" labelid="{7fb2a6ed-2353-4860-9dd7-3e152e2e9652}">
+          <labels>
+            <label description="Pre Application" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{d4869582-06ff-0470-3c36-003fc9de853a}" name="StageStep3_section1" labelid="{7e4d9ae1-96dd-403f-94d7-d0a3d89ceb3d}">
+                  <labels>
+                    <label description="Pre Application" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{109f2f80-dea8-47e7-bf9e-1a3b79044c25}" showlabel="true" visible="true" labelid="{89b46a40-c89e-4287-a2d1-851db6dc50a7}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_leidos_application_new_bpfapplicationbusinessprocessflow:leidos_name" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="leidos_name" relationship="bpf_leidos_application_new_bpfapplicationbusinessprocessflow" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7d0a2257-4789-4a37-3b41-036c40c529f0}" showlabel="true" visible="true" labelid="{748a66a0-7621-4ae7-9597-4e0d6a53af68}">
+                        <labels>
+                          <label description="Application Reference" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_leidos_application_new_bpfapplicationbusinessprocessflow:leidos_parentaccount" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="leidos_parentaccount" relationship="bpf_leidos_application_new_bpfapplicationbusinessprocessflow" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a0c1d03c-f89a-462e-af82-6a68a7f50285}" showlabel="true" visible="true" labelid="{6ff61057-aeea-4fdb-9b3b-7b97ab0629ba}">
+                        <labels>
+                          <label description="Project Location (Post Code)" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_leidos_application_new_bpfapplicationbusinessprocessflow:leidos_projectlocationpostcode" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="leidos_projectlocationpostcode" relationship="bpf_leidos_application_new_bpfapplicationbusinessprocessflow" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{75d9883f-ebd0-49e7-9dee-34866bca20ba}" name="StageStep11" locklevel="0" expanded="true" visible="false" labelid="{b9800e9a-1df4-4928-aa15-d359c9a9480a}">
+          <labels>
+            <label description="Application" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{75d9883f-ebd0-49e7-9dee-34866bca20ba}" name="StageStep11_section1" labelid="{3d9e1c5d-8b26-43bf-9bb4-906d08644fa0}">
+                  <labels>
+                    <label description="Application" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{3832605c-c501-4c31-a56d-1fbfae14ad36}" showlabel="true" visible="true" labelid="{d7c61e01-c733-4efe-8195-4954ad8f6ba6}">
+                        <labels>
+                          <label description="Application Reference" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_leidos_application_new_bpfapplicationbusinessprocessflow:leidos_applicationreference" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="leidos_applicationreference" relationship="bpf_leidos_application_new_bpfapplicationbusinessprocessflow" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{5ca66d57-ec37-44e3-bb7b-a84d63f49559}" name="StageStep15" locklevel="0" expanded="true" visible="false" labelid="{b7a5c0d4-036b-4f6a-bde6-452c03642c73}">
+          <labels>
+            <label description="Appraisal" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{5ca66d57-ec37-44e3-bb7b-a84d63f49559}" name="StageStep15_section1" labelid="{c8f8af9a-fc59-451b-a50b-b63915fce45c}">
+                  <labels>
+                    <label description="Appraisal" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{6b0dbf26-9c81-4109-b19b-f7547cca1b92}" showlabel="true" visible="true" labelid="{e97758f6-5ab5-4d22-8687-6b8e21dc1d8e}">
+                        <labels>
+                          <label description="Application Reference" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_leidos_application_new_bpfapplicationbusinessprocessflow:leidos_applicationreference" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="leidos_applicationreference" relationship="bpf_leidos_application_new_bpfapplicationbusinessprocessflow" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{dc50cfea-9e1d-4d01-a185-de7f4280dbf6}" name="StageStep19" locklevel="0" expanded="true" visible="false" labelid="{01269ab3-e244-4cca-b2df-e5fe0572e0e1}">
+          <labels>
+            <label description="Decision" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{dc50cfea-9e1d-4d01-a185-de7f4280dbf6}" name="StageStep19_section1" labelid="{bb79ce3e-aaf2-4fd0-9f8e-8e01239c27f1}">
+                  <labels>
+                    <label description="Decision" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{080e4a92-314a-4bd4-9044-c888ba2ab703}" showlabel="true" visible="true" labelid="{6cddc3fb-f786-497e-b4b3-365d643a4c6c}">
+                        <labels>
+                          <label description="Application Reference" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_leidos_application_new_bpfapplicationbusinessprocessflow:leidos_applicationreference" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="leidos_applicationreference" relationship="bpf_leidos_application_new_bpfapplicationbusinessprocessflow" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -129,6 +129,64 @@
             </column>
           </columns>
         </tab>
+        <tab name="Details" id="2b8de755-c9f7-405f-97ba-99008ac16d0f" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Details" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section name="Details" id="d746688b-9657-4c1a-ac58-7445693fdda2" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Details" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{988e4b23-062d-4f18-a53a-9c3e81efc6e5}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Source Enquiry" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_sourceenquiry" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_sourceenquiry" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="Pre Application" id="95591bc9-55cd-40d7-bc41-ebd2569e7f9a" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Pre Application" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{f503ffb0-2db2-4f94-a2d0-e1e14b915e60}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="tab_2_section_2" id="059007b0-4b77-4b65-9e2c-6d06185b6332" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{31073117-a594-41f8-8a87-32e9d3d29e28}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
       </tabs>
       <header id="{9d37a448-31ef-4633-a811-1243b2101960}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
         <rows>

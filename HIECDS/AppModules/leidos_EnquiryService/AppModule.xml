@@ -9,6 +9,7 @@
   <NavigationType>0</NavigationType>
   <AppModuleComponents>
     <AppModuleComponent type="62" schemaName="leidos_EnquiryService" />
+    <AppModuleComponent type="29" id="{e88b17e3-b43d-ea11-a812-000d3a0ba151}" />
     <AppModuleComponent type="29" id="{b563bc4d-f5d3-4d7b-8d43-2179f246d138}" />
     <AppModuleComponent type="60" id="{e85f3335-ca36-ea11-a813-000d3a0bad7c}" />
     <AppModuleComponent type="1" schemaName="account" />
@@ -23,6 +24,7 @@
     <AppModuleComponent type="1" schemaName="activitypointer" />
     <AppModuleComponent type="1" schemaName="leidos_application" />
     <AppModuleComponent type="1" schemaName="leidos_areaoffice" />
+    <AppModuleComponent type="1" schemaName="new_bpfapplicationbusinessprocessflow" />
     <AppModuleComponent type="1" schemaName="leidos_clientenquiryorigin" />
     <AppModuleComponent type="1" schemaName="contact" />
     <AppModuleComponent type="60" id="{29de27bc-a257-4f29-99cf-bab4a84e688f}" />

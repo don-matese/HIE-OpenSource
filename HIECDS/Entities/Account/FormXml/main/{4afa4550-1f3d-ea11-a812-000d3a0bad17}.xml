@@ -731,52 +731,7 @@
           </NavBarByRelationshipItem>
         </NavBar>
       </Navigation>
-      <controlDescriptions>
-        <controlDescription forControl="{3ff9a528-dd50-4aca-8f10-2e5ed73513ad}">
-          <customControl formFactor="2" name="MscrmControls.CardFeedContainer.CardFeedContainer">
-            <parameters>
-              <data-set name="SubGrid">
-                <ViewId>{92AFD454-0F2E-4397-A1C8-05E37C6AD699}</ViewId>
-                <IsUserView>false</IsUserView>
-                <TargetEntityType>actioncard</TargetEntityType>
-                <FilteredViewIds>{92AFD454-0F2E-4397-A1C8-05E37C6AfD699}</FilteredViewIds>
-                <EnableViewPicker>false</EnableViewPicker>
-              </data-set>
-              <EntityTypeCode static="true" type="Decimal">1</EntityTypeCode>
-              <Location static="true" type="Decimal">1</Location>
-              <msinternal.isvisibleinmocaonly static="true">true</msinternal.isvisibleinmocaonly>
-            </parameters>
-          </customControl>
-          <customControl formFactor="0" name="MscrmControls.CardFeedContainer.CardFeedContainer">
-            <parameters>
-              <data-set name="SubGrid">
-                <ViewId>{92AFD454-0F2E-4397-A1C8-05E37C6AD699}</ViewId>
-                <IsUserView>false</IsUserView>
-                <TargetEntityType>actioncard</TargetEntityType>
-                <FilteredViewIds>{92AFD454-0F2E-4397-A1C8-05E37C6AfD699}</FilteredViewIds>
-                <EnableViewPicker>false</EnableViewPicker>
-              </data-set>
-              <EntityTypeCode static="true" type="Decimal">1</EntityTypeCode>
-              <Location static="true" type="Decimal">1</Location>
-              <msinternal.isvisibleinmocaonly static="true">true</msinternal.isvisibleinmocaonly>
-            </parameters>
-          </customControl>
-          <customControl formFactor="1" name="MscrmControls.CardFeedContainer.CardFeedContainer">
-            <parameters>
-              <data-set name="SubGrid">
-                <ViewId>{92AFD454-0F2E-4397-A1C8-05E37C6AD699}</ViewId>
-                <IsUserView>false</IsUserView>
-                <TargetEntityType>actioncard</TargetEntityType>
-                <FilteredViewIds>{92AFD454-0F2E-4397-A1C8-05E37C6AfD699}</FilteredViewIds>
-                <EnableViewPicker>false</EnableViewPicker>
-              </data-set>
-              <EntityTypeCode static="true" type="Decimal">1</EntityTypeCode>
-              <Location static="true" type="Decimal">1</Location>
-              <msinternal.isvisibleinmocaonly static="true">true</msinternal.isvisibleinmocaonly>
-            </parameters>
-          </customControl>
-        </controlDescription>
-      </controlDescriptions>
+      <controlDescriptions />
       <DisplayConditions FallbackForm="true" Order="5">
         <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
         <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />

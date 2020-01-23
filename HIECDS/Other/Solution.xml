@@ -8,7 +8,7 @@
     <Descriptions>
       <Description description="Upgrade of HIE CDS" languagecode="1033" />
     </Descriptions>
-    <Version>1.1.0.0</Version>
+    <Version>1.2.0.0</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>leidos</UniqueName>
@@ -96,6 +96,7 @@
       <RootComponent type="1" schemaName="leidos_sector" behavior="0" />
       <RootComponent type="1" schemaName="leidos_tradinggeography" behavior="0" />
       <RootComponent type="1" schemaName="leidos_tradingstatus" behavior="0" />
+      <RootComponent type="1" schemaName="new_bpfapplicationbusinessprocessflow" behavior="0" />
       <RootComponent type="1" schemaName="systemuser" behavior="0" />
       <RootComponent type="1" schemaName="team" behavior="0" />
       <RootComponent type="9" schemaName="leidos_enquirymessage" behavior="0" />
@@ -116,6 +117,7 @@
       <RootComponent type="29" id="{b1d6151c-673b-ea11-a812-000d3a0bad17}" behavior="0" />
       <RootComponent type="29" id="{b563bc4d-f5d3-4d7b-8d43-2179f246d138}" behavior="0" />
       <RootComponent type="29" id="{ca270723-253d-ea11-a812-000d3a0ba151}" behavior="0" />
+      <RootComponent type="29" id="{e88b17e3-b43d-ea11-a812-000d3a0ba151}" behavior="0" />
       <RootComponent type="29" id="{f64f33c2-9237-ea11-a813-000d3a0ba110}" behavior="0" />
       <RootComponent type="60" id="{098ae145-1567-41ec-8398-86dbaac70c9b}" />
       <RootComponent type="60" id="{2f692349-4838-ea11-a813-000d3a0bad7c}" behavior="0" />
@@ -162,68 +164,68 @@
         <Dependent key="4" type="80" schemaName="leidos_EnquiryService" displayName="Enquiry Service" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="5" type="60" displayName="account contact card" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{29de27bc-a257-4f29-99cf-bab4a84e688f}" />
-        <Dependent key="6" type="60" displayName="HIE Client Form" parentDisplayName="Account" id="{39151aa2-bee0-428d-94b4-463406a15ee0}" />
+        <Required key="5" type="60" displayName="Contact Reference Panel" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{d880c3cf-80e2-42f3-82f9-24d040d09f17}" />
+        <Dependent key="5" type="60" displayName="Contact Reference Panel" parentDisplayName="Contact" id="{d880c3cf-80e2-42f3-82f9-24d040d09f17}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="5" type="60" displayName="account contact card" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{29de27bc-a257-4f29-99cf-bab4a84e688f}" />
+        <Required key="6" type="60" displayName="Contact Quick Create" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{661157fe-2fc9-4eaa-835f-5bfa2f7b64f7}" />
+        <Dependent key="6" type="60" displayName="Contact Quick Create" parentDisplayName="Contact" id="{661157fe-2fc9-4eaa-835f-5bfa2f7b64f7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="7" type="60" displayName="Account Reference Panel" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{098ae145-1567-41ec-8398-86dbaac70c9b}" />
+        <Dependent key="7" type="60" displayName="Account Reference Panel" parentDisplayName="Account" id="{098ae145-1567-41ec-8398-86dbaac70c9b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="8" type="60" displayName="Account Quick Create" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{c9e7ec2d-efca-4e4c-b3e3-f63c4bba5e4b}" />
+        <Dependent key="8" type="60" displayName="Account Quick Create" parentDisplayName="Account" id="{c9e7ec2d-efca-4e4c-b3e3-f63c4bba5e4b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="9" type="60" displayName="account contact card" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{29de27bc-a257-4f29-99cf-bab4a84e688f}" />
+        <Dependent key="10" type="60" displayName="HIE Client Form" parentDisplayName="Account" id="{39151aa2-bee0-428d-94b4-463406a15ee0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="9" type="60" displayName="account contact card" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{29de27bc-a257-4f29-99cf-bab4a84e688f}" />
         <Dependent key="4" type="80" schemaName="leidos_EnquiryService" displayName="Enquiry Service" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="5" type="60" displayName="account contact card" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{29de27bc-a257-4f29-99cf-bab4a84e688f}" />
-        <Dependent key="7" type="60" displayName=" Web - Account Details" parentDisplayName="Account" id="{4afa4550-1f3d-ea11-a812-000d3a0bad17}" />
+        <Required key="9" type="60" displayName="account contact card" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{29de27bc-a257-4f29-99cf-bab4a84e688f}" />
+        <Dependent key="11" type="60" displayName=" Web - Account Details" parentDisplayName="Account" id="{4afa4550-1f3d-ea11-a812-000d3a0bad17}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="8" type="60" displayName="Contact Quick Create" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{661157fe-2fc9-4eaa-835f-5bfa2f7b64f7}" />
+        <Required key="6" type="60" displayName="Contact Quick Create" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{661157fe-2fc9-4eaa-835f-5bfa2f7b64f7}" />
         <Dependent key="4" type="80" schemaName="leidos_EnquiryService" displayName="Enquiry Service" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="9" type="60" displayName="Contact Reference Panel" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{d880c3cf-80e2-42f3-82f9-24d040d09f17}" />
+        <Required key="5" type="60" displayName="Contact Reference Panel" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{d880c3cf-80e2-42f3-82f9-24d040d09f17}" />
         <Dependent key="4" type="80" schemaName="leidos_EnquiryService" displayName="Enquiry Service" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="9" type="60" displayName="Contact Reference Panel" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{d880c3cf-80e2-42f3-82f9-24d040d09f17}" />
-        <Dependent key="9" type="60" displayName="Contact Reference Panel" parentDisplayName="Contact" id="{d880c3cf-80e2-42f3-82f9-24d040d09f17}" />
+        <Required key="12" type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="BaseCustomControlsCore (9.0.1912.3024)" />
+        <Dependent key="10" type="60" displayName="HIE Client Form" parentDisplayName="Account" id="{39151aa2-bee0-428d-94b4-463406a15ee0}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="8" type="60" displayName="Contact Quick Create" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{661157fe-2fc9-4eaa-835f-5bfa2f7b64f7}" />
-        <Dependent key="8" type="60" displayName="Contact Quick Create" parentDisplayName="Contact" id="{661157fe-2fc9-4eaa-835f-5bfa2f7b64f7}" />
+        <Required key="12" type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="BaseCustomControlsCore (9.0.1912.3024)" />
+        <Dependent key="11" type="60" displayName=" Web - Account Details" parentDisplayName="Account" id="{4afa4550-1f3d-ea11-a812-000d3a0bad17}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="10" type="60" displayName="Account Reference Panel" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{098ae145-1567-41ec-8398-86dbaac70c9b}" />
-        <Dependent key="10" type="60" displayName="Account Reference Panel" parentDisplayName="Account" id="{098ae145-1567-41ec-8398-86dbaac70c9b}" />
+        <Required key="13" type="66" schemaName="MscrmControls.FlipSwitch.FlipSwitchControl" displayName="MscrmControls.FlipSwitch.FlipSwitchControl" solution="CustomControlsCore (9.1.0000.12051)" />
+        <Dependent key="14" type="60" displayName="Information" parentDisplayName="Enquiry" id="{898bd476-4331-4ecb-87b7-8d8c52e9cdfd}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="11" type="60" displayName="Account Quick Create" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{c9e7ec2d-efca-4e4c-b3e3-f63c4bba5e4b}" />
-        <Dependent key="11" type="60" displayName="Account Quick Create" parentDisplayName="Account" id="{c9e7ec2d-efca-4e4c-b3e3-f63c4bba5e4b}" />
+        <Required key="13" type="66" schemaName="MscrmControls.FlipSwitch.FlipSwitchControl" displayName="MscrmControls.FlipSwitch.FlipSwitchControl" solution="CustomControlsCore (9.1.0000.12051)" />
+        <Dependent key="10" type="60" displayName="HIE Client Form" parentDisplayName="Account" id="{39151aa2-bee0-428d-94b4-463406a15ee0}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="12" type="66" schemaName="MscrmControls.Grid.GridControl" displayName="MscrmControls.Grid.GridControl" solution="BaseCustomControlsCore (9.0.1912.3024)" />
-        <Dependent key="13" type="60" displayName="Information" parentDisplayName="Account Management Record" id="{91234d33-ba89-4316-8c8d-4b4cd2367fba}" />
+        <Required key="13" type="66" schemaName="MscrmControls.FlipSwitch.FlipSwitchControl" displayName="MscrmControls.FlipSwitch.FlipSwitchControl" solution="CustomControlsCore (9.1.0000.12051)" />
+        <Dependent key="15" type="60" displayName="Web - Enquiry Form" parentDisplayName="Enquiry" id="{d8546885-3039-ea11-a813-000d3a0ba151}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="14" type="66" schemaName="MscrmControls.FlipSwitch.FlipSwitchControl" displayName="MscrmControls.FlipSwitch.FlipSwitchControl" solution="CustomControlsCore (9.1.0000.12051)" />
-        <Dependent key="6" type="60" displayName="HIE Client Form" parentDisplayName="Account" id="{39151aa2-bee0-428d-94b4-463406a15ee0}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="14" type="66" schemaName="MscrmControls.FlipSwitch.FlipSwitchControl" displayName="MscrmControls.FlipSwitch.FlipSwitchControl" solution="CustomControlsCore (9.1.0000.12051)" />
-        <Dependent key="15" type="60" displayName="Information" parentDisplayName="Enquiry" id="{898bd476-4331-4ecb-87b7-8d8c52e9cdfd}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="14" type="66" schemaName="MscrmControls.FlipSwitch.FlipSwitchControl" displayName="MscrmControls.FlipSwitch.FlipSwitchControl" solution="CustomControlsCore (9.1.0000.12051)" />
-        <Dependent key="16" type="60" displayName="Web - Enquiry Form" parentDisplayName="Enquiry" id="{d8546885-3039-ea11-a813-000d3a0ba151}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="17" type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="BaseCustomControlsCore (9.0.1912.3024)" />
-        <Dependent key="6" type="60" displayName="HIE Client Form" parentDisplayName="Account" id="{39151aa2-bee0-428d-94b4-463406a15ee0}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="17" type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="BaseCustomControlsCore (9.0.1912.3024)" />
-        <Dependent key="7" type="60" displayName=" Web - Account Details" parentDisplayName="Account" id="{4afa4550-1f3d-ea11-a812-000d3a0bad17}" />
+        <Required key="16" type="66" schemaName="MscrmControls.Grid.GridControl" displayName="MscrmControls.Grid.GridControl" solution="BaseCustomControlsCore (9.0.1912.3024)" />
+        <Dependent key="17" type="60" displayName="Information" parentDisplayName="Account Management Record" id="{91234d33-ba89-4316-8c8d-4b4cd2367fba}" />
       </MissingDependency>
       <MissingDependency>
         <Required key="18" type="61" schemaName="AppCommon/Account/Account_main_system_library.js" displayName="AppCommon/Account/Account_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)" />
-        <Dependent key="6" type="60" displayName="HIE Client Form" parentDisplayName="Account" id="{39151aa2-bee0-428d-94b4-463406a15ee0}" />
+        <Dependent key="10" type="60" displayName="HIE Client Form" parentDisplayName="Account" id="{39151aa2-bee0-428d-94b4-463406a15ee0}" />
       </MissingDependency>
       <MissingDependency>
         <Required key="19" type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
