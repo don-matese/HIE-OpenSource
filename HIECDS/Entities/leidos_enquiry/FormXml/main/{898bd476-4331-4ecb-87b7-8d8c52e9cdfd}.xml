@@ -161,13 +161,20 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{2a0a0440-2608-75da-6876-4422e601d162}" showlabel="true" locklevel="0">
+                      <cell id="{2a0a0440-2608-75da-6876-4422e601d162}" showlabel="true" locklevel="0" auto="true" rowspan="8">
                         <labels>
                           <label description="Summary of Discussions" languagecode="1033" />
                         </labels>
                         <control id="leidos_summaryofdiscussions" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="leidos_summaryofdiscussions" disabled="false" />
                       </cell>
                     </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
                     <row>
                       <cell id="{875d3371-7133-65b6-2872-d1d34b21976d}" showlabel="true" locklevel="0">
                         <labels>
