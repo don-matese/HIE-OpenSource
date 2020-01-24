@@ -27,20 +27,28 @@
       <Titles>
         <Title LCID="1033" Title="Reference Data" />
       </Titles>
-      <Group Id="NewGroup_ee6bdf2" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
-        <Titles>
-          <Title LCID="1033" Title="Account Reference Data" />
-        </Titles>
-        <SubArea Id="NewSubArea_0a221e9f" Entity="leidos_geographies" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
-        <SubArea Id="NewSubArea_186f1eec" Entity="leidos_sector" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
-        <SubArea Id="NewSubArea_f89df7ba" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="leidos_areaoffice" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
-      </Group>
       <Group Id="NewGroup_4df48a3e" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
         <Titles>
           <Title LCID="1033" Title="Enquiry Reference Data" />
         </Titles>
         <SubArea Id="NewSubArea_66483986" Entity="leidos_tradingstatus" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
         <SubArea Id="NewSubArea_a2f24e81" Entity="leidos_natureofenquiry" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_a30e7426" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="leidos_categorynatureofenquiry" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group Id="NewGroup_ee6bdf2" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Account Reference Data" />
+        </Titles>
+        <SubArea Id="NewSubArea_0a221e9f" Entity="leidos_geographies" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_186f1eec" Entity="leidos_sector" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_f89df7ba" Entity="leidos_areaoffice" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group Id="NewGroup_b20c866b" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Metrix" />
+        </Titles>
+        <SubArea Id="NewSubArea_bc49ea6e" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="leidos_turnover" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_9a33964b" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="leidos_numberofemployees" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
       </Group>
     </Area>
   </SiteMap>

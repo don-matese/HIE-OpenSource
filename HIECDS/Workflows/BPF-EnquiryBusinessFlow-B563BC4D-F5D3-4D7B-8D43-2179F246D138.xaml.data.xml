@@ -72,32 +72,29 @@
     <steplabels id="{c8656bff-2c8a-4480-8e9e-4604425d7b44}">
       <label languagecode="1033" description="Nature of Enquiry" />
     </steplabels>
-    <steplabels id="{a46a38c1-b594-48f3-a694-52c969b2bac8}">
-      <label languagecode="1033" description="Route To Team" />
+    <steplabels id="{d3cdb310-0569-4f4a-b8e6-7b9b3f30dcf2}">
+      <label languagecode="1033" description="Nature of Enquiry Free Text" />
     </steplabels>
-    <steplabels id="{47380213-852f-492c-9618-2283bd10fa0b}">
+    <steplabels id="{4834109a-38b7-4d6a-bbfb-bd8593eac8af}">
+      <label languagecode="1033" description="Route To Enquiry Team" />
+    </steplabels>
+    <steplabels id="{d1fd7a25-0976-4004-b7eb-9e9de816431d}">
       <label languagecode="1033" description="Summary of Discussions" />
     </steplabels>
-    <steplabels id="{f8cd4217-b77a-4143-bd5a-7cbcbbe670bd}">
+    <steplabels id="{7921b2f2-f9c3-4629-b028-13b45e71ab88}">
       <label languagecode="1033" description="Relevant Person or Team" />
     </steplabels>
-    <steplabels id="{0dbdd2d8-19c3-4f06-8975-937aa32f9a1f}">
+    <steplabels id="{4ea03636-c281-4ad4-822b-b3c2acc5a8b9}">
       <label languagecode="1033" description="Relevant Person" />
     </steplabels>
-    <steplabels id="{d0979516-b0f1-4145-8840-c1af3fe4478b}">
+    <steplabels id="{cc4d4963-7740-4091-8465-e90b90383f39}">
       <label languagecode="1033" description="Relevant Team" />
     </steplabels>
-    <steplabels id="{33dda3d4-7d98-4240-8523-8e05fa89fbb3}">
-      <label languagecode="1033" description="Recommend for Account Management" />
+    <steplabels id="{d1fe7460-ee05-417e-9265-d1625baee865}">
+      <label languagecode="1033" description="Progressed" />
     </steplabels>
-    <steplabels id="{949e71b8-fccb-434f-aa5f-8135c712965e}">
-      <label languagecode="1033" description="Complete" />
-    </steplabels>
-    <steplabels id="{e3faef71-dee6-4d0e-881a-85f11dd61fe1}">
+    <steplabels id="{d8c4fae5-1402-4b04-bd57-36ceb2219a79}">
       <label languagecode="1033" description="Target Close Date" />
-    </steplabels>
-    <steplabels id="{399368e8-9b95-4a5c-9212-bf1da58ba69f}">
-      <label languagecode="1033" description="Modified On" />
     </steplabels>
   </labels>
 </Workflow>

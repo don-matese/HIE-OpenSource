@@ -19,12 +19,19 @@
     <AppModuleComponent type="26" id="{65ffaf9a-e8c5-432d-860b-32f841b00d87}" />
     <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001031}" />
     <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001001}" />
+    <AppModuleComponent type="26" id="{217061e1-853e-ea11-a812-000d3a0bad17}" />
+    <AppModuleComponent type="59" id="{74a622c0-5193-de11-97d4-00155da3b01e}" />
+    <AppModuleComponent type="59" id="{a3a9ee47-5093-de11-97d4-00155da3b01e}" />
+    <AppModuleComponent type="59" id="{5b290fff-355f-df11-ae90-00155d2e3002}" />
     <AppModuleComponent type="1" schemaName="leidos_accountmanagementrecord" />
     <AppModuleComponent type="60" id="{91234d33-ba89-4316-8c8d-4b4cd2367fba}" />
+    <AppModuleComponent type="1" schemaName="actioncard" />
+    <AppModuleComponent type="26" id="{92afd454-0f2e-4397-a1c8-05e37c6ad699}" />
     <AppModuleComponent type="1" schemaName="activitypointer" />
     <AppModuleComponent type="1" schemaName="leidos_application" />
     <AppModuleComponent type="1" schemaName="leidos_areaoffice" />
     <AppModuleComponent type="1" schemaName="new_bpfapplicationbusinessprocessflow" />
+    <AppModuleComponent type="1" schemaName="leidos_categorynatureofenquiry" />
     <AppModuleComponent type="1" schemaName="leidos_clientenquiryorigin" />
     <AppModuleComponent type="1" schemaName="contact" />
     <AppModuleComponent type="60" id="{29de27bc-a257-4f29-99cf-bab4a84e688f}" />
@@ -36,9 +43,6 @@
     <AppModuleComponent type="1" schemaName="leidos_employmentdetails" />
     <AppModuleComponent type="26" id="{9bd02821-3e38-ea11-a813-000d3a0bad7c}" />
     <AppModuleComponent type="1" schemaName="leidos_enquiry" />
-    <AppModuleComponent type="60" id="{898bd476-4331-4ecb-87b7-8d8c52e9cdfd}" />
-    <AppModuleComponent type="60" id="{7e270050-4538-ea11-a813-000d3a0ba110}" />
-    <AppModuleComponent type="60" id="{d8546885-3039-ea11-a813-000d3a0ba151}" />
     <AppModuleComponent type="26" id="{59220721-d2ba-4980-867e-ad785aca299f}" />
     <AppModuleComponent type="26" id="{9e09da59-c736-ea11-a813-000d3a0bad7c}" />
     <AppModuleComponent type="26" id="{3abe7cc7-3c3c-ea11-a812-000d3a0bad17}" />
@@ -51,7 +55,9 @@
     <AppModuleComponent type="60" id="{2f692349-4838-ea11-a813-000d3a0bad7c}" />
     <AppModuleComponent type="1" schemaName="leidos_enquirybusinessflow" />
     <AppModuleComponent type="1" schemaName="leidos_geographies" />
+    <AppModuleComponent type="1" schemaName="mailbox" />
     <AppModuleComponent type="1" schemaName="leidos_natureofenquiry" />
+    <AppModuleComponent type="1" schemaName="leidos_numberofemployees" />
     <AppModuleComponent type="1" schemaName="leidos_organisationtype" />
     <AppModuleComponent type="1" schemaName="leidos_proposedsegmentation" />
     <AppModuleComponent type="1" schemaName="leidos_sector" />
@@ -60,6 +66,7 @@
     <AppModuleComponent type="60" id="{625d2ecc-2770-40fc-b408-f4ed205f63c9}" />
     <AppModuleComponent type="26" id="{aa026e9c-3c38-ea11-a813-000d3a0bad7c}" />
     <AppModuleComponent type="1" schemaName="leidos_tradingstatus" />
+    <AppModuleComponent type="1" schemaName="leidos_turnover" />
     <AppModuleComponent type="1" schemaName="systemuser" />
   </AppModuleComponents>
   <AppModuleRoleMaps>

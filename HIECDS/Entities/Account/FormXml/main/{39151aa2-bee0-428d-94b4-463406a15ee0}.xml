@@ -184,21 +184,6 @@
             </column>
             <column width="25%">
               <sections>
-                <section name="SUMMARY_TAB_section_8" id="419dd36d-9a38-4590-9436-e52f921479a4" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
-                  <labels>
-                    <label description="Supplier Details" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell id="{57172dad-f0e1-466b-9fb7-f25b0c2b028f}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Supplier Orginisation" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_supplierorginisation" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="leidos_supplierorginisation" disabled="false" uniqueid="{10a5415f-29ac-4d78-911b-e34fb8122e8c}" />
-                      </cell>
-                    </row>
-                  </rows>
-                </section>
                 <section name="Summary_section_6" showlabel="false" showbar="false" locklevel="0" id="{ea3bb0a6-b9dc-1b0e-5e7d-74a380ee79a3}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" labelid="{8bfd169f-df16-4003-b919-574b6b69a356}">
                   <labels>
                     <label description="Assistant" languagecode="1033" />
@@ -367,14 +352,6 @@
                         <control id="leidos_proposedprojects" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="leidos_proposedprojects" disabled="false" />
                       </cell>
                     </row>
-                    <row>
-                      <cell id="{7f653b8a-7687-4c4a-b4dd-9985a97b2927}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Recommended for Account Management" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_recommendedforaccountmanagement" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="leidos_recommendedforaccountmanagement" disabled="false" uniqueid="{0024efc5-485d-4af5-a030-576c95ca00fd}" />
-                      </cell>
-                    </row>
                   </rows>
                 </section>
               </sections>
@@ -455,6 +432,37 @@
                           <label description="Organisation Type" languagecode="1033" />
                         </labels>
                         <control id="leidos_organisationtype" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_organisationtype" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="Categorisation" id="9a46d502-554f-4416-859d-d0541a900abe" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="200">
+                  <labels>
+                    <label description="Categorisation" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{7f653b8a-7687-4c4a-b4dd-9985a97b2927}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Recommended for Account Management" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_recommendedforaccountmanagement" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="leidos_recommendedforaccountmanagement" disabled="false" uniqueid="{0024efc5-485d-4af5-a030-576c95ca00fd}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8ee996eb-cf5b-4273-8387-95287d2e784a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="SEP Partner Orginisation" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_seppartnerorginisation" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="leidos_seppartnerorginisation" disabled="false" uniqueid="{a3906cee-5844-40f0-80b1-a59b8c8d275c}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{57172dad-f0e1-466b-9fb7-f25b0c2b028f}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Supplier Orginisation" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_supplierorginisation" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="leidos_supplierorginisation" disabled="false" uniqueid="{10a5415f-29ac-4d78-911b-e34fb8122e8c}" />
                       </cell>
                     </row>
                   </rows>
@@ -607,17 +615,23 @@
       <header id="{d5a03552-1183-4347-a237-1f894ba449eb}" columns="111" celllabelposition="Top" labelwidth="115">
         <rows>
           <row>
-            <cell id="{64803c50-061f-4066-8145-6499b963d97c}" showlabel="true" locklevel="0">
+            <cell id="{a29d9486-75b4-4e0c-846b-ba20d6d4b574}" showlabel="true" locklevel="0">
               <labels>
-                <label description="Account Reference" languagecode="1033" />
+                <label description="Account Name" languagecode="1033" />
               </labels>
-              <control id="header_leidos_accountreference" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="leidos_accountreference" disabled="false" />
+              <control id="header_name" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="name" disabled="false" />
             </cell>
             <cell id="{70f8cf89-2dda-47b3-bc6f-535f354a2670}" showlabel="true" locklevel="0">
               <labels>
                 <label description="Project Officer Allocation" languagecode="1033" />
               </labels>
               <control id="header_leidos_projectofficerallocation" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_projectofficerallocation" disabled="false" />
+            </cell>
+            <cell id="{64803c50-061f-4066-8145-6499b963d97c}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Account Reference" languagecode="1033" />
+              </labels>
+              <control id="header_leidos_accountreference" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="leidos_accountreference" disabled="false" />
             </cell>
             <cell id="{54b2d0a2-eb77-b3cd-b60a-03ea6944e98e}" showlabel="true" locklevel="1" labelid="{86987155-9cfe-45fe-98e5-522215e7ae8b}">
               <labels>
@@ -1080,11 +1094,29 @@
             </parameters>
           </customControl>
         </controlDescription>
+        <controlDescription forControl="{a3906cee-5844-40f0-80b1-a59b8c8d275c}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>leidos_seppartnerorginisation</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>leidos_seppartnerorginisation</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>leidos_seppartnerorginisation</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>leidos_seppartnerorginisation</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
       </controlDescriptions>
-      <DisplayConditions FallbackForm="true" Order="4">
-        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
-        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
-      </DisplayConditions>
       <footer id="{4b581373-d743-4c96-8ab8-0fcb3ebda5ad}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
         <rows>
           <row>
@@ -1106,6 +1138,10 @@
           </row>
         </rows>
       </footer>
+      <DisplayConditions FallbackForm="true" Order="4">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
     </form>
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>

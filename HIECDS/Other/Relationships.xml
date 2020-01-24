@@ -28,9 +28,11 @@
   <EntityRelationship Name="leidos_EmploymentDetails_ParentAMRRecord_" />
   <EntityRelationship Name="leidos_enquiry_RelevantPerson_SystemUser" />
   <EntityRelationship Name="leidos_enquiry_RelevantTeam_Team" />
+  <EntityRelationship Name="leidos_enquiry_SEPPartnerOrganisation_Acc" />
   <EntityRelationship Name="leidos_leidos_geographies_leidos_tradinggeography_Geography" />
   <EntityRelationship Name="leidos_leidos_natureofenquiry_leidos_enquiry_NatureofEnquiry" />
   <EntityRelationship Name="leidos_leidos_tradingstatus_leidos_enquiry_TradingStatus" />
+  <EntityRelationship Name="leidos_natureofenquiry_Category_leidos_Ca" />
   <EntityRelationship Name="leidos_Team_TeamPrimaryContact_SystemUser" />
   <EntityRelationship Name="leidos_tradinggeography_ParentAMRRecord_l" />
   <EntityRelationship Name="lk_leidos_accountmanagementrecord_createdby" />
@@ -39,6 +41,8 @@
   <EntityRelationship Name="lk_leidos_application_modifiedby" />
   <EntityRelationship Name="lk_leidos_areaoffice_createdby" />
   <EntityRelationship Name="lk_leidos_areaoffice_modifiedby" />
+  <EntityRelationship Name="lk_leidos_categorynatureofenquiry_createdby" />
+  <EntityRelationship Name="lk_leidos_categorynatureofenquiry_modifiedby" />
   <EntityRelationship Name="lk_leidos_clientenquiryorigin_createdby" />
   <EntityRelationship Name="lk_leidos_clientenquiryorigin_modifiedby" />
   <EntityRelationship Name="lk_leidos_employmentdetails_createdby" />
@@ -53,6 +57,8 @@
   <EntityRelationship Name="lk_leidos_geographies_modifiedby" />
   <EntityRelationship Name="lk_leidos_natureofenquiry_createdby" />
   <EntityRelationship Name="lk_leidos_natureofenquiry_modifiedby" />
+  <EntityRelationship Name="lk_leidos_numberofemployees_createdby" />
+  <EntityRelationship Name="lk_leidos_numberofemployees_modifiedby" />
   <EntityRelationship Name="lk_leidos_organisationtype_createdby" />
   <EntityRelationship Name="lk_leidos_organisationtype_modifiedby" />
   <EntityRelationship Name="lk_leidos_proposedsegmentation_createdby" />
@@ -63,6 +69,8 @@
   <EntityRelationship Name="lk_leidos_tradinggeography_modifiedby" />
   <EntityRelationship Name="lk_leidos_tradingstatus_createdby" />
   <EntityRelationship Name="lk_leidos_tradingstatus_modifiedby" />
+  <EntityRelationship Name="lk_leidos_turnover_createdby" />
+  <EntityRelationship Name="lk_leidos_turnover_modifiedby" />
   <EntityRelationship Name="lk_new_bpfapplicationbusinessprocessflow_activestageid" />
   <EntityRelationship Name="lk_new_bpfapplicationbusinessprocessflow_createdby" />
   <EntityRelationship Name="lk_new_bpfapplicationbusinessprocessflow_modifiedby" />
@@ -72,14 +80,17 @@
   <EntityRelationship Name="msdyn_flow_awaitallmodelrelationship_systemuser" />
   <EntityRelationship Name="msdyn_flow_basicapprovalmodelrelationship_systemuser" />
   <EntityRelationship Name="organization_leidos_areaoffice" />
+  <EntityRelationship Name="organization_leidos_categorynatureofenquiry" />
   <EntityRelationship Name="organization_leidos_clientenquiryorigin" />
   <EntityRelationship Name="organization_leidos_enquirybusinessflow" />
   <EntityRelationship Name="organization_leidos_geographies" />
   <EntityRelationship Name="organization_leidos_natureofenquiry" />
+  <EntityRelationship Name="organization_leidos_numberofemployees" />
   <EntityRelationship Name="organization_leidos_organisationtype" />
   <EntityRelationship Name="organization_leidos_proposedsegmentation" />
   <EntityRelationship Name="organization_leidos_sector" />
   <EntityRelationship Name="organization_leidos_tradingstatus" />
+  <EntityRelationship Name="organization_leidos_turnover" />
   <EntityRelationship Name="organization_new_bpfapplicationbusinessprocessflow" />
   <EntityRelationship Name="owner_leidos_accountmanagementrecord" />
   <EntityRelationship Name="owner_leidos_application" />
@@ -93,6 +104,7 @@
   <EntityRelationship Name="team_leidos_tradinggeography" />
   <EntityRelationship Name="TransactionCurrency_leidos_AccountManagementRecord" />
   <EntityRelationship Name="TransactionCurrency_leidos_EmploymentDetails" />
+  <EntityRelationship Name="TransactionCurrency_leidos_Turnover" />
   <EntityRelationship Name="user_leidos_accountmanagementrecord" />
   <EntityRelationship Name="user_leidos_application" />
   <EntityRelationship Name="user_leidos_employmentdetails" />
