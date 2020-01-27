@@ -173,6 +173,9 @@
           </row>
         </rows>
       </header>
+      <DisplayConditions FallbackForm="true" Order="2">
+        <Everyone />
+      </DisplayConditions>
       <events>
         <event name="onload" application="true" active="true">
           <InternalHandlers>
@@ -215,9 +218,6 @@
           </NavBarArea>
         </NavBarAreas>
       </Navigation>
-      <DisplayConditions FallbackForm="true" Order="2">
-        <Everyone />
-      </DisplayConditions>
     </form>
     <LocalizedNames>
       <LocalizedName description="Team" languagecode="1033" />

@@ -71,45 +71,6 @@
                         <control id="parentaccountid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="parentaccountid" />
                       </cell>
                     </row>
-                  </rows>
-                </section>
-                <section name="ADDRESS" showlabel="true" locklevel="0" showbar="false" id="{cc0fe06e-4b5f-4648-A62d-84d1514e1fc5}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelposition="Left" labelid="{c9179d50-eb25-4684-8649-abd6e0337509}">
-                  <labels>
-                    <label description="ADDRESS" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell id="{4913500e-605a-809b-e99e-69e2710d09bd}" showlabel="false" locklevel="0" labelid="{4361849c-8b00-4ba9-a7a4-27a99a927bd3}">
-                        <labels>
-                          <label description="Address 1" languagecode="1033" />
-                        </labels>
-                        <control id="address1_composite" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="address1_composite" disabled="false" />
-                      </cell>
-                    </row>
-                  </rows>
-                </section>
-              </sections>
-            </column>
-            <column width="50%">
-              <sections>
-                <section name="SUMMARY_TAB_section_5" showlabel="false" showbar="false" locklevel="0" id="{d4c3ee9c-ba71-5cdb-31be-2aa505750472}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Top" labelid="{5ad8051a-ea91-41c7-808b-ffa33fa5144b}">
-                  <labels>
-                    <label description="Section" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell showlabel="false" locklevel="0" id="{a9e01660-64ee-4d4a-b90e-1d1b454b09f7}" labelid="{2341c9db-caf6-4431-ad97-b2724ffea65c}">
-                        <labels>
-                          <label description="New QV control 1579701503292" languagecode="1033" />
-                        </labels>
-                        <control id="QuickviewControl1579701503292" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="leidos_projectofficerallocation" disabled="false">
-                          <parameters>
-                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
-                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="systemuser"&gt;c68d6c09-d7a7-4959-8d0f-44b8cff9b452&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
-                          </parameters>
-                        </control>
-                      </cell>
-                    </row>
                     <row>
                       <cell id="{b187688c-8410-5990-16ec-e153968ab583}" showlabel="true" locklevel="0" labelid="{43dd68f3-68c4-45e1-96b8-3cff6832a28f}">
                         <labels>
@@ -139,6 +100,45 @@
                           <parameters>
                             <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="contact"&gt;29DE27BC-A257-4F29-99CF-BAB4A84E688F&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
                             <ControlMode>Edit</ControlMode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="ADDRESS" showlabel="true" locklevel="0" showbar="false" id="{cc0fe06e-4b5f-4648-A62d-84d1514e1fc5}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelposition="Left" labelid="{c9179d50-eb25-4684-8649-abd6e0337509}">
+                  <labels>
+                    <label description="ADDRESS" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4913500e-605a-809b-e99e-69e2710d09bd}" showlabel="false" locklevel="0" labelid="{4361849c-8b00-4ba9-a7a4-27a99a927bd3}">
+                        <labels>
+                          <label description="Address 1" languagecode="1033" />
+                        </labels>
+                        <control id="address1_composite" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="address1_composite" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="SUMMARY_TAB_section_5" showlabel="true" showbar="false" locklevel="0" id="{d4c3ee9c-ba71-5cdb-31be-2aa505750472}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Top" labelid="{5ad8051a-ea91-41c7-808b-ffa33fa5144b}">
+                  <labels>
+                    <label description="ACCOUNT MANAGER" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{b34dec8c-fb2f-478e-b5c6-4e2ef38862de}">
+                        <labels>
+                          <label description="Account Manager" languagecode="1033" />
+                        </labels>
+                        <control id="QV_AccountManager" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="leidos_projectofficerallocation" disabled="false">
+                          <parameters>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="systemuser"&gt;ea38a0f6-dd40-ea11-a812-000d3a0bad17&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
                           </parameters>
                         </control>
                       </cell>

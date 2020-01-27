@@ -157,14 +157,14 @@
         </tab>
         <tab verticallayout="true" id="{4834109a-38b7-4d6a-bbfb-bd8593eac8af}" name="StageStep35" locklevel="0" expanded="true" visible="false" labelid="{ed53b49a-a3f4-4a25-9020-71296bef7656}">
           <labels>
-            <label description="Route To Enquiry Team" languagecode="1033" />
+            <label description="Route To Relevant Team Or Person" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
                 <section showbar="false" columns="1" id="{4834109a-38b7-4d6a-bbfb-bd8593eac8af}" name="StageStep35_section1" labelid="{8f24df50-bc6b-4d55-8c6f-56bd9712f393}">
                   <labels>
-                    <label description="Route To Enquiry Team" languagecode="1033" />
+                    <label description="Route To Relevant Team Or Person" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
@@ -173,6 +173,14 @@
                           <label description="Summary of Discussions" languagecode="1033" />
                         </labels>
                         <control id="bpf_leidos_enquiry_leidos_enquirybusinessflow:leidos_summaryofdiscussions" classid="{e0dece4b-6fc8-4a8f-a065-082708572369}" datafieldname="leidos_summaryofdiscussions" relationship="bpf_leidos_enquiry_leidos_enquirybusinessflow" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f24d2d84-0503-4176-a511-8824aa3a330f}" showlabel="true" visible="true" labelid="{93060742-2ae4-42d6-964b-8a4ad99e3937}">
+                        <labels>
+                          <label description="Propose for Account Management" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_leidos_enquiry_leidos_enquirybusinessflow:leidos_suitableforaccountmanagement" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="leidos_suitableforaccountmanagement" relationship="bpf_leidos_enquiry_leidos_enquirybusinessflow" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
@@ -205,14 +213,14 @@
             </column>
           </columns>
         </tab>
-        <tab verticallayout="true" id="{d1fe7460-ee05-417e-9265-d1625baee865}" name="StageStep45" locklevel="0" expanded="true" visible="false" labelid="{d8ef1472-4b98-4e10-8b34-2d03e227ee08}">
+        <tab verticallayout="true" id="{d1fe7460-ee05-417e-9265-d1625baee865}" name="StageStep47" locklevel="0" expanded="true" visible="false" labelid="{d8ef1472-4b98-4e10-8b34-2d03e227ee08}">
           <labels>
             <label description="Progressed" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showbar="false" columns="1" id="{d1fe7460-ee05-417e-9265-d1625baee865}" name="StageStep45_section1" labelid="{e9307d64-89ab-4977-905f-d70828233c28}">
+                <section showbar="false" columns="1" id="{d1fe7460-ee05-417e-9265-d1625baee865}" name="StageStep47_section1" labelid="{bf57dfe6-d8f2-45b4-8c05-797d12af09ab}">
                   <labels>
                     <label description="Progressed" languagecode="1033" />
                   </labels>
@@ -220,7 +228,7 @@
                     <row>
                       <cell id="{d8c4fae5-1402-4b04-bd57-36ceb2219a79}" showlabel="true" visible="true" labelid="{a72631b6-adeb-436a-8d3c-4131aaa13c2d}">
                         <labels>
-                          <label description="Target Close Date" languagecode="1033" />
+                          <label description="Close By" languagecode="1033" />
                         </labels>
                         <control id="bpf_leidos_enquiry_leidos_enquirybusinessflow:leidos_targetclosedate" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="leidos_targetclosedate" relationship="bpf_leidos_enquiry_leidos_enquirybusinessflow" isrequired="false" disabled="false" />
                       </cell>

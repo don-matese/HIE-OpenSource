@@ -196,20 +196,6 @@
                   </labels>
                   <rows>
                     <row>
-                      <cell showlabel="true" locklevel="0" id="{efdc835f-b3be-4b7d-9228-e633c56108e3}">
-                        <labels>
-                          <label description="Forward to Enquiry Team" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_forwardtoenquiryteam" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="leidos_forwardtoenquiryteam" disabled="false" uniqueid="{b8cea965-9deb-4afd-8195-2f09710863c1}" />
-                      </cell>
-                      <cell id="{06b87147-9d4d-4733-91e5-39d45e1fe070}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Propose for Account Management" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_suitableforaccountmanagement" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="leidos_suitableforaccountmanagement" disabled="false" uniqueid="{eb3190e2-e058-42a7-8255-bff592dbdee5}" />
-                      </cell>
-                    </row>
-                    <row>
                       <cell id="{fb5b925e-39e9-47fc-967a-d6f4c5dcfe2b}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Transfer to Partner" languagecode="1033" />
@@ -230,12 +216,13 @@
                       </cell>
                     </row>
                     <row>
-                      <cell showlabel="true" locklevel="0" id="{caf6c330-8768-4d64-96f1-295f9f3f5b1e}">
+                      <cell showlabel="true" locklevel="0" id="{efdc835f-b3be-4b7d-9228-e633c56108e3}" colspan="1">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Forward to Enquiry Team" languagecode="1033" />
                         </labels>
+                        <control id="leidos_forwardtoenquiryteam" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="leidos_forwardtoenquiryteam" disabled="false" uniqueid="{b8cea965-9deb-4afd-8195-2f09710863c1}" />
                       </cell>
-                      <cell showlabel="true" locklevel="0" id="{0047f545-5260-44aa-b017-09c5ee7dde6a}">
+                      <cell id="{e9d9de32-4ed4-e9d1-c07a-308e18d23b6e}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -340,7 +327,7 @@
           <columns>
             <column width="100%">
               <sections>
-                <section name="tab_2_section_1" id="c32a4493-9fce-4c47-843e-209f7a1bf1fb" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                <section name="tab_2_section_1" id="c32a4493-9fce-4c47-843e-209f7a1bf1fb" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" height="auto">
                   <labels>
                     <label description="New Section" languagecode="1033" />
                   </labels>
@@ -364,7 +351,7 @@
                     <row />
                     <row />
                     <row />
-                    <row />
+                    <row height="auto" />
                     <row>
                       <cell showlabel="true" locklevel="0" id="{1a9a00a7-f12a-4803-9177-06a5cc42a035}">
                         <labels>
@@ -410,7 +397,7 @@
         </rows>
       </header>
       <Navigation>
-        <NavBar />
+        <NavBar></NavBar>
         <NavBarAreas>
           <NavBarArea Id="Info">
             <Titles>
@@ -462,19 +449,9 @@
       </footer>
       <controlDescriptions>
         <controlDescription forControl="{b8cea965-9deb-4afd-8195-2f09710863c1}">
-          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+          <customControl id="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}">
             <parameters>
               <datafieldname>leidos_forwardtoenquiryteam</datafieldname>
-            </parameters>
-          </customControl>
-          <customControl formFactor="2" name="MscrmControls.FlipSwitch.FlipSwitchControl">
-            <parameters>
-              <value>leidos_forwardtoenquiryteam</value>
-            </parameters>
-          </customControl>
-          <customControl formFactor="1" name="MscrmControls.FlipSwitch.FlipSwitchControl">
-            <parameters>
-              <value>leidos_forwardtoenquiryteam</value>
             </parameters>
           </customControl>
           <customControl formFactor="0" name="MscrmControls.FlipSwitch.FlipSwitchControl">
@@ -482,21 +459,14 @@
               <value>leidos_forwardtoenquiryteam</value>
             </parameters>
           </customControl>
-        </controlDescription>
-        <controlDescription forControl="{eb3190e2-e058-42a7-8255-bff592dbdee5}">
-          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" formFactor="0">
-            <parameters>
-              <datafieldname>leidos_suitableforaccountmanagement</datafieldname>
-            </parameters>
-          </customControl>
           <customControl formFactor="1" name="MscrmControls.FlipSwitch.FlipSwitchControl">
             <parameters>
-              <value>leidos_suitableforaccountmanagement</value>
+              <value>leidos_forwardtoenquiryteam</value>
             </parameters>
           </customControl>
           <customControl formFactor="2" name="MscrmControls.FlipSwitch.FlipSwitchControl">
             <parameters>
-              <value>leidos_suitableforaccountmanagement</value>
+              <value>leidos_forwardtoenquiryteam</value>
             </parameters>
           </customControl>
         </controlDescription>

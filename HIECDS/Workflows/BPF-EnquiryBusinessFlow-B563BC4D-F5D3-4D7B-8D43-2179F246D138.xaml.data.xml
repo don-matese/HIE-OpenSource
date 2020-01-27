@@ -76,10 +76,13 @@
       <label languagecode="1033" description="Nature of Enquiry Free Text" />
     </steplabels>
     <steplabels id="{4834109a-38b7-4d6a-bbfb-bd8593eac8af}">
-      <label languagecode="1033" description="Route To Enquiry Team" />
+      <label languagecode="1033" description="Route To Relevant Team Or Person" />
     </steplabels>
     <steplabels id="{d1fd7a25-0976-4004-b7eb-9e9de816431d}">
       <label languagecode="1033" description="Summary of Discussions" />
+    </steplabels>
+    <steplabels id="{f24d2d84-0503-4176-a511-8824aa3a330f}">
+      <label languagecode="1033" description="Propose for Account Management" />
     </steplabels>
     <steplabels id="{7921b2f2-f9c3-4629-b028-13b45e71ab88}">
       <label languagecode="1033" description="Relevant Person or Team" />
@@ -94,7 +97,7 @@
       <label languagecode="1033" description="Progressed" />
     </steplabels>
     <steplabels id="{d8c4fae5-1402-4b04-bd57-36ceb2219a79}">
-      <label languagecode="1033" description="Target Close Date" />
+      <label languagecode="1033" description="Close By" />
     </steplabels>
   </labels>
 </Workflow>
