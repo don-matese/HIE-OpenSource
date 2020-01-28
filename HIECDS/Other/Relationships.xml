@@ -26,10 +26,12 @@
   <EntityRelationship Name="leidos_AreaOffice_Officemanager_SystemUse" />
   <EntityRelationship Name="leidos_contact_leidos_enquiry_Contact" />
   <EntityRelationship Name="leidos_EmploymentDetails_ParentAMRRecord_" />
-  <EntityRelationship Name="leidos_enquiry_GeneratedApplication_leido" />
+  <EntityRelationship Name="leidos_enquiry_NoofEmployees_leidos_Numbe" />
   <EntityRelationship Name="leidos_enquiry_RelevantPerson_SystemUser" />
   <EntityRelationship Name="leidos_enquiry_RelevantTeam_Team" />
+  <EntityRelationship Name="leidos_enquiry_Sector_leidos_Sector" />
   <EntityRelationship Name="leidos_enquiry_SEPPartnerOrganisation_Acc" />
+  <EntityRelationship Name="leidos_enquiry_Turnover_leidos_Turnover" />
   <EntityRelationship Name="leidos_leidos_geographies_leidos_tradinggeography_Geography" />
   <EntityRelationship Name="leidos_leidos_natureofenquiry_leidos_enquiry_NatureofEnquiry" />
   <EntityRelationship Name="leidos_leidos_tradingstatus_leidos_enquiry_TradingStatus" />

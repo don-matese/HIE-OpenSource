@@ -75,14 +75,6 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{6d8748b1-c606-c2c4-045d-da80ac9742cb}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Target Close Date" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_targetclosedate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="leidos_targetclosedate" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
                       <cell id="{875d3371-7133-65b6-2872-d1d34b21976d}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Trading Status" languagecode="1033" />
@@ -104,6 +96,46 @@
                           <label description="Nature of Enquiry Free Text" languagecode="1033" />
                         </labels>
                         <control id="leidos_natureofenquiryfreetext" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="leidos_natureofenquiryfreetext" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{39c6a5b1-71ad-4b8b-aa5e-30d4fd79098a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Nature of Business Activity" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_natureofbusinessactivity" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="leidos_natureofbusinessactivity" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d4edd0be-e4b5-4016-8603-3ec9284d4aa3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Sector" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_sector" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_sector" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{71391cb1-cc37-4608-8bad-54090379657c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Turnover" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_turnover" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_turnover" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7c7bf783-6d43-4f3d-a772-3a7a2ee3034d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="No of Employees" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_noofemployees" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_noofemployees" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{65d43025-885e-4dfc-ae72-c9e60e7c15c6}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Potential Support Options" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_potentialsupportoptions" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="leidos_potentialsupportoptions" disabled="false" />
                       </cell>
                     </row>
                   </rows>
@@ -397,7 +429,7 @@
         </rows>
       </header>
       <Navigation>
-        <NavBar></NavBar>
+        <NavBar />
         <NavBarAreas>
           <NavBarArea Id="Info">
             <Titles>

@@ -155,6 +155,7 @@
       <RootComponent type="61" schemaName="leidos_/numberofEmployees/Icon.svg" behavior="0" />
       <RootComponent type="61" schemaName="leidos_/TradingGeography/icon.svg" behavior="0" />
       <RootComponent type="61" schemaName="leidos_/TradingStatus/Icon.svg" behavior="0" />
+      <RootComponent type="61" schemaName="leidos_/turnover/turnoverIcon.svg" behavior="0" />
       <RootComponent type="61" schemaName="leidos_list.svg" behavior="0" />
       <RootComponent type="61" schemaName="leidos_user.svg" behavior="0" />
       <RootComponent type="62" schemaName="leidos_EnquiryService" behavior="0" />
@@ -227,11 +228,11 @@
       </MissingDependency>
       <MissingDependency>
         <Required key="16" type="66" schemaName="MscrmControls.FlipSwitch.FlipSwitchControl" displayName="MscrmControls.FlipSwitch.FlipSwitchControl" solution="CustomControlsCore (9.1.0000.12623)" />
-        <Dependent key="8" type="60" displayName="HIE Client Form" parentDisplayName="Account" id="{39151aa2-bee0-428d-94b4-463406a15ee0}" />
+        <Dependent key="4" type="60" displayName="HIE Enquiry Form" parentDisplayName="Enquiry" id="{898bd476-4331-4ecb-87b7-8d8c52e9cdfd}" />
       </MissingDependency>
       <MissingDependency>
         <Required key="16" type="66" schemaName="MscrmControls.FlipSwitch.FlipSwitchControl" displayName="MscrmControls.FlipSwitch.FlipSwitchControl" solution="CustomControlsCore (9.1.0000.12623)" />
-        <Dependent key="4" type="60" displayName="HIE Enquiry Form" parentDisplayName="Enquiry" id="{898bd476-4331-4ecb-87b7-8d8c52e9cdfd}" />
+        <Dependent key="8" type="60" displayName="HIE Client Form" parentDisplayName="Account" id="{39151aa2-bee0-428d-94b4-463406a15ee0}" />
       </MissingDependency>
       <MissingDependency>
         <Required key="17" type="61" schemaName="adx_icon_questionmark_medium" displayName="adx_icon_questionmark_medium" solution="MicrosoftPortalBase (9.2.10.0)" />

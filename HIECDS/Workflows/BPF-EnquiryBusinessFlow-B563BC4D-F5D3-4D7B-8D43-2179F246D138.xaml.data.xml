@@ -75,6 +75,24 @@
     <steplabels id="{d3cdb310-0569-4f4a-b8e6-7b9b3f30dcf2}">
       <label languagecode="1033" description="Nature of Enquiry Free Text" />
     </steplabels>
+    <steplabels id="{8f40dc10-d9e5-4df3-baeb-888032fd9ed8}">
+      <label languagecode="1033" description="Enquiry Triage" />
+    </steplabels>
+    <steplabels id="{d330b11b-ef60-42e9-9799-9baadaefce4f}">
+      <label languagecode="1033" description="Nature of Business Activity" />
+    </steplabels>
+    <steplabels id="{d894fa65-2fe1-4867-bcdf-f5881141abe4}">
+      <label languagecode="1033" description="Sector" />
+    </steplabels>
+    <steplabels id="{a587289f-9248-47c5-a982-f9592283b12c}">
+      <label languagecode="1033" description="Turnover" />
+    </steplabels>
+    <steplabels id="{0d8bab03-5f21-45e4-ac50-fc92999a094a}">
+      <label languagecode="1033" description="No of Employees" />
+    </steplabels>
+    <steplabels id="{ad2aedab-4aa4-4a11-9aaf-be4a5614a2cb}">
+      <label languagecode="1033" description="Potential Support Options" />
+    </steplabels>
     <steplabels id="{4834109a-38b7-4d6a-bbfb-bd8593eac8af}">
       <label languagecode="1033" description="Route To Relevant Team Or Person" />
     </steplabels>
