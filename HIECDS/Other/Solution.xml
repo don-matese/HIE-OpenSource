@@ -223,15 +223,11 @@
         <Dependent key="14" type="60" displayName="Information" parentDisplayName="Account Management Record" id="{91234d33-ba89-4316-8c8d-4b4cd2367fba}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="15" type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="BaseCustomControlsCore (9.0.2001.1001)" />
+        <Required key="15" type="66" schemaName="MscrmControls.FlipSwitch.FlipSwitchControl" displayName="MscrmControls.FlipSwitch.FlipSwitchControl" solution="CustomControlsCore (9.1.0000.12623)" />
         <Dependent key="8" type="60" displayName="HIE Client Form" parentDisplayName="Account" id="{39151aa2-bee0-428d-94b4-463406a15ee0}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="16" type="66" schemaName="MscrmControls.FlipSwitch.FlipSwitchControl" displayName="MscrmControls.FlipSwitch.FlipSwitchControl" solution="CustomControlsCore (9.1.0000.12623)" />
-        <Dependent key="4" type="60" displayName="HIE Enquiry Form" parentDisplayName="Enquiry" id="{898bd476-4331-4ecb-87b7-8d8c52e9cdfd}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="16" type="66" schemaName="MscrmControls.FlipSwitch.FlipSwitchControl" displayName="MscrmControls.FlipSwitch.FlipSwitchControl" solution="CustomControlsCore (9.1.0000.12623)" />
+        <Required key="16" type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="BaseCustomControlsCore (9.0.2001.1001)" />
         <Dependent key="8" type="60" displayName="HIE Client Form" parentDisplayName="Account" id="{39151aa2-bee0-428d-94b4-463406a15ee0}" />
       </MissingDependency>
       <MissingDependency>
@@ -283,12 +279,12 @@
         <Dependent key="27" type="1" schemaName="leidos_geographies" displayName="Geography" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="32" type="61" schemaName="msa_icon_webfile_medium" displayName="msa_icon_webfile_medium" solution="MicrosoftPortalDependencies (9.2.10.0)" />
-        <Dependent key="27" type="1" schemaName="leidos_geographies" displayName="Geography" />
+        <Required key="32" type="61" schemaName="adx_website_access.svg" displayName="adx_website_access.svg" solution="MicrosoftPortalBase (9.2.10.0)" />
+        <Dependent key="26" type="1" schemaName="leidos_areaoffice" displayName="Area Office" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="33" type="61" schemaName="adx_website_access.svg" displayName="adx_website_access.svg" solution="MicrosoftPortalBase (9.2.10.0)" />
-        <Dependent key="26" type="1" schemaName="leidos_areaoffice" displayName="Area Office" />
+        <Required key="33" type="61" schemaName="msa_icon_webfile_medium" displayName="msa_icon_webfile_medium" solution="MicrosoftPortalDependencies (9.2.10.0)" />
+        <Dependent key="27" type="1" schemaName="leidos_geographies" displayName="Geography" />
       </MissingDependency>
     </MissingDependencies>
   </SolutionManifest>

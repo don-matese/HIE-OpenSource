@@ -20,14 +20,6 @@
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{dcdd0abe-7049-4fb2-82da-792ac9fba273}">
-                        <labels>
-                          <label description="Name" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="leidos_name" />
-                      </cell>
-                    </row>
-                    <row>
                       <cell id="{648c169d-d1e9-a841-ed12-16a7892545a8}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Geography" languagecode="1033" />
@@ -88,11 +80,11 @@
               </labels>
               <control id="header_leidos_parentaccount" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_parentaccount" disabled="false" />
             </cell>
-            <cell id="{b70a9b7e-c898-442e-af8d-2b97e8b85b41}" showlabel="true" locklevel="0">
+            <cell id="{3b4b89a3-a718-4304-852b-6e62a2bd57e0}" showlabel="true" locklevel="0">
               <labels>
-                <label description="Parent AMR Record" languagecode="1033" />
+                <label description="Parent Application" languagecode="1033" />
               </labels>
-              <control id="header_leidos_parentamrrecord" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_parentamrrecord" disabled="false" />
+              <control id="header_leidos_parentapplication" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_parentapplication" disabled="false" />
             </cell>
             <cell id="{0666a0a3-d7a2-73c6-137b-9bd739dcb74a}" showlabel="true" locklevel="0">
               <labels>

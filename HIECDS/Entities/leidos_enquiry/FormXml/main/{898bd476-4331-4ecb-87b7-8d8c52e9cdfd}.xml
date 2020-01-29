@@ -232,7 +232,7 @@
                         <labels>
                           <label description="Transfer to Partner" languagecode="1033" />
                         </labels>
-                        <control id="leidos_transfertopartner" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="leidos_transfertopartner" disabled="false" uniqueid="{12f6d881-295f-4825-b10f-5b80cf7fcc39}" />
+                        <control id="leidos_transfertopartner" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="leidos_transfertopartner" disabled="false" />
                       </cell>
                       <cell id="{6a61ccf4-b96e-4af4-9c66-bdec2f7ecb46}" showlabel="true" locklevel="0" visible="false">
                         <labels>
@@ -252,7 +252,7 @@
                         <labels>
                           <label description="Forward to Enquiry Team" languagecode="1033" />
                         </labels>
-                        <control id="leidos_forwardtoenquiryteam" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="leidos_forwardtoenquiryteam" disabled="false" uniqueid="{b8cea965-9deb-4afd-8195-2f09710863c1}" />
+                        <control id="leidos_forwardtoenquiryteam" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="leidos_forwardtoenquiryteam" disabled="false" />
                       </cell>
                       <cell id="{e9d9de32-4ed4-e9d1-c07a-308e18d23b6e}" showlabel="false">
                         <labels>
@@ -479,52 +479,7 @@
           </row>
         </rows>
       </footer>
-      <controlDescriptions>
-        <controlDescription forControl="{b8cea965-9deb-4afd-8195-2f09710863c1}">
-          <customControl id="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}">
-            <parameters>
-              <datafieldname>leidos_forwardtoenquiryteam</datafieldname>
-            </parameters>
-          </customControl>
-          <customControl formFactor="0" name="MscrmControls.FlipSwitch.FlipSwitchControl">
-            <parameters>
-              <value>leidos_forwardtoenquiryteam</value>
-            </parameters>
-          </customControl>
-          <customControl formFactor="1" name="MscrmControls.FlipSwitch.FlipSwitchControl">
-            <parameters>
-              <value>leidos_forwardtoenquiryteam</value>
-            </parameters>
-          </customControl>
-          <customControl formFactor="2" name="MscrmControls.FlipSwitch.FlipSwitchControl">
-            <parameters>
-              <value>leidos_forwardtoenquiryteam</value>
-            </parameters>
-          </customControl>
-        </controlDescription>
-        <controlDescription forControl="{12f6d881-295f-4825-b10f-5b80cf7fcc39}">
-          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
-            <parameters>
-              <datafieldname>leidos_transfertopartner</datafieldname>
-            </parameters>
-          </customControl>
-          <customControl formFactor="2" name="MscrmControls.FlipSwitch.FlipSwitchControl">
-            <parameters>
-              <value>leidos_transfertopartner</value>
-            </parameters>
-          </customControl>
-          <customControl formFactor="1" name="MscrmControls.FlipSwitch.FlipSwitchControl">
-            <parameters>
-              <value>leidos_transfertopartner</value>
-            </parameters>
-          </customControl>
-          <customControl formFactor="0" name="MscrmControls.FlipSwitch.FlipSwitchControl">
-            <parameters>
-              <value>leidos_transfertopartner</value>
-            </parameters>
-          </customControl>
-        </controlDescription>
-      </controlDescriptions>
+      <controlDescriptions />
       <DisplayConditions Order="0" FallbackForm="true">
         <Everyone />
       </DisplayConditions>

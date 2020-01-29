@@ -12,9 +12,9 @@
             <label description="General" languagecode="1033" />
           </labels>
           <columns>
-            <column width="33%">
+            <column width="50%">
               <sections>
-                <section showlabel="false" showbar="false" IsUserDefined="0" id="{1803eb65-2f91-4b09-9cb0-3984011d8828}">
+                <section showlabel="true" showbar="false" IsUserDefined="0" id="{1803eb65-2f91-4b09-9cb0-3984011d8828}" name="General">
                   <labels>
                     <label description="General" languagecode="1033" />
                   </labels>
@@ -41,14 +41,6 @@
                           <label description="Parent Account" languagecode="1033" />
                         </labels>
                         <control id="leidos_parentaccount" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_parentaccount" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{a13918ea-b222-4d3c-9991-67a140b7d376}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Application Reference" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_applicationreference" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="leidos_applicationreference" disabled="false" />
                       </cell>
                     </row>
                   </rows>
@@ -80,19 +72,101 @@
                     <row />
                     <row />
                     <row>
-                      <cell showlabel="true" locklevel="0" id="{7e2acbc2-2948-4a56-af95-208b13ebfad2}">
+                      <cell id="{baa760b4-e3ff-4d79-96c3-450e4f851158}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Product and Service Description" languagecode="1033" />
                         </labels>
+                        <control id="leidos_productandservicedescription" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="leidos_productandservicedescription" disabled="false" />
                       </cell>
                     </row>
                   </rows>
                 </section>
               </sections>
             </column>
-            <column width="66%">
+            <column width="50%">
               <sections>
-                <section showlabel="false" showbar="false" id="{04e0bdec-0447-4074-a6f0-12aded36a4dd}" IsUserDefined="0" height="auto">
+                <section name="general_section_5" id="c402913f-8839-4649-968d-5c542a49fd47" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Finance" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{5e6c6d97-93ad-4658-8c9f-5bf7cd41fa04}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Turnover" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_turnover" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_turnover" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4abda29b-aad6-434c-93fb-77c9bdc6e921}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Assets &amp; Capital" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_assetscapital" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_assetscapital" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{62632933-40c5-4652-adde-f0051818d778}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="No Of employees" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_noofemployees" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="leidos_noofemployees" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="Geography" id="a7595ceb-b4dd-403b-b58d-fc854eba654c" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Geography" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{bbf0d72a-2873-4aba-94af-6ebf236a3609}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Geographical scope %" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_geographicalscope" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="leidos_geographicalscope" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5563dc84-e967-4100-ab34-36d875c05ddf}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Geographical Scope Description" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_geographicalscopedescription" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="leidos_geographicalscopedescription" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{5096bcc8-9343-450e-8f7b-85310fef67f4}" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="New SG control 1580306028605" languagecode="1033" />
+                        </labels>
+                        <control id="Subgrid_1" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>leidos_tradinggeography</TargetEntityType>
+                            <ViewId>{AA026E9C-3C38-EA11-A813-000D3A0BAD7C}</ViewId>
+                            <ViewIds>{03E911E8-67E9-4D18-A28D-2BE18A0D64CC},{AA026E9C-3C38-EA11-A813-000D3A0BAD7C}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>leidos_leidos_tradinggeography_leidos_Par</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="Communications" id="9ccbe764-fa4f-4e80-bc8f-d0c4b90213f7" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Communications" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" id="{04e0bdec-0447-4074-a6f0-12aded36a4dd}" IsUserDefined="0" height="auto" name="Communications_section_3">
                   <labels>
                     <label description="" languagecode="1033" />
                   </labels>
@@ -253,7 +327,7 @@
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>
     <LocalizedNames>
-      <LocalizedName description="Information" languagecode="1033" />
+      <LocalizedName description="HIE Application Form" languagecode="1033" />
     </LocalizedNames>
     <Descriptions>
       <Description description="A form for this entity." languagecode="1033" />
