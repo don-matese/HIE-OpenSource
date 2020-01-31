@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{7aa319a8-6609-4ec4-a624-35285d806ed7}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{c40b1ea2-8dc9-4711-a2ef-280b4a89ea23}" name="StageStep4" locklevel="0" expanded="true" visible="false" labelid="{67d72514-632e-430f-9501-50b29242ff7b}">
+          <labels>
+            <label description="Basic Details" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{c40b1ea2-8dc9-4711-a2ef-280b4a89ea23}" name="StageStep4_section1" labelid="{72e90878-7813-4823-a6a0-8a4db6b0c986}">
+                  <labels>
+                    <label description="Basic Details" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{43378620-b40e-4790-8d74-328d3dce8133}" showlabel="true" visible="true" labelid="{0eb9d02a-1cbd-41f0-8b5d-299c3fb2037b}">
+                        <labels>
+                          <label description="Account Name" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_account_leidos_bpfaccountprocess:name" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="name" relationship="bpf_account_leidos_bpfaccountprocess" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{fa67280b-211e-48fa-94cf-967584068091}" showlabel="true" visible="true" labelid="{1ebb989b-4679-4a45-ae5d-a1d10f0af9ee}">
+                        <labels>
+                          <label description="Organisation Type" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_account_leidos_bpfaccountprocess:leidos_organisationtype" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="leidos_organisationtype" relationship="bpf_account_leidos_bpfaccountprocess" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{013f7648-c3f3-4c30-830e-b9de1d514cd6}" showlabel="true" visible="true" labelid="{b894b44a-3104-4a1f-8ff6-d6879f6e4799}">
+                        <labels>
+                          <label description=" Main Activities, Products And Services" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_account_leidos_bpfaccountprocess:leidos_mainactivitiesproductsandservices" classid="{e0dece4b-6fc8-4a8f-a065-082708572369}" datafieldname="leidos_mainactivitiesproductsandservices" relationship="bpf_account_leidos_bpfaccountprocess" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{8f6f8aec-a442-48f0-8d94-f7ddcea4f4dd}" name="StageStep12" locklevel="0" expanded="true" visible="false" labelid="{beb8c51f-5c08-4ad7-8074-2a16c340343d}">
+          <labels>
+            <label description="Segmantation" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{8f6f8aec-a442-48f0-8d94-f7ddcea4f4dd}" name="StageStep12_section1" labelid="{d4822d83-9158-4b62-91ae-b837d6c885c7}">
+                  <labels>
+                    <label description="Segmantation" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c64c0bba-82f6-4572-8aab-d2fc39aac724}" showlabel="true" visible="true" labelid="{9741ae57-0cd1-4876-8a25-9ae72b63be52}">
+                        <labels>
+                          <label description="Sector" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_account_leidos_bpfaccountprocess:leidos_sector" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="leidos_sector" relationship="bpf_account_leidos_bpfaccountprocess" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{550a5e20-1e3e-4289-a587-02fe710e6f07}" showlabel="true" visible="true" labelid="{fb50bd91-5c0f-44c7-84c2-8842bd7a6585}">
+                        <labels>
+                          <label description="Legal Entity" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_account_leidos_bpfaccountprocess:leidos_legalentity" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="leidos_legalentity" relationship="bpf_account_leidos_bpfaccountprocess" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cbe20114-8b0c-4866-91c6-7c5db78f135a}" showlabel="true" visible="true" labelid="{7557ec1c-7de2-4031-844c-1cba140c087e}">
+                        <labels>
+                          <label description="Recommended for Account Management" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_account_leidos_bpfaccountprocess:leidos_recommendedforaccountmanagement" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="leidos_recommendedforaccountmanagement" relationship="bpf_account_leidos_bpfaccountprocess" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6c17651c-8774-45a9-87c2-0403e5fb269a}" showlabel="true" visible="true" labelid="{eb9bac3b-b110-48a1-a588-d340c8cdb58c}">
+                        <labels>
+                          <label description="Segmentation" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_account_leidos_bpfaccountprocess:leidos_segmentation" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="leidos_segmentation" relationship="bpf_account_leidos_bpfaccountprocess" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f26fd348-5d12-4b16-b5e4-b5a9f2a15852}" showlabel="true" visible="true" labelid="{63e3bdc6-dcab-4332-a44b-a53e1259fbd0}">
+                        <labels>
+                          <label description="Social Enterprise Ladder" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_account_leidos_bpfaccountprocess:leidos_socialenterpriseladder" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="leidos_socialenterpriseladder" relationship="bpf_account_leidos_bpfaccountprocess" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{68ebde64-1710-4f1f-98ad-eca3dcfabe2b}" showlabel="true" visible="true" labelid="{803e3a57-a1f0-47c1-b2e5-5d8438742c3a}">
+                        <labels>
+                          <label description="Recommendation to Area Manager" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_account_leidos_bpfaccountprocess:leidos_recommendationtoareamanager" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="leidos_recommendationtoareamanager" relationship="bpf_account_leidos_bpfaccountprocess" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{92b356d1-878a-44c3-878c-381bd0733930}" name="StageStep26" locklevel="0" expanded="true" visible="false" labelid="{48093550-20d3-46ea-8772-c2397fc2b880}">
+          <labels>
+            <label description="Proposed For Account Management" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{92b356d1-878a-44c3-878c-381bd0733930}" name="StageStep26_section1" labelid="{8ad7973f-0618-4f65-8823-405b3cc090f8}">
+                  <labels>
+                    <label description="Proposed For Account Management" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{66516e2c-15f9-421d-b8cb-e5d9a70522d9}" showlabel="true" visible="true" labelid="{6ef0168d-6e94-4601-a7d6-8babc52fb468}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_leidos_accountmanagementrecord_leidos_bpfaccountprocess:leidos_name" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="leidos_name" relationship="bpf_leidos_accountmanagementrecord_leidos_bpfaccountprocess" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e001d249-822a-47e2-9d35-ee40604c8996}" showlabel="true" visible="true" labelid="{45dcdee4-a624-4870-8d6f-6f459a873425}">
+                        <labels>
+                          <label description="Area Office" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_leidos_accountmanagementrecord_leidos_bpfaccountprocess:leidos_areaoffice" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="leidos_areaoffice" relationship="bpf_leidos_accountmanagementrecord_leidos_bpfaccountprocess" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{84b81247-4ac2-4336-86ea-bd7b4e26abd1}" showlabel="true" visible="true" labelid="{f4bc74fa-108a-46b6-b2fc-0fc4670e6327}">
+                        <labels>
+                          <label description="Turnover" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_leidos_accountmanagementrecord_leidos_bpfaccountprocess:leidos_turnover" classid="{533b9e00-756b-4312-95a0-dc888637ac78}" datafieldname="leidos_turnover" relationship="bpf_leidos_accountmanagementrecord_leidos_bpfaccountprocess" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a7129d26-34d5-47ec-9ae1-43d33da3a233}" showlabel="true" visible="true" labelid="{7f9113cd-365c-4d75-8125-133214df33d9}">
+                        <labels>
+                          <label description="Assets &amp; Capital" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_leidos_accountmanagementrecord_leidos_bpfaccountprocess:leidos_assetscapital" classid="{533b9e00-756b-4312-95a0-dc888637ac78}" datafieldname="leidos_assetscapital" relationship="bpf_leidos_accountmanagementrecord_leidos_bpfaccountprocess" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ffa626ea-ac4f-4817-a964-5ccdc2e74ce1}" showlabel="true" visible="true" labelid="{2f645da9-9bd4-4737-ad30-72bea03021fe}">
+                        <labels>
+                          <label description="No Of employees" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_leidos_accountmanagementrecord_leidos_bpfaccountprocess:leidos_noofemployees" classid="{c6d124ca-7eda-4a60-aea9-7fb8d318b68f}" datafieldname="leidos_noofemployees" relationship="bpf_leidos_accountmanagementrecord_leidos_bpfaccountprocess" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

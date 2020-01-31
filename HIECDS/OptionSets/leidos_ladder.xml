@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<optionset Name="leidos_ladder" localizedName="Ladder" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<optionset Name="leidos_ladder" localizedName="Social Enterprise Ladder" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <OptionSetType>picklist</OptionSetType>
   <IsGlobal>1</IsGlobal>
   <IntroducedVersion>1.0.0.0</IntroducedVersion>
   <IsCustomizable>1</IsCustomizable>
   <ExternalTypeName></ExternalTypeName>
   <displaynames>
-    <displayname description="Ladder" languagecode="1033" />
+    <displayname description="Social Enterprise Ladder" languagecode="1033" />
   </displaynames>
   <Descriptions>
     <Description description="" languagecode="1033" />
@@ -14,7 +14,7 @@
   <options>
     <option value="445260001" ExternalValue="" Color="#0000ff">
       <labels>
-        <label description="1" languagecode="1033" />
+        <label description="Emerging" languagecode="1033" />
       </labels>
       <Descriptions>
         <Description description="" languagecode="1033" />
@@ -22,7 +22,7 @@
     </option>
     <option value="445260002" ExternalValue="" Color="#0000ff">
       <labels>
-        <label description="2" languagecode="1033" />
+        <label description="Developing" languagecode="1033" />
       </labels>
       <Descriptions>
         <Description description="" languagecode="1033" />
@@ -30,7 +30,7 @@
     </option>
     <option value="445260003" ExternalValue="" Color="#0000ff">
       <labels>
-        <label description="3" languagecode="1033" />
+        <label description="Performing" languagecode="1033" />
       </labels>
       <Descriptions>
         <Description description="" languagecode="1033" />
@@ -38,7 +38,7 @@
     </option>
     <option value="445260004" ExternalValue="" Color="#0000ff">
       <labels>
-        <label description="4" languagecode="1033" />
+        <label description="Resilient" languagecode="1033" />
       </labels>
       <Descriptions>
         <Description description="" languagecode="1033" />
@@ -46,7 +46,7 @@
     </option>
     <option value="445260005" ExternalValue="" Color="#0000ff">
       <labels>
-        <label description="5" languagecode="1033" />
+        <label description="Maturing" languagecode="1033" />
       </labels>
       <Descriptions>
         <Description description="" languagecode="1033" />

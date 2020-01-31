@@ -7,14 +7,14 @@
     <FormActivationState>1</FormActivationState>
     <form headerdensity="HighWithControls">
       <tabs>
-        <tab verticallayout="true" id="{77ffc901-f999-48c5-b5b5-b292c0e1eab4}" IsUserDefined="1">
+        <tab verticallayout="true" id="{77ffc901-f999-48c5-b5b5-b292c0e1eab4}" IsUserDefined="1" name="General">
           <labels>
             <label description="General" languagecode="1033" />
           </labels>
           <columns>
             <column width="50%">
               <sections>
-                <section showlabel="false" showbar="false" IsUserDefined="0" id="{51216f8b-830f-49e0-82b0-c03ff389ed33}">
+                <section showlabel="true" showbar="false" IsUserDefined="0" id="{51216f8b-830f-49e0-82b0-c03ff389ed33}" name="General">
                   <labels>
                     <label description="General" languagecode="1033" />
                   </labels>
@@ -44,27 +44,19 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{30fc3185-5dd9-479b-8d27-c45b3f480d4a}" showlabel="true" locklevel="0">
+                      <cell id="{c83ad103-fdd6-41b5-8a56-2764946d047c}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Type" languagecode="1033" />
+                          <label description="AMR Start Date" languagecode="1033" />
                         </labels>
-                        <control id="leidos_type" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="leidos_type" disabled="false" />
+                        <control id="leidos_amrstartdate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="leidos_amrstartdate" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{89b8c1a0-956b-402e-958d-8e55707f3e86}" showlabel="true" locklevel="0">
+                      <cell id="{ebbcbff6-b612-478b-94c3-b04867fbdc8b}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Proposed Segmentation" languagecode="1033" />
+                          <label description="AMR End Date" languagecode="1033" />
                         </labels>
-                        <control id="leidos_proposedsegmentation" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_proposedsegmentation" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{ee665380-8d61-419d-964d-a6315dbeb525}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Social Enterprise ladder" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_socialenterpriseladder" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="leidos_socialenterpriseladder" disabled="false" />
+                        <control id="leidos_amrenddate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="leidos_amrenddate" disabled="false" />
                       </cell>
                     </row>
                   </rows>
@@ -407,6 +399,18 @@
               </labels>
               <control id="header_statuscode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statuscode" disabled="false" />
             </cell>
+            <cell id="{177c10b2-ce06-4d56-8c8c-fbe65d9578a3}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="AMR Start Date" languagecode="1033" />
+              </labels>
+              <control id="header_leidos_amrstartdate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="leidos_amrstartdate" disabled="false" />
+            </cell>
+            <cell id="{dc3e8723-ece9-4549-a316-20852ea45866}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="AMR End Date" languagecode="1033" />
+              </labels>
+              <control id="header_leidos_amrenddate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="leidos_amrenddate" disabled="false" />
+            </cell>
           </row>
         </rows>
       </header>
@@ -520,7 +524,7 @@
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>
     <LocalizedNames>
-      <LocalizedName description="Information" languagecode="1033" />
+      <LocalizedName description="HIE AMR Form" languagecode="1033" />
     </LocalizedNames>
     <Descriptions>
       <Description description="A form for this entity." languagecode="1033" />

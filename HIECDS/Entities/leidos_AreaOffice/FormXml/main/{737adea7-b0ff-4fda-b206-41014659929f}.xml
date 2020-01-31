@@ -35,6 +35,14 @@
                         <control id="leidos_officemanager" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_officemanager" disabled="false" />
                       </cell>
                     </row>
+                    <row>
+                      <cell id="{460267cd-9868-4a7f-b13d-119880c0be9f}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Area Office Process Contact" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_areaofficeprocesscontact" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_areaofficeprocesscontact" disabled="false" />
+                      </cell>
+                    </row>
                   </rows>
                 </section>
               </sections>

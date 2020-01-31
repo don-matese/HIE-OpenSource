@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <systemform unmodified="1">
+  <systemform>
     <formid>{098ae145-1567-41ec-8398-86dbaac70c9b}</formid>
     <IntroducedVersion>8.0.0.0</IntroducedVersion>
     <FormPresentation>0</FormPresentation>
@@ -9,7 +9,7 @@
       <tabs>
         <tab id="{fd376995-f2e5-4709-a944-be9b4a93c5da}" name="tab_1" showlabel="false">
           <labels>
-            <label description="" languagecode="1033" />
+            <label description="Ref" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
@@ -81,6 +81,45 @@
                           <label description="Owner" languagecode="1033" />
                         </labels>
                         <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="tab_1_section_4" id="cb1067f7-cce6-450d-9fac-4cd6db2fcdd8" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Details" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{1813c9f3-93ae-4a6f-b2c1-0a0401eb7416}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Organisation Type" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_organisationtype" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_organisationtype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8f3663c3-6eba-40b7-9f59-fae7d5f75add}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Legal Entity" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_legalentity" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_legalentity" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cfc7b68b-e6ea-4a11-a57a-d4e9165b6389}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Segmentation" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_segmentation" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_segmentation" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{772df08b-9fe3-4c97-92e0-1d4fd5d4d935}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Sector" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_sector" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_sector" disabled="false" />
                       </cell>
                     </row>
                   </rows>

@@ -5,7 +5,7 @@
     <IntroducedVersion>1.0.0.0</IntroducedVersion>
     <FormPresentation>1</FormPresentation>
     <FormActivationState>1</FormActivationState>
-    <form>
+    <form maxWidth="400">
       <tabs>
         <tab name="general" verticallayout="true" id="{512ab248-5c1e-4359-ae21-b4c51066a3fa}" IsUserDefined="0">
           <labels>
@@ -18,6 +18,15 @@
                   <labels>
                     <label description="ColorStrip" languagecode="1033" />
                   </labels>
+                  <rows>
+                    <row>
+                      <cell id="{96c8026e-92d7-456a-a450-b54cdd18a9c1}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
                 </section>
               </sections>
             </column>
@@ -35,15 +44,17 @@
                         </labels>
                         <control id="statuscode" classid="{5D68B988-0661-4db2-BC3E-17598AD3BE6C}" datafieldname="statuscode" disabled="false" />
                       </cell>
-                      <cell id="{691792c6-cd83-42de-9072-6f9b1f31ef73}" showlabel="true" locklevel="0">
+                      <cell id="{e3cd56c2-c64c-3ee0-3c57-8b52227649b4}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="AMR Start Date" languagecode="1033" />
                         </labels>
+                        <control id="leidos_amrstartdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="leidos_amrstartdate" disabled="false" />
                       </cell>
-                      <cell id="{23703239-b109-4343-89a7-f1a48d7a0ca8}" showlabel="true" locklevel="0">
+                      <cell id="{e16e4397-d205-c5e4-81c7-9784c436cc7c}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="AMR End Date" languagecode="1033" />
                         </labels>
+                        <control id="leidos_amrenddate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="leidos_amrenddate" disabled="false" />
                       </cell>
                     </row>
                   </rows>
@@ -59,6 +70,30 @@
                           <label description="Name" languagecode="1033" />
                         </labels>
                         <control id="leidos_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="leidos_name" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3ea294a8-09d8-b006-ebc7-4c21e7648b66}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Area Office" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_areaoffice" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_areaoffice" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{34c44367-9cc0-ca56-4bbe-80655b7ceca0}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Turnover" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_turnover" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_turnover" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{89e6d86b-95a9-341e-84dd-7db4e752b877}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="No Of employees" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_noofemployees" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="leidos_noofemployees" disabled="false" />
                       </cell>
                     </row>
                   </rows>
@@ -103,7 +138,7 @@
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>
     <LocalizedNames>
-      <LocalizedName description="Information" languagecode="1033" />
+      <LocalizedName description="HIE AMR Card" languagecode="1033" />
     </LocalizedNames>
     <Descriptions>
       <Description description="A card form for this entity." languagecode="1033" />

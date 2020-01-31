@@ -28,6 +28,38 @@
                       </cell>
                     </row>
                     <row>
+                      <cell id="{dbeac698-a601-4727-c9bc-a93a6aa91a2a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Status Reason" languagecode="1033" />
+                        </labels>
+                        <control id="statuscode" classid="{5D68B988-0661-4db2-BC3E-17598AD3BE6C}" datafieldname="statuscode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4bb7d01c-e52e-b726-393a-358d01693d18}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Area Office" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_areaoffice" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_areaoffice" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0e72c0c9-c320-ab1d-ee28-dd2709a5ac03}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="AMR Start Date" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_amrstartdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="leidos_amrstartdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{641515e5-22a3-722d-eeb8-c40db4819944}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="AMR End Date" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_amrenddate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="leidos_amrenddate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
                       <cell id="{effcffa4-7a23-4c59-9cd8-f5f0a8cfe928}">
                         <labels>
                           <label description="Owner" languagecode="1033" />

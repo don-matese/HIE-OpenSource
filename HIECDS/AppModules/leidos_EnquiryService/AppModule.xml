@@ -55,12 +55,13 @@
     <AppModuleComponent type="60" id="{2f692349-4838-ea11-a813-000d3a0bad7c}" />
     <AppModuleComponent type="1" schemaName="leidos_enquirybusinessflow" />
     <AppModuleComponent type="1" schemaName="leidos_geographies" />
+    <AppModuleComponent type="1" schemaName="leidos_legalentity" />
     <AppModuleComponent type="1" schemaName="mailbox" />
     <AppModuleComponent type="1" schemaName="leidos_natureofenquiry" />
     <AppModuleComponent type="1" schemaName="leidos_numberofemployees" />
     <AppModuleComponent type="1" schemaName="leidos_organisationtype" />
-    <AppModuleComponent type="1" schemaName="leidos_proposedsegmentation" />
     <AppModuleComponent type="1" schemaName="leidos_sector" />
+    <AppModuleComponent type="1" schemaName="leidos_segmentation" />
     <AppModuleComponent type="1" schemaName="team" />
     <AppModuleComponent type="1" schemaName="leidos_tradinggeography" />
     <AppModuleComponent type="60" id="{625d2ecc-2770-40fc-b408-f4ed205f63c9}" />

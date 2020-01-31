@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{440ae705-9cfd-460b-b681-d7a6b0cb6e7e}" Name="BPF Account Process" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/BPFAccountProcess-440AE705-9CFD-460B-B681-D7A6B0CB6E7E.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>4</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <processorder>100</processorder>
+  <processroleassignment>&lt;DisplayConditions&gt;&lt;Role Id="{627090ff-40a3-4053-8790-584edc5be201}" /&gt;&lt;Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" /&gt;&lt;/DisplayConditions&gt;</processroleassignment>
+  <RunAs>1</RunAs>
+  <UniqueName>leidos_bpfaccountprocess</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.2.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
+  <PrimaryEntity>Account</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="BPF Account Process" />
+  </LocalizedNames>
+  <labels>
+    <steplabels id="{c40b1ea2-8dc9-4711-a2ef-280b4a89ea23}">
+      <label languagecode="1033" description="Basic Details" />
+    </steplabels>
+    <steplabels id="{43378620-b40e-4790-8d74-328d3dce8133}">
+      <label languagecode="1033" description="Account Name" />
+    </steplabels>
+    <steplabels id="{fa67280b-211e-48fa-94cf-967584068091}">
+      <label languagecode="1033" description="Organisation Type" />
+    </steplabels>
+    <steplabels id="{013f7648-c3f3-4c30-830e-b9de1d514cd6}">
+      <label languagecode="1033" description=" Main Activities, Products And Services" />
+    </steplabels>
+    <steplabels id="{8f6f8aec-a442-48f0-8d94-f7ddcea4f4dd}">
+      <label languagecode="1033" description="Segmantation" />
+    </steplabels>
+    <steplabels id="{c64c0bba-82f6-4572-8aab-d2fc39aac724}">
+      <label languagecode="1033" description="Sector" />
+    </steplabels>
+    <steplabels id="{550a5e20-1e3e-4289-a587-02fe710e6f07}">
+      <label languagecode="1033" description="Legal Entity" />
+    </steplabels>
+    <steplabels id="{cbe20114-8b0c-4866-91c6-7c5db78f135a}">
+      <label languagecode="1033" description="Recommended for Account Management" />
+    </steplabels>
+    <steplabels id="{6c17651c-8774-45a9-87c2-0403e5fb269a}">
+      <label languagecode="1033" description="Segmentation" />
+    </steplabels>
+    <steplabels id="{f26fd348-5d12-4b16-b5e4-b5a9f2a15852}">
+      <label languagecode="1033" description="Social Enterprise Ladder" />
+    </steplabels>
+    <steplabels id="{68ebde64-1710-4f1f-98ad-eca3dcfabe2b}">
+      <label languagecode="1033" description="Recommendation to Area Manager" />
+    </steplabels>
+    <steplabels id="{92b356d1-878a-44c3-878c-381bd0733930}">
+      <label languagecode="1033" description="Proposed For Account Management" />
+    </steplabels>
+    <steplabels id="{66516e2c-15f9-421d-b8cb-e5d9a70522d9}">
+      <label languagecode="1033" description="Name" />
+    </steplabels>
+    <steplabels id="{e001d249-822a-47e2-9d35-ee40604c8996}">
+      <label languagecode="1033" description="Area Office" />
+    </steplabels>
+    <steplabels id="{84b81247-4ac2-4336-86ea-bd7b4e26abd1}">
+      <label languagecode="1033" description="Turnover" />
+    </steplabels>
+    <steplabels id="{a7129d26-34d5-47ec-9ae1-43d33da3a233}">
+      <label languagecode="1033" description="Assets &amp; Capital" />
+    </steplabels>
+    <steplabels id="{ffa626ea-ac4f-4817-a964-5ccdc2e74ce1}">
+      <label languagecode="1033" description="No Of employees" />
+    </steplabels>
+  </labels>
+</Workflow>

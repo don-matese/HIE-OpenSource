@@ -25,10 +25,12 @@
     <RolePrivilege name="prvAppendleidos_EmploymentDetails" level="Global" />
     <RolePrivilege name="prvAppendleidos_enquiry" level="Global" />
     <RolePrivilege name="prvAppendleidos_geographies" level="Global" />
+    <RolePrivilege name="prvAppendleidos_LegalEntity" level="Global" />
     <RolePrivilege name="prvAppendleidos_natureofenquiry" level="Global" />
     <RolePrivilege name="prvAppendleidos_NumberofEmployees" level="Global" />
     <RolePrivilege name="prvAppendleidos_OrganisationType" level="Global" />
     <RolePrivilege name="prvAppendleidos_Sector" level="Global" />
+    <RolePrivilege name="prvAppendleidos_Segmentation" level="Global" />
     <RolePrivilege name="prvAppendleidos_tradinggeography" level="Global" />
     <RolePrivilege name="prvAppendleidos_tradingstatus" level="Global" />
     <RolePrivilege name="prvAppendleidos_Turnover" level="Global" />
@@ -69,10 +71,12 @@
     <RolePrivilege name="prvAppendToleidos_EmploymentDetails" level="Global" />
     <RolePrivilege name="prvAppendToleidos_enquiry" level="Global" />
     <RolePrivilege name="prvAppendToleidos_geographies" level="Global" />
+    <RolePrivilege name="prvAppendToleidos_LegalEntity" level="Global" />
     <RolePrivilege name="prvAppendToleidos_natureofenquiry" level="Global" />
     <RolePrivilege name="prvAppendToleidos_NumberofEmployees" level="Global" />
     <RolePrivilege name="prvAppendToleidos_OrganisationType" level="Global" />
     <RolePrivilege name="prvAppendToleidos_Sector" level="Global" />
+    <RolePrivilege name="prvAppendToleidos_Segmentation" level="Global" />
     <RolePrivilege name="prvAppendToleidos_tradinggeography" level="Global" />
     <RolePrivilege name="prvAppendToleidos_tradingstatus" level="Global" />
     <RolePrivilege name="prvAppendToleidos_Turnover" level="Global" />
@@ -269,10 +273,12 @@
     <RolePrivilege name="prvReadleidos_EmploymentDetails" level="Global" />
     <RolePrivilege name="prvReadleidos_enquiry" level="Global" />
     <RolePrivilege name="prvReadleidos_geographies" level="Global" />
+    <RolePrivilege name="prvReadleidos_LegalEntity" level="Global" />
     <RolePrivilege name="prvReadleidos_natureofenquiry" level="Global" />
     <RolePrivilege name="prvReadleidos_NumberofEmployees" level="Global" />
     <RolePrivilege name="prvReadleidos_OrganisationType" level="Global" />
     <RolePrivilege name="prvReadleidos_Sector" level="Global" />
+    <RolePrivilege name="prvReadleidos_Segmentation" level="Global" />
     <RolePrivilege name="prvReadleidos_tradinggeography" level="Global" />
     <RolePrivilege name="prvReadleidos_tradingstatus" level="Global" />
     <RolePrivilege name="prvReadleidos_Turnover" level="Global" />
