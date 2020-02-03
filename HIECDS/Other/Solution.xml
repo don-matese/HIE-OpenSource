@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.1.0.12623" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.1.0.12930" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>HIECDS</UniqueName>
     <LocalizedNames>
@@ -86,6 +86,9 @@
       <RootComponent type="1" schemaName="leidos_application" behavior="0" />
       <RootComponent type="1" schemaName="leidos_areaoffice" behavior="0" />
       <RootComponent type="1" schemaName="leidos_bpfaccountprocess" behavior="0" />
+      <RootComponent type="1" schemaName="leidos_businessreviewanswers" behavior="0" />
+      <RootComponent type="1" schemaName="leidos_businessreviewquestion" behavior="0" />
+      <RootComponent type="1" schemaName="leidos_businessreviewquestioncategory" behavior="0" />
       <RootComponent type="1" schemaName="leidos_categorynatureofenquiry" behavior="0" />
       <RootComponent type="1" schemaName="leidos_clientenquiryorigin" behavior="0" />
       <RootComponent type="1" schemaName="leidos_employmentdetails" behavior="0" />
@@ -106,6 +109,7 @@
       <RootComponent type="1" schemaName="systemuser" behavior="0" />
       <RootComponent type="1" schemaName="team" behavior="0" />
       <RootComponent type="9" schemaName="leidos_accountmanagementstatus" behavior="0" />
+      <RootComponent type="9" schemaName="leidos_baselinescore" behavior="0" />
       <RootComponent type="9" schemaName="leidos_enquirymessage" behavior="0" />
       <RootComponent type="9" schemaName="leidos_ladder" behavior="0" />
       <RootComponent type="20" id="{890b7dd9-b736-ea11-a813-000d3a0bad7c}" behavior="0" />
@@ -113,11 +117,13 @@
       <RootComponent type="20" id="{ee097c7f-b736-ea11-a813-000d3a0bad7c}" behavior="0" />
       <RootComponent type="29" id="{0aec5167-0f44-ea11-a812-000d3a0bad17}" behavior="0" />
       <RootComponent type="29" id="{0df07c7b-283d-ea11-a812-000d3a0ba151}" behavior="0" />
+      <RootComponent type="29" id="{1bac96f6-6fbd-4123-8d6e-9ef5a9b5a937}" behavior="0" />
       <RootComponent type="29" id="{21287cac-a43e-ea11-a812-000d3a0ba151}" behavior="0" />
       <RootComponent type="29" id="{227d7f5d-5444-ea11-a812-000d3a0bad17}" behavior="0" />
       <RootComponent type="29" id="{2d70f9b6-2b3c-ea11-a812-000d3a0bad17}" behavior="0" />
       <RootComponent type="29" id="{3258f412-b73e-ea11-a812-000d3a0ba151}" behavior="0" />
       <RootComponent type="29" id="{3ba00e4b-2a3d-ea11-a812-000d3a0ba151}" behavior="0" />
+      <RootComponent type="29" id="{3bae68f5-ace9-44cb-a891-7f0f3ad65de1}" behavior="0" />
       <RootComponent type="29" id="{3c1ef666-8f3e-ea11-a812-000d3a0bad17}" behavior="0" />
       <RootComponent type="29" id="{440ae705-9cfd-460b-b681-d7a6b0cb6e7e}" behavior="0" />
       <RootComponent type="29" id="{4ba63e20-883e-ea11-a812-000d3a0ba151}" behavior="0" />
@@ -135,6 +141,7 @@
       <RootComponent type="29" id="{d1f6ba55-913e-ea11-a812-000d3a0bad17}" behavior="0" />
       <RootComponent type="29" id="{e88b17e3-b43d-ea11-a812-000d3a0ba151}" behavior="0" />
       <RootComponent type="29" id="{f64f33c2-9237-ea11-a813-000d3a0ba110}" behavior="0" />
+      <RootComponent type="29" id="{faea2275-7346-ea11-a812-000d3a0ba151}" behavior="0" />
       <RootComponent type="60" id="{098ae145-1567-41ec-8398-86dbaac70c9b}" />
       <RootComponent type="60" id="{2f692349-4838-ea11-a813-000d3a0bad7c}" behavior="0" />
       <RootComponent type="60" id="{39151aa2-bee0-428d-94b4-463406a15ee0}" behavior="0" />
@@ -153,6 +160,7 @@
       <RootComponent type="60" id="{c9e7ec2d-efca-4e4c-b3e3-f63c4bba5e4b}" />
       <RootComponent type="60" id="{d8546885-3039-ea11-a813-000d3a0ba151}" behavior="0" />
       <RootComponent type="60" id="{d880c3cf-80e2-42f3-82f9-24d040d09f17}" behavior="0" />
+      <RootComponent type="60" id="{de183af3-29fb-4cb7-8d40-e5a50d7f52cf}" behavior="0" />
       <RootComponent type="60" id="{e365bd18-0c3d-ea11-a812-000d3a0bad17}" behavior="0" />
       <RootComponent type="60" id="{e85f3335-ca36-ea11-a813-000d3a0bad7c}" behavior="0" />
       <RootComponent type="60" id="{ea38a0f6-dd40-ea11-a812-000d3a0bad17}" behavior="0" />
@@ -219,11 +227,11 @@
       </MissingDependency>
       <MissingDependency>
         <Required key="13" type="60" displayName="account contact card" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{29de27bc-a257-4f29-99cf-bab4a84e688f}" />
-        <Dependent key="7" type="80" schemaName="leidos_EnquiryService" displayName="Enquiry Service" />
+        <Dependent key="6" type="80" schemaName="leidos_HIEAccountManagement" displayName="MyHIE" />
       </MissingDependency>
       <MissingDependency>
         <Required key="13" type="60" displayName="account contact card" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{29de27bc-a257-4f29-99cf-bab4a84e688f}" />
-        <Dependent key="6" type="80" schemaName="leidos_HIEAccountManagement" displayName="MyHIE" />
+        <Dependent key="4" type="60" displayName="HIE Client Form" parentDisplayName="Account" id="{39151aa2-bee0-428d-94b4-463406a15ee0}" />
       </MissingDependency>
       <MissingDependency>
         <Required key="13" type="60" displayName="account contact card" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{29de27bc-a257-4f29-99cf-bab4a84e688f}" />
@@ -231,15 +239,15 @@
       </MissingDependency>
       <MissingDependency>
         <Required key="13" type="60" displayName="account contact card" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{29de27bc-a257-4f29-99cf-bab4a84e688f}" />
-        <Dependent key="4" type="60" displayName="HIE Client Form" parentDisplayName="Account" id="{39151aa2-bee0-428d-94b4-463406a15ee0}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="10" type="60" displayName="Contact Quick Create" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{661157fe-2fc9-4eaa-835f-5bfa2f7b64f7}" />
-        <Dependent key="6" type="80" schemaName="leidos_HIEAccountManagement" displayName="MyHIE" />
+        <Dependent key="7" type="80" schemaName="leidos_EnquiryService" displayName="Enquiry Service" />
       </MissingDependency>
       <MissingDependency>
         <Required key="10" type="60" displayName="Contact Quick Create" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{661157fe-2fc9-4eaa-835f-5bfa2f7b64f7}" />
         <Dependent key="7" type="80" schemaName="leidos_EnquiryService" displayName="Enquiry Service" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="10" type="60" displayName="Contact Quick Create" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{661157fe-2fc9-4eaa-835f-5bfa2f7b64f7}" />
+        <Dependent key="6" type="80" schemaName="leidos_HIEAccountManagement" displayName="MyHIE" />
       </MissingDependency>
       <MissingDependency>
         <Required key="9" type="60" displayName="Contact Reference Panel" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{d880c3cf-80e2-42f3-82f9-24d040d09f17}" />
@@ -250,19 +258,19 @@
         <Dependent key="7" type="80" schemaName="leidos_EnquiryService" displayName="Enquiry Service" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="15" type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="BaseCustomControlsCore (9.0.2001.1001)" />
+        <Required key="15" type="66" schemaName="MscrmControls.Grid.GridControl" displayName="MscrmControls.Grid.GridControl" solution="BaseCustomControlsCore (9.0.2001.2001)" />
+        <Dependent key="16" type="60" displayName="HIE AMR Form" parentDisplayName="Account Management Record" id="{91234d33-ba89-4316-8c8d-4b4cd2367fba}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="17" type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="BaseCustomControlsCore (9.0.2001.2001)" />
         <Dependent key="4" type="60" displayName="HIE Client Form" parentDisplayName="Account" id="{39151aa2-bee0-428d-94b4-463406a15ee0}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="16" type="66" schemaName="MscrmControls.Grid.GridControl" displayName="MscrmControls.Grid.GridControl" solution="BaseCustomControlsCore (9.0.2001.1001)" />
-        <Dependent key="17" type="60" displayName="HIE AMR Form" parentDisplayName="Account Management Record" id="{91234d33-ba89-4316-8c8d-4b4cd2367fba}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="18" type="66" schemaName="MscrmControls.FlipSwitch.FlipSwitchControl" displayName="MscrmControls.FlipSwitch.FlipSwitchControl" solution="CustomControlsCore (9.1.0000.12623)" />
+        <Required key="18" type="66" schemaName="MscrmControls.FlipSwitch.FlipSwitchControl" displayName="MscrmControls.FlipSwitch.FlipSwitchControl" solution="CustomControlsCore (9.1.0000.12930)" />
         <Dependent key="8" type="60" displayName="HIE Enquiry Form" parentDisplayName="Enquiry" id="{898bd476-4331-4ecb-87b7-8d8c52e9cdfd}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="18" type="66" schemaName="MscrmControls.FlipSwitch.FlipSwitchControl" displayName="MscrmControls.FlipSwitch.FlipSwitchControl" solution="CustomControlsCore (9.1.0000.12623)" />
+        <Required key="18" type="66" schemaName="MscrmControls.FlipSwitch.FlipSwitchControl" displayName="MscrmControls.FlipSwitch.FlipSwitchControl" solution="CustomControlsCore (9.1.0000.12930)" />
         <Dependent key="4" type="60" displayName="HIE Client Form" parentDisplayName="Account" id="{39151aa2-bee0-428d-94b4-463406a15ee0}" />
       </MissingDependency>
       <MissingDependency>
@@ -275,55 +283,55 @@
       </MissingDependency>
       <MissingDependency>
         <Required key="22" type="61" schemaName="msa_adx_webrole_small" displayName="msa_adx_webrole_small" solution="MicrosoftPortalDependencies (9.2.10.0)" />
-        <Dependent key="23" type="1" schemaName="leidos_areaoffice" displayName="Area Office" />
+        <Dependent key="23" type="1" schemaName="leidos_geographies" displayName="Geography" />
       </MissingDependency>
       <MissingDependency>
         <Required key="22" type="61" schemaName="msa_adx_webrole_small" displayName="msa_adx_webrole_small" solution="MicrosoftPortalDependencies (9.2.10.0)" />
-        <Dependent key="24" type="1" schemaName="leidos_geographies" displayName="Geography" />
+        <Dependent key="24" type="1" schemaName="leidos_areaoffice" displayName="Area Office" />
       </MissingDependency>
       <MissingDependency>
         <Required key="25" type="61" schemaName="msa_icon_webfile_medium" displayName="msa_icon_webfile_medium" solution="MicrosoftPortalDependencies (9.2.10.0)" />
-        <Dependent key="24" type="1" schemaName="leidos_geographies" displayName="Geography" />
+        <Dependent key="23" type="1" schemaName="leidos_geographies" displayName="Geography" />
       </MissingDependency>
       <MissingDependency>
         <Required key="26" type="61" schemaName="msa_icon_webrole_medium" displayName="msa_icon_webrole_medium" solution="MicrosoftPortalDependencies (9.2.10.0)" />
-        <Dependent key="23" type="1" schemaName="leidos_areaoffice" displayName="Area Office" />
+        <Dependent key="24" type="1" schemaName="leidos_areaoffice" displayName="Area Office" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="27" type="61" schemaName="adx_contacts.svg" displayName="adx_contacts.svg" solution="MicrosoftPortalDependencies (9.2.10.0)" />
+        <Required key="27" type="61" schemaName="adx_creg_medium" displayName="adx_creg_medium" solution="MicrosoftPortalBase (9.2.10.0)" />
         <Dependent key="28" type="1" schemaName="leidos_enquiry" displayName="Enquiry" />
       </MissingDependency>
       <MissingDependency>
         <Required key="29" type="61" schemaName="adx_websites.svg" displayName="adx_websites.svg" solution="MicrosoftPortalDependencies (9.2.10.0)" />
-        <Dependent key="24" type="1" schemaName="leidos_geographies" displayName="Geography" />
+        <Dependent key="23" type="1" schemaName="leidos_geographies" displayName="Geography" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="30" type="61" schemaName="adx_creg_medium" displayName="adx_creg_medium" solution="MicrosoftPortalBase (9.2.10.0)" />
+        <Required key="30" type="61" schemaName="AppCommon/Account/Account_main_system_library.js" displayName="AppCommon/Account/Account_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)" />
+        <Dependent key="14" type="60" displayName=" Web - Account Details" parentDisplayName="Account" id="{4afa4550-1f3d-ea11-a812-000d3a0bad17}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="31" type="61" schemaName="adx_conferenceregistration_small" displayName="adx_conferenceregistration_small" solution="MicrosoftPortalBase (9.2.10.0)" />
         <Dependent key="28" type="1" schemaName="leidos_enquiry" displayName="Enquiry" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="31" type="61" schemaName="AppCommon/Account/Account_main_system_library.js" displayName="AppCommon/Account/Account_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)" />
-        <Dependent key="4" type="60" displayName="HIE Client Form" parentDisplayName="Account" id="{39151aa2-bee0-428d-94b4-463406a15ee0}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="32" type="61" schemaName="adx_conferenceregistration_small" displayName="adx_conferenceregistration_small" solution="MicrosoftPortalBase (9.2.10.0)" />
-        <Dependent key="28" type="1" schemaName="leidos_enquiry" displayName="Enquiry" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="33" type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Required key="32" type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
         <Dependent key="6" type="80" schemaName="leidos_HIEAccountManagement" displayName="MyHIE" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="33" type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Required key="32" type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
         <Dependent key="7" type="80" schemaName="leidos_EnquiryService" displayName="Enquiry Service" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="34" type="61" schemaName="adx_poll.svg" displayName="adx_poll.svg" solution="MicrosoftPortalBase (9.2.10.0)" />
+        <Required key="33" type="61" schemaName="adx_poll.svg" displayName="adx_poll.svg" solution="MicrosoftPortalBase (9.2.10.0)" />
         <Dependent key="20" type="1" schemaName="leidos_sector" displayName="Sector" />
       </MissingDependency>
       <MissingDependency>
+        <Required key="34" type="61" schemaName="adx_contacts.svg" displayName="adx_contacts.svg" solution="MicrosoftPortalDependencies (9.2.10.0)" />
+        <Dependent key="28" type="1" schemaName="leidos_enquiry" displayName="Enquiry" />
+      </MissingDependency>
+      <MissingDependency>
         <Required key="35" type="61" schemaName="adx_website_access.svg" displayName="adx_website_access.svg" solution="MicrosoftPortalBase (9.2.10.0)" />
-        <Dependent key="23" type="1" schemaName="leidos_areaoffice" displayName="Area Office" />
+        <Dependent key="24" type="1" schemaName="leidos_areaoffice" displayName="Area Office" />
       </MissingDependency>
     </MissingDependencies>
   </SolutionManifest>

@@ -60,6 +60,9 @@
     <steplabels id="{68ebde64-1710-4f1f-98ad-eca3dcfabe2b}">
       <label languagecode="1033" description="Recommendation to Area Manager" />
     </steplabels>
+    <steplabels id="{8158c171-fd7b-47da-b542-5ed79e15c548}">
+      <label languagecode="1033" description="Create AMR Record" />
+    </steplabels>
     <steplabels id="{92b356d1-878a-44c3-878c-381bd0733930}">
       <label languagecode="1033" description="Proposed For Account Management" />
     </steplabels>
@@ -77,6 +80,54 @@
     </steplabels>
     <steplabels id="{ffa626ea-ac4f-4817-a964-5ccdc2e74ce1}">
       <label languagecode="1033" description="No Of employees" />
+    </steplabels>
+    <steplabels id="{e15c4961-588b-4ea1-b542-0b28b55eb8ec}">
+      <label languagecode="1033" description="Recommendation" />
+    </steplabels>
+    <steplabels id="{4734a250-ab08-4f95-aa84-cee0e5b241e8}">
+      <label languagecode="1033" description="AMR Start Date" />
+    </steplabels>
+    <steplabels id="{32d3de1d-f650-43b7-9ca7-ee4789de26a7}">
+      <label languagecode="1033" description="AMR End Date" />
+    </steplabels>
+    <steplabels id="{77373a04-83fe-468f-851b-696c8cc82260}">
+      <label languagecode="1033" description="Link to Recommndation" />
+    </steplabels>
+    <steplabels id="{47206328-fdc0-424e-9354-1ad96a985aa9}">
+      <label languagecode="1033" description="AMR Approval" />
+    </steplabels>
+    <steplabels id="{8dc0336b-2f2a-4aef-a1cd-b19fc03f195a}">
+      <label languagecode="1033" description="Completed By" />
+    </steplabels>
+    <steplabels id="{db357ab8-d5c5-451e-8b54-2414a29e9839}">
+      <label languagecode="1033" description="Completed on" />
+    </steplabels>
+    <steplabels id="{e0d26112-b868-4411-b59d-d3e041dde66b}">
+      <label languagecode="1033" description="Area Manager Approval By" />
+    </steplabels>
+    <steplabels id="{8ba41b25-4386-46dc-99e3-96dc84b23642}">
+      <label languagecode="1033" description="Area Manager Approval On" />
+    </steplabels>
+    <steplabels id="{1d96cc49-f6e9-4298-90ba-42c26d20790c}">
+      <label languagecode="1033" description="Portfolio Manager Endorsement By" />
+    </steplabels>
+    <steplabels id="{760aad3e-8fb3-437d-bdc2-c83b7dd0973d}">
+      <label languagecode="1033" description="Portfolio Manager Endorsement On" />
+    </steplabels>
+    <steplabels id="{80e27789-faa4-4bdb-a3eb-c9c065f106a7}">
+      <label languagecode="1033" description="Status Reason" />
+    </steplabels>
+    <steplabels id="{b71402b4-1240-46c8-b81a-6491af723713}">
+      <label languagecode="1033" description="New Stage" />
+    </steplabels>
+    <steplabels id="{a1c3791d-3814-4b65-946c-db2542297d4a}">
+      <label languagecode="1033" description="Complete Business Diagnostic" />
+    </steplabels>
+    <steplabels id="{8d929037-aad2-4d98-8713-4be907e85a2e}">
+      <label languagecode="1033" description="Complete Growth Plan" />
+    </steplabels>
+    <steplabels id="{353fd7b7-52b0-4015-bfb8-f09d8561cc74}">
+      <label languagecode="1033" description="Complete Schedule Regular Check" />
     </steplabels>
   </labels>
 </Workflow>

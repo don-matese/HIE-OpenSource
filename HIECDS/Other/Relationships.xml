@@ -23,11 +23,13 @@
   <EntityRelationship Name="leidos_AccountManagementRecord_AreaManage" />
   <EntityRelationship Name="leidos_AccountManagementRecord_AreaOffice" />
   <EntityRelationship Name="leidos_AccountManagementRecord_CompletedB" />
+  <EntityRelationship Name="leidos_AccountManagementRecord_DelegatedA" />
   <EntityRelationship Name="leidos_AccountManagementRecord_ParentAcco" />
   <EntityRelationship Name="leidos_AccountManagementRecord_PortfolioM" />
   <EntityRelationship Name="leidos_Application_ParentAccount_Account" />
   <EntityRelationship Name="leidos_Application_SourceEnquiry_leidos_e" />
   <EntityRelationship Name="leidos_AreaOffice_Officemanager_SystemUse" />
+  <EntityRelationship Name="leidos_BusinessReviewQuestion_Category_le" />
   <EntityRelationship Name="leidos_contact_leidos_enquiry_Contact" />
   <EntityRelationship Name="leidos_EmploymentDetails_ParentAMRRecord_" />
   <EntityRelationship Name="leidos_enquiry_NoofEmployees_leidos_Numbe" />
@@ -54,6 +56,12 @@
   <EntityRelationship Name="lk_leidos_bpfaccountprocess_createdby" />
   <EntityRelationship Name="lk_leidos_bpfaccountprocess_modifiedby" />
   <EntityRelationship Name="lk_leidos_bpfaccountprocess_processid" />
+  <EntityRelationship Name="lk_leidos_businessreviewanswers_createdby" />
+  <EntityRelationship Name="lk_leidos_businessreviewanswers_modifiedby" />
+  <EntityRelationship Name="lk_leidos_businessreviewquestion_createdby" />
+  <EntityRelationship Name="lk_leidos_businessreviewquestion_modifiedby" />
+  <EntityRelationship Name="lk_leidos_businessreviewquestioncategory_createdby" />
+  <EntityRelationship Name="lk_leidos_businessreviewquestioncategory_modifiedby" />
   <EntityRelationship Name="lk_leidos_categorynatureofenquiry_createdby" />
   <EntityRelationship Name="lk_leidos_categorynatureofenquiry_modifiedby" />
   <EntityRelationship Name="lk_leidos_clientenquiryorigin_createdby" />
@@ -98,6 +106,9 @@
   <EntityRelationship Name="msdyn_flow_basicapprovalmodelrelationship_systemuser" />
   <EntityRelationship Name="organization_leidos_areaoffice" />
   <EntityRelationship Name="organization_leidos_bpfaccountprocess" />
+  <EntityRelationship Name="organization_leidos_businessreviewanswers" />
+  <EntityRelationship Name="organization_leidos_businessreviewquestion" />
+  <EntityRelationship Name="organization_leidos_businessreviewquestioncategory" />
   <EntityRelationship Name="organization_leidos_categorynatureofenquiry" />
   <EntityRelationship Name="organization_leidos_clientenquiryorigin" />
   <EntityRelationship Name="organization_leidos_enquirybusinessflow" />

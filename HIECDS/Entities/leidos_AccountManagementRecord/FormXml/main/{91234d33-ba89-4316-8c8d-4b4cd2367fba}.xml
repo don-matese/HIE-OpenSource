@@ -281,13 +281,13 @@
                         <labels>
                           <label description="Completed By" languagecode="1033" />
                         </labels>
-                        <control id="leidos_completedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_completedby" disabled="false" />
+                        <control id="leidos_completedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_completedby" disabled="true" />
                       </cell>
                       <cell id="{fc5df407-9610-4a07-8b12-4683429e547f}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Completed on" languagecode="1033" />
                         </labels>
-                        <control id="leidos_completedon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="leidos_completedon" disabled="false" />
+                        <control id="leidos_completedon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="leidos_completedon" disabled="true" />
                       </cell>
                     </row>
                     <row>
@@ -295,13 +295,13 @@
                         <labels>
                           <label description="Area Manager Approval By" languagecode="1033" />
                         </labels>
-                        <control id="leidos_areamanagerapprovalby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_areamanagerapprovalby" disabled="false" />
+                        <control id="leidos_areamanagerapprovalby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_areamanagerapprovalby" disabled="true" />
                       </cell>
                       <cell id="{32b27001-327c-458d-b093-e01542eb51b2}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Area Manager Approval On" languagecode="1033" />
                         </labels>
-                        <control id="leidos_areamanagerapprovalon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="leidos_areamanagerapprovalon" disabled="false" />
+                        <control id="leidos_areamanagerapprovalon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="leidos_areamanagerapprovalon" disabled="true" />
                       </cell>
                     </row>
                     <row>
@@ -309,13 +309,13 @@
                         <labels>
                           <label description="Portfolio Manager Endorsement By" languagecode="1033" />
                         </labels>
-                        <control id="leidos_portfoliomanagerendorsementby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_portfoliomanagerendorsementby" disabled="false" />
+                        <control id="leidos_portfoliomanagerendorsementby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_portfoliomanagerendorsementby" disabled="true" />
                       </cell>
                       <cell id="{300f55eb-be82-40f0-9370-7b113cb3cc83}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Portfolio Manager Endorsement On" languagecode="1033" />
                         </labels>
-                        <control id="leidos_portfoliomanagerendorsementon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="leidos_portfoliomanagerendorsementon" disabled="false" />
+                        <control id="leidos_portfoliomanagerendorsementon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="leidos_portfoliomanagerendorsementon" disabled="true" />
                       </cell>
                     </row>
                   </rows>

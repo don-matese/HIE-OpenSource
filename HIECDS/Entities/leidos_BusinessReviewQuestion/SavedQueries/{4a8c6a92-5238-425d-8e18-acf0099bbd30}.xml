@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{4a8c6a92-5238-425d-8e18-acf0099bbd30}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="leidos_question" select="1" icon="1" preview="1">
+        <row name="result" id="leidos_businessreviewquestionid">
+          <cell name="leidos_question" width="300" />
+          <cell name="leidos_category" width="100" />
+          <cell name="leidos_questionindex" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="leidos_businessreviewquestion">
+          <attribute name="leidos_businessreviewquestionid" />
+          <attribute name="leidos_question" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="leidos_category" />
+          <attribute name="leidos_questionindex" />
+          <order attribute="leidos_questionindex" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.2.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Business Review Questions" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

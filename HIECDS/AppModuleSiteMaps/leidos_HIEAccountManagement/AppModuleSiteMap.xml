@@ -24,9 +24,9 @@
         <Titles>
           <Title LCID="1033" Title="Interactions" />
         </Titles>
-        <SubArea Id="NewSubArea_39ee617c" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="leidos_application" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
-        <SubArea Id="NewSubArea_c095ff56" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="leidos_accountmanagementrecord" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
-        <SubArea Id="NewSubArea_2a035bd6" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="leidos_enquiry" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_39ee617c" Entity="leidos_application" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_c095ff56" Entity="leidos_accountmanagementrecord" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_2a035bd6" Entity="leidos_enquiry" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
       </Group>
     </Area>
     <Area Id="NewArea_008c0472" ResourceId="SitemapDesigner.NewArea" ShowGroups="false">
@@ -60,7 +60,9 @@
         <Titles>
           <Title LCID="1033" Title="AMR" />
         </Titles>
-        <SubArea Id="NewSubArea_0bbb1fe5" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="leidos_areaoffice" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_0bbb1fe5" Entity="leidos_areaoffice" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_2168dc5" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="leidos_businessreviewquestioncategory" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_1a87c8f4" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="leidos_businessreviewquestion" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
       </Group>
     </Area>
   </SiteMap>

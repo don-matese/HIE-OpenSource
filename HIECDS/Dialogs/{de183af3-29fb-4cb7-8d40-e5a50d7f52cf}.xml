@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dialog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <LocalizedNames>
+    <LocalizedName description="Action - Account BPF - Propose for Account Management" languagecode="1033" />
+  </LocalizedNames>
+  <FormId>{de183af3-29fb-4cb7-8d40-e5a50d7f52cf}</FormId>
+  <UniqueName>3bae68f5-ace9-44cb-a891-7f0f3ad65de1</UniqueName>
+  <IsCustomizable>1</IsCustomizable>
+  <IntroducedVersion>1.2.0.0</IntroducedVersion>
+  <IsTabletEnabled>1</IsTabletEnabled>
+  <CanBeDeleted>1</CanBeDeleted>
+  <FormXml>
+    <forms type="dialog">
+      <form>
+        <formparameters>
+          <querystringparameter name="last_button_clicked" type="SafeString" />
+        </formparameters>
+        <tabs>
+          <tab verticallayout="true" id="{5313afd3-88b5-445f-90cc-8dac1104db6f}" name="tab element" locklevel="0" expanded="true">
+            <labels>
+              <label description="" languagecode="1033" />
+            </labels>
+            <columns>
+              <column width="100%">
+                <sections>
+                  <section showbar="false" columns="1" id="{b5608dc7-f64f-46c2-8dc0-e5bda87754cc}" name="section element">
+                    <labels>
+                      <label description="" languagecode="1033" />
+                    </labels>
+                    <rows>
+                      <row>
+                        <cell id="{ea5378ae-d331-4f5c-b4ba-db1631550581}">
+                          <labels>
+                            <label description="No input parameters" languagecode="1033" />
+                          </labels>
+                          <control id="no_input_parameter_required_header" classid="{39354e4a-5015-4d74-8031-ea9eb73a1322}" isunbound="true">
+                            <parameters>
+                              <IsTitle>true</IsTitle>
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row>
+                        <cell id="{fd00ad49-f3b8-4852-9896-97f6aa5a1b23}">
+                          <labels>
+                            <label description="This action has no input parameters. Click Execute to run this action." languagecode="1033" />
+                          </labels>
+                          <control id="no_input_parameter_required" classid="{39354e4a-5015-4d74-8031-ea9eb73a1322}" isunbound="true">
+                            <parameters>
+                              <IsTitle>false</IsTitle>
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                    </rows>
+                  </section>
+                </sections>
+              </column>
+            </columns>
+          </tab>
+        </tabs>
+        <header id="{503cd9bd-b0eb-4606-9bfb-c3c57ea70451}">
+          <rows>
+            <row>
+              <cell id="{f5b4de8d-3423-4598-9059-835ae01f2c55}">
+                <labels>
+                  <label description="Action - Account BPF - Propose for Account Management" languagecode="1033" />
+                </labels>
+                <control id="runprocessaction_id" classid="{39354e4a-5015-4d74-8031-ea9eb73a1322}" isunbound="true">
+                  <parameters>
+                    <IsTitle>true</IsTitle>
+                  </parameters>
+                </control>
+              </cell>
+            </row>
+          </rows>
+        </header>
+        <footer id="{6cb30387-0742-4133-b108-2c6faa3f034b}">
+          <rows>
+            <row>
+              <cell id="{2bba0bb9-ad97-4fcf-bf63-f0aa978580d8}">
+                <labels>
+                  <label description="Execute" languagecode="1033" />
+                </labels>
+                <control id="ok_id" classid="{00ad73da-bd4d-49c6-88a8-2f4f4cad4a20}" isunbound="true" />
+              </cell>
+            </row>
+            <row>
+              <cell id="{d86d01bd-7fca-4dad-bad8-a8165589ece1}">
+                <labels>
+                  <label description="Cancel" languagecode="1033" />
+                </labels>
+                <control id="cancel_id" classid="{00ad73da-bd4d-49c6-88a8-2f4f4cad4a20}" isunbound="true" />
+              </cell>
+            </row>
+          </rows>
+        </footer>
+        <events>
+          <event name="onclick" application="false" attribute="cancel_id">
+            <Handlers>
+              <Handler functionName="Mscrm.ManageProcessActionDialogActions.onClickCancel" libraryName="Main_system_library.js" handlerUniqueId="{2d02e167-be7d-4b22-969b-4bf52a386126}" enabled="true" passExecutionContext="true" />
+            </Handlers>
+          </event>
+          <event name="onclick" application="false" attribute="ok_id">
+            <Handlers>
+              <Handler functionName="Mscrm.ManageProcessActionDialogActions.onClickOk" libraryName="Main_system_library.js" handlerUniqueId="{03d80721-295a-4713-a98a-da70cffe4b90}" enabled="true" passExecutionContext="true" />
+            </Handlers>
+          </event>
+        </events>
+        <clientresources>
+          <internalresources>
+            <clientincludes>
+              <internaljscriptfile src="$webresource:Main_system_library.js" />
+            </clientincludes>
+          </internalresources>
+        </clientresources>
+      </form>
+    </forms>
+  </FormXml>
+</Dialog>
