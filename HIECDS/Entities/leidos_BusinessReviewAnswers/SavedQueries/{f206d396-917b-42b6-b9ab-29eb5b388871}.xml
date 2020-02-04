@@ -10,8 +10,12 @@
     <layoutxml>
       <grid name="resultset" jump="leidos_name" select="1" icon="1" preview="1">
         <row name="result" id="leidos_businessreviewanswersid">
-          <cell name="leidos_name" width="300" />
-          <cell name="createdon" width="125" />
+          <cell name="a_c6f9ae12a16e40dca2be3459d06bb6ee.leidos_category" width="100" />
+          <cell name="a_c6f9ae12a16e40dca2be3459d06bb6ee.leidos_questionindex" width="100" />
+          <cell name="a_c6f9ae12a16e40dca2be3459d06bb6ee.leidos_statement" width="300" />
+          <cell name="leidos_notes" width="100" />
+          <cell name="leidos_rating" width="100" />
+          <cell name="a_c6f9ae12a16e40dca2be3459d06bb6ee.leidos_indicatorsofgoodpractice" width="263" />
         </row>
       </grid>
     </layoutxml>
@@ -20,12 +24,17 @@
       <fetch version="1.0" mapping="logical">
         <entity name="leidos_businessreviewanswers">
           <attribute name="leidos_businessreviewanswersid" />
-          <attribute name="leidos_name" />
-          <attribute name="createdon" />
-          <order attribute="leidos_name" descending="false" />
           <filter type="and">
             <condition attribute="statecode" operator="eq" value="0" />
           </filter>
+          <link-entity alias="a_c6f9ae12a16e40dca2be3459d06bb6ee" name="leidos_businessreviewquestion" to="leidos_question" from="leidos_businessreviewquestionid" link-type="outer" visible="false">
+            <attribute name="leidos_statement" />
+            <attribute name="leidos_category" />
+            <attribute name="leidos_questionindex" />
+            <attribute name="leidos_indicatorsofgoodpractice" />
+          </link-entity>
+          <attribute name="leidos_notes" />
+          <attribute name="leidos_rating" />
         </entity>
       </fetch>
     </fetchxml>

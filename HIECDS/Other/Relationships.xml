@@ -7,6 +7,7 @@
   <EntityRelationship Name="bpf_leidos_enquiry_leidos_enquirybusinessflow" />
   <EntityRelationship Name="business_unit_leidos_accountmanagementrecord" />
   <EntityRelationship Name="business_unit_leidos_application" />
+  <EntityRelationship Name="business_unit_leidos_businessreview" />
   <EntityRelationship Name="business_unit_leidos_employmentdetails" />
   <EntityRelationship Name="business_unit_leidos_enquiry" />
   <EntityRelationship Name="business_unit_leidos_tradinggeography" />
@@ -29,6 +30,9 @@
   <EntityRelationship Name="leidos_Application_ParentAccount_Account" />
   <EntityRelationship Name="leidos_Application_SourceEnquiry_leidos_e" />
   <EntityRelationship Name="leidos_AreaOffice_Officemanager_SystemUse" />
+  <EntityRelationship Name="leidos_BusinessReview_RelatedAccount_Acco" />
+  <EntityRelationship Name="leidos_BusinessReviewAnswers_ParentBusine" />
+  <EntityRelationship Name="leidos_BusinessReviewAnswers_Question_lei" />
   <EntityRelationship Name="leidos_BusinessReviewQuestion_Category_le" />
   <EntityRelationship Name="leidos_contact_leidos_enquiry_Contact" />
   <EntityRelationship Name="leidos_EmploymentDetails_ParentAMRRecord_" />
@@ -56,6 +60,8 @@
   <EntityRelationship Name="lk_leidos_bpfaccountprocess_createdby" />
   <EntityRelationship Name="lk_leidos_bpfaccountprocess_modifiedby" />
   <EntityRelationship Name="lk_leidos_bpfaccountprocess_processid" />
+  <EntityRelationship Name="lk_leidos_businessreview_createdby" />
+  <EntityRelationship Name="lk_leidos_businessreview_modifiedby" />
   <EntityRelationship Name="lk_leidos_businessreviewanswers_createdby" />
   <EntityRelationship Name="lk_leidos_businessreviewanswers_modifiedby" />
   <EntityRelationship Name="lk_leidos_businessreviewquestion_createdby" />
@@ -125,11 +131,13 @@
   <EntityRelationship Name="organization_new_bpfapplicationbusinessprocessflow" />
   <EntityRelationship Name="owner_leidos_accountmanagementrecord" />
   <EntityRelationship Name="owner_leidos_application" />
+  <EntityRelationship Name="owner_leidos_businessreview" />
   <EntityRelationship Name="owner_leidos_employmentdetails" />
   <EntityRelationship Name="owner_leidos_enquiry" />
   <EntityRelationship Name="owner_leidos_tradinggeography" />
   <EntityRelationship Name="team_leidos_accountmanagementrecord" />
   <EntityRelationship Name="team_leidos_application" />
+  <EntityRelationship Name="team_leidos_businessreview" />
   <EntityRelationship Name="team_leidos_employmentdetails" />
   <EntityRelationship Name="team_leidos_enquiry" />
   <EntityRelationship Name="team_leidos_tradinggeography" />
@@ -139,6 +147,7 @@
   <EntityRelationship Name="TransactionCurrency_leidos_Turnover" />
   <EntityRelationship Name="user_leidos_accountmanagementrecord" />
   <EntityRelationship Name="user_leidos_application" />
+  <EntityRelationship Name="user_leidos_businessreview" />
   <EntityRelationship Name="user_leidos_employmentdetails" />
   <EntityRelationship Name="user_leidos_enquiry" />
   <EntityRelationship Name="user_leidos_tradinggeography" />

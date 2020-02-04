@@ -33,6 +33,8 @@
     <AppModuleComponent type="1" schemaName="leidos_areaoffice" />
     <AppModuleComponent type="1" schemaName="new_bpfapplicationbusinessprocessflow" />
     <AppModuleComponent type="1" schemaName="leidos_bpfaccountprocess" />
+    <AppModuleComponent type="1" schemaName="leidos_businessreview" />
+    <AppModuleComponent type="1" schemaName="leidos_businessreviewanswers" />
     <AppModuleComponent type="1" schemaName="leidos_businessreviewquestion" />
     <AppModuleComponent type="1" schemaName="leidos_businessreviewquestioncategory" />
     <AppModuleComponent type="1" schemaName="leidos_categorynatureofenquiry" />

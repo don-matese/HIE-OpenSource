@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<visualization unmodified="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<visualization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <savedqueryvisualizationid>{74A622C0-5193-DE11-97D4-00155DA3B01E}</savedqueryvisualizationid>
   <datadescription>
     <datadefinition>
       <fetchcollection>
         <fetch mapping="logical" aggregate="true">
           <entity name="account">
-            <attribute groupby="true" alias="groupby_column" name="industrycode" />
+            <attribute groupby="true" alias="groupby_column" name="leidos_organisationtype" />
             <attribute alias="aggregate_column" name="name" aggregate="count" />
           </entity>
         </fetch>
       </fetchcollection>
       <categorycollection>
-        <category>
+        <category alias="groupby_column">
           <measurecollection>
             <measure alias="aggregate_column" />
           </measurecollection>
@@ -41,7 +41,7 @@
         </ChartArea>
       </ChartAreas>
       <Titles>
-        <Title Name="Chart Title" DockingOffset="-3" Font="{0}, 13px" ForeColor="59, 59, 59" Alignment="TopLeft"></Title>
+        <Title Name="Chart Title" DockingOffset="-3" Font="{0}, 13px" ForeColor="59, 59, 59" Alignment="TopLeft" />
       </Titles>
     </Chart>
   </presentationdescription>
