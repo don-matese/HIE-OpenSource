@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{5bfcf815-2448-ea11-a812-000d3a0bad17}</WebResourceId>
+  <Name>north52_/formula/leidos_businessreviewanswers/1ot/fd.5bfcf8152448ea11a812000d3a0bad17</Name>
+  <DisplayName>ce622e34-7904-4638-af70-981da1be4fd5</DisplayName>
+  <Description>North52FormulaDetail: Get Null for that Catagory</Description>
+  <WebResourceType>4</WebResourceType>
+  <IntroducedVersion>1.2.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/north52_formulaleidos_businessreviewanswers1otfd5b5BFCF815-2448-EA11-A812-000D3A0BAD17</FileName>
+</WebResource>

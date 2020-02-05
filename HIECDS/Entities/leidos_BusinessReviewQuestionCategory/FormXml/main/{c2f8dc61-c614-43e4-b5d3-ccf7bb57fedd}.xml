@@ -5,7 +5,7 @@
     <IntroducedVersion>1.2.0.0</IntroducedVersion>
     <FormPresentation>1</FormPresentation>
     <FormActivationState>1</FormActivationState>
-    <form>
+    <form headerdensity="HighWithControls">
       <tabs>
         <tab verticallayout="true" id="{5df3be1e-f00d-4991-a9fa-c3446a8ef99a}" IsUserDefined="1">
           <labels>
@@ -27,6 +27,22 @@
                         <control id="leidos_category" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="leidos_category" />
                       </cell>
                     </row>
+                    <row>
+                      <cell id="{fd8d22c9-ca1a-42f4-84d0-6f195f5d8568}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Category Index" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_categoryindex" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="leidos_categoryindex" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ef42e1b3-fdca-4b78-b2b2-8b9f0e0019ae}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="CountofQuestions" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_countofquestions" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="leidos_countofquestions" disabled="false" />
+                      </cell>
+                    </row>
                   </rows>
                 </section>
               </sections>
@@ -34,6 +50,49 @@
           </columns>
         </tab>
       </tabs>
+      <header id="{18eee8fb-3df6-4678-bda6-cbacd3e1334e}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{d4bd800e-cf42-4ed2-a6e3-fef2cf7b9cf9}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{fe0b9448-f2e3-4a02-9d34-605c602b4a4e}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{762ecd1a-d859-4dab-89c2-95643c8d9b86}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{7351a831-ebd0-4f91-b2b1-d24a46b20cca}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{2febd283-10c7-4605-b135-84cd3d071d7c}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{2c128127-b0b7-4fe2-aef6-bea0e46b661c}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{6e8581a7-a3c1-479d-8f22-0447de0fba18}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true" />
     </form>
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>

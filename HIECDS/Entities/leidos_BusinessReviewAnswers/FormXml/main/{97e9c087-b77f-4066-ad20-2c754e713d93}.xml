@@ -28,9 +28,9 @@
                       </cell>
                       <cell showlabel="false" locklevel="0" id="{fad90335-7e8c-482e-aa53-709362805ca7}">
                         <labels>
-                          <label description="New QV control 1580836441037" languagecode="1033" />
+                          <label description="New QV control" languagecode="1033" />
                         </labels>
-                        <control id="QuickviewControl1580836441037" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="leidos_question" disabled="false">
+                        <control id="QuickviewControl" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="leidos_question" disabled="false">
                           <parameters>
                             <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
                             <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="leidos_businessreviewquestion"&gt;764ee04a-7908-49f1-af6a-17dfbc4a89b8&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
@@ -39,11 +39,11 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{84f1ccb9-199a-40f8-b1cb-512c584f3280}" showlabel="true" locklevel="0">
+                      <cell id="{ae918340-7ee9-4a72-99e7-b96fdaa0ec19}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Rating" languagecode="1033" />
+                          <label description="Previous Rating Value" languagecode="1033" />
                         </labels>
-                        <control id="leidos_rating" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="leidos_rating" disabled="false" />
+                        <control id="leidos_previousratingvalue" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="leidos_previousratingvalue" disabled="false" />
                       </cell>
                       <cell showlabel="false" locklevel="0" id="{cc871386-23ba-41f1-aa26-c1ff9b9beade}">
                         <labels>
@@ -52,10 +52,11 @@
                       </cell>
                     </row>
                     <row>
-                      <cell showlabel="true" locklevel="0" id="{835f7b56-0626-4046-8618-ab43e4ec96bd}">
+                      <cell id="{5a7ff0a0-fbab-40df-addc-e99ea4229818}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Rating Value" languagecode="1033" />
                         </labels>
+                        <control id="leidos_ratingvalue" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="leidos_ratingvalue" disabled="false" />
                       </cell>
                       <cell showlabel="false" locklevel="0" id="{b6c2beb8-648d-495d-ac01-a15d867d54b0}">
                         <labels>
@@ -64,7 +65,7 @@
                       </cell>
                     </row>
                     <row>
-                      <cell showlabel="true" locklevel="0" id="{60464f58-a1f1-442e-9cd2-76b2444a55c4}">
+                      <cell showlabel="true" locklevel="0" id="{12513cdd-63ad-4615-9f32-2fed91781c16}">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>

@@ -11,10 +11,11 @@
       <grid name="resultset" jump="leidos_name" select="1" icon="1" preview="1">
         <row name="result" id="leidos_businessreviewanswersid">
           <cell name="a_c6f9ae12a16e40dca2be3459d06bb6ee.leidos_category" width="100" />
-          <cell name="a_c6f9ae12a16e40dca2be3459d06bb6ee.leidos_questionindex" width="100" />
+          <cell name="a_c6f9ae12a16e40dca2be3459d06bb6ee.leidos_questionindex" width="49" />
           <cell name="a_c6f9ae12a16e40dca2be3459d06bb6ee.leidos_statement" width="300" />
           <cell name="leidos_notes" width="100" />
-          <cell name="leidos_rating" width="100" />
+          <cell name="leidos_previousratingvalue" width="100" />
+          <cell name="leidos_ratingvalue" width="100" />
           <cell name="a_c6f9ae12a16e40dca2be3459d06bb6ee.leidos_indicatorsofgoodpractice" width="263" />
         </row>
       </grid>
@@ -34,7 +35,8 @@
             <attribute name="leidos_indicatorsofgoodpractice" />
           </link-entity>
           <attribute name="leidos_notes" />
-          <attribute name="leidos_rating" />
+          <attribute name="leidos_ratingvalue" />
+          <attribute name="leidos_previousratingvalue" />
         </entity>
       </fetch>
     </fetchxml>
