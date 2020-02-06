@@ -22,10 +22,6 @@
     <RolePrivilege name="prvAppendleidos_Application" level="Global" />
     <RolePrivilege name="prvAppendleidos_AreaOffice" level="Global" />
     <RolePrivilege name="prvAppendleidos_BusinessReview" level="Global" />
-    <RolePrivilege name="prvAppendleidos_BusinessReviewAnswers" level="Global" />
-    <RolePrivilege name="prvAppendleidos_BusinessReviewQuestion" level="Global" />
-    <RolePrivilege name="prvAppendleidos_BusinessReviewQuestionCategory" level="Global" />
-    <RolePrivilege name="prvAppendleidos_BusinessReviewSummary" level="Global" />
     <RolePrivilege name="prvAppendleidos_ClientEnquiryOrigin" level="Global" />
     <RolePrivilege name="prvAppendleidos_EmploymentDetails" level="Global" />
     <RolePrivilege name="prvAppendleidos_enquiry" level="Global" />
@@ -73,10 +69,6 @@
     <RolePrivilege name="prvAppendToleidos_Application" level="Global" />
     <RolePrivilege name="prvAppendToleidos_AreaOffice" level="Global" />
     <RolePrivilege name="prvAppendToleidos_BusinessReview" level="Global" />
-    <RolePrivilege name="prvAppendToleidos_BusinessReviewAnswers" level="Global" />
-    <RolePrivilege name="prvAppendToleidos_BusinessReviewQuestion" level="Global" />
-    <RolePrivilege name="prvAppendToleidos_BusinessReviewQuestionCategory" level="Global" />
-    <RolePrivilege name="prvAppendToleidos_BusinessReviewSummary" level="Global" />
     <RolePrivilege name="prvAppendToleidos_ClientEnquiryOrigin" level="Global" />
     <RolePrivilege name="prvAppendToleidos_EmploymentDetails" level="Global" />
     <RolePrivilege name="prvAppendToleidos_enquiry" level="Global" />
@@ -130,7 +122,6 @@
     <RolePrivilege name="prvAssignImportMap" level="Local" />
     <RolePrivilege name="prvAssignleidos_AccountManagementRecord" level="Local" />
     <RolePrivilege name="prvAssignleidos_BusinessReview" level="Local" />
-    <RolePrivilege name="prvAssignleidos_BusinessReviewSummary" level="Local" />
     <RolePrivilege name="prvAssignleidos_EmploymentDetails" level="Local" />
     <RolePrivilege name="prvAssignleidos_enquiry" level="Global" />
     <RolePrivilege name="prvAssignleidos_tradinggeography" level="Basic" />
@@ -282,6 +273,7 @@
     <RolePrivilege name="prvReadleidos_Application" level="Global" />
     <RolePrivilege name="prvReadleidos_AreaOffice" level="Global" />
     <RolePrivilege name="prvReadleidos_BusinessReview" level="Global" />
+    <RolePrivilege name="prvReadleidos_BusinessReviewActionPlan" level="Global" />
     <RolePrivilege name="prvReadleidos_BusinessReviewAnswers" level="Global" />
     <RolePrivilege name="prvReadleidos_BusinessReviewQuestion" level="Global" />
     <RolePrivilege name="prvReadleidos_BusinessReviewQuestionCategory" level="Global" />
@@ -371,7 +363,6 @@
     <RolePrivilege name="prvShareImportMap" level="Global" />
     <RolePrivilege name="prvShareleidos_AccountManagementRecord" level="Local" />
     <RolePrivilege name="prvShareleidos_BusinessReview" level="Local" />
-    <RolePrivilege name="prvShareleidos_BusinessReviewSummary" level="Local" />
     <RolePrivilege name="prvShareleidos_EmploymentDetails" level="Local" />
     <RolePrivilege name="prvShareleidos_enquiry" level="Global" />
     <RolePrivilege name="prvShareleidos_tradinggeography" level="Basic" />

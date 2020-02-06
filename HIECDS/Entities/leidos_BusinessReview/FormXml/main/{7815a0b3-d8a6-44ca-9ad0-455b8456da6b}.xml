@@ -562,27 +562,40 @@
           <columns>
             <column width="100%">
               <sections>
-                <section name="tab_4_section_1" id="b7dfb912-a187-4b4f-ab60-0a6974d35f0f" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                <section name="tab_4_section_1" id="b7dfb912-a187-4b4f-ab60-0a6974d35f0f" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" height="auto">
                   <labels>
                     <label description="New Section" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell showlabel="false" locklevel="0" id="{ce445bf5-4d60-4b2a-b202-a29fea1e60f0}" rowspan="1" colspan="1">
+                      <cell showlabel="false" locklevel="0" id="{ce445bf5-4d60-4b2a-b202-a29fea1e60f0}" rowspan="4" colspan="1" auto="true">
                         <labels>
                           <label description="Action Plans" languagecode="1033" />
                         </labels>
-                        <control id="ActionPlans" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                        <control id="ActionPlans" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" indicationOfSubgrid="true" uniqueid="{a787b3e4-9b31-3797-1acd-c34771be8ebe}">
                           <parameters>
                             <TargetEntityType>leidos_businessreviewactionplan</TargetEntityType>
                             <ViewId>{6522E35E-3B01-4685-9B36-07E25D3C1014}</ViewId>
-                            <ViewIds>{6522E35E-3B01-4685-9B36-07E25D3C1014},{DAAA6224-FD48-EA11-A812-000D3A0BAD17}</ViewIds>
+                            <ViewIds>{DAAA6224-FD48-EA11-A812-000D3A0BAD17},{6522E35E-3B01-4685-9B36-07E25D3C1014}</ViewIds>
                             <EnableViewPicker>false</EnableViewPicker>
                             <RelationshipName>leidos_BusinessReviewActionPlan_ParentBus</RelationshipName>
+                            <RecordsPerPage>20</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <IsUserView>false</IsUserView>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <AutoExpand>Auto</AutoExpand>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
                           </parameters>
                         </control>
                       </cell>
                     </row>
+                    <row />
+                    <row />
+                    <row height="auto" />
                   </rows>
                 </section>
               </sections>
@@ -647,7 +660,7 @@
         </rows>
       </footer>
       <Navigation>
-        <NavBar />
+        <NavBar></NavBar>
         <NavBarAreas>
           <NavBarArea Id="Info">
             <Titles>
@@ -1042,6 +1055,47 @@
               <EnableEditing static="true" type="Enum">yes</EnableEditing>
               <ReflowBehavior static="true" type="Enum">GridOnly</ReflowBehavior>
               <EnableFiltering static="true" type="Enum">no</EnableFiltering>
+              <HideNestedGridColumnHeader static="true" type="Enum">no</HideNestedGridColumnHeader>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{a787b3e4-9b31-3797-1acd-c34771be8ebe}">
+          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" formFactor="0">
+            <parameters />
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{6522E35E-3B01-4685-9B36-07E25D3C1014}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>leidos_BusinessReviewActionPlan_ParentBus</RelationshipName>
+                <TargetEntityType>leidos_businessreviewactionplan</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{DAAA6224-FD48-EA11-A812-000D3A0BAD17},{6522E35E-3B01-4685-9B36-07E25D3C1014}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy static="true" type="Enum">no</EnableGroupBy>
+              <EnableEditing static="true" type="Enum">yes</EnableEditing>
+              <ReflowBehavior static="true" type="Enum">GridOnly</ReflowBehavior>
+              <EnableFiltering static="true" type="Enum">yes</EnableFiltering>
+              <HideNestedGridColumnHeader static="true" type="Enum">no</HideNestedGridColumnHeader>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{6522E35E-3B01-4685-9B36-07E25D3C1014}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>leidos_BusinessReviewActionPlan_ParentBus</RelationshipName>
+                <TargetEntityType>leidos_businessreviewactionplan</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{DAAA6224-FD48-EA11-A812-000D3A0BAD17},{6522E35E-3B01-4685-9B36-07E25D3C1014}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy static="true" type="Enum">no</EnableGroupBy>
+              <EnableEditing static="true" type="Enum">yes</EnableEditing>
+              <ReflowBehavior static="true" type="Enum">GridOnly</ReflowBehavior>
+              <EnableFiltering static="true" type="Enum">yes</EnableFiltering>
               <HideNestedGridColumnHeader static="true" type="Enum">no</HideNestedGridColumnHeader>
             </parameters>
           </customControl>

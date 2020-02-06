@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{db24c16f-0049-ea11-a812-000d3a0ba151}</WebResourceId>
+  <Name>north52_/formula/leidos_businessreviewactionplan/Xhv/f.db24c16f0049ea11a812000d3a0ba151</Name>
+  <DisplayName>dcf0f649-c1a4-4f17-96a6-e07911e7f7a8</DisplayName>
+  <Description>North52Formula: Business Review Action Plan - Generate Name</Description>
+  <WebResourceType>4</WebResourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/north52_formulaleidos_businessreviewactionplanXhvfDB24C16F-0049-EA11-A812-000D3A0BA151</FileName>
+</WebResource>

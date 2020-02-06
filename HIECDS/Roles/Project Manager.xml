@@ -22,6 +22,7 @@
     <RolePrivilege name="prvAppendleidos_Application" level="Global" />
     <RolePrivilege name="prvAppendleidos_AreaOffice" level="Global" />
     <RolePrivilege name="prvAppendleidos_BusinessReview" level="Global" />
+    <RolePrivilege name="prvAppendleidos_BusinessReviewActionPlan" level="Global" />
     <RolePrivilege name="prvAppendleidos_BusinessReviewAnswers" level="Global" />
     <RolePrivilege name="prvAppendleidos_BusinessReviewQuestion" level="Global" />
     <RolePrivilege name="prvAppendleidos_BusinessReviewQuestionCategory" level="Global" />
@@ -74,6 +75,7 @@
     <RolePrivilege name="prvAppendToleidos_Application" level="Global" />
     <RolePrivilege name="prvAppendToleidos_AreaOffice" level="Global" />
     <RolePrivilege name="prvAppendToleidos_BusinessReview" level="Global" />
+    <RolePrivilege name="prvAppendToleidos_BusinessReviewActionPlan" level="Global" />
     <RolePrivilege name="prvAppendToleidos_BusinessReviewAnswers" level="Global" />
     <RolePrivilege name="prvAppendToleidos_BusinessReviewQuestion" level="Global" />
     <RolePrivilege name="prvAppendToleidos_BusinessReviewQuestionCategory" level="Global" />
@@ -132,8 +134,9 @@
     <RolePrivilege name="prvAssignImportMap" level="Local" />
     <RolePrivilege name="prvAssignleidos_AccountManagementRecord" level="Local" />
     <RolePrivilege name="prvAssignleidos_Application" level="Global" />
-    <RolePrivilege name="prvAssignleidos_BusinessReview" level="Local" />
-    <RolePrivilege name="prvAssignleidos_BusinessReviewSummary" level="Local" />
+    <RolePrivilege name="prvAssignleidos_BusinessReview" level="Global" />
+    <RolePrivilege name="prvAssignleidos_BusinessReviewActionPlan" level="Global" />
+    <RolePrivilege name="prvAssignleidos_BusinessReviewSummary" level="Global" />
     <RolePrivilege name="prvAssignleidos_EmploymentDetails" level="Global" />
     <RolePrivilege name="prvAssignleidos_enquiry" level="Global" />
     <RolePrivilege name="prvAssignleidos_tradinggeography" level="Global" />
@@ -172,6 +175,7 @@
     <RolePrivilege name="prvCreateleidos_AccountManagementRecord" level="Global" />
     <RolePrivilege name="prvCreateleidos_Application" level="Global" />
     <RolePrivilege name="prvCreateleidos_BusinessReview" level="Global" />
+    <RolePrivilege name="prvCreateleidos_BusinessReviewActionPlan" level="Global" />
     <RolePrivilege name="prvCreateleidos_EmploymentDetails" level="Global" />
     <RolePrivilege name="prvCreateleidos_enquiry" level="Global" />
     <RolePrivilege name="prvCreateleidos_tradinggeography" level="Global" />
@@ -286,6 +290,7 @@
     <RolePrivilege name="prvReadleidos_Application" level="Global" />
     <RolePrivilege name="prvReadleidos_AreaOffice" level="Global" />
     <RolePrivilege name="prvReadleidos_BusinessReview" level="Global" />
+    <RolePrivilege name="prvReadleidos_BusinessReviewActionPlan" level="Global" />
     <RolePrivilege name="prvReadleidos_BusinessReviewAnswers" level="Global" />
     <RolePrivilege name="prvReadleidos_BusinessReviewQuestion" level="Global" />
     <RolePrivilege name="prvReadleidos_BusinessReviewQuestionCategory" level="Global" />
@@ -376,8 +381,9 @@
     <RolePrivilege name="prvShareImportMap" level="Global" />
     <RolePrivilege name="prvShareleidos_AccountManagementRecord" level="Local" />
     <RolePrivilege name="prvShareleidos_Application" level="Global" />
-    <RolePrivilege name="prvShareleidos_BusinessReview" level="Local" />
-    <RolePrivilege name="prvShareleidos_BusinessReviewSummary" level="Local" />
+    <RolePrivilege name="prvShareleidos_BusinessReview" level="Global" />
+    <RolePrivilege name="prvShareleidos_BusinessReviewActionPlan" level="Global" />
+    <RolePrivilege name="prvShareleidos_BusinessReviewSummary" level="Global" />
     <RolePrivilege name="prvShareleidos_EmploymentDetails" level="Global" />
     <RolePrivilege name="prvShareleidos_enquiry" level="Global" />
     <RolePrivilege name="prvShareleidos_tradinggeography" level="Global" />
@@ -423,6 +429,7 @@
     <RolePrivilege name="prvWriteleidos_AccountManagementRecord" level="Global" />
     <RolePrivilege name="prvWriteleidos_Application" level="Global" />
     <RolePrivilege name="prvWriteleidos_BusinessReview" level="Global" />
+    <RolePrivilege name="prvWriteleidos_BusinessReviewActionPlan" level="Global" />
     <RolePrivilege name="prvWriteleidos_BusinessReviewAnswers" level="Global" />
     <RolePrivilege name="prvWriteleidos_BusinessReviewSummary" level="Global" />
     <RolePrivilege name="prvWriteleidos_EmploymentDetails" level="Global" />
