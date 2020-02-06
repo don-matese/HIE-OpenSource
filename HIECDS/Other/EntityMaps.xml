@@ -10,4 +10,14 @@
       </AttributeMap>
     </AttributeMaps>
   </EntityMap>
+  <EntityMap>
+    <EntitySource>leidos_businessreviewsummary</EntitySource>
+    <EntityTarget>leidos_businessreviewactionplan</EntityTarget>
+    <AttributeMaps>
+      <AttributeMap>
+        <AttributeSource>leidos_parentbusinessreview</AttributeSource>
+        <AttributeTarget>leidos_parentbusinessreview</AttributeTarget>
+      </AttributeMap>
+    </AttributeMaps>
+  </EntityMap>
 </EntityMaps>

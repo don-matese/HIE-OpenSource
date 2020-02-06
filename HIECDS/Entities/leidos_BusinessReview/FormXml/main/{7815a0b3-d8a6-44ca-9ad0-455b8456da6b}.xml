@@ -555,6 +555,40 @@
             </column>
           </columns>
         </tab>
+        <tab name="ActionPlan" id="32aff0f0-dadb-4554-ad47-9c4845a06c1a" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Action Plan" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_4_section_1" id="b7dfb912-a187-4b4f-ab60-0a6974d35f0f" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{ce445bf5-4d60-4b2a-b202-a29fea1e60f0}" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="Action Plans" languagecode="1033" />
+                        </labels>
+                        <control id="ActionPlans" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>leidos_businessreviewactionplan</TargetEntityType>
+                            <ViewId>{6522E35E-3B01-4685-9B36-07E25D3C1014}</ViewId>
+                            <ViewIds>{6522E35E-3B01-4685-9B36-07E25D3C1014},{DAAA6224-FD48-EA11-A812-000D3A0BAD17}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>leidos_BusinessReviewActionPlan_ParentBus</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
       </tabs>
       <header id="{38dde75b-db47-48f4-a201-017fc2ecc85b}" columns="111" labelwidth="115" celllabelposition="Top" celllabelalignment="Left">
         <rows>
