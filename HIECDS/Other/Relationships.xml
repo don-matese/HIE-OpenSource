@@ -8,6 +8,7 @@
   <EntityRelationship Name="business_unit_leidos_accountmanagementrecord" />
   <EntityRelationship Name="business_unit_leidos_application" />
   <EntityRelationship Name="business_unit_leidos_businessreview" />
+  <EntityRelationship Name="business_unit_leidos_businessreviewactionplan" />
   <EntityRelationship Name="business_unit_leidos_businessreviewsummary" />
   <EntityRelationship Name="business_unit_leidos_employmentdetails" />
   <EntityRelationship Name="business_unit_leidos_enquiry" />
@@ -70,6 +71,8 @@
   <EntityRelationship Name="lk_leidos_bpfaccountprocess_processid" />
   <EntityRelationship Name="lk_leidos_businessreview_createdby" />
   <EntityRelationship Name="lk_leidos_businessreview_modifiedby" />
+  <EntityRelationship Name="lk_leidos_businessreviewactionplan_createdby" />
+  <EntityRelationship Name="lk_leidos_businessreviewactionplan_modifiedby" />
   <EntityRelationship Name="lk_leidos_businessreviewanswers_createdby" />
   <EntityRelationship Name="lk_leidos_businessreviewanswers_modifiedby" />
   <EntityRelationship Name="lk_leidos_businessreviewquestion_createdby" />
@@ -151,6 +154,7 @@
   <EntityRelationship Name="owner_leidos_accountmanagementrecord" />
   <EntityRelationship Name="owner_leidos_application" />
   <EntityRelationship Name="owner_leidos_businessreview" />
+  <EntityRelationship Name="owner_leidos_businessreviewactionplan" />
   <EntityRelationship Name="owner_leidos_businessreviewsummary" />
   <EntityRelationship Name="owner_leidos_employmentdetails" />
   <EntityRelationship Name="owner_leidos_enquiry" />
@@ -158,6 +162,7 @@
   <EntityRelationship Name="team_leidos_accountmanagementrecord" />
   <EntityRelationship Name="team_leidos_application" />
   <EntityRelationship Name="team_leidos_businessreview" />
+  <EntityRelationship Name="team_leidos_businessreviewactionplan" />
   <EntityRelationship Name="team_leidos_businessreviewsummary" />
   <EntityRelationship Name="team_leidos_employmentdetails" />
   <EntityRelationship Name="team_leidos_enquiry" />
@@ -169,6 +174,7 @@
   <EntityRelationship Name="user_leidos_accountmanagementrecord" />
   <EntityRelationship Name="user_leidos_application" />
   <EntityRelationship Name="user_leidos_businessreview" />
+  <EntityRelationship Name="user_leidos_businessreviewactionplan" />
   <EntityRelationship Name="user_leidos_businessreviewsummary" />
   <EntityRelationship Name="user_leidos_employmentdetails" />
   <EntityRelationship Name="user_leidos_enquiry" />
