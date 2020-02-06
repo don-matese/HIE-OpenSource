@@ -37,6 +37,7 @@
     <AppModuleComponent type="1" schemaName="leidos_businessreviewanswers" />
     <AppModuleComponent type="1" schemaName="leidos_businessreviewquestion" />
     <AppModuleComponent type="1" schemaName="leidos_businessreviewquestioncategory" />
+    <AppModuleComponent type="1" schemaName="leidos_businessreviewsummary" />
     <AppModuleComponent type="1" schemaName="leidos_categorynatureofenquiry" />
     <AppModuleComponent type="1" schemaName="leidos_clientenquiryorigin" />
     <AppModuleComponent type="1" schemaName="contact" />
@@ -64,7 +65,10 @@
     <AppModuleComponent type="59" id="{583d3d2f-ed36-ea11-a813-000d3a0bad7c}" />
     <AppModuleComponent type="60" id="{2f692349-4838-ea11-a813-000d3a0bad7c}" />
     <AppModuleComponent type="1" schemaName="leidos_enquirybusinessflow" />
+    <AppModuleComponent type="1" schemaName="leidos_financialyear" />
     <AppModuleComponent type="1" schemaName="leidos_geographies" />
+    <AppModuleComponent type="1" schemaName="leidos_growthplanmeasure" />
+    <AppModuleComponent type="1" schemaName="leidos_growthplanresponse" />
     <AppModuleComponent type="1" schemaName="leidos_legalentity" />
     <AppModuleComponent type="1" schemaName="leidos_natureofenquiry" />
     <AppModuleComponent type="1" schemaName="leidos_numberofemployees" />

@@ -11,6 +11,10 @@
       <grid name="leidos_businessreviews" jump="leidos_name" select="1" icon="1" preview="1">
         <row name="leidos_businessreview" id="leidos_businessreviewid">
           <cell name="leidos_name" width="300" />
+          <cell name="leidos_financialyear" width="100" />
+          <cell name="leidos_growthplanduedate" width="100" />
+          <cell name="leidos_sharewithcustomer" width="100" />
+          <cell name="leidos_submittedon" width="100" />
           <cell name="createdon" width="125" />
         </row>
       </grid>
@@ -26,6 +30,10 @@
           <filter type="and">
             <condition attribute="statecode" operator="eq" value="0" />
           </filter>
+          <attribute name="leidos_financialyear" />
+          <attribute name="leidos_growthplanduedate" />
+          <attribute name="leidos_sharewithcustomer" />
+          <attribute name="leidos_submittedon" />
         </entity>
       </fetch>
     </fetchxml>

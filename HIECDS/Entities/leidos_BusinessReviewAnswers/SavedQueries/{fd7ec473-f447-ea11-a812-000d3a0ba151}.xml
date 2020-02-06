@@ -20,7 +20,7 @@
     </layoutxml>
     <querytype>0</querytype>
     <fetchxml>
-      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false" count="50">
         <entity name="leidos_businessreviewanswers">
           <attribute name="leidos_notes" />
           <attribute name="leidos_ratingvalue" />
@@ -31,6 +31,7 @@
           <link-entity name="leidos_businessreviewquestion" from="leidos_businessreviewquestionid" to="leidos_question" alias="a_c6f9ae12a16e40dca2be3459d06bb6ee" link-type="inner">
             <attribute name="leidos_statement" />
             <attribute name="leidos_indicatorsofgoodpractice" />
+            <order attribute="leidos_questionindex" />
             <link-entity name="leidos_businessreviewquestioncategory" alias="ah" link-type="inner" from="leidos_businessreviewquestioncategoryid" to="leidos_category">
               <filter type="and">
                 <condition attribute="leidos_businessreviewquestioncategoryid" operator="eq" value="{E7DBA5FF-8A46-EA11-A812-000D3A0BAD17}" uiname="Strategy" uitype="leidos_businessreviewquestioncategory" />

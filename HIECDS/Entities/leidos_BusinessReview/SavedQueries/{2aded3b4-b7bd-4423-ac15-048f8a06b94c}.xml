@@ -11,6 +11,11 @@
       <grid name="resultset" jump="leidos_name" select="1" icon="1" preview="1">
         <row name="result" id="leidos_businessreviewid">
           <cell name="leidos_name" width="300" />
+          <cell name="leidos_relatedaccount" width="100" />
+          <cell name="leidos_accountmanagementrecord" width="100" />
+          <cell name="leidos_financialyear" width="100" />
+          <cell name="leidos_sharewithcustomer" width="100" />
+          <cell name="leidos_submittedon" width="100" />
           <cell name="createdon" width="125" />
         </row>
       </grid>
@@ -26,6 +31,11 @@
           <filter type="and">
             <condition attribute="statecode" operator="eq" value="0" />
           </filter>
+          <attribute name="leidos_accountmanagementrecord" />
+          <attribute name="leidos_relatedaccount" />
+          <attribute name="leidos_sharewithcustomer" />
+          <attribute name="leidos_submittedon" />
+          <attribute name="leidos_financialyear" />
         </entity>
       </fetch>
     </fetchxml>

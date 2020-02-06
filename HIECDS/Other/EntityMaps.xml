@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityMaps xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityMap>
+    <EntitySource>leidos_accountmanagementrecord</EntitySource>
+    <EntityTarget>leidos_businessreview</EntityTarget>
+    <AttributeMaps>
+      <AttributeMap>
+        <AttributeSource>leidos_parentaccount</AttributeSource>
+        <AttributeTarget>leidos_relatedaccount</AttributeTarget>
+      </AttributeMap>
+    </AttributeMaps>
+  </EntityMap>
+</EntityMaps>

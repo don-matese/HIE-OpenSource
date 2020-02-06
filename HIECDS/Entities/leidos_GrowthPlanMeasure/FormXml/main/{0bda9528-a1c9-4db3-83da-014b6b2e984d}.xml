@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{0bda9528-a1c9-4db3-83da-014b6b2e984d}</formid>
+    <IntroducedVersion>1.2.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{8b5f7d3f-568b-4053-9ec2-06f0dad8ef27}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{6f8c7f01-d86b-4599-8cf5-e54a1102dbcb}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{5a7473f7-293e-496d-a82b-415bfcf408d9}">
+                        <labels>
+                          <label description="Measure" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="leidos_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f4811397-eebb-4191-9562-30105f4cc438}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Question Index" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_questionindex" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="leidos_questionindex" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{61ea8efd-dbf8-42fb-9add-f43d41eb6c0b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Growth Plan Organisation Type" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_growthplanorganisationtype" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_growthplanorganisationtype" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{39d7e46b-a6a0-401b-85ae-04f2e5c07b6b}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{31628557-e495-4fa8-b7a8-470e33dc319c}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{b193f8d4-f519-46b7-8b52-a4bf20526a0e}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{66d1b396-f01d-4164-86e7-1f279c4efd58}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{df4b79bc-2a88-4ba4-83b1-539d614fb68d}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{b60ed4d8-e8d0-4b14-a06c-12df3f2bd73b}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{78ade3fd-a31d-4d97-b114-11cf65dc0aba}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{7b4b42c3-bcd1-4314-8430-a053307f3bc0}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true" />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

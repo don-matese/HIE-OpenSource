@@ -31,6 +31,7 @@
   <EntityRelationship Name="leidos_Application_ParentAccount_Account" />
   <EntityRelationship Name="leidos_Application_SourceEnquiry_leidos_e" />
   <EntityRelationship Name="leidos_AreaOffice_Officemanager_SystemUse" />
+  <EntityRelationship Name="leidos_BusinessReview_AccountManagementRe" />
   <EntityRelationship Name="leidos_BusinessReview_FinancialYear_leido" />
   <EntityRelationship Name="leidos_BusinessReview_RelatedAccount_Acco" />
   <EntityRelationship Name="leidos_BusinessReviewAnswers_ParentBusine" />
@@ -45,6 +46,9 @@
   <EntityRelationship Name="leidos_enquiry_Sector_leidos_Sector" />
   <EntityRelationship Name="leidos_enquiry_SEPPartnerOrganisation_Acc" />
   <EntityRelationship Name="leidos_enquiry_Turnover_leidos_Turnover" />
+  <EntityRelationship Name="leidos_GrowthPlanMeasure_GrowthPlanOrgani" />
+  <EntityRelationship Name="leidos_GrowthPlanResponse_Measure_leidos_" />
+  <EntityRelationship Name="leidos_GrowthPlanResponse_ParentBusinessR" />
   <EntityRelationship Name="leidos_leidos_areaoffice_leidos_AreaOffic" />
   <EntityRelationship Name="leidos_leidos_businessreviewsummary_leido" />
   <EntityRelationship Name="leidos_leidos_geographies_leidos_tradinggeography_Geography" />
@@ -90,6 +94,10 @@
   <EntityRelationship Name="lk_leidos_financialyear_modifiedby" />
   <EntityRelationship Name="lk_leidos_geographies_createdby" />
   <EntityRelationship Name="lk_leidos_geographies_modifiedby" />
+  <EntityRelationship Name="lk_leidos_growthplanmeasure_createdby" />
+  <EntityRelationship Name="lk_leidos_growthplanmeasure_modifiedby" />
+  <EntityRelationship Name="lk_leidos_growthplanresponse_createdby" />
+  <EntityRelationship Name="lk_leidos_growthplanresponse_modifiedby" />
   <EntityRelationship Name="lk_leidos_legalentity_createdby" />
   <EntityRelationship Name="lk_leidos_legalentity_modifiedby" />
   <EntityRelationship Name="lk_leidos_natureofenquiry_createdby" />
@@ -128,6 +136,8 @@
   <EntityRelationship Name="organization_leidos_enquirybusinessflow" />
   <EntityRelationship Name="organization_leidos_financialyear" />
   <EntityRelationship Name="organization_leidos_geographies" />
+  <EntityRelationship Name="organization_leidos_growthplanmeasure" />
+  <EntityRelationship Name="organization_leidos_growthplanresponse" />
   <EntityRelationship Name="organization_leidos_legalentity" />
   <EntityRelationship Name="organization_leidos_natureofenquiry" />
   <EntityRelationship Name="organization_leidos_numberofemployees" />
