@@ -14,13 +14,14 @@
           <cell name="leidos_notes" width="100" />
           <cell name="leidos_previousratingvalue" width="100" />
           <cell name="leidos_ratingvalue" width="100" />
+          <cell name="leidos_notapplicable" width="100" />
           <cell name="a_c6f9ae12a16e40dca2be3459d06bb6ee.leidos_indicatorsofgoodpractice" width="263" />
         </row>
       </grid>
     </layoutxml>
     <querytype>0</querytype>
     <fetchxml>
-      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false" count="50">
         <entity name="leidos_businessreviewanswers">
           <attribute name="leidos_notes" />
           <attribute name="leidos_ratingvalue" />
@@ -29,6 +30,7 @@
             <condition attribute="statecode" operator="eq" value="0" />
           </filter>
           <link-entity name="leidos_businessreviewquestion" from="leidos_businessreviewquestionid" to="leidos_question" alias="a_c6f9ae12a16e40dca2be3459d06bb6ee" link-type="inner">
+            <order attribute="leidos_questionindex" />
             <link-entity name="leidos_businessreviewquestioncategory" alias="af" link-type="inner" from="leidos_businessreviewquestioncategoryid" to="leidos_category">
               <filter type="and">
                 <condition attribute="leidos_businessreviewquestioncategoryid" operator="eq" value="{F7DBA5FF-8A46-EA11-A812-000D3A0BAD17}" uiname="Operations &amp; Productivity" uitype="leidos_businessreviewquestioncategory" />
@@ -38,6 +40,7 @@
             <attribute name="leidos_indicatorsofgoodpractice" />
           </link-entity>
           <attribute name="leidos_businessreviewanswersid" />
+          <attribute name="leidos_notapplicable" />
         </entity>
       </fetch>
     </fetchxml>

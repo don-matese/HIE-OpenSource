@@ -65,10 +65,11 @@
                       </cell>
                     </row>
                     <row>
-                      <cell showlabel="true" locklevel="0" id="{12513cdd-63ad-4615-9f32-2fed91781c16}">
+                      <cell id="{6e56f6dc-523a-4527-8701-e5dc0f7047e8}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Not Applicable" languagecode="1033" />
                         </labels>
+                        <control id="leidos_notapplicable" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="leidos_notapplicable" disabled="false" uniqueid="{f51b3d29-0ad6-4da9-a979-c136cbeda314}" />
                       </cell>
                       <cell showlabel="false" locklevel="0" id="{a97bb97a-aeb0-4ce5-a441-fb84add7bda0}">
                         <labels>
@@ -138,6 +139,30 @@
         </rows>
       </footer>
       <DisplayConditions Order="0" FallbackForm="true" />
+      <controlDescriptions>
+        <controlDescription forControl="{f51b3d29-0ad6-4da9-a979-c136cbeda314}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>leidos_notapplicable</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>leidos_notapplicable</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>leidos_notapplicable</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>leidos_notapplicable</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
     </form>
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>
