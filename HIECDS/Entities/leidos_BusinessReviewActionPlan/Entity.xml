@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name LocalizedName="Business Review Action Plan" OriginalName="Business Review Action Plan">leidos_BusinessReviewActionPlan</Name>
+  <Name LocalizedName="Action Plan" OriginalName="Business Review Action Plan">leidos_BusinessReviewActionPlan</Name>
   <EntityInfo>
     <entity Name="leidos_BusinessReviewActionPlan">
       <LocalizedNames>
-        <LocalizedName description="Business Review Action Plan" languagecode="1033" />
+        <LocalizedName description="Action Plan" languagecode="1033" />
       </LocalizedNames>
       <LocalizedCollectionNames>
         <LocalizedCollectionName description="Business Review Action Plans" languagecode="1033" />
@@ -1139,6 +1139,7 @@
       <IsCollaboration>0</IsCollaboration>
       <AutoRouteToOwnerQueue>0</AutoRouteToOwnerQueue>
       <IsConnectionsEnabled>0</IsConnectionsEnabled>
+      <EntityColor></EntityColor>
       <IsDocumentManagementEnabled>0</IsDocumentManagementEnabled>
       <IsOneNoteIntegrationEnabled>0</IsOneNoteIntegrationEnabled>
       <IsKnowledgeManagementEnabled>0</IsKnowledgeManagementEnabled>
@@ -1187,6 +1188,7 @@
       <EnforceStateTransitions>0</EnforceStateTransitions>
       <CanChangeHierarchicalRelationship>1</CanChangeHierarchicalRelationship>
       <EntityHelpUrlEnabled>0</EntityHelpUrlEnabled>
+      <EntityHelpUrl></EntityHelpUrl>
       <ChangeTrackingEnabled>0</ChangeTrackingEnabled>
       <CanChangeTrackingBeEnabled>1</CanChangeTrackingBeEnabled>
       <IsEnabledForExternalChannels>0</IsEnabledForExternalChannels>

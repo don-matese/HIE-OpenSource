@@ -10,6 +10,7 @@
     <layoutxml>
       <grid name="resultset" jump="leidos_name" select="1" icon="1" preview="1">
         <row name="result" id="leidos_businessreviewanswersid">
+          <cell name="leidos_name" width="100" />
           <cell name="a_c6f9ae12a16e40dca2be3459d06bb6ee.leidos_statement" width="300" />
           <cell name="leidos_notes" width="100" />
           <cell name="leidos_previousratingvalue" width="100" />
@@ -41,6 +42,8 @@
           </link-entity>
           <attribute name="leidos_businessreviewanswersid" />
           <attribute name="leidos_notapplicable" />
+          <attribute name="leidos_name" />
+          <order attribute="leidos_name" descending="false" />
         </entity>
       </fetch>
     </fetchxml>

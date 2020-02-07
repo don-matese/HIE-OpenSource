@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{b12f2c20-9a58-4b3d-81e6-2a5e006ddddf}</WebResourceId>
+  <Name>north52_/formula/contact/LuL/f.b12f2c209a584b3d81e62a5e006ddddf</Name>
+  <DisplayName>bf055f48-3753-4b62-b32a-cf182890b24e</DisplayName>
+  <Description>North52Formula: Contact - Populate LinkURL </Description>
+  <WebResourceType>4</WebResourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/north52_formulacontactLuLfb12f2c209a584b3d81e62a5eB12F2C20-9A58-4B3D-81E6-2A5E006DDDDF</FileName>
+</WebResource>

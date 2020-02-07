@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{0a371d2f-e043-477c-8eef-64101b42a929}</WebResourceId>
+  <Name>north52_/formula/account/z7R/f.0a371d2fe043477c8eef64101b42a929</Name>
+  <DisplayName>f519e8f3-ef49-4df4-a35e-0989abbed518</DisplayName>
+  <Description>North52Formula: Account - Populate LinkURL  </Description>
+  <WebResourceType>4</WebResourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/north52_formulaaccountz7Rf0a371d2fe043477c8eef64100A371D2F-E043-477C-8EEF-64101B42A929</FileName>
+</WebResource>
