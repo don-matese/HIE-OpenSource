@@ -133,39 +133,6 @@
                     </row>
                   </rows>
                 </section>
-                <section name="SignOff" id="dcd3baf0-5a0e-43d3-a9a9-4779b2ee46ed" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115">
-                  <labels>
-                    <label description="Account Manager / Project Officer Confirming Strategic Fit" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell id="{37a8daab-fbbf-4e0e-82d1-dbf379fed8bc}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Name" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_userconfirmingname" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_userconfirmingname" disabled="false" />
-                      </cell>
-                      <cell id="{8f53c791-2cc2-4056-a1b1-fe1edc91b357}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Date of Confirmation" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_dateofconfirmation" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="leidos_dateofconfirmation" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell showlabel="true" locklevel="0" id="{aa579e59-df6f-4075-ae63-2cd3363be93f}">
-                        <labels>
-                          <label description="" languagecode="1033" />
-                        </labels>
-                      </cell>
-                      <cell showlabel="true" locklevel="0" id="{6d2708e6-8bd5-43ff-a77b-a1654dfb4be0}">
-                        <labels>
-                          <label description="" languagecode="1033" />
-                        </labels>
-                      </cell>
-                    </row>
-                  </rows>
-                </section>
               </sections>
             </column>
           </columns>

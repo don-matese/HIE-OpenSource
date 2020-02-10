@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Workflow WorkflowId="{d1f6ba55-913e-ea11-a812-000d3a0bad17}" Name="Account -Flow - On Assign Alert Owner" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <JsonFileName>/Workflows/Account-Flow-OnAssignAlertOwner-D1F6BA55-913E-EA11-A812-000D3A0BAD17.json</JsonFileName>
+<Workflow WorkflowId="{b0db1a8a-c449-ea11-a812-000d3a0ba151}" Name="Get Entity Url" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <JsonFileName>/Workflows/GetEntityUrl-B0DB1A8A-C449-EA11-A812-000D3A0BA151.json</JsonFileName>
   <Type>1</Type>
   <Subprocess>0</Subprocess>
   <Category>5</Category>
@@ -20,6 +20,6 @@
   <BusinessProcessType>0</BusinessProcessType>
   <PrimaryEntity>none</PrimaryEntity>
   <LocalizedNames>
-    <LocalizedName languagecode="1033" description="Account -Flow - On Assign Alert Owner" />
+    <LocalizedName languagecode="1033" description="Get Entity Url" />
   </LocalizedNames>
 </Workflow>

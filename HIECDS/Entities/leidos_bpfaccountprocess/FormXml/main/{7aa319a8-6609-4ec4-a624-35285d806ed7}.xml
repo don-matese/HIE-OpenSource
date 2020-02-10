@@ -299,14 +299,14 @@
         </tab>
         <tab verticallayout="true" id="{b71402b4-1240-46c8-b81a-6491af723713}" name="StageStep65" locklevel="0" expanded="true" visible="false" labelid="{14b2fe5e-180d-4860-9f5d-2696f3785ad8}">
           <labels>
-            <label description="New Stage" languagecode="1033" />
+            <label description="Review Process" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
                 <section showbar="false" columns="1" id="{b71402b4-1240-46c8-b81a-6491af723713}" name="StageStep65_section1" labelid="{2da01717-0993-4a1b-9ec9-8a7bcbc8f716}">
                   <labels>
-                    <label description="New Stage" languagecode="1033" />
+                    <label description="Review Process" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>

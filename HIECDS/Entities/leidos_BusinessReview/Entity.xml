@@ -993,6 +993,11 @@
                   <label description="Submitted" languagecode="1033" />
                 </labels>
               </status>
+              <status value="445260003" state="0" TransitionData="" Color="#0000ff">
+                <labels>
+                  <label description="Approval Granted" languagecode="1033" />
+                </labels>
+              </status>
               <status value="445260001" state="1" TransitionData="" Color="#0000ff">
                 <labels>
                   <label description="Archive" languagecode="1033" />

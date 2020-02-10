@@ -118,7 +118,7 @@
       <label languagecode="1033" description="Status Reason" />
     </steplabels>
     <steplabels id="{b71402b4-1240-46c8-b81a-6491af723713}">
-      <label languagecode="1033" description="New Stage" />
+      <label languagecode="1033" description="Review Process" />
     </steplabels>
     <steplabels id="{a1c3791d-3814-4b65-946c-db2542297d4a}">
       <label languagecode="1033" description="Complete Business Diagnostic" />

@@ -136,7 +136,7 @@
             </column>
           </columns>
         </tab>
-        <tab name="DETAILS_TAB" id="{fe1c5c3b-d556-4552-a444-4781214a6d63}" IsUserDefined="0" expanded="true" showlabel="true" labelid="{06d88cc9-83af-40a9-817c-7603280e5d36}" locklevel="0">
+        <tab name="Details" id="{fe1c5c3b-d556-4552-a444-4781214a6d63}" IsUserDefined="0" expanded="true" showlabel="true" labelid="{06d88cc9-83af-40a9-817c-7603280e5d36}" locklevel="0">
           <labels>
             <label description="Details" languagecode="1033" />
           </labels>
@@ -160,6 +160,38 @@
                     <row />
                     <row />
                     <row />
+                  </rows>
+                </section>
+                <section name="Supplier Details" id="687ae081-7bab-4a11-8cfa-498d655f80d9" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" visible="false">
+                  <labels>
+                    <label description="Supplier Details" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4c23ca91-3882-4282-9bd4-ca19f2946e2b}" showlabel="true" locklevel="0" auto="true" rowspan="11">
+                        <labels>
+                          <label description="Biography" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_biography" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="leidos_biography" disabled="false" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{75bd2cc7-77f3-4d24-9b95-95aa8c349d6e}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
                   </rows>
                 </section>
               </sections>
@@ -270,6 +302,9 @@
           <InternalHandlers>
             <Handler functionName="AppCommon.Contact.Instance.form_onload" libraryName="AppCommon/Contact/Contact_main_system_library.js" handlerUniqueId="4ea24ebd-795d-434e-af94-6812c3867b54" enabled="true" />
           </InternalHandlers>
+          <Handlers>
+            <Handler functionName="N52.Clientside.ExecuteFormulas" libraryName="north52_/javascript/n52.clientside" handlerUniqueId="3eaae01f-1bb1-4b8b-8b18-76394de8389c" enabled="true" parameters="'aSZ:*:CreateUpdate::0:217890000:217890000:217890000:217890000'" passExecutionContext="true" />
+          </Handlers>
         </event>
       </events>
       <Navigation>
@@ -583,6 +618,11 @@
         <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
         <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
       </DisplayConditions>
+      <formLibraries>
+        <Library name="north52_/javascript/n52.json2" libraryUniqueId="0950267c-4bcc-4862-b173-8e3e2944878e" />
+        <Library name="north52_/javascript/n52.rest" libraryUniqueId="5c1e4cea-18f0-4351-937d-3eb442dfae8a" />
+        <Library name="north52_/javascript/n52.clientside" libraryUniqueId="dca85ec9-ccfa-4c4f-87a0-d11d688a82d7" />
+      </formLibraries>
     </form>
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>

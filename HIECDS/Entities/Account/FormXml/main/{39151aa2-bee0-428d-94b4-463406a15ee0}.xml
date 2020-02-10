@@ -481,11 +481,27 @@
                       </cell>
                     </row>
                     <row>
+                      <cell id="{ca92e310-c9ec-47bb-a0b5-f04052cf2b76}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="VAT Number" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_vatnumber" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="leidos_vatnumber" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
                       <cell id="{425b288e-a314-4d78-b857-ad07e71faabe}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Year Established" languagecode="1033" />
                         </labels>
                         <control id="leidos_yearestablished" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="leidos_yearestablished" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{68c4f99a-2253-49af-a2c2-3f0be649307c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Company Registration Number" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_companyregistrationnumber" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="leidos_companyregistrationnumber" disabled="false" />
                       </cell>
                     </row>
                   </rows>
