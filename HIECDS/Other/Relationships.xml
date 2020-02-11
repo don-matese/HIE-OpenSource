@@ -5,6 +5,7 @@
   <EntityRelationship Name="bpf_leidos_accountmanagementrecord_leidos_bpfaccountprocess" />
   <EntityRelationship Name="bpf_leidos_application_new_bpfapplicationbusinessprocessflow" />
   <EntityRelationship Name="bpf_leidos_enquiry_leidos_enquirybusinessflow" />
+  <EntityRelationship Name="bpf_msdyn_flow_approvalrequest_new_bpfapplicationbusinessprocessflow" />
   <EntityRelationship Name="business_unit_leidos_accountmanagementrecord" />
   <EntityRelationship Name="business_unit_leidos_application" />
   <EntityRelationship Name="business_unit_leidos_businessreview" />
@@ -19,6 +20,7 @@
   <EntityRelationship Name="leidos_account_leidos_enquiry_Account" />
   <EntityRelationship Name="leidos_account_leidos_LegalEntity_leidos_" />
   <EntityRelationship Name="leidos_account_leidos_Segmentation_leidos" />
+  <EntityRelationship Name="leidos_Account_leidos_SupportItem" />
   <EntityRelationship Name="leidos_account_leidos_tradinggeography_ParentAccount" />
   <EntityRelationship Name="leidos_Account_OrganisationType_leidos_Organisat" />
   <EntityRelationship Name="leidos_Account_ProjectOfficerAllocation_SystemUs" />
@@ -29,6 +31,10 @@
   <EntityRelationship Name="leidos_AccountManagementRecord_DelegatedA" />
   <EntityRelationship Name="leidos_AccountManagementRecord_ParentAcco" />
   <EntityRelationship Name="leidos_AccountManagementRecord_PortfolioM" />
+  <EntityRelationship Name="leidos_Application_AreaOffice_leidos_Area" />
+  <EntityRelationship Name="leidos_Application_BoardRepresentative_Sy" />
+  <EntityRelationship Name="leidos_Application_DelegatedAuthority_Sys" />
+  <EntityRelationship Name="leidos_Application_ISAApprovalDelegatedAu" />
   <EntityRelationship Name="leidos_Application_ParentAccount_Account" />
   <EntityRelationship Name="leidos_Application_SourceEnquiry_leidos_e" />
   <EntityRelationship Name="leidos_AreaOffice_Officemanager_SystemUse" />
@@ -53,6 +59,8 @@
   <EntityRelationship Name="leidos_GrowthPlanResponse_Measure_leidos_" />
   <EntityRelationship Name="leidos_GrowthPlanResponse_ParentBusinessR" />
   <EntityRelationship Name="leidos_leidos_areaoffice_leidos_AreaOffic" />
+  <EntityRelationship Name="leidos_leidos_businessreview_leidos_Actio" />
+  <EntityRelationship Name="leidos_leidos_businessreview_leidos_Busin" />
   <EntityRelationship Name="leidos_leidos_businessreviewsummary_leido" />
   <EntityRelationship Name="leidos_leidos_geographies_leidos_tradinggeography_Geography" />
   <EntityRelationship Name="leidos_leidos_natureofenquiry_leidos_enquiry_NatureofEnquiry" />
@@ -117,6 +125,8 @@
   <EntityRelationship Name="lk_leidos_sector_modifiedby" />
   <EntityRelationship Name="lk_leidos_segmentation_createdby" />
   <EntityRelationship Name="lk_leidos_segmentation_modifiedby" />
+  <EntityRelationship Name="lk_leidos_supportitem_createdby" />
+  <EntityRelationship Name="lk_leidos_supportitem_modifiedby" />
   <EntityRelationship Name="lk_leidos_tradinggeography_createdby" />
   <EntityRelationship Name="lk_leidos_tradinggeography_modifiedby" />
   <EntityRelationship Name="lk_leidos_tradingstatus_createdby" />
@@ -150,6 +160,7 @@
   <EntityRelationship Name="organization_leidos_producttheme" />
   <EntityRelationship Name="organization_leidos_sector" />
   <EntityRelationship Name="organization_leidos_segmentation" />
+  <EntityRelationship Name="organization_leidos_supportitem" />
   <EntityRelationship Name="organization_leidos_tradingstatus" />
   <EntityRelationship Name="organization_leidos_turnover" />
   <EntityRelationship Name="organization_new_bpfapplicationbusinessprocessflow" />
@@ -171,6 +182,7 @@
   <EntityRelationship Name="team_leidos_tradinggeography" />
   <EntityRelationship Name="TransactionCurrency_leidos_AccountManagementRecord" />
   <EntityRelationship Name="TransactionCurrency_leidos_Application" />
+  <EntityRelationship Name="TransactionCurrency_leidos_BusinessReviewActionPlan" />
   <EntityRelationship Name="TransactionCurrency_leidos_EmploymentDetails" />
   <EntityRelationship Name="TransactionCurrency_leidos_Turnover" />
   <EntityRelationship Name="user_leidos_accountmanagementrecord" />

@@ -12,7 +12,8 @@
         <row name="result" id="leidos_businessreviewactionplanid">
           <cell name="leidos_name" width="200" />
           <cell name="leidos_action" width="100" />
-          <cell name="leidos_howtheprojectsupportthestrategicaim" width="100" />
+          <cell name="leidos_howtheprojectsupportthestrategicaim" width="300" />
+          <cell name="leidos_hiefundingamount" width="100" />
           <cell name="leidos_projectstatus" width="100" />
           <cell name="leidos_estimatedstartdate" width="100" />
           <cell name="leidos_estimatedenddate" width="100" />
@@ -32,6 +33,7 @@
           <attribute name="leidos_estimatedstartdate" />
           <attribute name="leidos_estimatedenddate" />
           <attribute name="leidos_commentsdependenciescriticalpath" />
+          <attribute name="leidos_hiefundingamount" />
         </entity>
       </fetch>
     </fetchxml>

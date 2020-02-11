@@ -108,6 +108,14 @@
                       </cell>
                     </row>
                     <row>
+                      <cell id="{ae10ab69-9b22-41c9-a0e1-da510136cfa3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Hie Funding Amount " languagecode="1033" />
+                        </labels>
+                        <control id="leidos_hiefundingamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_hiefundingamount" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
                       <cell id="{b84e2caf-2fdc-452e-a1d8-0595a78bd70c}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Estimated Start Date" languagecode="1033" />
@@ -222,7 +230,7 @@
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>
     <LocalizedNames>
-      <LocalizedName description="Information" languagecode="1033" />
+      <LocalizedName description="HIE Information" languagecode="1033" />
     </LocalizedNames>
     <Descriptions>
       <Description description="A form for this entity." languagecode="1033" />

@@ -33,29 +33,65 @@
     <steplabels id="{109f2f80-dea8-47e7-bf9e-1a3b79044c25}">
       <label languagecode="1033" description="Name" />
     </steplabels>
-    <steplabels id="{7d0a2257-4789-4a37-3b41-036c40c529f0}">
+    <steplabels id="{4bb21316-13ab-4643-876e-6dd6e4e323e7}">
+      <label languagecode="1033" description="Is support identified in growth plan?" />
+    </steplabels>
+    <steplabels id="{2c4a4dfc-df29-4d23-949d-413d83b15ce9}">
+      <label languagecode="1033" description="Is it within timescale?" />
+    </steplabels>
+    <steplabels id="{824e0176-bc94-4370-ab70-a93299335bfe}">
+      <label languagecode="1033" description="Is it under £50k, not novel or contentious?" />
+    </steplabels>
+    <steplabels id="{c3f7031e-2319-4081-a836-b6c9f6d99888}">
+      <label languagecode="1033" description="Pre-Application Route" />
+    </steplabels>
+    <steplabels id="{aab54763-3195-49f4-9ced-348298732f67}">
+      <label languagecode="1033" description="Key Data" />
+    </steplabels>
+    <steplabels id="{c567353b-27ac-44df-8479-77531d45ac05}">
       <label languagecode="1033" description="Application Reference" />
     </steplabels>
-    <steplabels id="{a0c1d03c-f89a-462e-af82-6a68a7f50285}">
-      <label languagecode="1033" description="Project Location (Post Code)" />
+    <steplabels id="{313c0376-8ef2-4f73-861e-cea865a2069f}">
+      <label languagecode="1033" description="ISA Stage" />
     </steplabels>
-    <steplabels id="{75d9883f-ebd0-49e7-9dee-34866bca20ba}">
+    <steplabels id="{91d708c8-04cb-4949-9c32-3d6ff6dbcc98}">
+      <label languagecode="1033" description="Delegated Authority" />
+    </steplabels>
+    <steplabels id="{a12d1882-33ff-4bae-90bc-283d52a62908}">
+      <label languagecode="1033" description="Initial Strategic Assessment Link" />
+    </steplabels>
+    <steplabels id="{1cfb823a-8f47-496e-87f6-2bd9d7612b31}">
+      <label languagecode="1033" description="Submit ISA for Approval" />
+    </steplabels>
+    <steplabels id="{9041ecca-28a7-4fe9-90ee-639beb9f2026}">
+      <label languagecode="1033" description="Initial Strategic Assessment Approved" />
+    </steplabels>
+    <steplabels id="{4f21da05-bba6-4c30-88f5-8ea86f006e88}">
       <label languagecode="1033" description="Application" />
     </steplabels>
-    <steplabels id="{3832605c-c501-4c31-a56d-1fbfae14ad36}">
+    <steplabels id="{8e90bfc5-9bbf-4608-aff6-96669cbbbee2}">
       <label languagecode="1033" description="Application Reference" />
     </steplabels>
-    <steplabels id="{5ca66d57-ec37-44e3-bb7b-a84d63f49559}">
-      <label languagecode="1033" description="Appraisal" />
+    <steplabels id="{e0460fb8-2024-4cec-aa73-2b4e75897f11}">
+      <label languagecode="1033" description="New Stage" />
     </steplabels>
-    <steplabels id="{6b0dbf26-9c81-4109-b19b-f7547cca1b92}">
+    <steplabels id="{2837c6e1-e91e-4ebd-9e4a-a3d487916faa}">
       <label languagecode="1033" description="Application Reference" />
     </steplabels>
-    <steplabels id="{dc50cfea-9e1d-4d01-a185-de7f4280dbf6}">
+    <steplabels id="{9425e5f7-d74b-49e4-a80e-05d9b2254df6}">
       <label languagecode="1033" description="Decision" />
     </steplabels>
-    <steplabels id="{080e4a92-314a-4bd4-9044-c888ba2ab703}">
-      <label languagecode="1033" description="Application Reference" />
+    <steplabels id="{1d9c4aea-bf95-462e-bfd3-2fcf96501db0}">
+      <label languagecode="1033" description="Project Justification Path" />
+    </steplabels>
+    <steplabels id="{902729fe-487e-4fb7-8f99-92922979a63b}">
+      <label languagecode="1033" description="Delegated Authority" />
+    </steplabels>
+    <steplabels id="{b0941865-bd9f-4bfb-b9f4-8f06ea75061b}">
+      <label languagecode="1033" description="Area Office " />
+    </steplabels>
+    <steplabels id="{e3a85aea-0f73-49a8-95da-5fa1aa4aa9cb}">
+      <label languagecode="1033" description="Board Representative " />
     </steplabels>
   </labels>
 </Workflow>

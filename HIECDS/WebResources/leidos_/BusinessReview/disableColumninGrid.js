@@ -1,3 +1,4 @@
+"use strict";
 var Leidos = window.Leidos || {};
 
 Leidos.disableFieldEdit = function(context, fieldName)
@@ -12,10 +13,10 @@ Leidos.disableFieldEdit = function(context, fieldName)
 }
 
 
-Leidos.gridRowSelected =function (context) {   
+Leidos.gridRowSelected = function (context) {   
     Leidos.disableFieldEdit(context, "leidos_missingscores");
 }
 
-Leidos.gridRowSelectedAnswer =function(context) {      
+Leidos.gridRowSelectedAnswer = function(context) {      
     Leidos.disableFieldEdit(context, "leidos_previousratingvalue");
 }

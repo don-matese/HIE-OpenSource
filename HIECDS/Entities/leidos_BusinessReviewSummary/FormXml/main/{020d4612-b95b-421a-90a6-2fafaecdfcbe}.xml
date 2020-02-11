@@ -71,7 +71,7 @@
                 </section>
                 <section name="ActionPlans" id="cd82d7a8-0b9f-46cc-9a7c-c32d5253b91c" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
                   <labels>
-                    <label description="Action Plans" languagecode="1033" />
+                    <label description="Proposed Support" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
@@ -197,7 +197,7 @@
         </controlDescription>
       </controlDescriptions>
       <Navigation>
-        <NavBar></NavBar>
+        <NavBar />
         <NavBarAreas>
           <NavBarArea Id="Info">
             <Titles>

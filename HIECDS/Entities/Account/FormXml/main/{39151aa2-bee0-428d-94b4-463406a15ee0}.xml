@@ -424,11 +424,34 @@
                     </row>
                   </rows>
                 </section>
+                <section name="SupplierDetailsSection" id="a0cb9945-c6e9-40ed-8e54-db733dc8b9ac" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" visible="false">
+                  <labels>
+                    <label description="Supplier Details" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{3c48d6f1-833d-4001-b67a-f7dd1c5d1a6e}" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="Supplier Item Grid" languagecode="1033" />
+                        </labels>
+                        <control id="SupplierItemGrid" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>leidos_supportitem</TargetEntityType>
+                            <ViewId>{09A0705D-AA4C-EA11-A812-000D3A0BAD17}</ViewId>
+                            <ViewIds>{BF0F6B2B-D56F-440F-9A9D-6EEE0EC841E6},{09A0705D-AA4C-EA11-A812-000D3A0BAD17}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>leidos_Account_leidos_SupportItem</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
               </sections>
             </column>
             <column width="33%">
               <sections>
-                <section name="Profile_TAB_section_5" showlabel="true" showbar="false" id="{ca8587c5-18c0-cac1-7c34-6c639eade090}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelposition="Left" labelid="{5bd3ea39-26a4-46e9-a24a-93c48b7f5104}">
+                <section name="Profile_TAB_section_6" showlabel="true" showbar="false" id="{ca8587c5-18c0-cac1-7c34-6c639eade090}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelposition="Left" labelid="{5bd3ea39-26a4-46e9-a24a-93c48b7f5104}">
                   <labels>
                     <label description="COMPANY PROFILE" languagecode="1033" />
                   </labels>
@@ -506,7 +529,7 @@
                     </row>
                   </rows>
                 </section>
-                <section name="Profile_TAB_section_5" id="fe608dd3-826d-41ec-b7a2-a87e6840c702" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                <section name="Profile_TAB_section_6" id="fe608dd3-826d-41ec-b7a2-a87e6840c702" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
                   <labels>
                     <label description="Account Management" languagecode="1033" />
                   </labels>
@@ -719,6 +742,14 @@
           <InternalHandlers>
             <Handler functionName="AppCommon.Account.Instance.ra_onload" libraryName="AppCommon/Account/Account_main_system_library.js" handlerUniqueId="7927DD68-5AC5-4E9A-B39A-44F62467656A" enabled="true" />
           </InternalHandlers>
+          <Handlers>
+            <Handler functionName="N52.Clientside.ExecuteFormulas" libraryName="north52_/javascript/n52.clientside" handlerUniqueId="cb44a2b3-3ca4-444f-8730-7efaa1cc5b15" enabled="true" parameters="'9BT:*:CreateUpdate::0:217890000:217890000:217890000:217890000'" passExecutionContext="true" />
+          </Handlers>
+        </event>
+        <event name="onchange" application="false" active="false" attribute="leidos_supplierorginisation">
+          <Handlers>
+            <Handler functionName="N52.Clientside.ExecuteFormulas" libraryName="north52_/javascript/n52.clientside" handlerUniqueId="25cac70c-6a47-483c-b8fb-af6dc3804cd7" enabled="true" parameters="'9BT:*:CreateUpdate::0:217890000:217890000:217890000:217890000'" passExecutionContext="true" />
+          </Handlers>
         </event>
       </events>
       <header id="{d5a03552-1183-4347-a237-1f894ba449eb}" columns="111" celllabelposition="Top" labelwidth="115">
@@ -1310,6 +1341,11 @@
         <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
         <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
       </DisplayConditions>
+      <formLibraries>
+        <Library name="north52_/javascript/n52.json2" libraryUniqueId="ce6d0747-0190-4bd2-ae6c-763f299cc9b2" />
+        <Library name="north52_/javascript/n52.rest" libraryUniqueId="0d8c218b-0211-4ab2-b81f-199162d2f4bb" />
+        <Library name="north52_/javascript/n52.clientside" libraryUniqueId="023804c8-4249-4caa-ba52-ba703faa11ec" />
+      </formLibraries>
     </form>
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>

@@ -602,6 +602,101 @@
             </column>
           </columns>
         </tab>
+        <tab name="HIEProcesses" id="2bba8f19-a34c-41b1-b7fb-29b8f86333b2" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="HIE Processes" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section name="BusinessPlanSignoff" id="c7eed1ef-e6f9-4bdc-8b4e-574a6295c60d" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Business Plan Sign Off" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{6bf11692-5436-497b-bb05-d35698097142}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Submit Business / Growth Plan" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_submitbusinessgrowthplan" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="leidos_submitbusinessgrowthplan" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6b338040-15a4-4cb0-b80e-23b80c51e50c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Business Plan Approved By" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_businessplanapprovedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_businessplanapprovedby" disabled="false" uniqueid="{b490d6b4-95bd-7dbd-940e-2a17d1e4599b}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{E88CA999-0B16-4AE9-B6A9-9EDC840D42D8}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{af15e262-b9c7-486b-b086-3c143ab10517}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Business Plan Approved On" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_businessplanapprovedon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="leidos_businessplanapprovedon" disabled="false" uniqueid="{92514820-4b56-e08c-0deb-9cae6714715c}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="HIEProcesses_section_4" id="d18da062-7a09-4514-8cbd-de53d9a0d158" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Action Plan Sign Off" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{31d28b8f-bb1e-4fe1-add1-3595deef2b2a}" showlabel="true" locklevel="0" colspan="1">
+                        <labels>
+                          <label description="Submit Action Plan for Approval" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_submitactionplanforapproval" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="leidos_submitactionplanforapproval" disabled="false" uniqueid="{be6355d5-329b-c235-ee8d-a9b98d04be56}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bf67e681-79ec-4d62-9212-88c75a06518b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Action Plan Approved By" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_actionplanapprovedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_actionplanapprovedby" disabled="false" uniqueid="{866607a0-4883-e26c-5e6a-4292d80291d2}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{E88CA999-0B16-4AE9-B6A9-9EDC840D42D8}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{eac3cba9-39a5-4584-b737-943db201649e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Action Plan Approved On" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_actionplanapprovedon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="leidos_actionplanapprovedon" disabled="false" uniqueid="{d219dc7e-0d19-2967-17b9-9727dda53a0a}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
       </tabs>
       <header id="{38dde75b-db47-48f4-a201-017fc2ecc85b}" columns="111" labelwidth="115" celllabelposition="Top" celllabelalignment="Left">
         <rows>
