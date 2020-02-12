@@ -11,6 +11,7 @@
     <AppModuleComponent type="62" schemaName="leidos_HIEAccountManagement" />
     <AppModuleComponent type="29" id="{e88b17e3-b43d-ea11-a812-000d3a0ba151}" />
     <AppModuleComponent type="29" id="{b563bc4d-f5d3-4d7b-8d43-2179f246d138}" />
+    <AppModuleComponent type="29" id="{aacd5128-30f4-49a1-81df-9c6354153fa1}" />
     <AppModuleComponent type="29" id="{440ae705-9cfd-460b-b681-d7a6b0cb6e7e}" />
     <AppModuleComponent type="60" id="{e85f3335-ca36-ea11-a813-000d3a0bad7c}" />
     <AppModuleComponent type="1" schemaName="account" />
@@ -28,16 +29,18 @@
     <AppModuleComponent type="1" schemaName="leidos_accountmanagementrecord" />
     <AppModuleComponent type="60" id="{91234d33-ba89-4316-8c8d-4b4cd2367fba}" />
     <AppModuleComponent type="60" id="{a8dceb95-946f-4816-a956-79313fc809e6}" />
+    <AppModuleComponent type="1" schemaName="leidos_businessreviewactionplan" />
     <AppModuleComponent type="1" schemaName="activitypointer" />
     <AppModuleComponent type="1" schemaName="leidos_application" />
     <AppModuleComponent type="1" schemaName="appointment" />
     <AppModuleComponent type="1" schemaName="leidos_areaoffice" />
     <AppModuleComponent type="1" schemaName="new_bpfapplicationbusinessprocessflow" />
+    <AppModuleComponent type="1" schemaName="leidos_bpfamrdirectcreation" />
     <AppModuleComponent type="1" schemaName="leidos_bpfaccountprocess" />
     <AppModuleComponent type="1" schemaName="leidos_businessreview" />
-    <AppModuleComponent type="1" schemaName="leidos_businessreviewanswers" />
     <AppModuleComponent type="1" schemaName="leidos_businessreviewquestion" />
     <AppModuleComponent type="1" schemaName="leidos_businessreviewquestioncategory" />
+    <AppModuleComponent type="1" schemaName="leidos_businessreviewanswers" />
     <AppModuleComponent type="1" schemaName="leidos_businessreviewsummary" />
     <AppModuleComponent type="1" schemaName="leidos_categorynatureofenquiry" />
     <AppModuleComponent type="1" schemaName="leidos_clientenquiryorigin" />
@@ -77,6 +80,7 @@
     <AppModuleComponent type="1" schemaName="leidos_producttheme" />
     <AppModuleComponent type="1" schemaName="leidos_sector" />
     <AppModuleComponent type="1" schemaName="leidos_segmentation" />
+    <AppModuleComponent type="1" schemaName="leidos_supportitem" />
     <AppModuleComponent type="1" schemaName="task" />
     <AppModuleComponent type="1" schemaName="team" />
     <AppModuleComponent type="60" id="{7ba7fac1-1418-4335-935f-f7f8dfd73fcc}" />

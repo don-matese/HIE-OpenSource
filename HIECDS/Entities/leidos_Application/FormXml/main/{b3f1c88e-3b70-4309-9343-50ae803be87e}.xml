@@ -45,7 +45,7 @@
                     </row>
                   </rows>
                 </section>
-                <section name="Project" id="7a6072d0-26dc-4979-b3cb-84693d115233" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                <section name="Project" id="7a6072d0-26dc-4979-b3cb-84693d115233" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" height="auto">
                   <labels>
                     <label description="Project" languagecode="1033" />
                   </labels>
@@ -70,13 +70,76 @@
                     <row />
                     <row />
                     <row />
-                    <row />
+                    <row height="auto" />
                     <row>
                       <cell id="{baa760b4-e3ff-4d79-96c3-450e4f851158}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Product and Service Description" languagecode="1033" />
                         </labels>
                         <control id="leidos_productandservicedescription" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="leidos_productandservicedescription" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="PreApplication" id="afb700d8-980e-4c65-b857-67fe9673d93e" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Pre-Application" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{faf62479-9b75-4be1-9832-8adad2cb3e95}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="ISA Approval Delegated Authority" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_isaapprovaldelegatedauthority" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_isaapprovaldelegatedauthority" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5332e582-ac29-42b7-a1f4-32d994236ffe}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Initial Strategic Assessment Link" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_initialstrategicassessmentlink" classid="{71716B6C-711E-476C-8AB8-5D11542BFB47}" datafieldname="leidos_initialstrategicassessmentlink" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6e2fc2ef-f40e-4d76-842f-1c3c745d8a7e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Submit ISA for Approval" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_submitisaforapproval" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="leidos_submitisaforapproval" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{25cf8d6d-be65-41fc-8555-bf2c27693ca3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="ISA Approval Requested on" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_isaapprovalrequestedon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="leidos_isaapprovalrequestedon" disabled="false" uniqueid="{9d7c843e-7ba1-ba67-eae9-aa877a134ae0}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8d178f66-dd3f-4968-8f38-0d2044a1792f}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="ISA Approved On" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_isaapprovedon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="leidos_isaapprovedon" disabled="false" uniqueid="{5b74dabe-6166-d37e-0106-0c0903193eb4}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{abeb273b-0cae-4be3-8527-4c00a369faaf}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Initial Strategic Assessment Approved" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_initialstrategicassessmentapproved" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="leidos_initialstrategicassessmentapproved" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7012d831-513e-4052-8ef2-4f26e00c0e01}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="ISA Decision Outcome" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_isadecisionoutcome" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="leidos_isadecisionoutcome" disabled="false" uniqueid="{e3b9ecd3-4dac-0425-4ecc-ba4224ccc6e2}" />
                       </cell>
                     </row>
                   </rows>
@@ -386,7 +449,6 @@
           </row>
         </rows>
       </footer>
-      <DisplayConditions Order="0" FallbackForm="true" />
       <events>
         <event name="onchange" application="false" active="false" attribute="leidos_issupportidentifiedingrowthplan">
           <Handlers>
@@ -409,6 +471,38 @@
         <Library name="north52_/javascript/n52.rest" libraryUniqueId="1b710530-5962-4368-a8f1-a953ac92d20f" />
         <Library name="north52_/javascript/n52.clientside" libraryUniqueId="412ee62e-8c79-4700-8c3f-af41fac6fa60" />
       </formLibraries>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <DisplayConditions Order="0" FallbackForm="true" />
     </form>
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>

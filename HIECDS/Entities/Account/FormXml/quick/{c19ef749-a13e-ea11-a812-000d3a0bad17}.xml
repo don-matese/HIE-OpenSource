@@ -5,7 +5,7 @@
     <IntroducedVersion>1.2.0.0</IntroducedVersion>
     <FormPresentation>1</FormPresentation>
     <FormActivationState>1</FormActivationState>
-    <form headerdensity="Low">
+    <form>
       <tabs>
         <tab id="ACBA75B7-97B6-4116-AA55-51312992B721" name="tab_1" showlabel="false" labelid="{d870e840-239d-429a-a0db-9ef4d00fde77}">
           <labels>
@@ -49,6 +49,22 @@
                           <label description="Number of Employees" languagecode="1033" />
                         </labels>
                         <control id="numberofemployees" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="numberofemployees" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9c26a919-fefb-4f8c-8d25-6aa8a8d14ee1}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Segmentation" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_segmentation" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_segmentation" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a57729d2-1d7b-4233-bbc0-f35d86cd508f}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Organisation Type" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_organisationtype" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_organisationtype" disabled="false" />
                       </cell>
                     </row>
                   </rows>

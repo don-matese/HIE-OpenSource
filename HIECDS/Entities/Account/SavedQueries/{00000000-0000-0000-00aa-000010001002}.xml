@@ -14,6 +14,9 @@
           <cell name="leidos_accountreference" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
           <cell name="leidos_hieteamallocation" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
           <cell name="leidos_projectofficerallocation" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="leidos_organisationtype" width="100" />
+          <cell name="leidos_segmentation" width="100" />
+          <cell name="leidos_sector" width="100" />
           <cell name="telephone1" width="100" />
           <cell name="address1_city" width="100" />
         </row>
@@ -35,6 +38,9 @@
           <attribute name="leidos_hieteamallocation" />
           <attribute name="leidos_accountreference" />
           <attribute name="accountid" />
+          <attribute name="leidos_organisationtype" />
+          <attribute name="leidos_segmentation" />
+          <attribute name="leidos_sector" />
         </entity>
       </fetch>
     </fetchxml>

@@ -623,6 +623,14 @@
                       </cell>
                     </row>
                     <row>
+                      <cell id="{e083b49c-473b-46ba-b861-a7d427b2e4ce}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Submitted On" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_submittedon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="leidos_submittedon" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
                       <cell id="{6b338040-15a4-4cb0-b80e-23b80c51e50c}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Business Plan Approved By" languagecode="1033" />
@@ -664,6 +672,14 @@
                           <label description="Submit Action Plan for Approval" languagecode="1033" />
                         </labels>
                         <control id="leidos_submitactionplanforapproval" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="leidos_submitactionplanforapproval" disabled="false" uniqueid="{be6355d5-329b-c235-ee8d-a9b98d04be56}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{783bd654-643a-4265-b709-cedebfafa050}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Action Plan Submitted On" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_actionplansubmittedon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="leidos_actionplansubmittedon" disabled="true" />
                       </cell>
                     </row>
                     <row>
@@ -755,7 +771,7 @@
         </rows>
       </footer>
       <Navigation>
-        <NavBar></NavBar>
+        <NavBar />
         <NavBarAreas>
           <NavBarArea Id="Info">
             <Titles>

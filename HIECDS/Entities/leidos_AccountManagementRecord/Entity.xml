@@ -1005,8 +1005,8 @@
           <IsRetrievable>0</IsRetrievable>
           <IsLocalizable>0</IsLocalizable>
           <Format>url</Format>
-          <MaxLength>100</MaxLength>
-          <Length>200</Length>
+          <MaxLength>500</MaxLength>
+          <Length>1000</Length>
           <displaynames>
             <displayname description="Link to Recommndation" languagecode="1033" />
           </displaynames>
@@ -1097,7 +1097,7 @@
           <Type>nvarchar</Type>
           <Name>leidos_name</Name>
           <LogicalName>leidos_name</LogicalName>
-          <RequiredLevel>required</RequiredLevel>
+          <RequiredLevel>none</RequiredLevel>
           <DisplayMask>ActivityPointerRegardingName|PrimaryName|ValidForAdvancedFind|ValidForForm|ValidForGrid|RequiredForForm</DisplayMask>
           <ImeMode>auto</ImeMode>
           <ValidForUpdateApi>1</ValidForUpdateApi>

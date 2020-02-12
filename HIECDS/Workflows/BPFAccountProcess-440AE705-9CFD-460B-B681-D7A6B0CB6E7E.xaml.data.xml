@@ -60,9 +60,6 @@
     <steplabels id="{68ebde64-1710-4f1f-98ad-eca3dcfabe2b}">
       <label languagecode="1033" description="Recommendation to Area Manager" />
     </steplabels>
-    <steplabels id="{8158c171-fd7b-47da-b542-5ed79e15c548}">
-      <label languagecode="1033" description="Create AMR Record" />
-    </steplabels>
     <steplabels id="{92b356d1-878a-44c3-878c-381bd0733930}">
       <label languagecode="1033" description="Proposed For Account Management" />
     </steplabels>

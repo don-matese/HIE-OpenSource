@@ -158,7 +158,13 @@
                         <labels>
                           <label description="Project Officer Allocation" languagecode="1033" />
                         </labels>
-                        <control id="leidos_projectofficerallocation" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_projectofficerallocation" disabled="false" />
+                        <control id="leidos_projectofficerallocation" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_projectofficerallocation" disabled="false">
+                          <parameters>
+                            <DefaultViewId>{37ACE280-844D-EA11-A812-000D3A0BAD17}</DefaultViewId>
+                            <AvailableViewIds>{DBB8E4E1-FD3C-EA11-A812-000D3A0BA151},{ABA981C9-16A2-4DCC-B694-376AE95FA4B0},{862C3CBF-23FF-4EAB-B9A9-7B438BAC70A9},{51AF2F40-36BB-4198-9B0C-71A986C7C953},{F79AD170-AE03-4F4C-8132-D4AA08520A0C},{00000000-0000-0000-00AA-000010001119},{5953249B-2A59-43BF-A94F-6B8CC1F2D245},{00000000-0000-0000-00AA-000010001019},{37ACE280-844D-EA11-A812-000D3A0BAD17},{DA675923-DA9D-4702-AAD6-3207283A5ACE},{00000000-0000-0000-00AA-000010001020},{8DD58E14-0138-47D4-BA2D-A7DC76094D05},{00000000-0000-0000-00AA-000010001021},{80C59598-FC3C-EA11-A812-000D3A0BA151},{AF89FDC8-5D83-40B4-988C-A0941579EE9D},{BB3CD580-ECFB-4A85-A623-9A109B73815F},{30CE6879-6B7A-E211-8976-00155D89AC0C},{AAD628C6-F0DD-4D34-B0ED-9A78F9C23A20},{E88CA999-0B16-4AE9-B6A9-9EDC840D42D8},{E5D893D1-2B1F-46E5-8EA4-25562567CCCE},{31E76B45-BFE7-447E-B4B5-50DC393BCDBE},{FCF02D37-524A-4332-8AC7-497EF6B739F9},{89939D86-F073-42BA-BFC4-DA7999C78825}</AvailableViewIds>
+                            <DisableViewPicker>true</DisableViewPicker>
+                          </parameters>
+                        </control>
                       </cell>
                     </row>
                   </rows>
@@ -1000,29 +1006,14 @@
               <Title LCID="1033" Text="Contacts" />
             </Titles>
           </NavBarByRelationshipItem>
-          <NavBarByRelationshipItem RelationshipName="leidos_AccountManagementRecord_ParentAcco" Sequence="53" Area="Info" Id="nav_leidos_AccountManagementRecord_ParentAcco">
-            <Titles>
-              <Title LCID="1033" Text="Account Management Records" />
-            </Titles>
-          </NavBarByRelationshipItem>
-          <NavBarByRelationshipItem RelationshipName="leidos_enquiry_SEPPartnerOrganisation_Acc" Sequence="61" Area="Info" Id="nav_leidos_enquiry_SEPPartnerOrganisation_Acc">
+          <NavBarByRelationshipItem RelationshipName="leidos_enquiry_SEPPartnerOrganisation_Acc" Sequence="61" Area="Info" Id="nav_leidos_enquiry_SEPPartnerOrganisation_Acc" Show="false">
             <Titles>
               <Title LCID="1033" Text="Enquiries" />
             </Titles>
           </NavBarByRelationshipItem>
-          <NavBarByRelationshipItem RelationshipName="Account_SharepointDocument" Sequence="62" Area="Info" Id="navSPDocuments">
-            <Titles>
-              <Title LCID="1033" Text="Documents" />
-            </Titles>
-          </NavBarByRelationshipItem>
-          <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navConnections" Sequence="8502" Area="Info" Id="navConnections">
+          <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navConnections" Sequence="8502" Area="Info" Id="navConnections" Show="false">
             <Titles>
               <Title LCID="1033" Text="Connections" />
-            </Titles>
-          </NavBarByRelationshipItem>
-          <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navDocument" Sequence="9002" Area="Info" Id="navDocument">
-            <Titles>
-              <Title LCID="1033" Text="Documents" />
             </Titles>
           </NavBarByRelationshipItem>
           <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navAsyncOperations" Sequence="9500" Area="ProcessCenter" Id="navAsyncOperations" Show="false">
@@ -1128,19 +1119,9 @@
               <Title LCID="1028" Text="對話方塊工作階段" />
             </Titles>
           </NavBarByRelationshipItem>
-          <NavBarByRelationshipItem RelationshipName="adx_invitation_assigntoaccount" Sequence="10002" Area="Info" Id="nav_adx_invitation_assigntoaccount">
-            <Titles>
-              <Title LCID="1033" Text="Invitations" />
-            </Titles>
-          </NavBarByRelationshipItem>
           <NavBarByRelationshipItem RelationshipName="leidos_account_leidos_enquiry_Account" Sequence="10003" Area="Info" Id="nav_leidos_account_leidos_enquiry_Account">
             <Titles>
               <Title LCID="1033" Text="Enquiries" />
-            </Titles>
-          </NavBarByRelationshipItem>
-          <NavBarByRelationshipItem RelationshipName="leidos_account_leidos_tradinggeography_ParentAccount" Sequence="10004" Area="Info" Id="nav_leidos_account_leidos_tradinggeography_ParentAccount">
-            <Titles>
-              <Title LCID="1033" Text="Trading Geographies" />
             </Titles>
           </NavBarByRelationshipItem>
           <NavBarByRelationshipItem RelationshipName="leidos_Application_ParentAccount_Account" Sequence="10005" Area="Info" Id="nav_leidos_Application_ParentAccount_Account">
@@ -1148,9 +1129,59 @@
               <Title LCID="1033" Text="Applications" />
             </Titles>
           </NavBarByRelationshipItem>
-          <NavBarByRelationshipItem RelationshipName="bpf_account_leidos_bpfaccountprocess" Sequence="10006" Area="Info" Id="nav_bpf_account_leidos_bpfaccountprocess">
+          <NavBarByRelationshipItem RelationshipName="leidos_AccountManagementRecord_ParentAcco" Sequence="1000" Area="Sales" Id="nav_leidos_AccountManagementRecord_ParentAcco">
+            <Titles>
+              <Title LCID="1033" Text="Account Management Records" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="leidos_BusinessReview_RelatedAccount_Acco" Sequence="1001" Area="Sales" Id="nav_leidos_BusinessReview_RelatedAccount_Acco">
+            <Titles>
+              <Title LCID="1033" Text="Business Reviews" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="leidos_Account_leidos_SupportItem" Sequence="1002" Area="Sales" Id="nav_leidos_Account_leidos_SupportItem">
+            <Titles>
+              <Title LCID="1033" Text="Support Items" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="msa_contact_managingpartner" Sequence="1003" Area="Service" Id="nav_msa_contact_managingpartner">
+            <Titles>
+              <Title LCID="1033" Text="Managed Contacts" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="msa_account_managingpartner" Sequence="1004" Area="Service" Id="nav_msa_account_managingpartner">
+            <Titles>
+              <Title LCID="1033" Text="Managed Accounts" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="bpf_account_leidos_bpfaccountprocess" Sequence="1005" Area="Service" Id="nav_bpf_account_leidos_bpfaccountprocess">
             <Titles>
               <Title LCID="1033" Text="BPF Account Process" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="leidos_account_leidos_tradinggeography_ParentAccount" Sequence="1006" Area="Service" Id="nav_leidos_account_leidos_tradinggeography_ParentAccount">
+            <Titles>
+              <Title LCID="1033" Text="Trading Geographies" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="adx_webrole_account" Sequence="1007" Area="Marketing" Id="nav_adx_webrole_account">
+            <Titles>
+              <Title LCID="1033" Text="Web Roles" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="adx_invitation_assigntoaccount" Sequence="1008" Area="Marketing" Id="nav_adx_invitation_assigntoaccount">
+            <Titles>
+              <Title LCID="1033" Text="Invitations" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navDocument" Sequence="1009" Area="Marketing" Id="navDocument">
+            <Titles>
+              <Title LCID="1033" Text="Documents" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="Account_SharepointDocument" Sequence="1010" Area="Marketing" Id="navSPDocuments">
+            <Titles>
+              <Title LCID="1033" Text="Documents" />
             </Titles>
           </NavBarByRelationshipItem>
         </NavBar>
@@ -1162,17 +1193,17 @@
           </NavBarArea>
           <NavBarArea Id="Sales">
             <Titles>
-              <Title LCID="1033" Text="Sales" />
+              <Title LCID="1033" Text="Account Management" />
             </Titles>
           </NavBarArea>
           <NavBarArea Id="Service">
             <Titles>
-              <Title LCID="1033" Text="Service" />
+              <Title LCID="1033" Text="Reference" />
             </Titles>
           </NavBarArea>
           <NavBarArea Id="Marketing">
             <Titles>
-              <Title LCID="1033" Text="Marketing" />
+              <Title LCID="1033" Text="Portal" />
             </Titles>
           </NavBarArea>
           <NavBarArea Id="ProcessCenter">
@@ -1337,15 +1368,15 @@
           </row>
         </rows>
       </footer>
-      <DisplayConditions FallbackForm="true" Order="4">
-        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
-        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
-      </DisplayConditions>
       <formLibraries>
         <Library name="north52_/javascript/n52.json2" libraryUniqueId="ce6d0747-0190-4bd2-ae6c-763f299cc9b2" />
         <Library name="north52_/javascript/n52.rest" libraryUniqueId="0d8c218b-0211-4ab2-b81f-199162d2f4bb" />
         <Library name="north52_/javascript/n52.clientside" libraryUniqueId="023804c8-4249-4caa-ba52-ba703faa11ec" />
       </formLibraries>
+      <DisplayConditions FallbackForm="true" Order="4">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
     </form>
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>

@@ -3,9 +3,9 @@
   <EntityRelationship Name="adx_webrole_systemuser" />
   <EntityRelationship Name="bpf_account_leidos_bpfaccountprocess" />
   <EntityRelationship Name="bpf_leidos_accountmanagementrecord_leidos_bpfaccountprocess" />
+  <EntityRelationship Name="bpf_leidos_accountmanagementrecord_leidos_bpfamrdirectcreation" />
   <EntityRelationship Name="bpf_leidos_application_new_bpfapplicationbusinessprocessflow" />
   <EntityRelationship Name="bpf_leidos_enquiry_leidos_enquirybusinessflow" />
-  <EntityRelationship Name="bpf_msdyn_flow_approvalrequest_new_bpfapplicationbusinessprocessflow" />
   <EntityRelationship Name="business_unit_leidos_accountmanagementrecord" />
   <EntityRelationship Name="business_unit_leidos_application" />
   <EntityRelationship Name="business_unit_leidos_businessreview" />
@@ -79,6 +79,10 @@
   <EntityRelationship Name="lk_leidos_bpfaccountprocess_createdby" />
   <EntityRelationship Name="lk_leidos_bpfaccountprocess_modifiedby" />
   <EntityRelationship Name="lk_leidos_bpfaccountprocess_processid" />
+  <EntityRelationship Name="lk_leidos_bpfamrdirectcreation_activestageid" />
+  <EntityRelationship Name="lk_leidos_bpfamrdirectcreation_createdby" />
+  <EntityRelationship Name="lk_leidos_bpfamrdirectcreation_modifiedby" />
+  <EntityRelationship Name="lk_leidos_bpfamrdirectcreation_processid" />
   <EntityRelationship Name="lk_leidos_businessreview_createdby" />
   <EntityRelationship Name="lk_leidos_businessreview_modifiedby" />
   <EntityRelationship Name="lk_leidos_businessreviewactionplan_createdby" />
@@ -143,6 +147,7 @@
   <EntityRelationship Name="msdyn_flow_basicapprovalmodelrelationship_systemuser" />
   <EntityRelationship Name="organization_leidos_areaoffice" />
   <EntityRelationship Name="organization_leidos_bpfaccountprocess" />
+  <EntityRelationship Name="organization_leidos_bpfamrdirectcreation" />
   <EntityRelationship Name="organization_leidos_businessreviewanswers" />
   <EntityRelationship Name="organization_leidos_businessreviewquestion" />
   <EntityRelationship Name="organization_leidos_businessreviewquestioncategory" />

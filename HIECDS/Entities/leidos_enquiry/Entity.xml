@@ -2074,7 +2074,7 @@
               </status>
               <status value="445260001" state="0" TransitionData="&lt;allowedtransitions xmlns=&quot;http://schemas.microsoft.com/crm/2009/WebServices&quot;&gt;&lt;allowedtransition sourcestatusid=&quot;445260001&quot; tostatusid=&quot;445260003&quot; /&gt;&lt;allowedtransition sourcestatusid=&quot;445260001&quot; tostatusid=&quot;445260004&quot; /&gt;&lt;allowedtransition sourcestatusid=&quot;445260001&quot; tostatusid=&quot;2&quot; /&gt;&lt;allowedtransition sourcestatusid=&quot;445260001&quot; tostatusid=&quot;445260002&quot; /&gt;&lt;/allowedtransitions&gt;" Color="#0000ff">
                 <labels>
-                  <label description="Awaiting Infromation" languagecode="1033" />
+                  <label description="Awaiting Information" languagecode="1033" />
                 </labels>
               </status>
               <status value="2" state="1" TransitionData="&lt;allowedtransitions xmlns=&quot;http://schemas.microsoft.com/crm/2009/WebServices&quot;&gt;&lt;allowedtransition sourcestatusid=&quot;2&quot; tostatusid=&quot;1&quot; /&gt;&lt;/allowedtransitions&gt;" Color="#0000ff">
