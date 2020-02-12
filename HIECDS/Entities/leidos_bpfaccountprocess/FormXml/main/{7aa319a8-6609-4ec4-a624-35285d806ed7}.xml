@@ -260,22 +260,6 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{1d96cc49-f6e9-4298-90ba-42c26d20790c}" showlabel="true" visible="true" labelid="{df1103bd-d4a7-4a32-8eb2-54b06455bc9e}">
-                        <labels>
-                          <label description="Portfolio Manager Endorsement By" languagecode="1033" />
-                        </labels>
-                        <control id="bpf_leidos_accountmanagementrecord_leidos_bpfaccountprocess:leidos_portfoliomanagerendorsementby" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="leidos_portfoliomanagerendorsementby" relationship="bpf_leidos_accountmanagementrecord_leidos_bpfaccountprocess" isrequired="true" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{760aad3e-8fb3-437d-bdc2-c83b7dd0973d}" showlabel="true" visible="true" labelid="{1ef45cca-0d6b-41d4-ae0d-dc0ca0042392}">
-                        <labels>
-                          <label description="Portfolio Manager Endorsement On" languagecode="1033" />
-                        </labels>
-                        <control id="bpf_leidos_accountmanagementrecord_leidos_bpfaccountprocess:leidos_portfoliomanagerendorsementon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="leidos_portfoliomanagerendorsementon" relationship="bpf_leidos_accountmanagementrecord_leidos_bpfaccountprocess" isrequired="true" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
                       <cell id="{80e27789-faa4-4bdb-a3eb-c9c065f106a7}" showlabel="true" visible="true" labelid="{b096b8d5-0a56-48f3-ac17-870ebf63fe10}">
                         <labels>
                           <label description="Status Reason" languagecode="1033" />
@@ -289,14 +273,14 @@
             </column>
           </columns>
         </tab>
-        <tab verticallayout="true" id="{b71402b4-1240-46c8-b81a-6491af723713}" name="StageStep62" locklevel="0" expanded="true" visible="false" labelid="{14b2fe5e-180d-4860-9f5d-2696f3785ad8}">
+        <tab verticallayout="true" id="{b71402b4-1240-46c8-b81a-6491af723713}" name="StageStep58" locklevel="0" expanded="true" visible="false" labelid="{14b2fe5e-180d-4860-9f5d-2696f3785ad8}">
           <labels>
             <label description="Review Process" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showbar="false" columns="1" id="{b71402b4-1240-46c8-b81a-6491af723713}" name="StageStep62_section1" labelid="{78fc5134-416a-488c-a383-8aaa6bc69daa}">
+                <section showbar="false" columns="1" id="{b71402b4-1240-46c8-b81a-6491af723713}" name="StageStep58_section1" labelid="{e3590740-f488-4ca5-8fe2-4bf30768083f}">
                   <labels>
                     <label description="Review Process" languagecode="1033" />
                   </labels>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Workflow WorkflowId="{acba6155-804d-ea11-a812-000d3a0bad17}" Name="When a record is created, updated or deleted -&gt; Get AMR Record" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <JsonFileName>/Workflows/Whenarecordiscreatedupdatedordeleted-GetAMRRecord-ACBA6155-804D-EA11-A812-000D3A0BAD17.json</JsonFileName>
+<Workflow WorkflowId="{acba6155-804d-ea11-a812-000d3a0bad17}" Name="BPF AMR - Flow - PN Change of Stage" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <JsonFileName>/Workflows/BPFAMR-Flow-PNChangeofStage-ACBA6155-804D-EA11-A812-000D3A0BAD17.json</JsonFileName>
   <Type>1</Type>
   <Subprocess>0</Subprocess>
   <Category>5</Category>
@@ -20,6 +20,6 @@
   <BusinessProcessType>0</BusinessProcessType>
   <PrimaryEntity>none</PrimaryEntity>
   <LocalizedNames>
-    <LocalizedName languagecode="1033" description="When a record is created, updated or deleted -&gt; Get AMR Record" />
+    <LocalizedName languagecode="1033" description="BPF AMR - Flow - PN Change of Stage" />
   </LocalizedNames>
 </Workflow>

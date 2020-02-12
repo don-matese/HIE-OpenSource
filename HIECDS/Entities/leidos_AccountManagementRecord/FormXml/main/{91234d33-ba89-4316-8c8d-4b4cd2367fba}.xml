@@ -20,14 +20,6 @@
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{1c3d6d48-86f1-4337-8434-3ee12b123b49}">
-                        <labels>
-                          <label description="Name" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="leidos_name" />
-                      </cell>
-                    </row>
-                    <row>
                       <cell id="{65f60970-d92c-41fe-ab2f-169ca5aac66c}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Parent Account" languagecode="1033" />

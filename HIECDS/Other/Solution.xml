@@ -437,7 +437,7 @@
       </MissingDependency>
       <MissingDependency>
         <Required key="48" type="61" schemaName="AppCommon/Account/Account_main_system_library.js" displayName="AppCommon/Account/Account_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)" />
-        <Dependent key="7" type="60" displayName="HIE Client Form" parentDisplayName="Account" id="{39151aa2-bee0-428d-94b4-463406a15ee0}" />
+        <Dependent key="25" type="60" displayName=" Web - Account Details" parentDisplayName="Account" id="{4afa4550-1f3d-ea11-a812-000d3a0bad17}" />
       </MissingDependency>
       <MissingDependency>
         <Required key="49" type="61" schemaName="adx_conferenceregistration_small" displayName="adx_conferenceregistration_small" solution="MicrosoftPortalBase (9.2.10.0)" />

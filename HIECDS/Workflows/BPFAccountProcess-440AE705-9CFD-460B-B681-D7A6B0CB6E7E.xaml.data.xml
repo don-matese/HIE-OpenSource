@@ -105,12 +105,6 @@
     <steplabels id="{8ba41b25-4386-46dc-99e3-96dc84b23642}">
       <label languagecode="1033" description="Area Manager Approval On" />
     </steplabels>
-    <steplabels id="{1d96cc49-f6e9-4298-90ba-42c26d20790c}">
-      <label languagecode="1033" description="Portfolio Manager Endorsement By" />
-    </steplabels>
-    <steplabels id="{760aad3e-8fb3-437d-bdc2-c83b7dd0973d}">
-      <label languagecode="1033" description="Portfolio Manager Endorsement On" />
-    </steplabels>
     <steplabels id="{80e27789-faa4-4bdb-a3eb-c9c065f106a7}">
       <label languagecode="1033" description="Status Reason" />
     </steplabels>
