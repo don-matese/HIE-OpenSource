@@ -1,0 +1,9 @@
+{
+  "EnvironmentVariableValues": [
+    {
+      "EnvironmentVariableDefinition.SchemaName": "leidos_BaseURL",
+      "EnvironmentVariableValueId": "d7b6ac7f-534e-ea11-a812-000d3a0bad17",
+      "Value": "https://hienpdevcds.crm11.dynamics.com/"
+    }
+  ]
+}
