@@ -36,6 +36,9 @@
     <steplabels id="{fa67280b-211e-48fa-94cf-967584068091}">
       <label languagecode="1033" description="Organisation Type" />
     </steplabels>
+    <steplabels id="{ad25dece-65c5-4cff-bfb7-565ad7bbc8d6}">
+      <label languagecode="1033" description="Primary Contact" />
+    </steplabels>
     <steplabels id="{013f7648-c3f3-4c30-830e-b9de1d514cd6}">
       <label languagecode="1033" description=" Main Activities, Products And Services" />
     </steplabels>
