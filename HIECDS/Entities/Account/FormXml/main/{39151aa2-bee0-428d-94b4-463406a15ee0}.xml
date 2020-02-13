@@ -749,7 +749,7 @@
             <Handler functionName="AppCommon.Account.Instance.ra_onload" libraryName="AppCommon/Account/Account_main_system_library.js" handlerUniqueId="7927DD68-5AC5-4E9A-B39A-44F62467656A" enabled="true" />
           </InternalHandlers>
           <Handlers>
-            <Handler functionName="N52.Clientside.ExecuteFormulas" libraryName="north52_/javascript/n52.clientside" handlerUniqueId="cb44a2b3-3ca4-444f-8730-7efaa1cc5b15" enabled="true" parameters="'9BT:*:CreateUpdate::0:217890000:217890000:217890000:217890000','xaY:*:CreateUpdate::0:217890000:217890000:217890000:217890000'" passExecutionContext="true" />
+            <Handler functionName="N52.Clientside.ExecuteFormulas" libraryName="north52_/javascript/n52.clientside" handlerUniqueId="cb44a2b3-3ca4-444f-8730-7efaa1cc5b15" enabled="true" parameters="'9BT:*:CreateUpdate::0:217890000:217890000:217890000:217890000','kDo:*:CreateUpdate::0:217890000:217890000:217890000:217890000'" passExecutionContext="true" />
           </Handlers>
         </event>
         <event name="onchange" application="false" active="false" attribute="leidos_supplierorginisation">
@@ -759,7 +759,7 @@
         </event>
         <event name="onchange" application="false" active="false" attribute="primarycontactid">
           <Handlers>
-            <Handler functionName="N52.Clientside.ExecuteFormulas" libraryName="north52_/javascript/n52.clientside" handlerUniqueId="026fe146-5049-41d0-973d-c02543e0acda" enabled="true" parameters="'xaY:*:CreateUpdate::0:217890000:217890000:217890000:217890000'" passExecutionContext="true" />
+            <Handler functionName="N52.Clientside.ExecuteFormulas" libraryName="north52_/javascript/n52.clientside" handlerUniqueId="9cb6c38e-fd13-4169-adee-ff0bd2e81364" enabled="true" parameters="'kDo:*:CreateUpdate::0:217890000:217890000:217890000:217890000'" passExecutionContext="true" />
           </Handlers>
         </event>
       </events>
@@ -1378,9 +1378,9 @@
         <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
       </DisplayConditions>
       <formLibraries>
-        <Library name="north52_/javascript/n52.json2" libraryUniqueId="fbbd84ed-b92e-41e3-a6c5-eb9907bbfaf1" />
-        <Library name="north52_/javascript/n52.rest" libraryUniqueId="45c00054-4e6d-4cf5-968a-952c689d83ab" />
-        <Library name="north52_/javascript/n52.clientside" libraryUniqueId="71216698-c005-4e8a-9e02-9a34bc63ca78" />
+        <Library name="north52_/javascript/n52.json2" libraryUniqueId="fc85a17f-6beb-4957-b898-4d40bef95289" />
+        <Library name="north52_/javascript/n52.rest" libraryUniqueId="122b963a-76b0-4525-b661-a4c732324153" />
+        <Library name="north52_/javascript/n52.clientside" libraryUniqueId="fedc3df2-382e-423c-9a60-e66f0a6aa5b2" />
       </formLibraries>
     </form>
     <IsCustomizable>1</IsCustomizable>
