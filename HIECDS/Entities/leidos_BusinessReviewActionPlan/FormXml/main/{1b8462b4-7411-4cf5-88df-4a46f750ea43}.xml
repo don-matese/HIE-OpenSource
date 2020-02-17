@@ -58,19 +58,19 @@
                           </parameters>
                         </control>
                       </cell>
-                      <cell showlabel="false" locklevel="0" id="{a64d740b-b68a-4274-b490-3ac943507e4f}">
+                      <cell showlabel="false" locklevel="0" id="{9e235dad-e24e-47fc-8d2e-268a23da00bb}">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
                       </cell>
                     </row>
                     <row>
-                      <cell showlabel="true" locklevel="0" id="{612b34bb-2836-498c-9156-9088147274cc}">
+                      <cell showlabel="true" locklevel="0" id="{5b729316-2d4d-4903-9ddc-1a23b46fb603}">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
                       </cell>
-                      <cell showlabel="false" locklevel="0" id="{9e235dad-e24e-47fc-8d2e-268a23da00bb}">
+                      <cell showlabel="true" locklevel="0" id="{6b266309-a684-4132-9132-228720f7ca28}">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -97,14 +97,6 @@
                           <label description="How the Project Support the Strategic Aim" languagecode="1033" />
                         </labels>
                         <control id="leidos_howtheprojectsupportthestrategicaim" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="leidos_howtheprojectsupportthestrategicaim" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{568279b4-945c-4ed8-a5dd-5275825f22a1}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Project Status" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_projectstatus" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="leidos_projectstatus" disabled="false" />
                       </cell>
                     </row>
                     <row>
@@ -141,6 +133,58 @@
                     </row>
                   </rows>
                 </section>
+                <section name="Project" id="67af4e61-1fdb-4c2d-a3de-b2083eecd1ed" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115">
+                  <labels>
+                    <label description="Project" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c89329c1-e7a2-4a84-9d39-1fabce8e8560}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Project" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_project" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_project" disabled="false" />
+                      </cell>
+                      <cell showlabel="false" locklevel="0" id="{a8195f12-0847-4cf9-93a4-11f1921aa4bf}">
+                        <labels>
+                          <label description="New QV control 1581929805202" languagecode="1033" />
+                        </labels>
+                        <control id="QuickviewControl1581929805202" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="leidos_project" disabled="false">
+                          <parameters>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="leidos_supportitem"&gt;fceec557-3538-4572-92e6-b2aa475a0bda&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{568279b4-945c-4ed8-a5dd-5275825f22a1}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Project Status" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_projectstatus" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="leidos_projectstatus" disabled="false" />
+                      </cell>
+                      <cell showlabel="true" locklevel="0" id="{b4ff408e-18d9-44b1-9b0c-3ff6b3eef605}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8d1d53a2-b061-4b66-a635-6f1e6bee0775}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Date confirm Project Fit" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_dateconfirmprojectfit" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="leidos_dateconfirmprojectfit" disabled="false" />
+                      </cell>
+                      <cell showlabel="true" locklevel="0" id="{72ab8e0e-ecda-4f5e-b02f-b1bf816e49a2}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
               </sections>
             </column>
           </columns>
@@ -164,6 +208,18 @@
                 <label description="" languagecode="1033" />
               </labels>
             </cell>
+            <cell id="{1dcd42d0-959a-42e0-bedc-8be55faae136}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Parent Account" languagecode="1033" />
+              </labels>
+              <control id="header_leidos_parentaccount" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_parentaccount" disabled="true" />
+            </cell>
+            <cell id="{8d67880e-4713-4e01-a56d-5981e3c8b0a6}">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+            </cell>
           </row>
         </rows>
       </header>
@@ -185,11 +241,11 @@
                 <label description="" languagecode="1033" />
               </labels>
             </cell>
-            <cell id="{8d67880e-4713-4e01-a56d-5981e3c8b0a6}">
+            <cell id="{a4d7772d-057a-4bf1-b2b6-fcd868446291}" showlabel="true" locklevel="0">
               <labels>
-                <label description="Owner" languagecode="1033" />
+                <label description="Status Reason" languagecode="1033" />
               </labels>
-              <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+              <control id="statuscode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statuscode" disabled="false" />
             </cell>
           </row>
         </rows>

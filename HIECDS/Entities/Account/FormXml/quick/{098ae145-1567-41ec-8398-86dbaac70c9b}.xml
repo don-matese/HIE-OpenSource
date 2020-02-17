@@ -115,11 +115,27 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{772df08b-9fe3-4c97-92e0-1d4fd5d4d935}" showlabel="true" locklevel="0">
+                      <cell id="{483b92cd-4b46-3bda-4308-6da7777a55c8}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Sector" languagecode="1033" />
+                          <label description="Fisheries" languagecode="1033" />
                         </labels>
-                        <control id="leidos_sector" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_sector" disabled="false" />
+                        <control id="leidos_fisheries" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="leidos_fisheries" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{129e015d-4bde-ea8a-77ea-98598a4082b5}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Farming/Horticulture" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_farminghorticulture" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="leidos_farminghorticulture" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9273114c-1db0-6371-ba8d-466749013d4d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Road Freight Transport" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_roadfreighttransport" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="leidos_roadfreighttransport" disabled="false" />
                       </cell>
                     </row>
                   </rows>

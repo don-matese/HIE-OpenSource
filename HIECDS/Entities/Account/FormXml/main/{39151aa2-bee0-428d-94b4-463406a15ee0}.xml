@@ -457,7 +457,7 @@
             </column>
             <column width="33%">
               <sections>
-                <section name="Profile_TAB_section_6" showlabel="true" showbar="false" id="{ca8587c5-18c0-cac1-7c34-6c639eade090}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelposition="Left" labelid="{5bd3ea39-26a4-46e9-a24a-93c48b7f5104}">
+                <section name="CompanyProfile" showlabel="true" showbar="false" id="{ca8587c5-18c0-cac1-7c34-6c639eade090}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelposition="Left" labelid="{5bd3ea39-26a4-46e9-a24a-93c48b7f5104}">
                   <labels>
                     <label description="COMPANY PROFILE" languagecode="1033" />
                   </labels>
@@ -468,14 +468,6 @@
                           <label description="Legal Entity" languagecode="1033" />
                         </labels>
                         <control id="leidos_legalentity" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_legalentity" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{be74d33f-be21-4bd3-9f1d-33b7f226db96}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Sector" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_sector" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_sector" disabled="false" />
                       </cell>
                     </row>
                     <row>
@@ -518,19 +510,66 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{425b288e-a314-4d78-b857-ad07e71faabe}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Year Established" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_yearestablished" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="leidos_yearestablished" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
                       <cell id="{68c4f99a-2253-49af-a2c2-3f0be649307c}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Company Registration Number" languagecode="1033" />
                         </labels>
                         <control id="leidos_companyregistrationnumber" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="leidos_companyregistrationnumber" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bae13ab8-774c-4c02-a194-a3c5cb9bd81b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Date of Registration" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_dateofregistration" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="leidos_dateofregistration" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3da10af4-bbc3-494c-b52f-0dd350d000b6}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Date Started Trading " languagecode="1033" />
+                        </labels>
+                        <control id="leidos_datestartedtrading" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="leidos_datestartedtrading" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d9643cf1-694d-4230-864c-05e3bd0c3728}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Financial Year End" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_financialyearend" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="leidos_financialyearend" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="Sector" id="a680e9ae-0997-4953-a10c-44e30d0b3c97" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Sector" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{3d07282e-18ef-49dc-81bb-783ae6e1e0d5}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Fisheries" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_fisheries" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="leidos_fisheries" disabled="false" uniqueid="{10537021-930d-4adc-832b-fe79c881bb40}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{69d9e10c-abc5-45de-bc4d-4c5d9872248d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Farming/Horticulture" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_farminghorticulture" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="leidos_farminghorticulture" disabled="false" uniqueid="{c393aaef-5e9e-401b-820f-0e8e8f3087ff}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d5e87bf5-e621-42e7-ba8a-30ad208cb5b1}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Road Freight Transport" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_roadfreighttransport" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="leidos_roadfreighttransport" disabled="false" uniqueid="{f457fe7f-9013-4aa0-876a-a29e44907fba}" />
                       </cell>
                     </row>
                   </rows>
@@ -601,6 +640,40 @@
                           <label description="Supplier Orginisation" languagecode="1033" />
                         </labels>
                         <control id="leidos_supplierorginisation" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="leidos_supplierorginisation" disabled="false" uniqueid="{10a5415f-29ac-4d78-911b-e34fb8122e8c}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="ActionPlans" id="4b1987c6-92d7-468a-8df1-11dade1e4732" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Action Plans" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_4_section_1" id="41953154-652b-46ae-8628-ee9efd49d795" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{fd737178-d35d-40a0-8470-d421b628a1e2}" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="New SG control 1581933764648" languagecode="1033" />
+                        </labels>
+                        <control id="Subgrid_1" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>leidos_businessreviewactionplan</TargetEntityType>
+                            <ViewId>{A90D8151-6E51-EA11-A813-000D3A7F1BBB}</ViewId>
+                            <ViewIds>{6522E35E-3B01-4685-9B36-07E25D3C1014},{A90D8151-6E51-EA11-A813-000D3A7F1BBB}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>leidos_BusinessReviewActionPlan_ParentAcc</RelationshipName>
+                          </parameters>
+                        </control>
                       </cell>
                     </row>
                   </rows>
@@ -1348,6 +1421,72 @@
           <customControl formFactor="0" name="MscrmControls.FlipSwitch.FlipSwitchControl">
             <parameters>
               <value>leidos_seppartnerorginisation</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{10537021-930d-4adc-832b-fe79c881bb40}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>leidos_fisheries</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>leidos_fisheries</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>leidos_fisheries</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>leidos_fisheries</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{c393aaef-5e9e-401b-820f-0e8e8f3087ff}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>leidos_farminghorticulture</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>leidos_farminghorticulture</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>leidos_farminghorticulture</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>leidos_farminghorticulture</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{f457fe7f-9013-4aa0-876a-a29e44907fba}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>leidos_roadfreighttransport</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>leidos_roadfreighttransport</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>leidos_roadfreighttransport</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>leidos_roadfreighttransport</value>
             </parameters>
           </customControl>
         </controlDescription>

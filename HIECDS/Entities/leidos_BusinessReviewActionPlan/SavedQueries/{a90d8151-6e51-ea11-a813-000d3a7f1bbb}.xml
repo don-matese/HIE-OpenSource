@@ -2,16 +2,15 @@
 <savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <savedquery>
     <IsCustomizable>1</IsCustomizable>
-    <CanBeDeleted>0</CanBeDeleted>
+    <CanBeDeleted>1</CanBeDeleted>
     <isquickfindquery>0</isquickfindquery>
     <isprivate>0</isprivate>
-    <isdefault>1</isdefault>
-    <savedqueryid>{6522e35e-3b01-4685-9b36-07e25d3c1014}</savedqueryid>
+    <isdefault>0</isdefault>
+    <savedqueryid>{a90d8151-6e51-ea11-a813-000d3a7f1bbb}</savedqueryid>
     <layoutxml>
       <grid name="resultset" jump="leidos_name" select="1" icon="1" preview="1">
         <row name="result" id="leidos_businessreviewactionplanid">
           <cell name="leidos_name" width="300" />
-          <cell name="leidos_parentaccount" width="100" />
           <cell name="leidos_parentbusinessreview" width="100" />
           <cell name="leidos_parentreviewtheme" width="100" />
           <cell name="leidos_action" width="100" />
@@ -42,7 +41,6 @@
           <attribute name="leidos_parentbusinessreview" />
           <attribute name="leidos_parentreviewtheme" />
           <attribute name="leidos_hiefundingamount" />
-          <attribute name="leidos_parentaccount" />
           <attribute name="leidos_project" />
           <link-entity alias="a_0a1573806251ea11a813000d3a7f1bbb" name="leidos_supportitem" from="leidos_supportitemid" to="leidos_project" link-type="outer" visible="false">
             <attribute name="statuscode" />
@@ -53,7 +51,7 @@
     </fetchxml>
     <IntroducedVersion>1.2.0.1</IntroducedVersion>
     <LocalizedNames>
-      <LocalizedName description="Active Business Review Action Plans" languagecode="1033" />
+      <LocalizedName description="Active Action Plans Account Grid" languagecode="1033" />
     </LocalizedNames>
   </savedquery>
 </savedqueries>

@@ -42,11 +42,23 @@
     <steplabels id="{013f7648-c3f3-4c30-830e-b9de1d514cd6}">
       <label languagecode="1033" description=" Main Activities, Products And Services" />
     </steplabels>
+    <steplabels id="{efe3f574-9ae5-46ab-88e4-b50b7732ae2d}">
+      <label languagecode="1033" description="Date of Registration" />
+    </steplabels>
+    <steplabels id="{9716770e-5746-4685-a569-8788bcb2ab9b}">
+      <label languagecode="1033" description="Date Started Trading " />
+    </steplabels>
     <steplabels id="{8f6f8aec-a442-48f0-8d94-f7ddcea4f4dd}">
       <label languagecode="1033" description="Segmantation" />
     </steplabels>
-    <steplabels id="{c64c0bba-82f6-4572-8aab-d2fc39aac724}">
-      <label languagecode="1033" description="Sector" />
+    <steplabels id="{12f17bb3-3ffb-4fc0-b73c-61407a582506}">
+      <label languagecode="1033" description="Fisheries" />
+    </steplabels>
+    <steplabels id="{181ca57b-ecf7-4193-afc2-2a8f2a09ad15}">
+      <label languagecode="1033" description="Farming/Horticulture" />
+    </steplabels>
+    <steplabels id="{cfe70c85-6502-4a80-aea0-33f5769172dd}">
+      <label languagecode="1033" description="Road Freight Transport" />
     </steplabels>
     <steplabels id="{550a5e20-1e3e-4289-a587-02fe710e6f07}">
       <label languagecode="1033" description="Legal Entity" />

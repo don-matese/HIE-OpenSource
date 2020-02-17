@@ -24,7 +24,6 @@
   <EntityRelationship Name="leidos_account_leidos_tradinggeography_ParentAccount" />
   <EntityRelationship Name="leidos_Account_OrganisationType_leidos_Organisat" />
   <EntityRelationship Name="leidos_Account_ProjectOfficerAllocation_SystemUs" />
-  <EntityRelationship Name="leidos_Account_Sector_leidos_Sector" />
   <EntityRelationship Name="leidos_AccountManagementRecord_AreaManage" />
   <EntityRelationship Name="leidos_AccountManagementRecord_AreaOffice" />
   <EntityRelationship Name="leidos_AccountManagementRecord_CompletedB" />
@@ -41,8 +40,10 @@
   <EntityRelationship Name="leidos_BusinessReview_AccountManagementRe" />
   <EntityRelationship Name="leidos_BusinessReview_FinancialYear_leido" />
   <EntityRelationship Name="leidos_BusinessReview_RelatedAccount_Acco" />
+  <EntityRelationship Name="leidos_BusinessReviewActionPlan_ParentAcc" />
   <EntityRelationship Name="leidos_BusinessReviewActionPlan_ParentBus" />
   <EntityRelationship Name="leidos_BusinessReviewActionPlan_ParentRev" />
+  <EntityRelationship Name="leidos_BusinessReviewActionPlan_Project_l" />
   <EntityRelationship Name="leidos_BusinessReviewAnswers_ParentBusine" />
   <EntityRelationship Name="leidos_BusinessReviewAnswers_Question_lei" />
   <EntityRelationship Name="leidos_BusinessReviewQuestion_Category_le" />
