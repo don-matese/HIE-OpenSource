@@ -176,11 +176,27 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{d894fa65-2fe1-4867-bcdf-f5881141abe4}" showlabel="true" visible="true" labelid="{5b7591a5-b3a6-4412-996a-b3154f256c4f}">
+                      <cell id="{71a6ad7f-ec8c-4c44-9c4f-06530e481c72}" showlabel="true" visible="true" labelid="{6b77df18-8a63-4d71-874a-85ca37f2a984}">
                         <labels>
-                          <label description="Sector" languagecode="1033" />
+                          <label description="Fisheries" languagecode="1033" />
                         </labels>
-                        <control id="bpf_leidos_enquiry_leidos_enquirybusinessflow:leidos_sector" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="leidos_sector" relationship="bpf_leidos_enquiry_leidos_enquirybusinessflow" isrequired="false" disabled="false" />
+                        <control id="bpf_leidos_enquiry_leidos_enquirybusinessflow:leidos_fisheries" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="leidos_fisheries" relationship="bpf_leidos_enquiry_leidos_enquirybusinessflow" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1e1f7a15-cde1-4c0a-8ac4-a04e0f123ff7}" showlabel="true" visible="true" labelid="{ff6a09df-bd43-4d4f-b1cd-ca74d43e4ba6}">
+                        <labels>
+                          <label description="Farming/Horticulture" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_leidos_enquiry_leidos_enquirybusinessflow:leidos_farminghorticulture" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="leidos_farminghorticulture" relationship="bpf_leidos_enquiry_leidos_enquirybusinessflow" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8df10f54-7e7c-4253-b259-73a36d093ff3}" showlabel="true" visible="true" labelid="{0a8980ba-e076-42e1-81ba-8622137831e9}">
+                        <labels>
+                          <label description="Road Freight Transport" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_leidos_enquiry_leidos_enquirybusinessflow:leidos_roadfreighttransport" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="leidos_roadfreighttransport" relationship="bpf_leidos_enquiry_leidos_enquirybusinessflow" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
@@ -213,14 +229,14 @@
             </column>
           </columns>
         </tab>
-        <tab verticallayout="true" id="{4834109a-38b7-4d6a-bbfb-bd8593eac8af}" name="StageStep47" locklevel="0" expanded="true" visible="false" labelid="{ed53b49a-a3f4-4a25-9020-71296bef7656}">
+        <tab verticallayout="true" id="{4834109a-38b7-4d6a-bbfb-bd8593eac8af}" name="StageStep51" locklevel="0" expanded="true" visible="false" labelid="{ed53b49a-a3f4-4a25-9020-71296bef7656}">
           <labels>
             <label description="Route To Relevant Team Or Person" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showbar="false" columns="1" id="{4834109a-38b7-4d6a-bbfb-bd8593eac8af}" name="StageStep47_section1" labelid="{fc42387f-0fa4-4ee9-bcd3-ef39ffa460b2}">
+                <section showbar="false" columns="1" id="{4834109a-38b7-4d6a-bbfb-bd8593eac8af}" name="StageStep51_section1" labelid="{cf2f39a7-e8f9-45fa-a79e-0c1dff46bb4d}">
                   <labels>
                     <label description="Route To Relevant Team Or Person" languagecode="1033" />
                   </labels>
@@ -271,14 +287,14 @@
             </column>
           </columns>
         </tab>
-        <tab verticallayout="true" id="{d1fe7460-ee05-417e-9265-d1625baee865}" name="StageStep59" locklevel="0" expanded="true" visible="false" labelid="{d8ef1472-4b98-4e10-8b34-2d03e227ee08}">
+        <tab verticallayout="true" id="{d1fe7460-ee05-417e-9265-d1625baee865}" name="StageStep63" locklevel="0" expanded="true" visible="false" labelid="{d8ef1472-4b98-4e10-8b34-2d03e227ee08}">
           <labels>
             <label description="Progressed" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showbar="false" columns="1" id="{d1fe7460-ee05-417e-9265-d1625baee865}" name="StageStep59_section1" labelid="{c42ad472-458a-4784-a3c4-567b0f6fab90}">
+                <section showbar="false" columns="1" id="{d1fe7460-ee05-417e-9265-d1625baee865}" name="StageStep63_section1" labelid="{b402631b-de68-43c3-a014-8bb0f252fdcb}">
                   <labels>
                     <label description="Progressed" languagecode="1033" />
                   </labels>

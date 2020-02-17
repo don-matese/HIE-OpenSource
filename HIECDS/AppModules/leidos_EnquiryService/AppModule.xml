@@ -60,7 +60,6 @@
     <AppModuleComponent type="1" schemaName="leidos_natureofenquiry" />
     <AppModuleComponent type="1" schemaName="leidos_numberofemployees" />
     <AppModuleComponent type="1" schemaName="leidos_organisationtype" />
-    <AppModuleComponent type="1" schemaName="leidos_sector" />
     <AppModuleComponent type="1" schemaName="leidos_segmentation" />
     <AppModuleComponent type="1" schemaName="team" />
     <AppModuleComponent type="1" schemaName="leidos_tradinggeography" />

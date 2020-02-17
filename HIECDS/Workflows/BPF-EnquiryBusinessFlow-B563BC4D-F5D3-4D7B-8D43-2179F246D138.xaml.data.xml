@@ -81,8 +81,14 @@
     <steplabels id="{d330b11b-ef60-42e9-9799-9baadaefce4f}">
       <label languagecode="1033" description="Nature of Business Activity" />
     </steplabels>
-    <steplabels id="{d894fa65-2fe1-4867-bcdf-f5881141abe4}">
-      <label languagecode="1033" description="Sector" />
+    <steplabels id="{71a6ad7f-ec8c-4c44-9c4f-06530e481c72}">
+      <label languagecode="1033" description="Fisheries" />
+    </steplabels>
+    <steplabels id="{1e1f7a15-cde1-4c0a-8ac4-a04e0f123ff7}">
+      <label languagecode="1033" description="Farming/Horticulture" />
+    </steplabels>
+    <steplabels id="{8df10f54-7e7c-4253-b259-73a36d093ff3}">
+      <label languagecode="1033" description="Road Freight Transport" />
     </steplabels>
     <steplabels id="{a587289f-9248-47c5-a982-f9592283b12c}">
       <label languagecode="1033" description="Turnover" />

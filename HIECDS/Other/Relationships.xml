@@ -53,7 +53,6 @@
   <EntityRelationship Name="leidos_enquiry_NoofEmployees_leidos_Numbe" />
   <EntityRelationship Name="leidos_enquiry_RelevantPerson_SystemUser" />
   <EntityRelationship Name="leidos_enquiry_RelevantTeam_Team" />
-  <EntityRelationship Name="leidos_enquiry_Sector_leidos_Sector" />
   <EntityRelationship Name="leidos_enquiry_SEPPartnerOrganisation_Acc" />
   <EntityRelationship Name="leidos_enquiry_Turnover_leidos_Turnover" />
   <EntityRelationship Name="leidos_GrowthPlanMeasure_GrowthPlanOrgani" />
@@ -126,8 +125,6 @@
   <EntityRelationship Name="lk_leidos_organisationtype_modifiedby" />
   <EntityRelationship Name="lk_leidos_producttheme_createdby" />
   <EntityRelationship Name="lk_leidos_producttheme_modifiedby" />
-  <EntityRelationship Name="lk_leidos_sector_createdby" />
-  <EntityRelationship Name="lk_leidos_sector_modifiedby" />
   <EntityRelationship Name="lk_leidos_segmentation_createdby" />
   <EntityRelationship Name="lk_leidos_segmentation_modifiedby" />
   <EntityRelationship Name="lk_leidos_supportitem_createdby" />
@@ -164,7 +161,6 @@
   <EntityRelationship Name="organization_leidos_numberofemployees" />
   <EntityRelationship Name="organization_leidos_organisationtype" />
   <EntityRelationship Name="organization_leidos_producttheme" />
-  <EntityRelationship Name="organization_leidos_sector" />
   <EntityRelationship Name="organization_leidos_segmentation" />
   <EntityRelationship Name="organization_leidos_supportitem" />
   <EntityRelationship Name="organization_leidos_tradingstatus" />
