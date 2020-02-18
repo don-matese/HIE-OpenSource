@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Workflow WorkflowId="{2d70f9b6-2b3c-ea11-a812-000d3a0bad17}" Name="Enquiry -Flow -  Create or Populate Contact based on Email" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <JsonFileName>/Workflows/Enquiry-Flow-CreateorPopulateContactbasedonEmail-2D70F9B6-2B3C-EA11-A812-000D3A0BAD17.json</JsonFileName>
+<Workflow WorkflowId="{0df07c7b-283d-ea11-a812-000d3a0ba151}" Name="Flow - Enquiry  - Relevant Person" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <JsonFileName>/Workflows/Flow-Enquiry-RelevantPerson-0DF07C7B-283D-EA11-A812-000D3A0BA151.json</JsonFileName>
   <Type>1</Type>
   <Subprocess>0</Subprocess>
   <Category>5</Category>
@@ -20,6 +20,6 @@
   <BusinessProcessType>0</BusinessProcessType>
   <PrimaryEntity>none</PrimaryEntity>
   <LocalizedNames>
-    <LocalizedName languagecode="1033" description="Enquiry -Flow -  Create or Populate Contact based on Email" />
+    <LocalizedName languagecode="1033" description="Flow - Enquiry  - Relevant Person" />
   </LocalizedNames>
 </Workflow>
