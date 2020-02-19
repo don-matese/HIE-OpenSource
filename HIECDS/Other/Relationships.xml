@@ -109,6 +109,10 @@
   <EntityRelationship Name="lk_leidos_enquirybusinessflow_processid" />
   <EntityRelationship Name="lk_leidos_financialyear_createdby" />
   <EntityRelationship Name="lk_leidos_financialyear_modifiedby" />
+  <EntityRelationship Name="lk_leidos_fundingsourceprivate_createdby" />
+  <EntityRelationship Name="lk_leidos_fundingsourceprivate_modifiedby" />
+  <EntityRelationship Name="lk_leidos_fundingsourcepublic_createdby" />
+  <EntityRelationship Name="lk_leidos_fundingsourcepublic_modifiedby" />
   <EntityRelationship Name="lk_leidos_geographies_createdby" />
   <EntityRelationship Name="lk_leidos_geographies_modifiedby" />
   <EntityRelationship Name="lk_leidos_growthplanmeasure_createdby" />
@@ -125,6 +129,8 @@
   <EntityRelationship Name="lk_leidos_organisationtype_modifiedby" />
   <EntityRelationship Name="lk_leidos_producttheme_createdby" />
   <EntityRelationship Name="lk_leidos_producttheme_modifiedby" />
+  <EntityRelationship Name="lk_leidos_projectcostcategory_createdby" />
+  <EntityRelationship Name="lk_leidos_projectcostcategory_modifiedby" />
   <EntityRelationship Name="lk_leidos_segmentation_createdby" />
   <EntityRelationship Name="lk_leidos_segmentation_modifiedby" />
   <EntityRelationship Name="lk_leidos_supportitem_createdby" />
@@ -135,6 +141,8 @@
   <EntityRelationship Name="lk_leidos_tradingstatus_modifiedby" />
   <EntityRelationship Name="lk_leidos_turnover_createdby" />
   <EntityRelationship Name="lk_leidos_turnover_modifiedby" />
+  <EntityRelationship Name="lk_leidos_typeofassistancerequestedfromhie_createdby" />
+  <EntityRelationship Name="lk_leidos_typeofassistancerequestedfromhie_modifiedby" />
   <EntityRelationship Name="lk_new_bpfapplicationbusinessprocessflow_activestageid" />
   <EntityRelationship Name="lk_new_bpfapplicationbusinessprocessflow_createdby" />
   <EntityRelationship Name="lk_new_bpfapplicationbusinessprocessflow_modifiedby" />
@@ -153,6 +161,8 @@
   <EntityRelationship Name="organization_leidos_clientenquiryorigin" />
   <EntityRelationship Name="organization_leidos_enquirybusinessflow" />
   <EntityRelationship Name="organization_leidos_financialyear" />
+  <EntityRelationship Name="organization_leidos_fundingsourceprivate" />
+  <EntityRelationship Name="organization_leidos_fundingsourcepublic" />
   <EntityRelationship Name="organization_leidos_geographies" />
   <EntityRelationship Name="organization_leidos_growthplanmeasure" />
   <EntityRelationship Name="organization_leidos_growthplanresponse" />
@@ -161,10 +171,12 @@
   <EntityRelationship Name="organization_leidos_numberofemployees" />
   <EntityRelationship Name="organization_leidos_organisationtype" />
   <EntityRelationship Name="organization_leidos_producttheme" />
+  <EntityRelationship Name="organization_leidos_projectcostcategory" />
   <EntityRelationship Name="organization_leidos_segmentation" />
   <EntityRelationship Name="organization_leidos_supportitem" />
   <EntityRelationship Name="organization_leidos_tradingstatus" />
   <EntityRelationship Name="organization_leidos_turnover" />
+  <EntityRelationship Name="organization_leidos_typeofassistancerequestedfromhie" />
   <EntityRelationship Name="organization_new_bpfapplicationbusinessprocessflow" />
   <EntityRelationship Name="owner_leidos_accountmanagementrecord" />
   <EntityRelationship Name="owner_leidos_application" />

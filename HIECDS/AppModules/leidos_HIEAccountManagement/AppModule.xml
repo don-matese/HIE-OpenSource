@@ -70,6 +70,8 @@
     <AppModuleComponent type="60" id="{2f692349-4838-ea11-a813-000d3a0bad7c}" />
     <AppModuleComponent type="1" schemaName="leidos_enquirybusinessflow" />
     <AppModuleComponent type="1" schemaName="leidos_financialyear" />
+    <AppModuleComponent type="1" schemaName="leidos_fundingsourceprivate" />
+    <AppModuleComponent type="1" schemaName="leidos_fundingsourcepublic" />
     <AppModuleComponent type="1" schemaName="leidos_geographies" />
     <AppModuleComponent type="1" schemaName="leidos_growthplanmeasure" />
     <AppModuleComponent type="1" schemaName="leidos_growthplanresponse" />
@@ -78,6 +80,7 @@
     <AppModuleComponent type="1" schemaName="leidos_numberofemployees" />
     <AppModuleComponent type="1" schemaName="leidos_organisationtype" />
     <AppModuleComponent type="1" schemaName="leidos_producttheme" />
+    <AppModuleComponent type="1" schemaName="leidos_projectcostcategory" />
     <AppModuleComponent type="1" schemaName="leidos_segmentation" />
     <AppModuleComponent type="1" schemaName="leidos_supportitem" />
     <AppModuleComponent type="1" schemaName="task" />
@@ -88,6 +91,7 @@
     <AppModuleComponent type="26" id="{aa026e9c-3c38-ea11-a813-000d3a0bad7c}" />
     <AppModuleComponent type="1" schemaName="leidos_tradingstatus" />
     <AppModuleComponent type="1" schemaName="leidos_turnover" />
+    <AppModuleComponent type="1" schemaName="leidos_typeofassistancerequestedfromhie" />
     <AppModuleComponent type="1" schemaName="systemuser" />
     <AppModuleComponent type="60" id="{e365bd18-0c3d-ea11-a812-000d3a0bad17}" />
     <AppModuleComponent type="60" id="{ea38a0f6-dd40-ea11-a812-000d3a0bad17}" />
