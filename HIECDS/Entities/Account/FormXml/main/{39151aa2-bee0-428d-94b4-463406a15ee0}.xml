@@ -648,16 +648,16 @@
             </column>
           </columns>
         </tab>
-        <tab name="ActionPlans" id="4b1987c6-92d7-468a-8df1-11dade1e4732" IsUserDefined="0" locklevel="0" showlabel="true">
+        <tab name="PlansAndProjects" id="4b1987c6-92d7-468a-8df1-11dade1e4732" IsUserDefined="0" locklevel="0" showlabel="true">
           <labels>
-            <label description="Action Plans" languagecode="1033" />
+            <label description="Plans and Projects" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section name="tab_4_section_1" id="41953154-652b-46ae-8628-ee9efd49d795" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                <section name="ActionPlans" id="41953154-652b-46ae-8628-ee9efd49d795" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
                   <labels>
-                    <label description="New Section" languagecode="1033" />
+                    <label description="Action Plans" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
@@ -672,6 +672,29 @@
                             <ViewIds>{6522E35E-3B01-4685-9B36-07E25D3C1014},{A90D8151-6E51-EA11-A813-000D3A7F1BBB}</ViewIds>
                             <EnableViewPicker>false</EnableViewPicker>
                             <RelationshipName>leidos_BusinessReviewActionPlan_ParentAcc</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="PlansAndProjects_section_3" id="7f278a9d-5016-4336-8b3e-ed13ed2c8235" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{15e799d5-9871-4c2e-8545-78bfd1b0e881}" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="Projects" languagecode="1033" />
+                        </labels>
+                        <control id="Projects" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>leidos_project</TargetEntityType>
+                            <ViewId>{A6421251-C154-EA11-A813-000D3A0BAD17}</ViewId>
+                            <ViewIds>{8078ACE2-EAE7-45E6-86AA-E2A651FE5E68},{A6421251-C154-EA11-A813-000D3A0BAD17}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>leidos_Project_ParentAccount_Account</RelationshipName>
                           </parameters>
                         </control>
                       </cell>

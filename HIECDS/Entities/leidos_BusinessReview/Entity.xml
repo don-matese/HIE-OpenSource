@@ -168,7 +168,7 @@
           <Type>lookup</Type>
           <Name>leidos_accountmanagementrecord</Name>
           <LogicalName>leidos_accountmanagementrecord</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
+          <RequiredLevel>required</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
           <ValidForUpdateApi>1</ValidForUpdateApi>
           <ValidForReadApi>1</ValidForReadApi>
@@ -1238,7 +1238,7 @@
               <Description description="Status of the Business Review" languagecode="1033" />
             </Descriptions>
             <states>
-              <state value="0" defaultstatus="445260000" invariantname="Active">
+              <state value="0" defaultstatus="1" invariantname="Active">
                 <labels>
                   <label description="Active" languagecode="1033" />
                 </labels>
@@ -1298,34 +1298,34 @@
               <Description description="Reason for the status of the Business Review" languagecode="1033" />
             </Descriptions>
             <statuses>
-              <status value="1" state="0" TransitionData="" Color="#0000ff">
+              <status value="1" state="0" TransitionData="&lt;allowedtransitions xmlns=&quot;http://schemas.microsoft.com/crm/2009/WebServices&quot;&gt;&lt;allowedtransition sourcestatusid=&quot;1&quot; tostatusid=&quot;445260000&quot; /&gt;&lt;allowedtransition sourcestatusid=&quot;1&quot; tostatusid=&quot;445260005&quot; /&gt;&lt;allowedtransition sourcestatusid=&quot;1&quot; tostatusid=&quot;445260002&quot; /&gt;&lt;/allowedtransitions&gt;" Color="#0000ff">
                 <labels>
                   <label description="Draft" languagecode="1033" />
                 </labels>
               </status>
-              <status value="445260000" state="0" TransitionData="" Color="#0000ff">
+              <status value="445260000" state="0" TransitionData="&lt;allowedtransitions xmlns=&quot;http://schemas.microsoft.com/crm/2009/WebServices&quot;&gt;&lt;allowedtransition sourcestatusid=&quot;445260000&quot; tostatusid=&quot;445260002&quot; /&gt;&lt;allowedtransition sourcestatusid=&quot;445260000&quot; tostatusid=&quot;445260005&quot; /&gt;&lt;/allowedtransitions&gt;" Color="#0000ff">
                 <labels>
-                  <label description="Active" languagecode="1033" />
+                  <label description="In Progress" languagecode="1033" />
                 </labels>
               </status>
-              <status value="445260002" state="0" TransitionData="" Color="#0000ff">
+              <status value="445260002" state="0" TransitionData="&lt;allowedtransitions xmlns=&quot;http://schemas.microsoft.com/crm/2009/WebServices&quot;&gt;&lt;allowedtransition sourcestatusid=&quot;445260002&quot; tostatusid=&quot;445260001&quot; /&gt;&lt;allowedtransition sourcestatusid=&quot;445260002&quot; tostatusid=&quot;445260004&quot; /&gt;&lt;/allowedtransitions&gt;" Color="#0000ff">
                 <labels>
                   <label description="Submitted" languagecode="1033" />
                 </labels>
               </status>
-              <status value="445260003" state="0" TransitionData="" Color="#0000ff">
-                <labels>
-                  <label description="Approval Granted" languagecode="1033" />
-                </labels>
-              </status>
               <status value="445260001" state="1" TransitionData="" Color="#0000ff">
                 <labels>
-                  <label description="Archive" languagecode="1033" />
+                  <label description="Approved" languagecode="1033" />
                 </labels>
               </status>
-              <status value="445260004" state="1" TransitionData="" Color="#0000ff">
+              <status value="445260004" state="1" TransitionData="&lt;allowedtransitions xmlns=&quot;http://schemas.microsoft.com/crm/2009/WebServices&quot;&gt;&lt;allowedtransition sourcestatusid=&quot;445260004&quot; tostatusid=&quot;1&quot; /&gt;&lt;/allowedtransitions&gt;" Color="#0000ff">
                 <labels>
                   <label description="Rejected" languagecode="1033" />
+                </labels>
+              </status>
+              <status value="445260005" state="1" TransitionData="&lt;allowedtransitions xmlns=&quot;http://schemas.microsoft.com/crm/2009/WebServices&quot;&gt;&lt;allowedtransition sourcestatusid=&quot;445260005&quot; tostatusid=&quot;1&quot; /&gt;&lt;/allowedtransitions&gt;" Color="#0000ff">
+                <labels>
+                  <label description="Cancelled" languagecode="1033" />
                 </labels>
               </status>
             </statuses>
@@ -1470,7 +1470,7 @@
       <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
       <CanEnableSyncToExternalSearchIndex>1</CanEnableSyncToExternalSearchIndex>
       <IconVectorName>leidos_discover.svg</IconVectorName>
-      <EnforceStateTransitions>0</EnforceStateTransitions>
+      <EnforceStateTransitions>1</EnforceStateTransitions>
       <CanChangeHierarchicalRelationship>1</CanChangeHierarchicalRelationship>
       <EntityHelpUrlEnabled>0</EntityHelpUrlEnabled>
       <ChangeTrackingEnabled>0</ChangeTrackingEnabled>

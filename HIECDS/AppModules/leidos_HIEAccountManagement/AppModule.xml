@@ -80,7 +80,10 @@
     <AppModuleComponent type="1" schemaName="leidos_numberofemployees" />
     <AppModuleComponent type="1" schemaName="leidos_organisationtype" />
     <AppModuleComponent type="1" schemaName="leidos_producttheme" />
+    <AppModuleComponent type="1" schemaName="leidos_project" />
+    <AppModuleComponent type="1" schemaName="leidos_projectcost" />
     <AppModuleComponent type="1" schemaName="leidos_projectcostcategory" />
+    <AppModuleComponent type="1" schemaName="leidos_projectfunding" />
     <AppModuleComponent type="1" schemaName="leidos_segmentation" />
     <AppModuleComponent type="1" schemaName="leidos_supportitem" />
     <AppModuleComponent type="1" schemaName="task" />

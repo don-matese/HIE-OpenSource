@@ -33,16 +33,40 @@
     <steplabels id="{109f2f80-dea8-47e7-bf9e-1a3b79044c25}">
       <label languagecode="1033" description="Name" />
     </steplabels>
-    <steplabels id="{4bb21316-13ab-4643-876e-6dd6e4e323e7}">
+    <steplabels id="{b818b76a-54c5-4523-9fd1-3ae4e73dc20b}">
+      <label languagecode="1033" description="Parent Account" />
+    </steplabels>
+    <steplabels id="{a55c18a0-b253-49dd-8757-0f3fb78cccc6}">
+      <label languagecode="1033" description="Project Location (Post Code)" />
+    </steplabels>
+    <steplabels id="{6cfd45ec-db98-4a6c-9466-2899c3d74887}">
+      <label languagecode="1033" description="Project" />
+    </steplabels>
+    <steplabels id="{fbb45e16-fd3b-4171-ac9d-ef26f3206422}">
+      <label languagecode="1033" description="Project Title" />
+    </steplabels>
+    <steplabels id="{ec8c47c1-40d8-4960-b23c-ad0081e2332c}">
+      <label languagecode="1033" description="Support Item Type" />
+    </steplabels>
+    <steplabels id="{38e12568-92b6-4810-92ae-38d724e42abc}">
+      <label languagecode="1033" description="Projected Spend" />
+    </steplabels>
+    <steplabels id="{1ce1d2ec-7207-42f6-86bc-c0ac667cfb3e}">
+      <label languagecode="1033" description="Top Slice" />
+    </steplabels>
+    <steplabels id="{2d05f357-9847-4831-bed5-b9ca51e38df8}">
+      <label languagecode="1033" description="Pre Application" />
+    </steplabels>
+    <steplabels id="{f31175c6-af48-4ab3-9e19-e0fed45c997b}">
       <label languagecode="1033" description="Is support identified in growth plan?" />
     </steplabels>
-    <steplabels id="{2c4a4dfc-df29-4d23-949d-413d83b15ce9}">
+    <steplabels id="{cff1ae74-8522-406b-9fbe-4a084487ac63}">
       <label languagecode="1033" description="Is it within timescale?" />
     </steplabels>
-    <steplabels id="{824e0176-bc94-4370-ab70-a93299335bfe}">
+    <steplabels id="{55d632ec-10d7-4504-9b55-4f2bc3d14154}">
       <label languagecode="1033" description="Is it under £50k, not novel or contentious?" />
     </steplabels>
-    <steplabels id="{c3f7031e-2319-4081-a836-b6c9f6d99888}">
+    <steplabels id="{425ab6ae-bb30-4c19-bb57-80c38b1cbae5}">
       <label languagecode="1033" description="Pre-Application Route" />
     </steplabels>
     <steplabels id="{aab54763-3195-49f4-9ced-348298732f67}">

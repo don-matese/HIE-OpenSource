@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{dd8d1a8d-2392-4069-8324-d627f2d69f46}</formid>
+    <IntroducedVersion>1.2.0.1</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{97f7bb7f-e248-48e0-987c-475c9ad0bb44}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{0b7f2a02-fd74-49c3-89f4-caeff91ad382}" name="General">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{58e26f4a-ae14-4a8d-aaf4-8c23f879b891}">
+                        <labels>
+                          <label description="Project Title" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="leidos_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{090f15a7-2968-41b9-8da2-a1eb3f5f5bc0}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Support Item Type" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_supportitemtype" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_supportitemtype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c752a4c2-0804-4998-8d66-2f1b6dbf656f}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Project Summary" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_projectsummary" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="leidos_projectsummary" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a0dda238-5d3f-4f6f-b525-739540c63c68}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Projected Spend" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_projectedspend" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_projectedspend" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="Costs" id="9319078d-3969-408d-a40b-ab98ac475cf2" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Project Costs" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="ProjectCosts" id="1dea9e60-d675-4b58-b953-32c501f08d03" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Project Costs" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{f7d49b93-9499-424c-8df7-9c468cfdc729}" rowspan="6" colspan="1" auto="false">
+                        <labels>
+                          <label description="New SG control 1582295722718" languagecode="1033" />
+                        </labels>
+                        <control id="Subgrid_1" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{0ab89938-a653-5845-9cac-c72b3516e630}">
+                          <parameters>
+                            <TargetEntityType>leidos_projectcost</TargetEntityType>
+                            <ViewId>{EE1C9DB8-D142-46B2-9401-ACC6B4881AEC}</ViewId>
+                            <ViewIds>{EE1C9DB8-D142-46B2-9401-ACC6B4881AEC}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>leidos_ProjectCost_ParentProject_leidos_P</RelationshipName>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <IsUserView>false</IsUserView>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{5510d2a8-fc50-41b5-9564-26c8fcacc44e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Total Costs (Calculated)" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_totalcostscalculated" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_totalcostscalculated" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="Funding" id="31a5c69b-e656-4043-b3c8-10508195083f" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Project Funding" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="Funding" id="4b83c6e9-6a55-48e0-8863-05da9c64bbb1" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="111" labelwidth="115">
+                  <labels>
+                    <label description="Funding" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{3341990a-0b7c-4919-8a9c-80476e585a70}" rowspan="6" colspan="3" auto="false">
+                        <labels>
+                          <label description="New SG control 1582295826508" languagecode="1033" />
+                        </labels>
+                        <control id="Subgrid_2" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{87a47109-7718-d02b-9893-945a58969c62}">
+                          <parameters>
+                            <TargetEntityType>leidos_projectfunding</TargetEntityType>
+                            <ViewId>{A04A55E0-5DCA-4453-9399-8C81A6F9BA2C}</ViewId>
+                            <ViewIds>{A04A55E0-5DCA-4453-9399-8C81A6F9BA2C}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>leidos_ProjectFunding_ParentProject_leido</RelationshipName>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <IsUserView>false</IsUserView>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{2cb06664-5b4d-4fb8-acc9-9fe8b75e91da}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Total Funding (Calcualted)" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_totalfundingcalcualted" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_totalfundingcalcualted" disabled="false" />
+                      </cell>
+                      <cell id="{31ec0312-b787-4420-9e1a-0b0fc94df3bc}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Total Public Funding (Calculated)" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_totalpublicfundingcalculated" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_totalpublicfundingcalculated" disabled="false" />
+                      </cell>
+                      <cell id="{5ad1aeec-803d-4a21-b42d-ddca4c9db4a4}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Total Private Funding (Calculated)" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_totalprivatefundingcalculated" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_totalprivatefundingcalculated" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{82244540-9a74-48aa-9674-eac21fe5920d}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{cf1f01c7-dd7a-48a5-9a5a-87d611453584}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{f020ba5f-a363-4ac7-ad5b-cb9df35ae507}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{11bad52d-f4dc-48b0-98d2-45a4c91459cc}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{70ebae1b-fcc2-4f5e-b605-ba32025d6497}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Parent Account" languagecode="1033" />
+              </labels>
+              <control id="header_leidos_parentaccount" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_parentaccount" disabled="false" />
+            </cell>
+            <cell id="{51d6684a-5215-4301-b54c-4634d043fad1}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Parent Application" languagecode="1033" />
+              </labels>
+              <control id="header_leidos_parentapplication" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_parentapplication" disabled="false" />
+            </cell>
+            <cell id="{3a20eb16-e154-401f-a808-b8292075664d}">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{cd392a11-baee-42e9-81ed-b9b90fa5a8f8}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{f9191295-f3bd-42e5-bc6b-f7d49bfeb83f}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{3323f1a1-da56-467c-b08c-f378f1299184}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{2bbe4bf4-8019-413f-957d-f393d606e476}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <DisplayConditions Order="0" FallbackForm="true" />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="HIE Project Form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

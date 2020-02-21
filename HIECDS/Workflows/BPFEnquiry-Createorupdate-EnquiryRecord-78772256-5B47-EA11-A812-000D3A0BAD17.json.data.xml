@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Workflow WorkflowId="{78772256-5b47-ea11-a812-000d3a0bad17}" Name="Enquiry BPF - Create or update -&gt; Enquiry Record" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <JsonFileName>/Workflows/EnquiryBPF-Createorupdate-EnquiryRecord-78772256-5B47-EA11-A812-000D3A0BAD17.json</JsonFileName>
+<Workflow WorkflowId="{78772256-5b47-ea11-a812-000d3a0bad17}" Name="BPF Enquiry - Create or update -&gt; Enquiry Record" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <JsonFileName>/Workflows/BPFEnquiry-Createorupdate-EnquiryRecord-78772256-5B47-EA11-A812-000D3A0BAD17.json</JsonFileName>
   <Type>1</Type>
   <Subprocess>0</Subprocess>
   <Category>5</Category>
@@ -20,6 +20,6 @@
   <BusinessProcessType>0</BusinessProcessType>
   <PrimaryEntity>none</PrimaryEntity>
   <LocalizedNames>
-    <LocalizedName languagecode="1033" description="Enquiry BPF - Create or update -&gt; Enquiry Record" />
+    <LocalizedName languagecode="1033" description="BPF Enquiry - Create or update -&gt; Enquiry Record" />
   </LocalizedNames>
 </Workflow>

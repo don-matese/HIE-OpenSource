@@ -6,6 +6,7 @@
   <EntityRelationship Name="bpf_leidos_accountmanagementrecord_leidos_bpfamrdirectcreation" />
   <EntityRelationship Name="bpf_leidos_application_new_bpfapplicationbusinessprocessflow" />
   <EntityRelationship Name="bpf_leidos_enquiry_leidos_enquirybusinessflow" />
+  <EntityRelationship Name="bpf_leidos_project_new_bpfapplicationbusinessprocessflow" />
   <EntityRelationship Name="business_unit_leidos_accountmanagementrecord" />
   <EntityRelationship Name="business_unit_leidos_application" />
   <EntityRelationship Name="business_unit_leidos_businessreview" />
@@ -13,6 +14,9 @@
   <EntityRelationship Name="business_unit_leidos_businessreviewsummary" />
   <EntityRelationship Name="business_unit_leidos_employmentdetails" />
   <EntityRelationship Name="business_unit_leidos_enquiry" />
+  <EntityRelationship Name="business_unit_leidos_project" />
+  <EntityRelationship Name="business_unit_leidos_projectcost" />
+  <EntityRelationship Name="business_unit_leidos_projectfunding" />
   <EntityRelationship Name="business_unit_leidos_tradinggeography" />
   <EntityRelationship Name="leidos_Account_AuthorisedSignatory_Contact" />
   <EntityRelationship Name="leidos_Account_CurrentAMRRecord_leidos_AccountMa" />
@@ -67,6 +71,14 @@
   <EntityRelationship Name="leidos_leidos_tradinggeography_leidos_Par" />
   <EntityRelationship Name="leidos_leidos_tradingstatus_leidos_enquiry_TradingStatus" />
   <EntityRelationship Name="leidos_natureofenquiry_Category_leidos_Ca" />
+  <EntityRelationship Name="leidos_Project_ParentAccount_Account" />
+  <EntityRelationship Name="leidos_Project_ParentApplication_leidos_A" />
+  <EntityRelationship Name="leidos_Project_SupportItemType_leidos_Sup" />
+  <EntityRelationship Name="leidos_ProjectCost_CostCategory_leidos_Pr" />
+  <EntityRelationship Name="leidos_ProjectCost_ParentProject_leidos_P" />
+  <EntityRelationship Name="leidos_ProjectFunding_FundingSourcePrivat" />
+  <EntityRelationship Name="leidos_ProjectFunding_FundingSourcePublic" />
+  <EntityRelationship Name="leidos_ProjectFunding_ParentProject_leido" />
   <EntityRelationship Name="leidos_Team_TeamPrimaryContact_SystemUser" />
   <EntityRelationship Name="leidos_tradinggeography_ParentAMRRecord_l" />
   <EntityRelationship Name="lk_leidos_accountmanagementrecord_createdby" />
@@ -129,8 +141,14 @@
   <EntityRelationship Name="lk_leidos_organisationtype_modifiedby" />
   <EntityRelationship Name="lk_leidos_producttheme_createdby" />
   <EntityRelationship Name="lk_leidos_producttheme_modifiedby" />
+  <EntityRelationship Name="lk_leidos_project_createdby" />
+  <EntityRelationship Name="lk_leidos_project_modifiedby" />
+  <EntityRelationship Name="lk_leidos_projectcost_createdby" />
+  <EntityRelationship Name="lk_leidos_projectcost_modifiedby" />
   <EntityRelationship Name="lk_leidos_projectcostcategory_createdby" />
   <EntityRelationship Name="lk_leidos_projectcostcategory_modifiedby" />
+  <EntityRelationship Name="lk_leidos_projectfunding_createdby" />
+  <EntityRelationship Name="lk_leidos_projectfunding_modifiedby" />
   <EntityRelationship Name="lk_leidos_segmentation_createdby" />
   <EntityRelationship Name="lk_leidos_segmentation_modifiedby" />
   <EntityRelationship Name="lk_leidos_supportitem_createdby" />
@@ -185,6 +203,9 @@
   <EntityRelationship Name="owner_leidos_businessreviewsummary" />
   <EntityRelationship Name="owner_leidos_employmentdetails" />
   <EntityRelationship Name="owner_leidos_enquiry" />
+  <EntityRelationship Name="owner_leidos_project" />
+  <EntityRelationship Name="owner_leidos_projectcost" />
+  <EntityRelationship Name="owner_leidos_projectfunding" />
   <EntityRelationship Name="owner_leidos_tradinggeography" />
   <EntityRelationship Name="team_leidos_accountmanagementrecord" />
   <EntityRelationship Name="team_leidos_application" />
@@ -193,11 +214,17 @@
   <EntityRelationship Name="team_leidos_businessreviewsummary" />
   <EntityRelationship Name="team_leidos_employmentdetails" />
   <EntityRelationship Name="team_leidos_enquiry" />
+  <EntityRelationship Name="team_leidos_project" />
+  <EntityRelationship Name="team_leidos_projectcost" />
+  <EntityRelationship Name="team_leidos_projectfunding" />
   <EntityRelationship Name="team_leidos_tradinggeography" />
   <EntityRelationship Name="TransactionCurrency_leidos_AccountManagementRecord" />
   <EntityRelationship Name="TransactionCurrency_leidos_Application" />
   <EntityRelationship Name="TransactionCurrency_leidos_BusinessReviewActionPlan" />
   <EntityRelationship Name="TransactionCurrency_leidos_EmploymentDetails" />
+  <EntityRelationship Name="TransactionCurrency_leidos_Project" />
+  <EntityRelationship Name="TransactionCurrency_leidos_ProjectCost" />
+  <EntityRelationship Name="TransactionCurrency_leidos_ProjectFunding" />
   <EntityRelationship Name="TransactionCurrency_leidos_Turnover" />
   <EntityRelationship Name="user_leidos_accountmanagementrecord" />
   <EntityRelationship Name="user_leidos_application" />
@@ -206,5 +233,8 @@
   <EntityRelationship Name="user_leidos_businessreviewsummary" />
   <EntityRelationship Name="user_leidos_employmentdetails" />
   <EntityRelationship Name="user_leidos_enquiry" />
+  <EntityRelationship Name="user_leidos_project" />
+  <EntityRelationship Name="user_leidos_projectcost" />
+  <EntityRelationship Name="user_leidos_projectfunding" />
   <EntityRelationship Name="user_leidos_tradinggeography" />
 </EntityRelationships>
