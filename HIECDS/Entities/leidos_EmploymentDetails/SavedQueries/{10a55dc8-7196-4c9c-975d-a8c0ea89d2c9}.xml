@@ -10,8 +10,7 @@
     <layoutxml>
       <grid name="resultset" jump="leidos_typesofjob" select="1" icon="1" preview="1">
         <row name="result" id="leidos_employmentdetailsid">
-          <cell name="leidos_typesofjob" width="300" />
-          <cell name="createdon" width="125" />
+          <cell name="leidos_employmentrole" width="300" />
         </row>
       </grid>
     </layoutxml>
@@ -20,9 +19,7 @@
       <fetch version="1.0" mapping="logical">
         <entity name="leidos_employmentdetails">
           <attribute name="leidos_employmentdetailsid" />
-          <attribute name="leidos_typesofjob" />
-          <attribute name="createdon" />
-          <order attribute="leidos_typesofjob" descending="false" />
+          <attribute name="leidos_employmentrole" />
         </entity>
       </fetch>
     </fetchxml>

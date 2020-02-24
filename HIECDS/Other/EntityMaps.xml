@@ -30,4 +30,14 @@
       </AttributeMap>
     </AttributeMaps>
   </EntityMap>
+  <EntityMap>
+    <EntitySource>leidos_project</EntitySource>
+    <EntityTarget>leidos_projectmeasure</EntityTarget>
+    <AttributeMaps>
+      <AttributeMap>
+        <AttributeSource>leidos_parentaccount</AttributeSource>
+        <AttributeTarget>leidos_parentaccount</AttributeTarget>
+      </AttributeMap>
+    </AttributeMaps>
+  </EntityMap>
 </EntityMaps>

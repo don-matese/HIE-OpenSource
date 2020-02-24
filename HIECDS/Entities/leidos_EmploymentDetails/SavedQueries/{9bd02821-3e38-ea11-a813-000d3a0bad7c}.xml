@@ -10,7 +10,7 @@
     <layoutxml>
       <grid name="resultset" jump="leidos_typesofjob" select="1" icon="1" preview="1">
         <row name="result" id="leidos_employmentdetailsid">
-          <cell name="leidos_typesofjob" width="300" />
+          <cell name="leidos_employmentrole" width="241" />
           <cell name="leidos_noofemployeesofthattype" width="221" />
           <cell name="leidos_salaryaverageforthattype" width="204" />
         </row>
@@ -20,7 +20,6 @@
     <fetchxml>
       <fetch version="1.0" mapping="logical">
         <entity name="leidos_employmentdetails">
-          <attribute name="leidos_typesofjob" />
           <filter type="and">
             <condition attribute="statecode" operator="eq" value="0" />
           </filter>
@@ -28,6 +27,7 @@
           <attribute name="leidos_salaryaverageforthattype" />
           <attribute name="leidos_employmentdetailsid" />
           <order attribute="leidos_noofemployeesofthattype" descending="true" />
+          <attribute name="leidos_employmentrole" />
         </entity>
       </fetch>
     </fetchxml>

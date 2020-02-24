@@ -12,7 +12,7 @@
         <row name="result" id="leidos_employmentdetailsid">
           <cell name="a_935b321753da4daea72973dc44056480.leidos_parentaccount" width="258" />
           <cell name="leidos_parentamrrecord" width="190" />
-          <cell name="leidos_typesofjob" width="300" />
+          <cell name="leidos_employmentrole" width="100" />
           <cell name="leidos_noofemployeesofthattype" width="221" />
           <cell name="leidos_salaryaverageforthattype" width="204" />
           <cell name="leidos_totalsalary" width="116" />
@@ -24,8 +24,6 @@
       <fetch version="1.0" mapping="logical">
         <entity name="leidos_employmentdetails">
           <attribute name="leidos_employmentdetailsid" />
-          <attribute name="leidos_typesofjob" />
-          <order attribute="leidos_typesofjob" descending="false" />
           <filter type="and">
             <condition attribute="statecode" operator="eq" value="0" />
           </filter>
@@ -36,6 +34,7 @@
             <attribute name="leidos_parentaccount" />
           </link-entity>
           <attribute name="leidos_parentamrrecord" />
+          <attribute name="leidos_employmentrole" />
         </entity>
       </fetch>
     </fetchxml>

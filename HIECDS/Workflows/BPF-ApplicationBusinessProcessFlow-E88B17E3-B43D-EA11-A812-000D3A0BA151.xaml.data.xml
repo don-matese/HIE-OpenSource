@@ -40,7 +40,7 @@
       <label languagecode="1033" description="Project Location (Post Code)" />
     </steplabels>
     <steplabels id="{6cfd45ec-db98-4a6c-9466-2899c3d74887}">
-      <label languagecode="1033" description="Project" />
+      <label languagecode="1033" description="Project Set Up" />
     </steplabels>
     <steplabels id="{fbb45e16-fd3b-4171-ac9d-ef26f3206422}">
       <label languagecode="1033" description="Project Title" />
@@ -53,6 +53,18 @@
     </steplabels>
     <steplabels id="{1ce1d2ec-7207-42f6-86bc-c0ac667cfb3e}">
       <label languagecode="1033" description="Top Slice" />
+    </steplabels>
+    <steplabels id="{cc5396f6-b2c2-4f19-b931-c5bdca172b2f}">
+      <label languagecode="1033" description="Project Details" />
+    </steplabels>
+    <steplabels id="{f78d744b-0a99-444e-afd7-21d55c54cc42}">
+      <label languagecode="1033" description="Completed Project Costs" />
+    </steplabels>
+    <steplabels id="{a4ab68e1-f938-4ce2-b8dc-48592d255bea}">
+      <label languagecode="1033" description="Completed Project Funding" />
+    </steplabels>
+    <steplabels id="{9881f458-35dd-411f-bf79-a64b0ee48a9c}">
+      <label languagecode="1033" description="Completed Spend Profile" />
     </steplabels>
     <steplabels id="{2d05f357-9847-4831-bed5-b9ca51e38df8}">
       <label languagecode="1033" description="Pre Application" />
@@ -93,14 +105,14 @@
     <steplabels id="{4f21da05-bba6-4c30-88f5-8ea86f006e88}">
       <label languagecode="1033" description="Application" />
     </steplabels>
-    <steplabels id="{8e90bfc5-9bbf-4608-aff6-96669cbbbee2}">
+    <steplabels id="{aa7c776d-8d90-4a7f-8914-7cd9c6af4c0d}">
       <label languagecode="1033" description="Application Reference" />
     </steplabels>
     <steplabels id="{e0460fb8-2024-4cec-aa73-2b4e75897f11}">
-      <label languagecode="1033" description="New Stage" />
+      <label languagecode="1033" description="Appraisal" />
     </steplabels>
-    <steplabels id="{2837c6e1-e91e-4ebd-9e4a-a3d487916faa}">
-      <label languagecode="1033" description="Application Reference" />
+    <steplabels id="{7ecd027d-e688-42f8-ac99-afd74df32956}">
+      <label languagecode="1033" description="Appraisal Document Link" />
     </steplabels>
     <steplabels id="{9425e5f7-d74b-49e4-a80e-05d9b2254df6}">
       <label languagecode="1033" description="Decision" />
@@ -116,6 +128,12 @@
     </steplabels>
     <steplabels id="{e3a85aea-0f73-49a8-95da-5fa1aa4aa9cb}">
       <label languagecode="1033" description="Board Representative " />
+    </steplabels>
+    <steplabels id="{3e46be49-f292-4aeb-a16a-3d7932078038}">
+      <label languagecode="1033" description="Budget Approval Decision Outcome" />
+    </steplabels>
+    <steplabels id="{8b3410c1-c11f-4f6f-a2e9-0a251bcc8827}">
+      <label languagecode="1033" description="Submit Application for Budget Approval" />
     </steplabels>
   </labels>
 </Workflow>

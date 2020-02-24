@@ -142,6 +142,14 @@
                         <control id="leidos_totalcostscalculated" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_totalcostscalculated" disabled="false" />
                       </cell>
                     </row>
+                    <row>
+                      <cell id="{678e98f7-ad18-4d8c-905f-987834d53048}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Completed Project Costs" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_completedprojectcosts" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="leidos_completedprojectcosts" disabled="false" uniqueid="{60955072-4bbc-4424-91af-b3152cb4d5e0}" />
+                      </cell>
+                    </row>
                   </rows>
                 </section>
               </sections>
@@ -211,6 +219,24 @@
                         <control id="leidos_totalprivatefundingcalculated" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_totalprivatefundingcalculated" disabled="false" />
                       </cell>
                     </row>
+                    <row>
+                      <cell id="{d8ee83fc-ac85-44c7-86b0-881af5c6413d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Completed Project Funding" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_completedprojectfunding" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="leidos_completedprojectfunding" disabled="false" uniqueid="{7551b3b5-3d06-4143-a97d-2372bbf410ba}" />
+                      </cell>
+                      <cell showlabel="true" locklevel="0" id="{2a201551-b486-4b09-9a68-3b9c5a07c831}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell showlabel="true" locklevel="0" id="{9c48c2e3-b383-4132-bf93-72c636f6b9fc}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
                   </rows>
                 </section>
               </sections>
@@ -243,6 +269,14 @@
                             <RelationshipName>leidos_AnticipatedSpendProfile_ParentProj</RelationshipName>
                           </parameters>
                         </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e10ea6f6-4b27-4db3-8bd6-7b87d6ebf5e8}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Completed Spend Profile" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_completedspendprofile" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="leidos_completedspendprofile" disabled="false" uniqueid="{3e39136e-7bb3-4722-975e-767ac130aa0f}" />
                       </cell>
                     </row>
                   </rows>
@@ -342,7 +376,74 @@
           </NavBarArea>
         </NavBarAreas>
       </Navigation>
-      <controlDescriptions />
+      <controlDescriptions>
+        <controlDescription forControl="{60955072-4bbc-4424-91af-b3152cb4d5e0}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>leidos_completedprojectcosts</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>leidos_completedprojectcosts</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>leidos_completedprojectcosts</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>leidos_completedprojectcosts</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{7551b3b5-3d06-4143-a97d-2372bbf410ba}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>leidos_completedprojectfunding</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>leidos_completedprojectfunding</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>leidos_completedprojectfunding</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>leidos_completedprojectfunding</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{3e39136e-7bb3-4722-975e-767ac130aa0f}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>leidos_completedspendprofile</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>leidos_completedspendprofile</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>leidos_completedspendprofile</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>leidos_completedspendprofile</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
       <DisplayConditions Order="0" FallbackForm="true" />
       <events>
         <event name="onchange" application="false" active="false" attribute="leidos_supportitemtype">

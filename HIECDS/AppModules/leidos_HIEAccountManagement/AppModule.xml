@@ -31,6 +31,7 @@
     <AppModuleComponent type="60" id="{a8dceb95-946f-4816-a956-79313fc809e6}" />
     <AppModuleComponent type="1" schemaName="leidos_businessreviewactionplan" />
     <AppModuleComponent type="1" schemaName="activitypointer" />
+    <AppModuleComponent type="1" schemaName="leidos_anticipatedspendprofile" />
     <AppModuleComponent type="1" schemaName="leidos_application" />
     <AppModuleComponent type="1" schemaName="appointment" />
     <AppModuleComponent type="1" schemaName="leidos_areaoffice" />
@@ -54,6 +55,7 @@
     <AppModuleComponent type="1" schemaName="email" />
     <AppModuleComponent type="1" schemaName="leidos_employmentdetails" />
     <AppModuleComponent type="26" id="{9bd02821-3e38-ea11-a813-000d3a0bad7c}" />
+    <AppModuleComponent type="1" schemaName="leidos_employmentroles" />
     <AppModuleComponent type="1" schemaName="leidos_enquiry" />
     <AppModuleComponent type="60" id="{898bd476-4331-4ecb-87b7-8d8c52e9cdfd}" />
     <AppModuleComponent type="60" id="{7e270050-4538-ea11-a813-000d3a0ba110}" />
@@ -81,10 +83,14 @@
     <AppModuleComponent type="1" schemaName="leidos_organisationtype" />
     <AppModuleComponent type="1" schemaName="leidos_producttheme" />
     <AppModuleComponent type="1" schemaName="leidos_project" />
+    <AppModuleComponent type="1" schemaName="leidos_projectactivity" />
     <AppModuleComponent type="1" schemaName="leidos_projectcost" />
     <AppModuleComponent type="1" schemaName="leidos_projectcostcategory" />
     <AppModuleComponent type="1" schemaName="leidos_projectfunding" />
+    <AppModuleComponent type="1" schemaName="leidos_projectmeasure" />
+    <AppModuleComponent type="1" schemaName="leidos_projectoutput" />
     <AppModuleComponent type="1" schemaName="leidos_segmentation" />
+    <AppModuleComponent type="1" schemaName="leidos_strategicpriority" />
     <AppModuleComponent type="1" schemaName="leidos_supportitem" />
     <AppModuleComponent type="1" schemaName="task" />
     <AppModuleComponent type="1" schemaName="team" />
