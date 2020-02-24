@@ -52,6 +52,11 @@
                     <Sequence DisplayName="SetVisibilityStep1: New Action">
                       <mcwc:SetVisibility ControlId="leidos_submitapplicationforbudgetapproval" ControlType="standard" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="leidos_application" IsVisible="True" />
                     </Sequence>
+                    <Sequence DisplayName="SetFieldRequiredLevelStep_SetVisibilityStep1_3: Document Link Required">
+                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;leidos_application&quot;)]" />
+                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+                      <mcwc:SetFieldRequiredLevel ControlId="leidos_appraisaldocumentlink" ControlType="standard" DisplayName="SetFieldRequiredLevelStep_SetVisibilityStep1_3" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="leidos_application" RequiredLevel="Required" />
+                    </Sequence>
                   </sco:Collection>
                 </mxswa:ActivityReference.Properties>
               </mxswa:ActivityReference>
@@ -80,6 +85,11 @@
                   <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
                     <Sequence DisplayName="SetVisibilityStep2: New Action">
                       <mcwc:SetVisibility ControlId="leidos_submitapplicationforbudgetapproval" ControlType="standard" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="leidos_application" IsVisible="False" />
+                    </Sequence>
+                    <Sequence DisplayName="SetFieldRequiredLevelStep_SetVisibilityStep2_5: Document Link Not Required">
+                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;leidos_application&quot;)]" />
+                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+                      <mcwc:SetFieldRequiredLevel ControlId="leidos_appraisaldocumentlink" ControlType="standard" DisplayName="SetFieldRequiredLevelStep_SetVisibilityStep2_5" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="leidos_application" RequiredLevel="None" />
                     </Sequence>
                   </sco:Collection>
                 </mxswa:ActivityReference.Properties>

@@ -162,6 +162,14 @@
                       </cell>
                     </row>
                     <row>
+                      <cell id="{e9a945f8-356d-4b54-a7f4-196363303a36}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Appraisal Document Link" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_appraisaldocumentlink" classid="{71716B6C-711E-476C-8AB8-5D11542BFB47}" datafieldname="leidos_appraisaldocumentlink" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
                       <cell id="{bf8983a4-9827-401f-8b29-5f0fd7ee8647}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Submit Application for Budget Approval" languagecode="1033" />
