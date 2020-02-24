@@ -148,7 +148,82 @@
             </column>
             <column width="50%">
               <sections>
-                <section name="general_section_5" id="c402913f-8839-4649-968d-5c542a49fd47" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                <section name="ApplicationApproval" id="34810eee-d9f5-4d95-9cec-dfefb0774eaa" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Application Approval" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{5209b6e7-49b7-409e-99f5-674b04b7166a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Budget Approval Delegated Authority" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_budgetapprovaldelegatedauthority" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_budgetapprovaldelegatedauthority" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bf8983a4-9827-401f-8b29-5f0fd7ee8647}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Submit Application for Budget Approval" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_submitapplicationforbudgetapproval" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="leidos_submitapplicationforbudgetapproval" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ca05c5e9-0aee-4f3b-af14-07bf3fe53025}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Budget Approval Requested On" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_budgetapprovalrequestedon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="leidos_budgetapprovalrequestedon" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{be229972-7043-4d74-bfee-1a18a4c49574}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Budget Approved On" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_budgetapprovedon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="leidos_budgetapprovedon" disabled="true" uniqueid="{2e89e373-694e-17b2-7732-ee05c14a8bbb}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0afd6fdf-aacb-41dc-b80d-f00608f6fda4}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Budget Approved By" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_budgetapprovedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_budgetapprovedby" disabled="true" uniqueid="{381211e0-349e-227e-b88d-6dd8c1a9b6c9}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{E88CA999-0B16-4AE9-B6A9-9EDC840D42D8}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b020c341-9474-5aab-a0ae-b22289444043}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Budget Approval Decision Outcome" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_budgetapprovaldecisionoutcome" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="leidos_budgetapprovaldecisionoutcome" disabled="true" uniqueid="{0dda8b30-99b6-bb77-d93d-d6ab0a572dd6}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="Metrics" id="8834daa9-cb5e-4cb1-8f01-e20f0034e95e" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Metrics" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section name="Metrics_section_3" id="c402913f-8839-4649-968d-5c542a49fd47" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
                   <labels>
                     <label description="Finance" languagecode="1033" />
                   </labels>
@@ -179,7 +254,11 @@
                     </row>
                   </rows>
                 </section>
-                <section name="Geography" id="a7595ceb-b4dd-403b-b58d-fc854eba654c" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="Metrics_section_5" id="a7595ceb-b4dd-403b-b58d-fc854eba654c" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
                   <labels>
                     <label description="Geography" languagecode="1033" />
                   </labels>

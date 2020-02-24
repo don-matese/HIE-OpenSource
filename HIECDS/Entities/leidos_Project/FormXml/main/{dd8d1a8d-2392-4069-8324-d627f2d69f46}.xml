@@ -53,6 +53,40 @@
                     </row>
                   </rows>
                 </section>
+                <section name="Budgets" id="7b89b7d8-e730-4b6b-8b17-9f2b8b4305e0" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115">
+                  <labels>
+                    <label description="Budgets" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ce0b9224-7c1c-40b2-90ec-f9f28e03fa21}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Requested Budget" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_requestedbudget" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_requestedbudget" disabled="false" />
+                      </cell>
+                      <cell id="{be6d4bb9-33a6-4178-be7c-86ff46d58da1}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Approved Budget" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_approvedbudget" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_approvedbudget" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8d274fcb-20a1-482b-8404-0239e672ce0a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Gross Grant  Equivalence" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_grossgrantequivalence" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_grossgrantequivalence" disabled="false" />
+                      </cell>
+                      <cell showlabel="true" locklevel="0" id="{4c3f7d81-c6fc-4427-a25d-f1ea004d2150}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
               </sections>
             </column>
           </columns>
@@ -77,8 +111,8 @@
                         <control id="Subgrid_1" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{0ab89938-a653-5845-9cac-c72b3516e630}">
                           <parameters>
                             <TargetEntityType>leidos_projectcost</TargetEntityType>
-                            <ViewId>{EE1C9DB8-D142-46B2-9401-ACC6B4881AEC}</ViewId>
-                            <ViewIds>{EE1C9DB8-D142-46B2-9401-ACC6B4881AEC}</ViewIds>
+                            <ViewId>{957DCD2A-E956-EA11-A811-000D3A7F1BBB}</ViewId>
+                            <ViewIds>{EE1C9DB8-D142-46B2-9401-ACC6B4881AEC},{957DCD2A-E956-EA11-A811-000D3A7F1BBB}</ViewIds>
                             <EnableViewPicker>false</EnableViewPicker>
                             <RelationshipName>leidos_ProjectCost_ParentProject_leidos_P</RelationshipName>
                             <RecordsPerPage>4</RecordsPerPage>
@@ -134,8 +168,8 @@
                         <control id="Subgrid_2" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{87a47109-7718-d02b-9893-945a58969c62}">
                           <parameters>
                             <TargetEntityType>leidos_projectfunding</TargetEntityType>
-                            <ViewId>{A04A55E0-5DCA-4453-9399-8C81A6F9BA2C}</ViewId>
-                            <ViewIds>{A04A55E0-5DCA-4453-9399-8C81A6F9BA2C}</ViewIds>
+                            <ViewId>{E180C04E-E956-EA11-A811-000D3A7F1BBB}</ViewId>
+                            <ViewIds>{A04A55E0-5DCA-4453-9399-8C81A6F9BA2C},{E180C04E-E956-EA11-A811-000D3A7F1BBB}</ViewIds>
                             <EnableViewPicker>false</EnableViewPicker>
                             <RelationshipName>leidos_ProjectFunding_ParentProject_leido</RelationshipName>
                             <RecordsPerPage>4</RecordsPerPage>
@@ -175,6 +209,40 @@
                           <label description="Total Private Funding (Calculated)" languagecode="1033" />
                         </labels>
                         <control id="leidos_totalprivatefundingcalculated" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_totalprivatefundingcalculated" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="SpendProfile" id="5cd74dfc-003b-44e1-b5fb-1eeed2a05693" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Spend Profile" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="SpendProfile" id="b0a0a3da-2377-49a8-a517-193f13d67a67" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Spend Profile" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{d7db70b0-d6f1-4ce8-b5f1-8534415fc3bb}" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="New SG control 1582535419133" languagecode="1033" />
+                        </labels>
+                        <control id="Subgrid_3" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>leidos_anticipatedspendprofile</TargetEntityType>
+                            <ViewId>{EBC1563F-E556-EA11-A811-000D3A7F1BBB}</ViewId>
+                            <ViewIds>{81503CB9-4BCB-493F-8DD0-398BB659147B},{EBC1563F-E556-EA11-A811-000D3A7F1BBB}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>leidos_AnticipatedSpendProfile_ParentProj</RelationshipName>
+                          </parameters>
+                        </control>
                       </cell>
                     </row>
                   </rows>
@@ -276,6 +344,18 @@
       </Navigation>
       <controlDescriptions />
       <DisplayConditions Order="0" FallbackForm="true" />
+      <events>
+        <event name="onchange" application="false" active="false" attribute="leidos_supportitemtype">
+          <Handlers>
+            <Handler functionName="N52.Clientside.ExecuteFormulas" libraryName="north52_/javascript/n52.clientside" handlerUniqueId="4994fed5-20ed-450b-b7d8-3aead676d095" enabled="true" parameters="'H1g:*:CreateUpdate::0:217890000:217890000:217890000:217890000'" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+      <formLibraries>
+        <Library name="north52_/javascript/n52.json2" libraryUniqueId="418a33aa-8462-4a53-ac1c-bad43b8a75c3" />
+        <Library name="north52_/javascript/n52.rest" libraryUniqueId="11171a48-70b1-4f7c-9d1f-efb5a4fc18c6" />
+        <Library name="north52_/javascript/n52.clientside" libraryUniqueId="0ab39088-04c7-471f-817d-c39317ec77f8" />
+      </formLibraries>
     </form>
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>

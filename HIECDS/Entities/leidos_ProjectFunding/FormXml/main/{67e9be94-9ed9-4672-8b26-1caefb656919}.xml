@@ -51,6 +51,14 @@
                         <control id="leidos_fundingamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_fundingamount" disabled="false" />
                       </cell>
                     </row>
+                    <row>
+                      <cell id="{950f2563-8eff-43f7-adf9-102282486b8a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Evidence Notes" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_evidencenotes" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="leidos_evidencenotes" disabled="false" />
+                      </cell>
+                    </row>
                   </rows>
                 </section>
               </sections>

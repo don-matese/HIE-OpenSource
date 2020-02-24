@@ -62,7 +62,7 @@
                     <row>
                       <cell id="{d8e3e5ea-ee5c-e772-bda7-47ba43c3a28d}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Street 1" languagecode="1033" />
+                          <label description="Address 1: Street 1" languagecode="1033" />
                         </labels>
                         <control id="address1_line1" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="address1_line1" disabled="false" />
                       </cell>
@@ -70,7 +70,7 @@
                     <row>
                       <cell id="{e93bad26-4a79-9031-3c71-bc451e956027}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Street 2" languagecode="1033" />
+                          <label description="Address 1: Street 2" languagecode="1033" />
                         </labels>
                         <control id="address1_line2" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="address1_line2" disabled="false" />
                       </cell>
@@ -78,7 +78,7 @@
                     <row>
                       <cell id="{048eb9e2-71b3-070a-2c77-22c10d528272}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="City" languagecode="1033" />
+                          <label description="Address 1: City" languagecode="1033" />
                         </labels>
                         <control id="address1_city" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="address1_city" disabled="false" />
                       </cell>
@@ -86,7 +86,7 @@
                     <row>
                       <cell id="{55886e21-a3dc-4384-1a81-0b9799d099cc}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Postal Code" languagecode="1033" />
+                          <label description="Address 1: ZIP/Postal Code" languagecode="1033" />
                         </labels>
                         <control id="address1_postalcode" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="address1_postalcode" disabled="false" />
                       </cell>

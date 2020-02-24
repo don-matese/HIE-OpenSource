@@ -28,19 +28,35 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{97b63a66-abf9-4252-af80-741ea6130e47}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Item Cost" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_itemcost" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_itemcost" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
                       <cell id="{286d841e-993c-49a0-b72b-b22f47bc2eb5}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Cost Category" languagecode="1033" />
                         </labels>
                         <control id="leidos_costcategory" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_costcategory" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{35fbd777-169b-46c0-9d00-fc525a22464c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Capital Cost" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_capitalcost" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_capitalcost" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{301cd6a7-6544-46f2-9599-858994b9e90e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Revenue Cost" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_revenuecost" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_revenuecost" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6e47940c-33be-40b7-a5a8-93642115f2aa}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Item Cost" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_itemcost" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_itemcost" disabled="true" />
                       </cell>
                     </row>
                   </rows>

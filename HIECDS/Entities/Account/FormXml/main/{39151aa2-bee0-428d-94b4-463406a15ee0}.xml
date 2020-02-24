@@ -678,9 +678,9 @@
                     </row>
                   </rows>
                 </section>
-                <section name="PlansAndProjects_section_3" id="7f278a9d-5016-4336-8b3e-ed13ed2c8235" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                <section name="ActiveProjects" id="7f278a9d-5016-4336-8b3e-ed13ed2c8235" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
                   <labels>
-                    <label description="New Section" languagecode="1033" />
+                    <label description="Active Projects" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
@@ -693,6 +693,29 @@
                             <TargetEntityType>leidos_project</TargetEntityType>
                             <ViewId>{A6421251-C154-EA11-A813-000D3A0BAD17}</ViewId>
                             <ViewIds>{8078ACE2-EAE7-45E6-86AA-E2A651FE5E68},{A6421251-C154-EA11-A813-000D3A0BAD17}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>leidos_Project_ParentAccount_Account</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="CompletedProjects" id="3f7e31d4-129d-4cdd-b0a5-455836e360d2" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Completed Projects" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{64d66ac6-c24c-454b-93a4-537db4b19f11}" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="New SG control 1582539289767" languagecode="1033" />
+                        </labels>
+                        <control id="Subgrid_2" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>leidos_project</TargetEntityType>
+                            <ViewId>{FBAFE737-EE56-EA11-A811-000D3A0BAD17}</ViewId>
+                            <ViewIds>{8078ACE2-EAE7-45E6-86AA-E2A651FE5E68},{FBAFE737-EE56-EA11-A811-000D3A0BAD17}</ViewIds>
                             <EnableViewPicker>false</EnableViewPicker>
                             <RelationshipName>leidos_Project_ParentAccount_Account</RelationshipName>
                           </parameters>
