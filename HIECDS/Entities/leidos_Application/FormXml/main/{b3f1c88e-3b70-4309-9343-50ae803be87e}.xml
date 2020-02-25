@@ -81,7 +81,11 @@
                     </row>
                   </rows>
                 </section>
-                <section name="PreApplication" id="afb700d8-980e-4c65-b857-67fe9673d93e" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="general_section_5" id="afb700d8-980e-4c65-b857-67fe9673d93e" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
                   <labels>
                     <label description="Pre-Application" languagecode="1033" />
                   </labels>
@@ -144,23 +148,11 @@
                     </row>
                   </rows>
                 </section>
-              </sections>
-            </column>
-            <column width="50%">
-              <sections>
                 <section name="ApplicationApproval" id="34810eee-d9f5-4d95-9cec-dfefb0774eaa" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
                   <labels>
                     <label description="Application Approval" languagecode="1033" />
                   </labels>
                   <rows>
-                    <row>
-                      <cell id="{5209b6e7-49b7-409e-99f5-674b04b7166a}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Budget Approval Delegated Authority" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_budgetapprovaldelegatedauthority" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_budgetapprovaldelegatedauthority" disabled="false" />
-                      </cell>
-                    </row>
                     <row>
                       <cell id="{e9a945f8-356d-4b54-a7f4-196363303a36}" showlabel="true" locklevel="0">
                         <labels>
@@ -501,6 +493,14 @@
                           <label description="Board Representative " languagecode="1033" />
                         </labels>
                         <control id="leidos_boardrepresentative" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_boardrepresentative" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5209b6e7-49b7-409e-99f5-674b04b7166a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Budget Approval Delegated Authority" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_budgetapprovaldelegatedauthority" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_budgetapprovaldelegatedauthority" disabled="true" />
                       </cell>
                     </row>
                   </rows>

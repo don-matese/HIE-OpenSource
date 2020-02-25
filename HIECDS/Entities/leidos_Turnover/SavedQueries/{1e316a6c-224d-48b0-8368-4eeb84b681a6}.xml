@@ -11,8 +11,6 @@
       <grid name="leidos_turnovers" jump="leidos_turnoverbanding" select="1" icon="1" preview="0">
         <row name="leidos_turnover" id="leidos_turnoverid">
           <cell name="leidos_turnoverbanding" width="300" />
-          <cell name="leidos_bandingminimumamount" width="100" />
-          <cell name="leidos_bandingmaximumamount" width="100" />
         </row>
       </grid>
     </layoutxml>
@@ -25,9 +23,6 @@
           <filter type="and">
             <condition attribute="statecode" operator="eq" value="0" />
           </filter>
-          <attribute name="leidos_bandingminimumamount" />
-          <attribute name="leidos_bandingmaximumamount" />
-          <order attribute="leidos_bandingmaximumamount" descending="false" />
         </entity>
       </fetch>
     </fetchxml>

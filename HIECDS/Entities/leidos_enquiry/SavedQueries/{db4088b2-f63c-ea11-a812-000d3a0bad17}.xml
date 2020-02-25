@@ -33,13 +33,13 @@
           <attribute name="statuscode" />
           <attribute name="leidos_enquirysource" />
           <attribute name="leidos_referencenumber" />
-          <order attribute="createdon" descending="true" />
-          <order attribute="leidos_name" descending="false" />
           <filter type="and">
             <condition attribute="statecode" operator="eq" value="0" />
             <condition attribute="leidos_targetclosedate" operator="last-x-days" value="30" />
           </filter>
           <attribute name="leidos_enquiryid" />
+          <order attribute="createdon" descending="true" />
+          <order attribute="leidos_name" descending="false" />
         </entity>
       </fetch>
     </fetchxml>

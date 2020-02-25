@@ -243,6 +243,55 @@
             </column>
           </columns>
         </tab>
+        <tab name="Measures" id="e266b00e-fd8e-4305-a74b-7baa33843899" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Measures" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="ActiveMeasures" id="09ab099e-ccf8-467e-8d45-e6f25246a38b" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Active Measures" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{d7a4043a-095a-4b3e-a928-244ab1a4c8a0}" rowspan="6" colspan="1" auto="false">
+                        <labels>
+                          <label description="Active Measures" languagecode="1033" />
+                        </labels>
+                        <control id="Measures" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" indicationOfSubgrid="true" uniqueid="{c64060ba-4a3b-985b-6089-4b1ad4009d5c}">
+                          <parameters>
+                            <TargetEntityType>leidos_projectmeasure</TargetEntityType>
+                            <ViewId>{E899F184-C457-EA11-A811-000D3A7F1BBB}</ViewId>
+                            <ViewIds>{CF0C768A-5B6E-435A-8C17-8CC00D542333},{E899F184-C457-EA11-A811-000D3A7F1BBB}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>leidos_ProjectMeasure_ParentProject_leido</RelationshipName>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <IsUserView>false</IsUserView>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
         <tab name="SpendProfile" id="5cd74dfc-003b-44e1-b5fb-1eeed2a05693" IsUserDefined="0" locklevel="0" showlabel="true">
           <labels>
             <label description="Spend Profile" languagecode="1033" />
@@ -443,8 +492,53 @@
             </parameters>
           </customControl>
         </controlDescription>
+        <controlDescription forControl="{c64060ba-4a3b-985b-6089-4b1ad4009d5c}">
+          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" formFactor="0">
+            <parameters />
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{CF0C768A-5B6E-435A-8C17-8CC00D542333}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>leidos_ProjectMeasure_ParentProject_leido</RelationshipName>
+                <TargetEntityType>leidos_projectmeasure</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{CF0C768A-5B6E-435A-8C17-8CC00D542333}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy static="true" type="Enum">yes</EnableGroupBy>
+              <EnableEditing static="true" type="Enum">yes</EnableEditing>
+              <ReflowBehavior static="true" type="Enum">GridOnly</ReflowBehavior>
+              <EnableFiltering static="true" type="Enum">yes</EnableFiltering>
+              <HideNestedGridColumnHeader static="true" type="Enum">no</HideNestedGridColumnHeader>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{CF0C768A-5B6E-435A-8C17-8CC00D542333}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>leidos_ProjectMeasure_ParentProject_leido</RelationshipName>
+                <TargetEntityType>leidos_projectmeasure</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{CF0C768A-5B6E-435A-8C17-8CC00D542333}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy static="true" type="Enum">yes</EnableGroupBy>
+              <EnableEditing static="true" type="Enum">yes</EnableEditing>
+              <ReflowBehavior static="true" type="Enum">GridOnly</ReflowBehavior>
+              <EnableFiltering static="true" type="Enum">yes</EnableFiltering>
+              <HideNestedGridColumnHeader static="true" type="Enum">no</HideNestedGridColumnHeader>
+            </parameters>
+          </customControl>
+        </controlDescription>
       </controlDescriptions>
-      <DisplayConditions Order="0" FallbackForm="true" />
+      <formLibraries>
+        <Library name="north52_/javascript/n52.json2" libraryUniqueId="418a33aa-8462-4a53-ac1c-bad43b8a75c3" />
+        <Library name="north52_/javascript/n52.rest" libraryUniqueId="11171a48-70b1-4f7c-9d1f-efb5a4fc18c6" />
+        <Library name="north52_/javascript/n52.clientside" libraryUniqueId="0ab39088-04c7-471f-817d-c39317ec77f8" />
+      </formLibraries>
       <events>
         <event name="onchange" application="false" active="false" attribute="leidos_supportitemtype">
           <Handlers>
@@ -452,11 +546,7 @@
           </Handlers>
         </event>
       </events>
-      <formLibraries>
-        <Library name="north52_/javascript/n52.json2" libraryUniqueId="418a33aa-8462-4a53-ac1c-bad43b8a75c3" />
-        <Library name="north52_/javascript/n52.rest" libraryUniqueId="11171a48-70b1-4f7c-9d1f-efb5a4fc18c6" />
-        <Library name="north52_/javascript/n52.clientside" libraryUniqueId="0ab39088-04c7-471f-817d-c39317ec77f8" />
-      </formLibraries>
+      <DisplayConditions Order="0" FallbackForm="true" />
     </form>
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>

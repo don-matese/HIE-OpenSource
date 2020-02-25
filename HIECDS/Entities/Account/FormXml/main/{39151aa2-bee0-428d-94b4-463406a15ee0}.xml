@@ -724,6 +724,29 @@
                     </row>
                   </rows>
                 </section>
+                <section name="PlansAndProjects_section_5" id="65fd115d-9f68-4e48-9c71-dc142cfc9cb0" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Project Measures" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{7397902d-1b8a-444f-9ee7-b2b5f2395f58}" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="New SG control 1582631353212" languagecode="1033" />
+                        </labels>
+                        <control id="Subgrid_3" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>leidos_projectmeasure</TargetEntityType>
+                            <ViewId>{BC0BD59C-C457-EA11-A811-000D3A7F1BBB}</ViewId>
+                            <ViewIds>{CF0C768A-5B6E-435A-8C17-8CC00D542333},{BC0BD59C-C457-EA11-A811-000D3A7F1BBB}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>leidos_ProjectMeasure_ParentAccount_Accou</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
               </sections>
             </column>
           </columns>
