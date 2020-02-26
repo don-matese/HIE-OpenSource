@@ -5,6 +5,7 @@
   <EntityRelationship Name="bpf_leidos_accountmanagementrecord_leidos_bpfaccountprocess" />
   <EntityRelationship Name="bpf_leidos_accountmanagementrecord_leidos_bpfamrdirectcreation" />
   <EntityRelationship Name="bpf_leidos_application_new_bpfapplicationbusinessprocessflow" />
+  <EntityRelationship Name="bpf_leidos_businessreview_leidos_bpf_businessreview" />
   <EntityRelationship Name="bpf_leidos_enquiry_leidos_enquirybusinessflow" />
   <EntityRelationship Name="bpf_leidos_project_new_bpfapplicationbusinessprocessflow" />
   <EntityRelationship Name="business_unit_leidos_accountmanagementrecord" />
@@ -71,7 +72,6 @@
   <EntityRelationship Name="leidos_GrowthPlanResponse_Measure_leidos_" />
   <EntityRelationship Name="leidos_GrowthPlanResponse_ParentBusinessR" />
   <EntityRelationship Name="leidos_leidos_areaoffice_leidos_AreaOffic" />
-  <EntityRelationship Name="leidos_leidos_businessreview_leidos_Actio" />
   <EntityRelationship Name="leidos_leidos_businessreview_leidos_Busin" />
   <EntityRelationship Name="leidos_leidos_businessreviewsummary_leido" />
   <EntityRelationship Name="leidos_leidos_geographies_leidos_tradinggeography_Geography" />
@@ -104,6 +104,10 @@
   <EntityRelationship Name="lk_leidos_application_modifiedby" />
   <EntityRelationship Name="lk_leidos_areaoffice_createdby" />
   <EntityRelationship Name="lk_leidos_areaoffice_modifiedby" />
+  <EntityRelationship Name="lk_leidos_bpf_businessreview_activestageid" />
+  <EntityRelationship Name="lk_leidos_bpf_businessreview_createdby" />
+  <EntityRelationship Name="lk_leidos_bpf_businessreview_modifiedby" />
+  <EntityRelationship Name="lk_leidos_bpf_businessreview_processid" />
   <EntityRelationship Name="lk_leidos_bpfaccountprocess_activestageid" />
   <EntityRelationship Name="lk_leidos_bpfaccountprocess_createdby" />
   <EntityRelationship Name="lk_leidos_bpfaccountprocess_modifiedby" />
@@ -199,6 +203,7 @@
   <EntityRelationship Name="msdyn_flow_awaitallmodelrelationship_systemuser" />
   <EntityRelationship Name="msdyn_flow_basicapprovalmodelrelationship_systemuser" />
   <EntityRelationship Name="organization_leidos_areaoffice" />
+  <EntityRelationship Name="organization_leidos_bpf_businessreview" />
   <EntityRelationship Name="organization_leidos_bpfaccountprocess" />
   <EntityRelationship Name="organization_leidos_bpfamrdirectcreation" />
   <EntityRelationship Name="organization_leidos_businessreviewanswers" />

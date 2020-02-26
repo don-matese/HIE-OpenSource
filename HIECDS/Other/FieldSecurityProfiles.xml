@@ -11,20 +11,6 @@
       </FieldPermission>
       <FieldPermission>
         <EntityName>leidos_businessreview</EntityName>
-        <AttributeName>leidos_actionplanapprovedby</AttributeName>
-        <CanRead>4</CanRead>
-        <CanUpdate>0</CanUpdate>
-        <CanCreate>0</CanCreate>
-      </FieldPermission>
-      <FieldPermission>
-        <EntityName>leidos_businessreview</EntityName>
-        <AttributeName>leidos_actionplanapprovedon</AttributeName>
-        <CanRead>4</CanRead>
-        <CanUpdate>0</CanUpdate>
-        <CanCreate>0</CanCreate>
-      </FieldPermission>
-      <FieldPermission>
-        <EntityName>leidos_businessreview</EntityName>
         <AttributeName>leidos_businessplanapprovedby</AttributeName>
         <CanRead>4</CanRead>
         <CanUpdate>0</CanUpdate>
@@ -86,20 +72,6 @@
       <FieldPermission>
         <EntityName>leidos_application</EntityName>
         <AttributeName>leidos_initialstrategicassessmentapproved</AttributeName>
-        <CanRead>4</CanRead>
-        <CanUpdate>4</CanUpdate>
-        <CanCreate>4</CanCreate>
-      </FieldPermission>
-      <FieldPermission>
-        <EntityName>leidos_businessreview</EntityName>
-        <AttributeName>leidos_actionplanapprovedby</AttributeName>
-        <CanRead>4</CanRead>
-        <CanUpdate>4</CanUpdate>
-        <CanCreate>4</CanCreate>
-      </FieldPermission>
-      <FieldPermission>
-        <EntityName>leidos_businessreview</EntityName>
-        <AttributeName>leidos_actionplanapprovedon</AttributeName>
         <CanRead>4</CanRead>
         <CanUpdate>4</CanUpdate>
         <CanCreate>4</CanCreate>

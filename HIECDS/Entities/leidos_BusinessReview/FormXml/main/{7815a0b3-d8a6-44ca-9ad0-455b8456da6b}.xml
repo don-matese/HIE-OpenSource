@@ -48,25 +48,26 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{83720b23-6c37-499b-8e1f-0b5f02441744}" showlabel="true" locklevel="0">
+                      <cell id="{811a2ad9-7525-cde8-e519-6056092beb13}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Account Management Record" languagecode="1033" />
                         </labels>
-                        <control id="header_leidos_accountmanagementrecord" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_accountmanagementrecord" disabled="false" />
+                        <control id="leidos_accountmanagementrecord" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_accountmanagementrecord" disabled="false" uniqueid="{59b76563-cb24-d1e5-a78d-05d4ced3215c}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>true</DisableViewPicker>
+                            <DefaultViewId>{96AAFFBC-4F12-437A-B429-F2A0075EBD50}</DefaultViewId>
+                            <FilterRelationshipName>leidos_AccountManagementRecord_ParentAcco</FilterRelationshipName>
+                            <DependentAttributeName>leidos_businessreview.leidos_relatedaccount</DependentAttributeName>
+                            <DependentAttributeType>account</DependentAttributeType>
+                            <AllowFilterOff>false</AllowFilterOff>
+                            <AvailableViewIds>{96AAFFBC-4F12-437A-B429-F2A0075EBD50}</AvailableViewIds>
+                          </parameters>
+                        </control>
                       </cell>
-                      <cell showlabel="true" locklevel="0" id="{d94ff87d-8228-4d31-9c18-3c6a99229bf3}">
-                        <labels>
-                          <label description="" languagecode="1033" />
-                        </labels>
-                      </cell>
-                    </row>
-                    <row>
-                      <cell showlabel="true" locklevel="0" id="{0640f033-7a97-4c3a-aea5-33a7cca2880e}">
-                        <labels>
-                          <label description="" languagecode="1033" />
-                        </labels>
-                      </cell>
-                      <cell showlabel="true" locklevel="0" id="{7fb68d4f-5be5-4ded-b44f-da3965d02881}">
+                      <cell id="{3441c3d0-5802-3b37-ee83-e45a543a922c}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -74,7 +75,7 @@
                     </row>
                   </rows>
                 </section>
-                <section name="BusinessPlanSignOff" id="c7eed1ef-e6f9-4bdc-8b4e-574a6295c60d" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" visible="true">
+                <section name="BusinessPlanSignOff" id="c7eed1ef-e6f9-4bdc-8b4e-574a6295c60d" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" visible="false">
                   <labels>
                     <label description="Business Plan Sign Off" languagecode="1033" />
                   </labels>
@@ -167,6 +168,14 @@
                     <row />
                     <row />
                     <row height="auto" />
+                    <row>
+                      <cell id="{21d202d9-6cef-4145-b14f-291cd2fc1971}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Review Summary Complete" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_reviewsummarycomplete" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="leidos_reviewsummarycomplete" disabled="false" uniqueid="{55a7bee7-6170-477d-a129-d81c14e96085}" />
+                      </cell>
+                    </row>
                   </rows>
                 </section>
               </sections>
@@ -548,6 +557,21 @@
                     <row />
                   </rows>
                 </section>
+                <section name="BusinessReview_section_9" id="7f31f93f-6686-44a3-a894-3a4104032ca9" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{d537ec3e-8bd1-48bd-bed1-57db6bede033}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Business Review Details Complete" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_businessreviewdetailscomplete" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="leidos_businessreviewdetailscomplete" disabled="false" uniqueid="{62526618-28dd-4a55-b0b6-35177bd04f7e}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
               </sections>
             </column>
           </columns>
@@ -609,6 +633,14 @@
                         <control id="leidos_sourceofinformation" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="leidos_sourceofinformation" disabled="false" />
                       </cell>
                     </row>
+                    <row>
+                      <cell id="{7d2da1f1-1e75-4619-ad34-a8e08b3711c7}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Growth Plan Complete" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_growthplancomplete" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="leidos_growthplancomplete" disabled="false" uniqueid="{eba5feb9-0e83-49ba-b530-e22d62bc0246}" />
+                      </cell>
+                    </row>
                   </rows>
                 </section>
               </sections>
@@ -656,6 +688,14 @@
                     <row />
                     <row />
                     <row height="auto" />
+                    <row>
+                      <cell id="{32cb506b-6bcc-4feb-aa71-0994b0204fd3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Action Plan Complete" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_actionplancomplete" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="leidos_actionplancomplete" disabled="false" uniqueid="{5b52af14-3db2-45ff-8d4e-b82d4c44d6c4}" />
+                      </cell>
+                    </row>
                   </rows>
                 </section>
               </sections>
@@ -688,6 +728,12 @@
               </labels>
               <control id="header_ownerid" datafieldname="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" />
             </cell>
+            <cell id="{21a1c057-32db-4bb3-ed68-9239e8b57229}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Status Reason" languagecode="1033" />
+              </labels>
+              <control id="header_statuscode" classid="{5D68B988-0661-4db2-BC3E-17598AD3BE6C}" datafieldname="statuscode" disabled="false" />
+            </cell>
           </row>
         </rows>
       </header>
@@ -704,17 +750,16 @@
                 <label description="" languagecode="1033" />
               </labels>
             </cell>
-            <cell id="{21a1c057-32db-4bb3-ed68-9239e8b57229}" showlabel="true" locklevel="0">
+            <cell id="{2e408ec3-ffaa-4016-a4a7-ad08ce2107fe}" showlabel="false">
               <labels>
-                <label description="Status Reason" languagecode="1033" />
+                <label description="" languagecode="1033" />
               </labels>
-              <control id="header_statuscode" classid="{5D68B988-0661-4db2-BC3E-17598AD3BE6C}" datafieldname="statuscode" disabled="false" />
             </cell>
           </row>
         </rows>
       </footer>
       <Navigation>
-        <NavBar />
+        <NavBar></NavBar>
         <NavBarAreas>
           <NavBarArea Id="Info">
             <Titles>
@@ -1151,6 +1196,94 @@
               <ReflowBehavior static="true" type="Enum">GridOnly</ReflowBehavior>
               <EnableFiltering static="true" type="Enum">yes</EnableFiltering>
               <HideNestedGridColumnHeader static="true" type="Enum">no</HideNestedGridColumnHeader>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{55a7bee7-6170-477d-a129-d81c14e96085}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>leidos_reviewsummarycomplete</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>leidos_reviewsummarycomplete</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>leidos_reviewsummarycomplete</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>leidos_reviewsummarycomplete</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{62526618-28dd-4a55-b0b6-35177bd04f7e}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>leidos_businessreviewdetailscomplete</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>leidos_businessreviewdetailscomplete</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>leidos_businessreviewdetailscomplete</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>leidos_businessreviewdetailscomplete</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{eba5feb9-0e83-49ba-b530-e22d62bc0246}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>leidos_growthplancomplete</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>leidos_growthplancomplete</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>leidos_growthplancomplete</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>leidos_growthplancomplete</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{5b52af14-3db2-45ff-8d4e-b82d4c44d6c4}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>leidos_actionplancomplete</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>leidos_actionplancomplete</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>leidos_actionplancomplete</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>leidos_actionplancomplete</value>
             </parameters>
           </customControl>
         </controlDescription>

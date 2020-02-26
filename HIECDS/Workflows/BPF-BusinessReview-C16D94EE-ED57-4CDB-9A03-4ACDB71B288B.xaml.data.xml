@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{c16d94ee-ed57-4cdb-9a03-4acdb71b288b}" Name="BPF - Business Review" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/BPF-BusinessReview-C16D94EE-ED57-4CDB-9A03-4ACDB71B288B.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>4</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <processorder>100</processorder>
+  <processroleassignment>&lt;DisplayConditions&gt;&lt;Role Id="{627090ff-40a3-4053-8790-584edc5be201}" /&gt;&lt;Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" /&gt;&lt;/DisplayConditions&gt;</processroleassignment>
+  <RunAs>1</RunAs>
+  <UniqueName>leidos_bpf_businessreview</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.2.0.1</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
+  <PrimaryEntity>leidos_BusinessReview</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="BPF - Business Review" />
+  </LocalizedNames>
+  <labels>
+    <steplabels id="{412485a5-fa83-445f-897b-37c1c447c9f1}">
+      <label languagecode="1033" description="Draft" />
+    </steplabels>
+    <steplabels id="{6aa5b433-458d-4ae1-b168-6eab6de300ef}">
+      <label languagecode="1033" description="Name" />
+    </steplabels>
+    <steplabels id="{ba131b0a-0a70-49fb-84a1-911605f2b9dd}">
+      <label languagecode="1033" description="Related Account" />
+    </steplabels>
+    <steplabels id="{5054fb31-2dee-4d18-b498-3cc0cdeb4e59}">
+      <label languagecode="1033" description="Account Management Record" />
+    </steplabels>
+    <steplabels id="{7b81442f-cb8e-4f30-9e49-2de8539638fb}">
+      <label languagecode="1033" description="Financial Year" />
+    </steplabels>
+    <steplabels id="{ef35f22f-a1e9-4fdf-8671-2ddaf1ce62e6}">
+      <label languagecode="1033" description="In Progress" />
+    </steplabels>
+    <steplabels id="{f07d6b99-493a-4329-860e-270513a2a922}">
+      <label languagecode="1033" description="Review Summary Complete" />
+    </steplabels>
+    <steplabels id="{68ac1a6a-de7c-4896-b607-bf0a8b2aa37d}">
+      <label languagecode="1033" description="Business Review Details Complete" />
+    </steplabels>
+    <steplabels id="{6fef9f9d-4e4a-4226-b76e-3e985773d924}">
+      <label languagecode="1033" description="Growth Plan Complete" />
+    </steplabels>
+    <steplabels id="{91d86b9f-3f0f-407d-8373-f54be4d34e71}">
+      <label languagecode="1033" description="Action Plan Complete" />
+    </steplabels>
+    <steplabels id="{d5310a31-067e-455c-a050-b2d2fe4fb4cd}">
+      <label languagecode="1033" description="New Stage" />
+    </steplabels>
+    <steplabels id="{1f5e50dc-dfc1-4fae-939f-7fa7c3532d39}">
+      <label languagecode="1033" description="Submit Business / Growth Plan" />
+    </steplabels>
+    <steplabels id="{1d89716f-6ebd-40b9-9aea-f39d5711baae}">
+      <label languagecode="1033" description="Business Plan Approved By" />
+    </steplabels>
+    <steplabels id="{fb5d64e7-eb48-4218-8d64-9598f2f03e29}">
+      <label languagecode="1033" description="Business Plan Approved On" />
+    </steplabels>
+  </labels>
+</Workflow>

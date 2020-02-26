@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{0b2d29c4-129f-4689-a750-b1955031d2de}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{412485a5-fa83-445f-897b-37c1c447c9f1}" name="StageStep3" locklevel="0" expanded="true" visible="false" labelid="{c7e229a8-f948-4955-bf91-729bdb0ebee2}">
+          <labels>
+            <label description="Draft" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{412485a5-fa83-445f-897b-37c1c447c9f1}" name="StageStep3_section1" labelid="{e43e8391-f40e-423c-bf6f-bff9743d6d6a}">
+                  <labels>
+                    <label description="Draft" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{6aa5b433-458d-4ae1-b168-6eab6de300ef}" showlabel="true" visible="true" labelid="{885f2179-2d0a-460b-8f84-d5a35ed0f597}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_leidos_businessreview_leidos_bpf_businessreview:leidos_name" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="leidos_name" relationship="bpf_leidos_businessreview_leidos_bpf_businessreview" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ba131b0a-0a70-49fb-84a1-911605f2b9dd}" showlabel="true" visible="true" labelid="{69be9ff3-4947-4eac-b32e-a97f7b58e206}">
+                        <labels>
+                          <label description="Related Account" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_leidos_businessreview_leidos_bpf_businessreview:leidos_relatedaccount" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="leidos_relatedaccount" relationship="bpf_leidos_businessreview_leidos_bpf_businessreview" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5054fb31-2dee-4d18-b498-3cc0cdeb4e59}" showlabel="true" visible="true" labelid="{3e1fb296-8c32-492e-b14e-c4317e7cffcd}">
+                        <labels>
+                          <label description="Account Management Record" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_leidos_businessreview_leidos_bpf_businessreview:leidos_accountmanagementrecord" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="leidos_accountmanagementrecord" relationship="bpf_leidos_businessreview_leidos_bpf_businessreview" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7b81442f-cb8e-4f30-9e49-2de8539638fb}" showlabel="true" visible="true" labelid="{26474522-14d5-4dc9-8501-079bb62fb0ff}">
+                        <labels>
+                          <label description="Financial Year" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_leidos_businessreview_leidos_bpf_businessreview:leidos_financialyear" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="leidos_financialyear" relationship="bpf_leidos_businessreview_leidos_bpf_businessreview" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{ef35f22f-a1e9-4fdf-8671-2ddaf1ce62e6}" name="StageStep13" locklevel="0" expanded="true" visible="false" labelid="{b2bb140d-9531-4c41-bd5f-03e8c70be062}">
+          <labels>
+            <label description="In Progress" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{ef35f22f-a1e9-4fdf-8671-2ddaf1ce62e6}" name="StageStep13_section1" labelid="{1b80a1d4-727b-49d2-af88-d73bf8505b5f}">
+                  <labels>
+                    <label description="In Progress" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{f07d6b99-493a-4329-860e-270513a2a922}" showlabel="true" visible="true" labelid="{0ca6c6a3-bc3d-4002-99fd-cc4f2932aa7a}">
+                        <labels>
+                          <label description="Review Summary Complete" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_leidos_businessreview_leidos_bpf_businessreview:leidos_reviewsummarycomplete" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="leidos_reviewsummarycomplete" relationship="bpf_leidos_businessreview_leidos_bpf_businessreview" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{68ac1a6a-de7c-4896-b607-bf0a8b2aa37d}" showlabel="true" visible="true" labelid="{f8bcb4a8-9eee-4167-a990-c252812e8833}">
+                        <labels>
+                          <label description="Business Review Details Complete" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_leidos_businessreview_leidos_bpf_businessreview:leidos_businessreviewdetailscomplete" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="leidos_businessreviewdetailscomplete" relationship="bpf_leidos_businessreview_leidos_bpf_businessreview" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6fef9f9d-4e4a-4226-b76e-3e985773d924}" showlabel="true" visible="true" labelid="{deb692d1-a390-47a0-9552-9de5e7373c77}">
+                        <labels>
+                          <label description="Growth Plan Complete" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_leidos_businessreview_leidos_bpf_businessreview:leidos_growthplancomplete" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="leidos_growthplancomplete" relationship="bpf_leidos_businessreview_leidos_bpf_businessreview" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{91d86b9f-3f0f-407d-8373-f54be4d34e71}" showlabel="true" visible="true" labelid="{47c142a1-8b7f-4302-a334-e6a400adce71}">
+                        <labels>
+                          <label description="Action Plan Complete" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_leidos_businessreview_leidos_bpf_businessreview:leidos_actionplancomplete" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="leidos_actionplancomplete" relationship="bpf_leidos_businessreview_leidos_bpf_businessreview" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{d5310a31-067e-455c-a050-b2d2fe4fb4cd}" name="StageStep23" locklevel="0" expanded="true" visible="false" labelid="{e48378f9-68f7-4035-bceb-bbe4bed508ef}">
+          <labels>
+            <label description="New Stage" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{d5310a31-067e-455c-a050-b2d2fe4fb4cd}" name="StageStep23_section1" labelid="{96d1470f-0f18-4c20-bebf-34bf178ed316}">
+                  <labels>
+                    <label description="New Stage" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{1f5e50dc-dfc1-4fae-939f-7fa7c3532d39}" showlabel="true" visible="true" labelid="{a4affefd-d46d-4b05-8822-109c5f25c8ec}">
+                        <labels>
+                          <label description="Submit Business / Growth Plan" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_leidos_businessreview_leidos_bpf_businessreview:leidos_submitbusinessgrowthplan" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="leidos_submitbusinessgrowthplan" relationship="bpf_leidos_businessreview_leidos_bpf_businessreview" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1d89716f-6ebd-40b9-9aea-f39d5711baae}" showlabel="true" visible="true" labelid="{23908481-d5bb-4976-8e44-02e6c4eef6b6}">
+                        <labels>
+                          <label description="Business Plan Approved By" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_leidos_businessreview_leidos_bpf_businessreview:leidos_businessplanapprovedby" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="leidos_businessplanapprovedby" relationship="bpf_leidos_businessreview_leidos_bpf_businessreview" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{fb5d64e7-eb48-4218-8d64-9598f2f03e29}" showlabel="true" visible="true" labelid="{aaa47177-4c8c-427e-959b-e5901222e38e}">
+                        <labels>
+                          <label description="Business Plan Approved On" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_leidos_businessreview_leidos_bpf_businessreview:leidos_businessplanapprovedon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="leidos_businessplanapprovedon" relationship="bpf_leidos_businessreview_leidos_bpf_businessreview" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

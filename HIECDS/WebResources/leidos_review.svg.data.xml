@@ -3,10 +3,12 @@
   <WebResourceId>{cf3b011c-db51-ea11-a813-000d3a7f1bbb}</WebResourceId>
   <Name>leidos_review.svg</Name>
   <DisplayName>review.svg</DisplayName>
+  <Description>flaticon.com</Description>
   <WebResourceType>11</WebResourceType>
   <IntroducedVersion>1.0</IntroducedVersion>
   <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
   <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
   <IsCustomizable>1</IsCustomizable>
   <CanBeDeleted>1</CanBeDeleted>
   <IsHidden>0</IsHidden>

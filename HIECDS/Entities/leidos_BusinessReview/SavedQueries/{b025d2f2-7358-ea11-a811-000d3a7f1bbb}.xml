@@ -2,11 +2,11 @@
 <savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <savedquery>
     <IsCustomizable>1</IsCustomizable>
-    <CanBeDeleted>0</CanBeDeleted>
+    <CanBeDeleted>1</CanBeDeleted>
     <isquickfindquery>0</isquickfindquery>
     <isprivate>0</isprivate>
-    <isdefault>1</isdefault>
-    <savedqueryid>{2aded3b4-b7bd-4423-ac15-048f8a06b94c}</savedqueryid>
+    <isdefault>0</isdefault>
+    <savedqueryid>{b025d2f2-7358-ea11-a811-000d3a7f1bbb}</savedqueryid>
     <layoutxml>
       <grid name="resultset" jump="leidos_name" select="1" icon="1" preview="1">
         <row name="result" id="leidos_businessreviewid">
@@ -15,35 +15,35 @@
           <cell name="leidos_accountmanagementrecord" width="100" />
           <cell name="leidos_financialyear" width="100" />
           <cell name="leidos_sharewithcustomer" width="100" />
-          <cell name="leidos_submittedon" width="100" />
-          <cell name="statuscode" width="100" />
+          <cell name="leidos_businessplanapprovedby" width="100" />
+          <cell name="leidos_businessplanapprovedon" width="100" />
           <cell name="createdon" width="125" />
         </row>
       </grid>
     </layoutxml>
     <querytype>0</querytype>
     <fetchxml>
-      <fetch version="1.0" mapping="logical">
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
         <entity name="leidos_businessreview">
           <attribute name="leidos_name" />
           <attribute name="createdon" />
-          <order attribute="leidos_name" descending="false" />
-          <filter type="and">
-            <condition attribute="statecode" operator="eq" value="0" />
-          </filter>
           <attribute name="leidos_accountmanagementrecord" />
           <attribute name="leidos_relatedaccount" />
           <attribute name="leidos_sharewithcustomer" />
-          <attribute name="leidos_submittedon" />
           <attribute name="leidos_financialyear" />
-          <attribute name="statuscode" />
+          <order attribute="leidos_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statuscode" operator="eq" value="445260001" />
+          </filter>
+          <attribute name="leidos_businessplanapprovedon" />
+          <attribute name="leidos_businessplanapprovedby" />
           <attribute name="leidos_businessreviewid" />
         </entity>
       </fetch>
     </fetchxml>
-    <IntroducedVersion>1.2.0.0</IntroducedVersion>
+    <IntroducedVersion>1.2.0.1</IntroducedVersion>
     <LocalizedNames>
-      <LocalizedName description="Active Business Reviews" languagecode="1033" />
+      <LocalizedName description="Approved Business Reviews" languagecode="1033" />
     </LocalizedNames>
   </savedquery>
 </savedqueries>
