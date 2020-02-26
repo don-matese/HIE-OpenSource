@@ -1,4 +1,3 @@
-"use strict";
 var Leidos = window.Leidos || {};
 
 Leidos.disableFieldEdit = function(context, fieldName)
