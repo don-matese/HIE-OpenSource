@@ -79,10 +79,11 @@
                         </labels>
                         <control id="leidos_grossgrantequivalence" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_grossgrantequivalence" disabled="false" />
                       </cell>
-                      <cell showlabel="true" locklevel="0" id="{4c3f7d81-c6fc-4427-a25d-f1ea004d2150}">
+                      <cell id="{1ae0e332-0a03-4038-ad5d-0770bf95c108}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Generate Application Question Set" languagecode="1033" />
                         </labels>
+                        <control id="leidos_generateapplicationquestionset" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="leidos_generateapplicationquestionset" disabled="false" />
                       </cell>
                     </row>
                   </rows>
@@ -534,19 +535,9 @@
           </customControl>
         </controlDescription>
       </controlDescriptions>
-      <formLibraries>
-        <Library name="north52_/javascript/n52.json2" libraryUniqueId="418a33aa-8462-4a53-ac1c-bad43b8a75c3" />
-        <Library name="north52_/javascript/n52.rest" libraryUniqueId="11171a48-70b1-4f7c-9d1f-efb5a4fc18c6" />
-        <Library name="north52_/javascript/n52.clientside" libraryUniqueId="0ab39088-04c7-471f-817d-c39317ec77f8" />
-      </formLibraries>
-      <events>
-        <event name="onchange" application="false" active="false" attribute="leidos_supportitemtype">
-          <Handlers>
-            <Handler functionName="N52.Clientside.ExecuteFormulas" libraryName="north52_/javascript/n52.clientside" handlerUniqueId="4994fed5-20ed-450b-b7d8-3aead676d095" enabled="true" parameters="'H1g:*:CreateUpdate::0:217890000:217890000:217890000:217890000'" passExecutionContext="true" />
-          </Handlers>
-        </event>
-      </events>
-      <DisplayConditions Order="0" FallbackForm="true" />
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
     </form>
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>

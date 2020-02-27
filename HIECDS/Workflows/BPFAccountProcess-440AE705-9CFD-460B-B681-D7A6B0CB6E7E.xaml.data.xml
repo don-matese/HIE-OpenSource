@@ -49,7 +49,7 @@
       <label languagecode="1033" description="Date Started Trading " />
     </steplabels>
     <steplabels id="{8f6f8aec-a442-48f0-8d94-f7ddcea4f4dd}">
-      <label languagecode="1033" description="Segmantation" />
+      <label languagecode="1033" description="Segmentation" />
     </steplabels>
     <steplabels id="{12f17bb3-3ffb-4fc0-b73c-61407a582506}">
       <label languagecode="1033" description="Fisheries" />

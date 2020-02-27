@@ -109,14 +109,14 @@
         </tab>
         <tab verticallayout="true" id="{668b825f-ccf3-4280-811f-f01c39902a30}" name="StageStep23" locklevel="0" expanded="true" visible="false" labelid="{99e9e159-4c98-4a72-bdf2-2a56bd6225e0}">
           <labels>
-            <label description="New Stage" languagecode="1033" />
+            <label description="Approval " languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
                 <section showbar="false" columns="1" id="{668b825f-ccf3-4280-811f-f01c39902a30}" name="StageStep23_section1" labelid="{dada0aa1-c996-4707-9500-0b2829c004a7}">
                   <labels>
-                    <label description="New Stage" languagecode="1033" />
+                    <label description="Approval " languagecode="1033" />
                   </labels>
                   <rows>
                     <row>

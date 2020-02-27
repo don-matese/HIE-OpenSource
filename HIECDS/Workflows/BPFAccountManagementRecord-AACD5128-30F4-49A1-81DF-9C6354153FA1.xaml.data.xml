@@ -58,7 +58,7 @@
       <label languagecode="1033" description="Link to Recommndation" />
     </steplabels>
     <steplabels id="{668b825f-ccf3-4280-811f-f01c39902a30}">
-      <label languagecode="1033" description="New Stage" />
+      <label languagecode="1033" description="Approval " />
     </steplabels>
     <steplabels id="{d29a9cb1-0a77-497e-bae7-5829f61fbb06}">
       <label languagecode="1033" description="Completed By" />

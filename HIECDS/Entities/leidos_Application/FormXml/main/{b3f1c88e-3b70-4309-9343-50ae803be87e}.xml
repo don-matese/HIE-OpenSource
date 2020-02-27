@@ -509,6 +509,148 @@
             </column>
           </columns>
         </tab>
+        <tab name="ApplicationQuestionResponses" id="8bcc6dc7-02dc-4b86-a052-14ffa28cfae9" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Question Responses" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_6_section_1" id="840dadfc-a59f-41cd-a15d-b35f6f05168a" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{e2812fed-817b-4e5d-95f2-8f7661de9654}" rowspan="6" colspan="1" auto="false">
+                        <labels>
+                          <label description="New SG control 1582816227700" languagecode="1033" />
+                        </labels>
+                        <control id="Subgrid_3" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" indicationOfSubgrid="true" uniqueid="{6eb8d7b7-dc68-e044-1959-485149537e08}">
+                          <parameters>
+                            <TargetEntityType>leidos_applicationanswer</TargetEntityType>
+                            <ViewId>{6AD5A65D-5059-EA11-A811-000D3A7F1BBB}</ViewId>
+                            <ViewIds>{7D899618-6461-4522-BAFA-8102D91B1FF2},{6AD5A65D-5059-EA11-A811-000D3A7F1BBB}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>leidos_ApplicationAnswer_ParentApplicatio</RelationshipName>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <IsUserView>false</IsUserView>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row></row>
+                    <row></row>
+                    <row></row>
+                    <row />
+                    <row />
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{07e75b35-4bad-4e47-931f-01d4f9f1c680}" rowspan="6" colspan="1" auto="false">
+                        <labels>
+                          <label description="New SG control 1582816249282" languagecode="1033" />
+                        </labels>
+                        <control id="Subgrid_4" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" indicationOfSubgrid="true" uniqueid="{ac834745-71c5-ca93-91c2-ebd672911ed6}">
+                          <parameters>
+                            <TargetEntityType>leidos_applicationanswer</TargetEntityType>
+                            <ViewId>{1A5CBE7B-5059-EA11-A811-000D3A7F1BBB}</ViewId>
+                            <ViewIds>{7D899618-6461-4522-BAFA-8102D91B1FF2},{1A5CBE7B-5059-EA11-A811-000D3A7F1BBB}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>leidos_ApplicationAnswer_ParentApplicatio</RelationshipName>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <IsUserView>false</IsUserView>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{87ef3a01-234b-4ed1-abd7-e7ff375ece5c}" rowspan="6" colspan="1" auto="false">
+                        <labels>
+                          <label description="New SG control 1582816270859" languagecode="1033" />
+                        </labels>
+                        <control id="Subgrid_5" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" indicationOfSubgrid="true" uniqueid="{d3b77943-9e72-7193-6447-3d24224dcdd4}">
+                          <parameters>
+                            <TargetEntityType>leidos_applicationanswer</TargetEntityType>
+                            <ViewId>{6EE81288-5059-EA11-A811-000D3A7F1BBB}</ViewId>
+                            <ViewIds>{7D899618-6461-4522-BAFA-8102D91B1FF2},{6EE81288-5059-EA11-A811-000D3A7F1BBB}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>leidos_ApplicationAnswer_ParentApplicatio</RelationshipName>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <IsUserView>false</IsUserView>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{b4f74477-be57-4ebf-87c8-45380dc5bb95}" rowspan="6" colspan="1" auto="false">
+                        <labels>
+                          <label description="New SG control 1582816288250" languagecode="1033" />
+                        </labels>
+                        <control id="Subgrid_6" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" indicationOfSubgrid="true" uniqueid="{eb39bed5-191b-be25-4a74-1b41c1edae4e}">
+                          <parameters>
+                            <TargetEntityType>leidos_applicationanswer</TargetEntityType>
+                            <ViewId>{80EE029A-5059-EA11-A811-000D3A7F1BBB}</ViewId>
+                            <ViewIds>{7D899618-6461-4522-BAFA-8102D91B1FF2},{80EE029A-5059-EA11-A811-000D3A7F1BBB}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>leidos_ApplicationAnswer_ParentApplicatio</RelationshipName>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <IsUserView>false</IsUserView>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
       </tabs>
       <header id="{9d37a448-31ef-4633-a811-1243b2101960}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
         <rows>
@@ -570,30 +712,8 @@
           </row>
         </rows>
       </footer>
-      <events>
-        <event name="onchange" application="false" active="false" attribute="leidos_issupportidentifiedingrowthplan">
-          <Handlers>
-            <Handler functionName="N52.Clientside.ExecuteFormulas" libraryName="north52_/javascript/n52.clientside" handlerUniqueId="cfd09155-caf8-4d12-a315-c2524a6890bf" enabled="true" parameters="'FZB:*:CreateUpdate::0:217890000:217890000:217890000:217890000'" passExecutionContext="true" />
-          </Handlers>
-        </event>
-        <event name="onchange" application="false" active="false" attribute="leidos_isitwithintimescale">
-          <Handlers>
-            <Handler functionName="N52.Clientside.ExecuteFormulas" libraryName="north52_/javascript/n52.clientside" handlerUniqueId="3cd39f58-4eac-43bb-b89d-fbd8a3e9ec31" enabled="true" parameters="'FZB:*:CreateUpdate::0:217890000:217890000:217890000:217890000'" passExecutionContext="true" />
-          </Handlers>
-        </event>
-        <event name="onchange" application="false" active="false" attribute="leidos_isitunder50knotnovelorcontentious">
-          <Handlers>
-            <Handler functionName="N52.Clientside.ExecuteFormulas" libraryName="north52_/javascript/n52.clientside" handlerUniqueId="b14c1e87-446f-46c4-aa6c-90a821308574" enabled="true" parameters="'FZB:*:CreateUpdate::0:217890000:217890000:217890000:217890000'" passExecutionContext="true" />
-          </Handlers>
-        </event>
-      </events>
-      <formLibraries>
-        <Library name="north52_/javascript/n52.json2" libraryUniqueId="ab68e7a5-3581-4669-b664-45931c938e00" />
-        <Library name="north52_/javascript/n52.rest" libraryUniqueId="1b710530-5962-4368-a8f1-a953ac92d20f" />
-        <Library name="north52_/javascript/n52.clientside" libraryUniqueId="412ee62e-8c79-4700-8c3f-af41fac6fa60" />
-      </formLibraries>
       <Navigation>
-        <NavBar />
+        <NavBar></NavBar>
         <NavBarAreas>
           <NavBarArea Id="Info">
             <Titles>
@@ -622,8 +742,135 @@
           </NavBarArea>
         </NavBarAreas>
       </Navigation>
-      <controlDescriptions />
-      <DisplayConditions Order="0" FallbackForm="true" />
+      <controlDescriptions>
+        <controlDescription forControl="{6eb8d7b7-dc68-e044-1959-485149537e08}">
+          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" formFactor="0">
+            <parameters />
+          </customControl>
+          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" formFactor="1">
+            <parameters />
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{6AD5A65D-5059-EA11-A811-000D3A7F1BBB}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>leidos_ApplicationAnswer_ParentApplicatio</RelationshipName>
+                <TargetEntityType>leidos_applicationanswer</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{7D899618-6461-4522-BAFA-8102D91B1FF2},{6AD5A65D-5059-EA11-A811-000D3A7F1BBB}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy static="true" type="Enum">no</EnableGroupBy>
+              <EnableEditing static="true" type="Enum">yes</EnableEditing>
+              <ReflowBehavior static="true" type="Enum">GridOnly</ReflowBehavior>
+              <EnableFiltering static="true" type="Enum">no</EnableFiltering>
+              <HideNestedGridColumnHeader static="true" type="Enum">yes</HideNestedGridColumnHeader>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{ac834745-71c5-ca93-91c2-ebd672911ed6}">
+          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" formFactor="0">
+            <parameters />
+          </customControl>
+          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" formFactor="1">
+            <parameters />
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{1A5CBE7B-5059-EA11-A811-000D3A7F1BBB}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>leidos_ApplicationAnswer_ParentApplicatio</RelationshipName>
+                <TargetEntityType>leidos_applicationanswer</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{7D899618-6461-4522-BAFA-8102D91B1FF2},{1A5CBE7B-5059-EA11-A811-000D3A7F1BBB}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy static="true" type="Enum">no</EnableGroupBy>
+              <EnableEditing static="true" type="Enum">yes</EnableEditing>
+              <ReflowBehavior static="true" type="Enum">GridOnly</ReflowBehavior>
+              <EnableFiltering static="true" type="Enum">no</EnableFiltering>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{d3b77943-9e72-7193-6447-3d24224dcdd4}">
+          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" formFactor="0">
+            <parameters />
+          </customControl>
+          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" formFactor="1">
+            <parameters />
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{6EE81288-5059-EA11-A811-000D3A7F1BBB}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>leidos_ApplicationAnswer_ParentApplicatio</RelationshipName>
+                <TargetEntityType>leidos_applicationanswer</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{7D899618-6461-4522-BAFA-8102D91B1FF2},{6EE81288-5059-EA11-A811-000D3A7F1BBB}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy static="true" type="Enum">no</EnableGroupBy>
+              <EnableEditing static="true" type="Enum">yes</EnableEditing>
+              <ReflowBehavior static="true" type="Enum">GridOnly</ReflowBehavior>
+              <EnableFiltering static="true" type="Enum">no</EnableFiltering>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{eb39bed5-191b-be25-4a74-1b41c1edae4e}">
+          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" formFactor="0">
+            <parameters />
+          </customControl>
+          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" formFactor="1">
+            <parameters />
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{80EE029A-5059-EA11-A811-000D3A7F1BBB}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>leidos_ApplicationAnswer_ParentApplicatio</RelationshipName>
+                <TargetEntityType>leidos_applicationanswer</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{7D899618-6461-4522-BAFA-8102D91B1FF2},{80EE029A-5059-EA11-A811-000D3A7F1BBB}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy static="true" type="Enum">no</EnableGroupBy>
+              <EnableEditing static="true" type="Enum">yes</EnableEditing>
+              <ReflowBehavior static="true" type="Enum">GridOnly</ReflowBehavior>
+              <EnableFiltering static="true" type="Enum">no</EnableFiltering>
+              <HideNestedGridColumnHeader static="true" type="Enum">no</HideNestedGridColumnHeader>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <formLibraries>
+        <Library name="north52_/javascript/n52.json2" libraryUniqueId="ab68e7a5-3581-4669-b664-45931c938e00" />
+        <Library name="north52_/javascript/n52.rest" libraryUniqueId="1b710530-5962-4368-a8f1-a953ac92d20f" />
+        <Library name="north52_/javascript/n52.clientside" libraryUniqueId="412ee62e-8c79-4700-8c3f-af41fac6fa60" />
+      </formLibraries>
+      <events>
+        <event name="onchange" application="false" active="false" attribute="leidos_issupportidentifiedingrowthplan">
+          <Handlers>
+            <Handler functionName="N52.Clientside.ExecuteFormulas" libraryName="north52_/javascript/n52.clientside" handlerUniqueId="cfd09155-caf8-4d12-a315-c2524a6890bf" enabled="true" parameters="'FZB:*:CreateUpdate::0:217890000:217890000:217890000:217890000'" passExecutionContext="true" />
+          </Handlers>
+        </event>
+        <event name="onchange" application="false" active="false" attribute="leidos_isitwithintimescale">
+          <Handlers>
+            <Handler functionName="N52.Clientside.ExecuteFormulas" libraryName="north52_/javascript/n52.clientside" handlerUniqueId="3cd39f58-4eac-43bb-b89d-fbd8a3e9ec31" enabled="true" parameters="'FZB:*:CreateUpdate::0:217890000:217890000:217890000:217890000'" passExecutionContext="true" />
+          </Handlers>
+        </event>
+        <event name="onchange" application="false" active="false" attribute="leidos_isitunder50knotnovelorcontentious">
+          <Handlers>
+            <Handler functionName="N52.Clientside.ExecuteFormulas" libraryName="north52_/javascript/n52.clientside" handlerUniqueId="b14c1e87-446f-46c4-aa6c-90a821308574" enabled="true" parameters="'FZB:*:CreateUpdate::0:217890000:217890000:217890000:217890000'" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
     </form>
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>

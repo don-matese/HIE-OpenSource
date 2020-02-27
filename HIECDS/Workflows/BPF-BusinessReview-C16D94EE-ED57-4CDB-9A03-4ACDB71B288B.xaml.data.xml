@@ -58,7 +58,7 @@
       <label languagecode="1033" description="Action Plan Complete" />
     </steplabels>
     <steplabels id="{d5310a31-067e-455c-a050-b2d2fe4fb4cd}">
-      <label languagecode="1033" description="New Stage" />
+      <label languagecode="1033" description="Submit For Approval" />
     </steplabels>
     <steplabels id="{1f5e50dc-dfc1-4fae-939f-7fa7c3532d39}">
       <label languagecode="1033" description="Submit Business / Growth Plan" />

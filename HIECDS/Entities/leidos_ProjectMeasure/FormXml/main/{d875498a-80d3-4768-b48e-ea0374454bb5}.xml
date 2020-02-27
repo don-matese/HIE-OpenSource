@@ -203,7 +203,9 @@
         </NavBarAreas>
       </Navigation>
       <controlDescriptions />
-      <DisplayConditions Order="0" FallbackForm="true" />
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
     </form>
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>

@@ -54,6 +54,9 @@
     <steplabels id="{1ce1d2ec-7207-42f6-86bc-c0ac667cfb3e}">
       <label languagecode="1033" description="Top Slice" />
     </steplabels>
+    <steplabels id="{b903c51f-f847-47d2-bd3e-31f4efcf42e4}">
+      <label languagecode="1033" description="Generate Application Question Set" />
+    </steplabels>
     <steplabels id="{cc5396f6-b2c2-4f19-b931-c5bdca172b2f}">
       <label languagecode="1033" description="Project Details" />
     </steplabels>

@@ -1333,7 +1333,9 @@
           </Handlers>
         </event>
       </events>
-      <DisplayConditions FallbackForm="true" Order="0" />
+      <DisplayConditions FallbackForm="true" Order="0">
+        <Everyone />
+      </DisplayConditions>
     </form>
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>

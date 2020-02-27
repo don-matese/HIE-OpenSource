@@ -453,6 +453,67 @@
                     </row>
                   </rows>
                 </section>
+                <section name="FinanceInformation" id="ec8c61f0-5cd8-4fcb-8ad4-3c0ed5a38372" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115">
+                  <labels>
+                    <label description="Finance Information for last two Years" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{91a32692-d9b9-44fd-b09f-692be36c5417}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Turn Over Year Last Year" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_turnoveryearlastyear" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_turnoveryearlastyear" disabled="false" />
+                      </cell>
+                      <cell id="{ad212641-f65d-44a7-9411-19179f7f6cec}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Turn Over Year Previous Year" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_turnoveryearpreviousyear" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_turnoveryearpreviousyear" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ee78bb9b-4914-4b9d-b6d1-bf2640dfe6be}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Balance Sheet Total Last Year" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_balancesheettotallastyear" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_balancesheettotallastyear" disabled="false" />
+                      </cell>
+                      <cell id="{d1b8b5e8-affe-4348-9694-ed93512fbe21}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Balance Sheet Total Previous Year" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_balancesheettotalpreviousyear" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_balancesheettotalpreviousyear" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{938de933-190c-42f3-a111-2dd166753788}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Number of FTE Last Accounting Period" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_numberofftelastaccountingperiod" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="leidos_numberofftelastaccountingperiod" disabled="false" />
+                      </cell>
+                      <cell id="{28a8450b-d740-4511-bc2b-cfefd52cd791}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Number of FTE Previous Accounting Period" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_numberofftepreviousaccountingperiod" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="leidos_numberofftepreviousaccountingperiod" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{295b8b7c-86f0-468a-9866-a37bb02e3f10}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell showlabel="true" locklevel="0" id="{496f9655-63d3-4cee-a7ec-bfeb33e0e072}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
               </sections>
             </column>
             <column width="33%">
@@ -1581,15 +1642,14 @@
           </row>
         </rows>
       </footer>
-      <DisplayConditions FallbackForm="true" Order="4">
-        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
-        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
-      </DisplayConditions>
       <formLibraries>
         <Library name="north52_/javascript/n52.json2" libraryUniqueId="fc85a17f-6beb-4957-b898-4d40bef95289" />
         <Library name="north52_/javascript/n52.rest" libraryUniqueId="122b963a-76b0-4525-b661-a4c732324153" />
         <Library name="north52_/javascript/n52.clientside" libraryUniqueId="fedc3df2-382e-423c-9a60-e66f0a6aa5b2" />
       </formLibraries>
+      <DisplayConditions FallbackForm="true" Order="4">
+        <Everyone />
+      </DisplayConditions>
     </form>
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>

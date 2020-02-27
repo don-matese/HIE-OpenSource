@@ -138,7 +138,6 @@
           </row>
         </rows>
       </footer>
-      <DisplayConditions Order="0" FallbackForm="true" />
       <controlDescriptions>
         <controlDescription forControl="{f51b3d29-0ad6-4da9-a979-c136cbeda314}">
           <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
@@ -163,6 +162,9 @@
           </customControl>
         </controlDescription>
       </controlDescriptions>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
     </form>
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>

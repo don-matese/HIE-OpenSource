@@ -75,14 +75,14 @@
         </tab>
         <tab verticallayout="true" id="{8f6f8aec-a442-48f0-8d94-f7ddcea4f4dd}" name="StageStep18" locklevel="0" expanded="true" visible="false" labelid="{beb8c51f-5c08-4ad7-8074-2a16c340343d}">
           <labels>
-            <label description="Segmantation" languagecode="1033" />
+            <label description="Segmentation" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
                 <section showbar="false" columns="1" id="{8f6f8aec-a442-48f0-8d94-f7ddcea4f4dd}" name="StageStep18_section1" labelid="{738dd3f3-a146-4346-b184-5a63442d5769}">
                   <labels>
-                    <label description="Segmantation" languagecode="1033" />
+                    <label description="Segmentation" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
