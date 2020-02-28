@@ -36,7 +36,7 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{4a57341e-d967-4dad-8036-cd35ae8fd4bd}" showlabel="true" locklevel="0">
+                      <cell id="{4a57341e-d967-4dad-8036-cd35ae8fd4bd}" showlabel="true" locklevel="0" visible="false">
                         <labels>
                           <label description="Answer Text" languagecode="1033" />
                         </labels>
@@ -44,7 +44,7 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{04f92e4a-c95a-4332-b173-762ad83b07c6}" showlabel="true" locklevel="0">
+                      <cell id="{04f92e4a-c95a-4332-b173-762ad83b07c6}" showlabel="true" locklevel="0" visible="false">
                         <labels>
                           <label description="Answer £" languagecode="1033" />
                         </labels>
@@ -52,7 +52,7 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{d5007b44-b46c-4ef2-802d-492997886604}" showlabel="true" locklevel="0">
+                      <cell id="{d5007b44-b46c-4ef2-802d-492997886604}" showlabel="true" locklevel="0" visible="false">
                         <labels>
                           <label description="Answer Number" languagecode="1033" />
                         </labels>
@@ -60,7 +60,7 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{3d62b1e5-99f4-4670-8892-964abdc18dc8}" showlabel="true" locklevel="0">
+                      <cell id="{3d62b1e5-99f4-4670-8892-964abdc18dc8}" showlabel="true" locklevel="0" visible="false">
                         <labels>
                           <label description="Answer multi-lineText" languagecode="1033" />
                         </labels>
@@ -68,7 +68,7 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{8ff64b39-61a1-4d62-9f54-eb59fcbfbd73}" showlabel="true" locklevel="0">
+                      <cell id="{8ff64b39-61a1-4d62-9f54-eb59fcbfbd73}" showlabel="true" locklevel="0" visible="false">
                         <labels>
                           <label description="Date" languagecode="1033" />
                         </labels>
@@ -139,11 +139,23 @@
           </row>
         </rows>
       </footer>
+      <events>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="N52.Clientside.ExecuteFormulas" libraryName="north52_/javascript/n52.clientside" handlerUniqueId="185fcd3d-dbd7-439f-8bbc-2df9e54e95f0" enabled="true" parameters="'hcd:*:CreateUpdate::0:217890000:217890000:217890000:217890000'" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+      <formLibraries>
+        <Library name="north52_/javascript/n52.json2" libraryUniqueId="93c0d309-cff8-4240-8587-c250dad7e73f" />
+        <Library name="north52_/javascript/n52.rest" libraryUniqueId="53543bf9-2b30-4141-a3db-8380cbf89537" />
+        <Library name="north52_/javascript/n52.clientside" libraryUniqueId="2b4312af-e812-4cce-ae42-f1708a61caa9" />
+      </formLibraries>
     </form>
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>
     <LocalizedNames>
-      <LocalizedName description="Information" languagecode="1033" />
+      <LocalizedName description="HIE Form" languagecode="1033" />
     </LocalizedNames>
     <Descriptions>
       <Description description="A form for this entity." languagecode="1033" />

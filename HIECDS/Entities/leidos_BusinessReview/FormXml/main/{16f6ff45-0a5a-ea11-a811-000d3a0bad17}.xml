@@ -1,0 +1,1222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{16f6ff45-0a5a-ea11-a811-000d3a0bad17}</formid>
+    <IntroducedVersion>1.3.0.1</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab id="{8a5aaedd-8cc0-4dce-8d30-430f33a7cc72}" IsUserDefined="1" verticallayout="true" name="General" labelid="{b3747db5-6c80-4f32-baad-9df245fb897f}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="{6fa60cb4-4a45-4d76-9e9d-91a3016fb340}" name="General" IsUserDefined="0" columns="11" showbar="false" showlabel="true" labelid="{ffb38204-c1c6-47d3-acde-238fe379cead}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{70bbf75e-5ad0-40e9-98fd-d75cc95de724}" labelid="{737cf898-bac2-4d72-88cb-a9336e3014b4}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_name" datafieldname="leidos_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" />
+                      </cell>
+                      <cell id="{2ab3c615-a146-4eb6-bd28-ab75695c750c}" showlabel="true" locklevel="0" labelid="{9dc6a9f1-2cb7-46d5-b994-43787350e501}">
+                        <labels>
+                          <label description="Financial Year" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="header_leidos_financialyear" datafieldname="leidos_financialyear" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{96d373ae-e6d5-4aaa-8751-6406d8fd91e4}" showlabel="true" locklevel="0" labelid="{3aae8d11-2eeb-4f79-9046-1e858c04f166}">
+                        <labels>
+                          <label description="Related Account" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="leidos_relatedaccount" datafieldname="leidos_relatedaccount" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" />
+                      </cell>
+                      <cell id="{3441c3d0-5802-3b37-ee83-e45a543a922c}" showlabel="false" labelid="{7a521bb8-afc6-4a67-be21-dc520cfe17ef}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{811a2ad9-7525-cde8-e519-6056092beb13}" showlabel="true" locklevel="0" labelid="{84996f77-9a3f-46b4-b350-672c34ff673c}">
+                        <labels>
+                          <label description="Account Management Record" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_accountmanagementrecord" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_accountmanagementrecord" disabled="false" uniqueid="{59b76563-cb24-d1e5-a78d-05d4ced3215c}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>true</DisableViewPicker>
+                            <DefaultViewId>{96AAFFBC-4F12-437A-B429-F2A0075EBD50}</DefaultViewId>
+                            <FilterRelationshipName>leidos_AccountManagementRecord_ParentAcco</FilterRelationshipName>
+                            <DependentAttributeName>leidos_businessreview.leidos_relatedaccount</DependentAttributeName>
+                            <DependentAttributeType>account</DependentAttributeType>
+                            <AllowFilterOff>false</AllowFilterOff>
+                            <AvailableViewIds>{96AAFFBC-4F12-437A-B429-F2A0075EBD50}</AvailableViewIds>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell showlabel="true" locklevel="0" id="{1af3cbe9-e223-4be3-aafd-a87a1fb95baf}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="BusinessPlanSignOff" id="c7eed1ef-e6f9-4bdc-8b4e-574a6295c60d" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" visible="false" labelid="{0495e57d-c5b3-4cea-a502-f4868456814e}">
+                  <labels>
+                    <label description="Business Plan Sign Off" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{6bf11692-5436-497b-bb05-d35698097142}" showlabel="true" locklevel="0" labelid="{0207e988-f416-432c-a301-be2388a2cb6b}">
+                        <labels>
+                          <label description="Submit Business / Growth Plan" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_submitbusinessgrowthplan" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="leidos_submitbusinessgrowthplan" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e083b49c-473b-46ba-b861-a7d427b2e4ce}" showlabel="true" locklevel="0" labelid="{3751ab55-3d8e-4d67-bd4f-cf4fcdbe94a2}">
+                        <labels>
+                          <label description="Submitted On" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_submittedon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="leidos_submittedon" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6b338040-15a4-4cb0-b80e-23b80c51e50c}" showlabel="true" locklevel="0" labelid="{44896448-33db-44ab-8a74-9374a724cb77}">
+                        <labels>
+                          <label description="Business Plan Approved By" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_businessplanapprovedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_businessplanapprovedby" disabled="false" uniqueid="{b490d6b4-95bd-7dbd-940e-2a17d1e4599b}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{E88CA999-0B16-4AE9-B6A9-9EDC840D42D8}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{af15e262-b9c7-486b-b086-3c143ab10517}" showlabel="true" locklevel="0" labelid="{90152e06-c628-4fcf-a538-404623bfd29f}">
+                        <labels>
+                          <label description="Business Plan Approved On" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_businessplanapprovedon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="leidos_businessplanapprovedon" disabled="false" uniqueid="{92514820-4b56-e08c-0deb-9cae6714715c}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="Summary" id="7af670c0-12f8-48db-9e9d-2ecc368eeb54" IsUserDefined="0" locklevel="0" showlabel="true" labelid="{c4e8e4f0-d946-41a6-8f48-abf80696644b}">
+          <labels>
+            <label description="Summary" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="fa6c210f-9616-4b17-8560-e43b57eda313" name="Summary_section_3" IsUserDefined="0" columns="1" showbar="false" showlabel="true" locklevel="0" height="auto" labelwidth="115" celllabelposition="Left" celllabelalignment="Left" layout="varwidth" labelid="{f4dc3cf0-b6bf-4ad2-be8d-df15a91dde12}">
+                  <labels>
+                    <label description="Business Review Summary" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{217878f3-6fbf-47b0-b615-be9060bdfbca}" showlabel="false" locklevel="0" auto="true" colspan="1" rowspan="4" labelid="{98772931-bbb0-4b2b-a921-2929af7ea892}">
+                        <labels>
+                          <label description="New SG control 1580903050549" languagecode="1033" />
+                        </labels>
+                        <control id="Subgrid_1" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" uniqueid="{561c9c3a-a012-5b1d-32b3-b2e185a5697c}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>leidos_businessreviewsummary</TargetEntityType>
+                            <ViewId>{5022B54C-0A48-EA11-A812-000D3A0BAD17}</ViewId>
+                            <ViewIds>{0621A90E-6243-4AB0-A530-6944A3A72AC6},{5022B54C-0A48-EA11-A812-000D3A0BAD17}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>leidos_leidos_businessreviewsummary_leido</RelationshipName>
+                            <RecordsPerPage>20</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <IsUserView>false</IsUserView>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <AutoExpand>Auto</AutoExpand>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row height="auto" />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab id="bcbfec73-0efc-48a4-9513-bd43de76b4f3" name="BusinessReview" IsUserDefined="0" showlabel="true" locklevel="0" labelid="{9db86a67-c8bc-4a07-b8ef-9214f0e5a2cd}">
+          <labels>
+            <label description="Business Review" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="fa51d3ad-8b3e-46bb-99b2-261dd6d3c3a7" name="Strategy" IsUserDefined="0" columns="1" showbar="false" showlabel="true" locklevel="0" height="auto" labelwidth="115" celllabelposition="Left" celllabelalignment="Left" layout="varwidth" labelid="{deaa76ec-c5cb-4e62-a094-7a71e1a3086c}">
+                  <labels>
+                    <label description="Strategy" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{93a82a45-b451-41f7-a6eb-6955e647cb12}" showlabel="false" locklevel="0" auto="false" colspan="1" rowspan="17" labelid="{b6f7bbbf-0aa5-4eea-92da-1c177fbf05c9}">
+                        <labels>
+                          <label description="Strategy" languagecode="1033" />
+                        </labels>
+                        <control id="BRGrid" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" uniqueid="{b36dab7c-ae92-6277-7e4a-c89e0399d07b}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>leidos_businessreviewanswers</TargetEntityType>
+                            <ViewId>{FD7EC473-F447-EA11-A812-000D3A0BA151}</ViewId>
+                            <ViewIds>{F206D396-917B-42B6-B9AB-29EB5B388871},{FD7EC473-F447-EA11-A812-000D3A0BA151}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>leidos_BusinessReviewAnswers_ParentBusine</RelationshipName>
+                            <RecordsPerPage>15</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <IsUserView>false</IsUserView>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section id="caf4f83d-5dcb-4736-acc9-02ce70da7482" name="LeafershipandSkills" IsUserDefined="0" columns="1" showbar="false" showlabel="true" locklevel="0" labelwidth="115" celllabelposition="Left" celllabelalignment="Left" layout="varwidth" labelid="{7cd9bd4c-05af-4b0a-9c47-11c797c96fa6}">
+                  <labels>
+                    <label description="Leadership &amp; Skills" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b6edd186-ab4b-4941-9de7-97be6e5de483}" showlabel="false" locklevel="0" auto="false" colspan="1" rowspan="17" labelid="{6b0953b5-d8ec-4a76-b373-5c739b185e75}">
+                        <labels>
+                          <label description="Leadership &amp; Skills" languagecode="1033" />
+                        </labels>
+                        <control id="LandSGrid" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" uniqueid="{e6271eb2-9892-1278-ce77-4d00e0225b56}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>leidos_businessreviewanswers</TargetEntityType>
+                            <ViewId>{B0CA5196-F447-EA11-A812-000D3A0BA151}</ViewId>
+                            <ViewIds>{F206D396-917B-42B6-B9AB-29EB5B388871},{B0CA5196-F447-EA11-A812-000D3A0BA151}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>leidos_BusinessReviewAnswers_ParentBusine</RelationshipName>
+                            <RecordsPerPage>15</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <IsUserView>false</IsUserView>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section id="7fd41bea-7baf-4947-8a59-8af19c771378" name="Innovation" IsUserDefined="0" columns="1" showbar="false" showlabel="true" locklevel="0" labelwidth="115" celllabelposition="Left" celllabelalignment="Left" layout="varwidth" labelid="{a332c97c-1fc0-44ba-944d-a74a42a3c1e9}">
+                  <labels>
+                    <label description="Innovation" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{8e1cf0e2-d999-4108-9665-33157c2347a0}" showlabel="false" locklevel="0" auto="false" colspan="1" rowspan="22" labelid="{a5a6cf3e-448b-4d40-ba42-3a45bdfb0a49}">
+                        <labels>
+                          <label description="Innovation" languagecode="1033" />
+                        </labels>
+                        <control id="InnovationGrid" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" uniqueid="{c040be95-acd6-3019-e8c5-6e381e33ee0d}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>leidos_businessreviewanswers</TargetEntityType>
+                            <ViewId>{5F6963A5-F447-EA11-A812-000D3A0BA151}</ViewId>
+                            <ViewIds>{F206D396-917B-42B6-B9AB-29EB5B388871},{5F6963A5-F447-EA11-A812-000D3A0BA151}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>leidos_BusinessReviewAnswers_ParentBusine</RelationshipName>
+                            <RecordsPerPage>20</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <IsUserView>false</IsUserView>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section id="dfa06870-405d-47a2-8d2e-cd0c7e83ed8f" name="MarketsCustomers" IsUserDefined="0" columns="1" showbar="false" showlabel="true" locklevel="0" labelwidth="115" celllabelposition="Left" celllabelalignment="Left" layout="varwidth" labelid="{cc19166b-c662-46de-a412-e51ecdc0d0c0}">
+                  <labels>
+                    <label description="Markets &amp; Customers" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ca542937-dc3a-4a3a-a09f-c4c78f031171}" showlabel="false" locklevel="0" auto="false" colspan="1" rowspan="22" labelid="{bb2d03a8-3093-4a4d-b17f-ab51ed78fa75}">
+                        <labels>
+                          <label description="Markets &amp; Customers" languagecode="1033" />
+                        </labels>
+                        <control id="MandCGrid" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" uniqueid="{39269d65-465a-3686-55e5-e96a867c86d9}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>leidos_businessreviewanswers</TargetEntityType>
+                            <ViewId>{1C4908B3-F447-EA11-A812-000D3A0BA151}</ViewId>
+                            <ViewIds>{F206D396-917B-42B6-B9AB-29EB5B388871},{1C4908B3-F447-EA11-A812-000D3A0BA151}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>leidos_BusinessReviewAnswers_ParentBusine</RelationshipName>
+                            <RecordsPerPage>20</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <IsUserView>false</IsUserView>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section id="43fb68df-abff-4c53-835a-4143b44841ce" name="SalesMarketing" IsUserDefined="0" columns="1" showbar="false" showlabel="true" locklevel="0" labelwidth="115" celllabelposition="Left" celllabelalignment="Left" layout="varwidth" labelid="{1902bc59-0b12-4da4-aa1e-14acadff2bad}">
+                  <labels>
+                    <label description="Sales &amp; Marketing" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{15e5bd66-27da-44b6-ab4a-032a374d905a}" showlabel="false" locklevel="0" auto="false" colspan="1" rowspan="22" labelid="{8354fff3-bea7-433a-bd1f-e00991ec8ba0}">
+                        <labels>
+                          <label description="Sales &amp; Marketing" languagecode="1033" />
+                        </labels>
+                        <control id="SandMGrid" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" uniqueid="{5b1da074-03a0-7e0a-2952-05a41d34d2d4}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>leidos_businessreviewanswers</TargetEntityType>
+                            <ViewId>{7A4F49C5-F447-EA11-A812-000D3A0BA151}</ViewId>
+                            <ViewIds>{F206D396-917B-42B6-B9AB-29EB5B388871},{7A4F49C5-F447-EA11-A812-000D3A0BA151}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>leidos_BusinessReviewAnswers_ParentBusine</RelationshipName>
+                            <RecordsPerPage>20</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <IsUserView>false</IsUserView>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section id="39e02c65-2813-4387-8568-0040ccf2c26b" name="OperationsProductivity" IsUserDefined="0" columns="1" showbar="false" showlabel="true" locklevel="0" labelwidth="115" celllabelposition="Left" celllabelalignment="Left" layout="varwidth" labelid="{b7d6b993-c7d9-4a15-8ef1-950f04274bf5}">
+                  <labels>
+                    <label description="Operations &amp; Productivity" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{180cdd76-541f-4c5e-a5cd-67945eaa3fbb}" showlabel="false" locklevel="0" auto="false" colspan="1" rowspan="22" labelid="{e2740eb8-9d4a-4efd-81dc-ac6f910ef2bb}">
+                        <labels>
+                          <label description="Operations &amp; Productivity" languagecode="1033" />
+                        </labels>
+                        <control id="OandPGrid" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" uniqueid="{3863485b-54b8-ae68-b6d8-55147e3a2e05}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>leidos_businessreviewanswers</TargetEntityType>
+                            <ViewId>{694F78EC-F447-EA11-A812-000D3A0BA151}</ViewId>
+                            <ViewIds>{F206D396-917B-42B6-B9AB-29EB5B388871},{694F78EC-F447-EA11-A812-000D3A0BA151}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>leidos_BusinessReviewAnswers_ParentBusine</RelationshipName>
+                            <RecordsPerPage>20</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <IsUserView>false</IsUserView>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section id="3f287ffb-6f0c-42f5-9ade-caae2aa7099d" name="FinanceInvestment" IsUserDefined="0" columns="1" showbar="false" showlabel="true" locklevel="0" labelwidth="115" celllabelposition="Left" celllabelalignment="Left" layout="varwidth" labelid="{cec7ec79-b56a-41c0-89a5-5a62384a640e}">
+                  <labels>
+                    <label description="Finance &amp; Investment" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{7db4e030-7eb9-40ec-894b-d33a3a9192d9}" showlabel="false" locklevel="0" auto="false" colspan="1" rowspan="22" labelid="{3e7d60a8-3ebf-4a5a-b061-6a489dbff1cf}">
+                        <labels>
+                          <label description="Finance &amp; Investment" languagecode="1033" />
+                        </labels>
+                        <control id="FandIGrid" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" uniqueid="{09e774d0-b4ea-4ee8-7d19-933d9e3a4c11}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>leidos_businessreviewanswers</TargetEntityType>
+                            <ViewId>{A0ECB9F8-F447-EA11-A812-000D3A0BA151}</ViewId>
+                            <ViewIds>{F206D396-917B-42B6-B9AB-29EB5B388871},{A0ECB9F8-F447-EA11-A812-000D3A0BA151}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>leidos_BusinessReviewAnswers_ParentBusine</RelationshipName>
+                            <RecordsPerPage>20</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <IsUserView>false</IsUserView>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="GrowthPlan" id="bcff366e-1b07-44ef-9fdf-57762144c85a" IsUserDefined="0" locklevel="0" showlabel="true" labelid="{18920947-60ec-486b-b227-2e6324e64714}">
+          <labels>
+            <label description="Growth Plan" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="Plan" id="423dc448-77b5-443b-875b-31a732a7fb54" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" height="auto" labelid="{e3720844-5dbf-476d-805e-33d5a7700518}">
+                  <labels>
+                    <label description="Plan" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{e4444ce1-ef7d-4677-b18b-62ebd28bba80}" rowspan="4" colspan="1" auto="true" labelid="{99f4b392-0ef9-4670-8ce7-2e5451ad5102}">
+                        <labels>
+                          <label description="Growth Plan" languagecode="1033" />
+                        </labels>
+                        <control id="GrowthPlan" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" indicationOfSubgrid="true" uniqueid="{52d50ce2-811d-b803-4751-11573b844810}">
+                          <parameters>
+                            <TargetEntityType>leidos_growthplanresponse</TargetEntityType>
+                            <ViewId>{AA2264DD-C548-EA11-A812-000D3A0BAD17}</ViewId>
+                            <ViewIds>{5F1686E7-81AF-4B8F-885A-EA0626B05FDD},{AA2264DD-C548-EA11-A812-000D3A0BAD17}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>leidos_GrowthPlanResponse_ParentBusinessR</RelationshipName>
+                            <RecordsPerPage>30</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <IsUserView>false</IsUserView>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <AutoExpand>Auto</AutoExpand>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row height="auto" />
+                    <row>
+                      <cell id="{0f48c319-fe8b-45cd-84ee-3be0b0fbdceb}" showlabel="true" locklevel="0" labelid="{d73e587f-118f-4125-888f-5dead7075657}">
+                        <labels>
+                          <label description="Growth Plan Due Date" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_growthplanduedate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="leidos_growthplanduedate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4882d5e6-0415-4b9d-9a7f-7b22ab591951}" showlabel="true" locklevel="0" labelid="{555a1f70-4565-4dcd-aa2c-939f81ad1d60}">
+                        <labels>
+                          <label description="Source of Information" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_sourceofinformation" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="leidos_sourceofinformation" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="ActionPlan" id="32aff0f0-dadb-4554-ad47-9c4845a06c1a" IsUserDefined="0" locklevel="0" showlabel="true" labelid="{6e3b17a4-9ffd-471f-a82b-56dfe60e18e8}">
+          <labels>
+            <label description="Action Plan" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_4_section_1" id="b7dfb912-a187-4b4f-ab60-0a6974d35f0f" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" height="auto" labelid="{995d63c7-c410-4758-9e50-3a15d0a98e4d}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{ce445bf5-4d60-4b2a-b202-a29fea1e60f0}" rowspan="4" colspan="1" auto="true" labelid="{7a66e5d5-3ff8-4f26-a3f1-1ced92c51811}">
+                        <labels>
+                          <label description="Action Plans" languagecode="1033" />
+                        </labels>
+                        <control id="ActionPlans" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" indicationOfSubgrid="true" uniqueid="{a787b3e4-9b31-3797-1acd-c34771be8ebe}">
+                          <parameters>
+                            <TargetEntityType>leidos_businessreviewactionplan</TargetEntityType>
+                            <ViewId>{6522E35E-3B01-4685-9B36-07E25D3C1014}</ViewId>
+                            <ViewIds>{DAAA6224-FD48-EA11-A812-000D3A0BAD17},{6522E35E-3B01-4685-9B36-07E25D3C1014}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>leidos_BusinessReviewActionPlan_ParentBus</RelationshipName>
+                            <RecordsPerPage>20</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <IsUserView>false</IsUserView>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <AutoExpand>Auto</AutoExpand>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row height="auto" />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{38dde75b-db47-48f4-a201-017fc2ecc85b}" columns="111" labelwidth="115" celllabelposition="Top" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{7f3299f0-e725-4634-b5ae-ad798a2338be}" showlabel="false" labelid="{ef7ddd56-751b-428b-860a-35faf94a137b}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{2a61027b-211a-4e40-b29b-90cc97e22a33}" showlabel="false" labelid="{36d538bc-1213-4099-a3c8-00850bd1ceb8}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{c6087889-4d27-46d7-95c4-3ac023bab87f}" showlabel="true" locklevel="0" labelid="{ba97cf48-51e6-47f1-bf4f-cdb080b0cdc5}">
+              <labels>
+                <label description="Related Account" languagecode="1033" />
+              </labels>
+              <control id="header_leidos_relatedaccount" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_relatedaccount" disabled="false" />
+            </cell>
+            <cell id="{f6b447c3-c11a-4e47-841c-6bea0ed02673}" labelid="{eaeb92f2-411d-4ddf-90ff-82cbc45e5e54}">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" datafieldname="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" />
+            </cell>
+            <cell id="{21a1c057-32db-4bb3-ed68-9239e8b57229}" showlabel="true" locklevel="0" labelid="{a1cb8098-d677-46ae-9d2e-697c864a4400}">
+              <labels>
+                <label description="Status Reason" languagecode="1033" />
+              </labels>
+              <control id="header_statuscode" classid="{5D68B988-0661-4db2-BC3E-17598AD3BE6C}" datafieldname="statuscode" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{119273ea-769f-4ede-b9db-9135af3b9384}" columns="111" labelwidth="115" celllabelposition="Top" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{5164d328-2176-4807-99c0-a840dc63d545}" showlabel="false" labelid="{dd1868a2-57c9-4c11-b0dd-5a9b471db66b}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{1f872735-3945-41c8-aa9d-8a250feacbee}" showlabel="false" labelid="{aa7a8d21-a741-444a-a23c-245d3df3970b}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{2e408ec3-ffaa-4016-a4a7-ad08ce2107fe}" showlabel="false" labelid="{1ca27a6c-5720-4652-a25f-7cb5fcbfff28}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title Text="Common" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title Text="Sales" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title Text="Service" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title Text="Marketing" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title Text="Process Sessions" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions>
+        <controlDescription forControl="{561c9c3a-a012-5b1d-32b3-b2e185a5697c}">
+          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" formFactor="0">
+            <parameters />
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{5022B54C-0A48-EA11-A812-000D3A0BAD17}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>leidos_leidos_businessreviewsummary_leido</RelationshipName>
+                <TargetEntityType>leidos_businessreviewsummary</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{0621A90E-6243-4AB0-A530-6944A3A72AC6},{5022B54C-0A48-EA11-A812-000D3A0BAD17}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy type="Enum" static="true">no</EnableGroupBy>
+              <EnableEditing type="Enum" static="true">yes</EnableEditing>
+              <ReflowBehavior type="Enum" static="true">GridOnly</ReflowBehavior>
+              <EnableFiltering type="Enum" static="true">no</EnableFiltering>
+              <HideNestedGridColumnHeader type="Enum" static="true">no</HideNestedGridColumnHeader>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{5022B54C-0A48-EA11-A812-000D3A0BAD17}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>leidos_leidos_businessreviewsummary_leido</RelationshipName>
+                <TargetEntityType>leidos_businessreviewsummary</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{0621A90E-6243-4AB0-A530-6944A3A72AC6},{5022B54C-0A48-EA11-A812-000D3A0BAD17}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy type="Enum" static="true">no</EnableGroupBy>
+              <EnableEditing type="Enum" static="true">yes</EnableEditing>
+              <ReflowBehavior type="Enum" static="true">GridOnly</ReflowBehavior>
+              <EnableFiltering type="Enum" static="true">no</EnableFiltering>
+              <HideNestedGridColumnHeader type="Enum" static="true">no</HideNestedGridColumnHeader>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{b36dab7c-ae92-6277-7e4a-c89e0399d07b}">
+          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" formFactor="0">
+            <parameters />
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{FD7EC473-F447-EA11-A812-000D3A0BA151}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>leidos_BusinessReviewAnswers_ParentBusine</RelationshipName>
+                <TargetEntityType>leidos_businessreviewanswers</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{F206D396-917B-42B6-B9AB-29EB5B388871},{FD7EC473-F447-EA11-A812-000D3A0BA151}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy type="Enum" static="true">no</EnableGroupBy>
+              <EnableEditing type="Enum" static="true">yes</EnableEditing>
+              <ReflowBehavior type="Enum" static="true">GridOnly</ReflowBehavior>
+              <EnableFiltering type="Enum" static="true">no</EnableFiltering>
+              <HideNestedGridColumnHeader type="Enum" static="true">no</HideNestedGridColumnHeader>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{FD7EC473-F447-EA11-A812-000D3A0BA151}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>leidos_BusinessReviewAnswers_ParentBusine</RelationshipName>
+                <TargetEntityType>leidos_businessreviewanswers</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{F206D396-917B-42B6-B9AB-29EB5B388871},{FD7EC473-F447-EA11-A812-000D3A0BA151}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy type="Enum" static="true">no</EnableGroupBy>
+              <EnableEditing type="Enum" static="true">yes</EnableEditing>
+              <ReflowBehavior type="Enum" static="true">GridOnly</ReflowBehavior>
+              <EnableFiltering type="Enum" static="true">no</EnableFiltering>
+              <HideNestedGridColumnHeader type="Enum" static="true">no</HideNestedGridColumnHeader>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{e6271eb2-9892-1278-ce77-4d00e0225b56}">
+          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" formFactor="0">
+            <parameters />
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{B0CA5196-F447-EA11-A812-000D3A0BA151}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>leidos_BusinessReviewAnswers_ParentBusine</RelationshipName>
+                <TargetEntityType>leidos_businessreviewanswers</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{F206D396-917B-42B6-B9AB-29EB5B388871},{B0CA5196-F447-EA11-A812-000D3A0BA151}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy type="Enum" static="true">no</EnableGroupBy>
+              <EnableEditing type="Enum" static="true">yes</EnableEditing>
+              <ReflowBehavior type="Enum" static="true">GridOnly</ReflowBehavior>
+              <EnableFiltering type="Enum" static="true">no</EnableFiltering>
+              <HideNestedGridColumnHeader type="Enum" static="true">no</HideNestedGridColumnHeader>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{B0CA5196-F447-EA11-A812-000D3A0BA151}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>leidos_BusinessReviewAnswers_ParentBusine</RelationshipName>
+                <TargetEntityType>leidos_businessreviewanswers</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{F206D396-917B-42B6-B9AB-29EB5B388871},{B0CA5196-F447-EA11-A812-000D3A0BA151}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy type="Enum" static="true">no</EnableGroupBy>
+              <EnableEditing type="Enum" static="true">yes</EnableEditing>
+              <ReflowBehavior type="Enum" static="true">GridOnly</ReflowBehavior>
+              <EnableFiltering type="Enum" static="true">no</EnableFiltering>
+              <HideNestedGridColumnHeader type="Enum" static="true">no</HideNestedGridColumnHeader>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{c040be95-acd6-3019-e8c5-6e381e33ee0d}">
+          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" formFactor="0">
+            <parameters />
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{5F6963A5-F447-EA11-A812-000D3A0BA151}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>leidos_BusinessReviewAnswers_ParentBusine</RelationshipName>
+                <TargetEntityType>leidos_businessreviewanswers</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{F206D396-917B-42B6-B9AB-29EB5B388871},{5F6963A5-F447-EA11-A812-000D3A0BA151}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy type="Enum" static="true">no</EnableGroupBy>
+              <EnableEditing type="Enum" static="true">yes</EnableEditing>
+              <ReflowBehavior type="Enum" static="true">GridOnly</ReflowBehavior>
+              <EnableFiltering type="Enum" static="true">no</EnableFiltering>
+              <HideNestedGridColumnHeader type="Enum" static="true">no</HideNestedGridColumnHeader>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{5F6963A5-F447-EA11-A812-000D3A0BA151}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>leidos_BusinessReviewAnswers_ParentBusine</RelationshipName>
+                <TargetEntityType>leidos_businessreviewanswers</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{F206D396-917B-42B6-B9AB-29EB5B388871},{5F6963A5-F447-EA11-A812-000D3A0BA151}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy type="Enum" static="true">no</EnableGroupBy>
+              <EnableEditing type="Enum" static="true">yes</EnableEditing>
+              <ReflowBehavior type="Enum" static="true">GridOnly</ReflowBehavior>
+              <EnableFiltering type="Enum" static="true">no</EnableFiltering>
+              <HideNestedGridColumnHeader type="Enum" static="true">no</HideNestedGridColumnHeader>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{3863485b-54b8-ae68-b6d8-55147e3a2e05}">
+          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" formFactor="0">
+            <parameters />
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{694F78EC-F447-EA11-A812-000D3A0BA151}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>leidos_BusinessReviewAnswers_ParentBusine</RelationshipName>
+                <TargetEntityType>leidos_businessreviewanswers</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{F206D396-917B-42B6-B9AB-29EB5B388871},{694F78EC-F447-EA11-A812-000D3A0BA151}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy type="Enum" static="true">no</EnableGroupBy>
+              <EnableEditing type="Enum" static="true">yes</EnableEditing>
+              <ReflowBehavior type="Enum" static="true">GridOnly</ReflowBehavior>
+              <EnableFiltering type="Enum" static="true">no</EnableFiltering>
+              <HideNestedGridColumnHeader type="Enum" static="true">no</HideNestedGridColumnHeader>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{694F78EC-F447-EA11-A812-000D3A0BA151}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>leidos_BusinessReviewAnswers_ParentBusine</RelationshipName>
+                <TargetEntityType>leidos_businessreviewanswers</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{F206D396-917B-42B6-B9AB-29EB5B388871},{694F78EC-F447-EA11-A812-000D3A0BA151}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy type="Enum" static="true">no</EnableGroupBy>
+              <EnableEditing type="Enum" static="true">yes</EnableEditing>
+              <ReflowBehavior type="Enum" static="true">GridOnly</ReflowBehavior>
+              <EnableFiltering type="Enum" static="true">no</EnableFiltering>
+              <HideNestedGridColumnHeader type="Enum" static="true">no</HideNestedGridColumnHeader>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{5b1da074-03a0-7e0a-2952-05a41d34d2d4}">
+          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" formFactor="0">
+            <parameters />
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{7A4F49C5-F447-EA11-A812-000D3A0BA151}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>leidos_BusinessReviewAnswers_ParentBusine</RelationshipName>
+                <TargetEntityType>leidos_businessreviewanswers</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{F206D396-917B-42B6-B9AB-29EB5B388871},{7A4F49C5-F447-EA11-A812-000D3A0BA151}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy type="Enum" static="true">no</EnableGroupBy>
+              <EnableEditing type="Enum" static="true">yes</EnableEditing>
+              <ReflowBehavior type="Enum" static="true">GridOnly</ReflowBehavior>
+              <EnableFiltering type="Enum" static="true">no</EnableFiltering>
+              <HideNestedGridColumnHeader type="Enum" static="true">no</HideNestedGridColumnHeader>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{7A4F49C5-F447-EA11-A812-000D3A0BA151}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>leidos_BusinessReviewAnswers_ParentBusine</RelationshipName>
+                <TargetEntityType>leidos_businessreviewanswers</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{F206D396-917B-42B6-B9AB-29EB5B388871},{7A4F49C5-F447-EA11-A812-000D3A0BA151}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy type="Enum" static="true">no</EnableGroupBy>
+              <EnableEditing type="Enum" static="true">yes</EnableEditing>
+              <ReflowBehavior type="Enum" static="true">GridOnly</ReflowBehavior>
+              <EnableFiltering type="Enum" static="true">no</EnableFiltering>
+              <HideNestedGridColumnHeader type="Enum" static="true">no</HideNestedGridColumnHeader>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{09e774d0-b4ea-4ee8-7d19-933d9e3a4c11}">
+          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" formFactor="0">
+            <parameters />
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{A0ECB9F8-F447-EA11-A812-000D3A0BA151}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>leidos_BusinessReviewAnswers_ParentBusine</RelationshipName>
+                <TargetEntityType>leidos_businessreviewanswers</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{F206D396-917B-42B6-B9AB-29EB5B388871},{A0ECB9F8-F447-EA11-A812-000D3A0BA151}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy type="Enum" static="true">no</EnableGroupBy>
+              <EnableEditing type="Enum" static="true">yes</EnableEditing>
+              <ReflowBehavior type="Enum" static="true">GridOnly</ReflowBehavior>
+              <EnableFiltering type="Enum" static="true">no</EnableFiltering>
+              <HideNestedGridColumnHeader type="Enum" static="true">no</HideNestedGridColumnHeader>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{A0ECB9F8-F447-EA11-A812-000D3A0BA151}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>leidos_BusinessReviewAnswers_ParentBusine</RelationshipName>
+                <TargetEntityType>leidos_businessreviewanswers</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{F206D396-917B-42B6-B9AB-29EB5B388871},{A0ECB9F8-F447-EA11-A812-000D3A0BA151}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy type="Enum" static="true">no</EnableGroupBy>
+              <EnableEditing type="Enum" static="true">yes</EnableEditing>
+              <ReflowBehavior type="Enum" static="true">GridOnly</ReflowBehavior>
+              <EnableFiltering type="Enum" static="true">no</EnableFiltering>
+              <HideNestedGridColumnHeader type="Enum" static="true">no</HideNestedGridColumnHeader>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{39269d65-465a-3686-55e5-e96a867c86d9}">
+          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" formFactor="0">
+            <parameters />
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{1C4908B3-F447-EA11-A812-000D3A0BA151}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>leidos_BusinessReviewAnswers_ParentBusine</RelationshipName>
+                <TargetEntityType>leidos_businessreviewanswers</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{F206D396-917B-42B6-B9AB-29EB5B388871},{1C4908B3-F447-EA11-A812-000D3A0BA151}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy type="Enum" static="true">no</EnableGroupBy>
+              <EnableEditing type="Enum" static="true">yes</EnableEditing>
+              <ReflowBehavior type="Enum" static="true">GridOnly</ReflowBehavior>
+              <EnableFiltering type="Enum" static="true">no</EnableFiltering>
+              <HideNestedGridColumnHeader type="Enum" static="true">no</HideNestedGridColumnHeader>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{1C4908B3-F447-EA11-A812-000D3A0BA151}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>leidos_BusinessReviewAnswers_ParentBusine</RelationshipName>
+                <TargetEntityType>leidos_businessreviewanswers</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{F206D396-917B-42B6-B9AB-29EB5B388871},{1C4908B3-F447-EA11-A812-000D3A0BA151}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy type="Enum" static="true">no</EnableGroupBy>
+              <EnableEditing type="Enum" static="true">yes</EnableEditing>
+              <ReflowBehavior type="Enum" static="true">GridOnly</ReflowBehavior>
+              <EnableFiltering type="Enum" static="true">no</EnableFiltering>
+              <HideNestedGridColumnHeader type="Enum" static="true">no</HideNestedGridColumnHeader>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{52d50ce2-811d-b803-4751-11573b844810}">
+          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" formFactor="0">
+            <parameters />
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{AA2264DD-C548-EA11-A812-000D3A0BAD17}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>leidos_GrowthPlanResponse_ParentBusinessR</RelationshipName>
+                <TargetEntityType>leidos_growthplanresponse</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{5F1686E7-81AF-4B8F-885A-EA0626B05FDD},{AA2264DD-C548-EA11-A812-000D3A0BAD17}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy static="true" type="Enum">no</EnableGroupBy>
+              <EnableEditing static="true" type="Enum">yes</EnableEditing>
+              <ReflowBehavior static="true" type="Enum">GridOnly</ReflowBehavior>
+              <EnableFiltering static="true" type="Enum">no</EnableFiltering>
+              <HideNestedGridColumnHeader static="true" type="Enum">no</HideNestedGridColumnHeader>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{AA2264DD-C548-EA11-A812-000D3A0BAD17}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>leidos_GrowthPlanResponse_ParentBusinessR</RelationshipName>
+                <TargetEntityType>leidos_growthplanresponse</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{5F1686E7-81AF-4B8F-885A-EA0626B05FDD},{AA2264DD-C548-EA11-A812-000D3A0BAD17}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy static="true" type="Enum">no</EnableGroupBy>
+              <EnableEditing static="true" type="Enum">yes</EnableEditing>
+              <ReflowBehavior static="true" type="Enum">GridOnly</ReflowBehavior>
+              <EnableFiltering static="true" type="Enum">no</EnableFiltering>
+              <HideNestedGridColumnHeader static="true" type="Enum">no</HideNestedGridColumnHeader>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{a787b3e4-9b31-3797-1acd-c34771be8ebe}">
+          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" formFactor="0">
+            <parameters />
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{6522E35E-3B01-4685-9B36-07E25D3C1014}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>leidos_BusinessReviewActionPlan_ParentBus</RelationshipName>
+                <TargetEntityType>leidos_businessreviewactionplan</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{DAAA6224-FD48-EA11-A812-000D3A0BAD17},{6522E35E-3B01-4685-9B36-07E25D3C1014}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy static="true" type="Enum">no</EnableGroupBy>
+              <EnableEditing static="true" type="Enum">yes</EnableEditing>
+              <ReflowBehavior static="true" type="Enum">GridOnly</ReflowBehavior>
+              <EnableFiltering static="true" type="Enum">yes</EnableFiltering>
+              <HideNestedGridColumnHeader static="true" type="Enum">no</HideNestedGridColumnHeader>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{6522E35E-3B01-4685-9B36-07E25D3C1014}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>leidos_BusinessReviewActionPlan_ParentBus</RelationshipName>
+                <TargetEntityType>leidos_businessreviewactionplan</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{DAAA6224-FD48-EA11-A812-000D3A0BAD17},{6522E35E-3B01-4685-9B36-07E25D3C1014}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy static="true" type="Enum">no</EnableGroupBy>
+              <EnableEditing static="true" type="Enum">yes</EnableEditing>
+              <ReflowBehavior static="true" type="Enum">GridOnly</ReflowBehavior>
+              <EnableFiltering static="true" type="Enum">yes</EnableFiltering>
+              <HideNestedGridColumnHeader static="true" type="Enum">no</HideNestedGridColumnHeader>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <formLibraries>
+        <Library name="leidos_/BusinessReview/disableColumninGrid.js" libraryUniqueId="{ee7adc13-9310-a3d7-376d-9bea775baa89}" />
+      </formLibraries>
+      <events>
+        <event name="onrecordselect" control="Subgrid_1" relationship="" active="false" application="false">
+          <Handlers>
+            <Handler passExecutionContext="true" parameters="" enabled="true" handlerUniqueId="{a0114035-047b-6d8a-14bc-421306974eee}" libraryName="leidos_/BusinessReview/disableColumninGrid.js" functionName="Leidos.gridRowSelected" />
+          </Handlers>
+        </event>
+        <event name="onrecordselect" control="BRGrid" relationship="" active="false" application="false">
+          <Handlers>
+            <Handler passExecutionContext="true" parameters="" enabled="true" handlerUniqueId="{35d48177-ae3e-00ad-5b15-268cdde16a08}" libraryName="leidos_/BusinessReview/disableColumninGrid.js" functionName="Leidos.gridRowSelectedAnswer" />
+          </Handlers>
+        </event>
+        <event name="onrecordselect" control="LandSGrid" relationship="" active="false" application="false">
+          <Handlers>
+            <Handler passExecutionContext="true" parameters="" enabled="true" handlerUniqueId="{ba9c574d-603e-59e6-3d85-01b932e492d4}" libraryName="leidos_/BusinessReview/disableColumninGrid.js" functionName="Leidos.gridRowSelectedAnswer" />
+          </Handlers>
+        </event>
+        <event name="onrecordselect" control="InnovationGrid" relationship="" active="false" application="false">
+          <Handlers>
+            <Handler passExecutionContext="true" parameters="" enabled="true" handlerUniqueId="{cc8b11e1-3206-a88c-6945-0ec884a85aac}" libraryName="leidos_/BusinessReview/disableColumninGrid.js" functionName="Leidos.gridRowSelectedAnswer" />
+          </Handlers>
+        </event>
+        <event name="onrecordselect" control="MandCGrid" relationship="" active="false" application="false">
+          <Handlers>
+            <Handler passExecutionContext="true" parameters="" enabled="true" handlerUniqueId="{242a3933-d55a-a023-aa1d-cddcd9c285ee}" libraryName="leidos_/BusinessReview/disableColumninGrid.js" functionName="Leidos.gridRowSelectedAnswer" />
+          </Handlers>
+        </event>
+        <event name="onrecordselect" control="SandMGrid" relationship="" active="false" application="false">
+          <Handlers>
+            <Handler passExecutionContext="true" parameters="" enabled="true" handlerUniqueId="{769e3db3-d6e6-11cd-ecd6-8c8e030246d6}" libraryName="leidos_/BusinessReview/disableColumninGrid.js" functionName="Leidos.gridRowSelectedAnswer" />
+          </Handlers>
+        </event>
+        <event name="onrecordselect" control="OandPGrid" relationship="" active="false" application="false">
+          <Handlers>
+            <Handler passExecutionContext="true" parameters="" enabled="true" handlerUniqueId="{81bc8526-2868-cbd5-6cbd-d824e64a3018}" libraryName="leidos_/BusinessReview/disableColumninGrid.js" functionName="Leidos.gridRowSelectedAnswer" />
+          </Handlers>
+        </event>
+        <event name="onrecordselect" control="FandIGrid" relationship="" active="false" application="false">
+          <Handlers>
+            <Handler passExecutionContext="true" parameters="" enabled="true" handlerUniqueId="{084ba709-23d8-89c8-841a-625a3c556d92}" libraryName="leidos_/BusinessReview/disableColumninGrid.js" functionName="Leidos.gridRowSelectedAnswer" />
+          </Handlers>
+        </event>
+      </events>
+      <DisplayConditions FallbackForm="true" Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Web - Business Review" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

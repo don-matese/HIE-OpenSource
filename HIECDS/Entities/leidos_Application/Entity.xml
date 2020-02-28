@@ -2644,7 +2644,7 @@
               </status>
               <status value="445260005" state="0" TransitionData="&lt;allowedtransitions xmlns=&quot;http://schemas.microsoft.com/crm/2009/WebServices&quot;&gt;&lt;allowedtransition sourcestatusid=&quot;445260005&quot; tostatusid=&quot;445260000&quot; /&gt;&lt;allowedtransition sourcestatusid=&quot;445260005&quot; tostatusid=&quot;2&quot; /&gt;&lt;/allowedtransitions&gt;" Color="#0000ff">
                 <labels>
-                  <label description="ISA Submitted" languagecode="1033" />
+                  <label description="ISA Submission" languagecode="1033" />
                 </labels>
               </status>
               <status value="445260000" state="0" TransitionData="&lt;allowedtransitions xmlns=&quot;http://schemas.microsoft.com/crm/2009/WebServices&quot;&gt;&lt;allowedtransition sourcestatusid=&quot;445260000&quot; tostatusid=&quot;2&quot; /&gt;&lt;allowedtransition sourcestatusid=&quot;445260000&quot; tostatusid=&quot;445260001&quot; /&gt;&lt;/allowedtransitions&gt;" Color="#0000ff">

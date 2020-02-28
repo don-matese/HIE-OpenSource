@@ -88,6 +88,7 @@
     <AppModuleComponent type="1" schemaName="leidos_projectcostcategory" />
     <AppModuleComponent type="1" schemaName="leidos_projectfunding" />
     <AppModuleComponent type="1" schemaName="leidos_projectmeasure" />
+    <AppModuleComponent type="1" schemaName="leidos_projectoutcome" />
     <AppModuleComponent type="1" schemaName="leidos_projectoutput" />
     <AppModuleComponent type="1" schemaName="leidos_segmentation" />
     <AppModuleComponent type="1" schemaName="leidos_strategicpriority" />
