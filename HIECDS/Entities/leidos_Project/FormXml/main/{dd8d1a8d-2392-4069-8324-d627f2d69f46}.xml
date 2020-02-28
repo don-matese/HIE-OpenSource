@@ -207,17 +207,15 @@
                         </labels>
                         <control id="leidos_totalfundingcalcualted" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_totalfundingcalcualted" disabled="false" />
                       </cell>
-                      <cell id="{31ec0312-b787-4420-9e1a-0b0fc94df3bc}" showlabel="true" locklevel="0">
+                      <cell showlabel="true" locklevel="0" id="{2a201551-b486-4b09-9a68-3b9c5a07c831}">
                         <labels>
-                          <label description="Total Public Funding (Calculated)" languagecode="1033" />
+                          <label description="" languagecode="1033" />
                         </labels>
-                        <control id="leidos_totalpublicfundingcalculated" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_totalpublicfundingcalculated" disabled="false" />
                       </cell>
-                      <cell id="{5ad1aeec-803d-4a21-b42d-ddca4c9db4a4}" showlabel="true" locklevel="0">
+                      <cell showlabel="true" locklevel="0" id="{9c48c2e3-b383-4132-bf93-72c636f6b9fc}">
                         <labels>
-                          <label description="Total Private Funding (Calculated)" languagecode="1033" />
+                          <label description="" languagecode="1033" />
                         </labels>
-                        <control id="leidos_totalprivatefundingcalculated" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_totalprivatefundingcalculated" disabled="false" />
                       </cell>
                     </row>
                     <row>
@@ -227,12 +225,12 @@
                         </labels>
                         <control id="leidos_completedprojectfunding" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="leidos_completedprojectfunding" disabled="false" uniqueid="{7551b3b5-3d06-4143-a97d-2372bbf410ba}" />
                       </cell>
-                      <cell showlabel="true" locklevel="0" id="{2a201551-b486-4b09-9a68-3b9c5a07c831}">
+                      <cell id="{54cec9bc-a93e-a3d8-b0ce-0987718b071c}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
                       </cell>
-                      <cell showlabel="true" locklevel="0" id="{9c48c2e3-b383-4132-bf93-72c636f6b9fc}">
+                      <cell id="{679ad886-eeba-e308-439d-a869c38b9e92}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -397,7 +395,7 @@
         </rows>
       </footer>
       <Navigation>
-        <NavBar />
+        <NavBar></NavBar>
         <NavBarAreas>
           <NavBarArea Id="Info">
             <Titles>

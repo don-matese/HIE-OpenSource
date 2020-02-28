@@ -74,6 +74,7 @@
   <EntityRelationship Name="leidos_enquiry_RelevantTeam_Team" />
   <EntityRelationship Name="leidos_enquiry_SEPPartnerOrganisation_Acc" />
   <EntityRelationship Name="leidos_enquiry_Turnover_leidos_Turnover" />
+  <EntityRelationship Name="leidos_FundDetail_FundingSource_leidos_Fu" />
   <EntityRelationship Name="leidos_GrowthPlanMeasure_GrowthPlanOrgani" />
   <EntityRelationship Name="leidos_GrowthPlanResponse_Measure_leidos_" />
   <EntityRelationship Name="leidos_GrowthPlanResponse_ParentBusinessR" />
@@ -91,8 +92,8 @@
   <EntityRelationship Name="leidos_ProjectActivity_StrategicPriority_" />
   <EntityRelationship Name="leidos_ProjectCost_CostCategory_leidos_Pr" />
   <EntityRelationship Name="leidos_ProjectCost_ParentProject_leidos_P" />
-  <EntityRelationship Name="leidos_ProjectFunding_FundingSourcePrivat" />
-  <EntityRelationship Name="leidos_ProjectFunding_FundingSourcePublic" />
+  <EntityRelationship Name="leidos_ProjectFunding_FundDetails_leidos_" />
+  <EntityRelationship Name="leidos_ProjectFunding_FundingSource_leido" />
   <EntityRelationship Name="leidos_ProjectFunding_ParentProject_leido" />
   <EntityRelationship Name="leidos_ProjectMeasure_Activity_leidos_Pro" />
   <EntityRelationship Name="leidos_ProjectMeasure_Output_leidos_Proje" />
@@ -158,12 +159,10 @@
   <EntityRelationship Name="lk_leidos_enquirybusinessflow_processid" />
   <EntityRelationship Name="lk_leidos_financialyear_createdby" />
   <EntityRelationship Name="lk_leidos_financialyear_modifiedby" />
+  <EntityRelationship Name="lk_leidos_funddetail_createdby" />
+  <EntityRelationship Name="lk_leidos_funddetail_modifiedby" />
   <EntityRelationship Name="lk_leidos_fundingsource_createdby" />
   <EntityRelationship Name="lk_leidos_fundingsource_modifiedby" />
-  <EntityRelationship Name="lk_leidos_fundingsourceprivate_createdby" />
-  <EntityRelationship Name="lk_leidos_fundingsourceprivate_modifiedby" />
-  <EntityRelationship Name="lk_leidos_fundingsourcepublic_createdby" />
-  <EntityRelationship Name="lk_leidos_fundingsourcepublic_modifiedby" />
   <EntityRelationship Name="lk_leidos_geographies_createdby" />
   <EntityRelationship Name="lk_leidos_geographies_modifiedby" />
   <EntityRelationship Name="lk_leidos_growthplanmeasure_createdby" />
@@ -238,9 +237,8 @@
   <EntityRelationship Name="organization_leidos_employmentroles" />
   <EntityRelationship Name="organization_leidos_enquirybusinessflow" />
   <EntityRelationship Name="organization_leidos_financialyear" />
+  <EntityRelationship Name="organization_leidos_funddetail" />
   <EntityRelationship Name="organization_leidos_fundingsource" />
-  <EntityRelationship Name="organization_leidos_fundingsourceprivate" />
-  <EntityRelationship Name="organization_leidos_fundingsourcepublic" />
   <EntityRelationship Name="organization_leidos_geographies" />
   <EntityRelationship Name="organization_leidos_growthplanmeasure" />
   <EntityRelationship Name="organization_leidos_growthplanresponse" />

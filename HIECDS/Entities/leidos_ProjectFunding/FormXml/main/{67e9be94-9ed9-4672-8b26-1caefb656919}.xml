@@ -28,19 +28,31 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{b9666cba-136f-4329-bd17-083c0aff9c13}" showlabel="true" locklevel="0">
+                      <cell id="{0f007819-1602-4457-830b-c171229b378e}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Funding Source  - Private" languagecode="1033" />
+                          <label description="Funding Source" languagecode="1033" />
                         </labels>
-                        <control id="leidos_fundingsourceprivate" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_fundingsourceprivate" disabled="false" />
+                        <control id="leidos_fundingsource" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_fundingsource" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{309f7d00-af11-4ea3-8ad0-c1dd5f98486b}" showlabel="true" locklevel="0">
+                      <cell id="{5c961ee4-81d8-4a81-843c-ad18f05a2145}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Funding Source -Public" languagecode="1033" />
+                          <label description="Fund Details" languagecode="1033" />
                         </labels>
-                        <control id="leidos_fundingsourcepublic" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_fundingsourcepublic" disabled="false" />
+                        <control id="leidos_funddetails" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_funddetails" disabled="false" uniqueid="{a2e24c4e-91bd-3477-6a3a-e763611bbe50}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>true</DisableViewPicker>
+                            <DefaultViewId>{0EB65379-DFAB-45E3-9659-81DAB8665ACF}</DefaultViewId>
+                            <FilterRelationshipName>leidos_FundDetail_FundingSource_leidos_Fu</FilterRelationshipName>
+                            <DependentAttributeName>leidos_projectfunding.leidos_fundingsource</DependentAttributeName>
+                            <DependentAttributeType>leidos_fundingsource</DependentAttributeType>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
                       </cell>
                     </row>
                     <row>
@@ -120,6 +132,37 @@
           </row>
         </rows>
       </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
       <DisplayConditions Order="0" FallbackForm="true">
         <Everyone />
       </DisplayConditions>

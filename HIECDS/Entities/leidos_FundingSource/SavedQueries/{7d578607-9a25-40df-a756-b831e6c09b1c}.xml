@@ -11,7 +11,6 @@
       <grid name="leidos_fundingsources" jump="leidos_source" select="1" icon="1" preview="1">
         <row name="leidos_fundingsource" id="leidos_fundingsourceid">
           <cell name="leidos_source" width="300" />
-          <cell name="createdon" width="125" />
         </row>
       </grid>
     </layoutxml>
@@ -21,11 +20,10 @@
         <entity name="leidos_fundingsource">
           <attribute name="leidos_fundingsourceid" />
           <attribute name="leidos_source" />
-          <attribute name="createdon" />
-          <order attribute="leidos_source" descending="false" />
           <filter type="and">
             <condition attribute="statecode" operator="eq" value="0" />
           </filter>
+          <order attribute="leidos_source" descending="false" />
         </entity>
       </fetch>
     </fetchxml>

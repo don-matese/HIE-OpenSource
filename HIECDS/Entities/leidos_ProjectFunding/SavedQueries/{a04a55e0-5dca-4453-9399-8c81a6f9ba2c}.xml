@@ -13,8 +13,9 @@
           <cell name="leidos_name" width="300" />
           <cell name="leidos_parentproject" width="100" />
           <cell name="leidos_fundingamount" width="100" />
-          <cell name="leidos_fundingsourceprivate" width="100" />
-          <cell name="leidos_fundingsourcepublic" width="100" />
+          <cell name="leidos_fundingsource" width="100" />
+          <cell name="leidos_funddetails" width="100" />
+          <cell name="leidos_evidencenotes" width="100" />
           <cell name="createdon" width="125" />
         </row>
       </grid>
@@ -30,10 +31,11 @@
           <filter type="and">
             <condition attribute="statecode" operator="eq" value="0" />
           </filter>
-          <attribute name="leidos_fundingsourceprivate" />
-          <attribute name="leidos_fundingsourcepublic" />
           <attribute name="leidos_parentproject" />
           <attribute name="leidos_fundingamount" />
+          <attribute name="leidos_fundingsource" />
+          <attribute name="leidos_funddetails" />
+          <attribute name="leidos_evidencenotes" />
         </entity>
       </fetch>
     </fetchxml>
