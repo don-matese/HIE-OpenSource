@@ -440,24 +440,41 @@
                     </row>
                   </rows>
                 </section>
-              </sections>
-            </column>
-            <column width="50%">
-              <sections>
-                <section name="tab_2_section_2" id="059007b0-4b77-4b65-9e2c-6d06185b6332" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                <section name="ApplicationFormsDetails" id="2f550036-7b5d-4940-9d7d-eec78d408985" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
                   <labels>
-                    <label description="New Section" languagecode="1033" />
+                    <label description="Application" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell showlabel="false" locklevel="0" id="{31073117-a594-41f8-8a87-32e9d3d29e28}">
+                      <cell id="{8dfcf7de-0ef3-4b5a-b66c-1fe2ee8a28b5}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Client Submits Part 1 Form" languagecode="1033" />
                         </labels>
+                        <control id="leidos_clientsubmitspart1form" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="leidos_clientsubmitspart1form" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8aa373e0-e12f-4ff5-b3f5-4db9876f46f6}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Client Submits Part 2 Form" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_clientsubmitspart2form" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="leidos_clientsubmitspart2form" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{94a54985-09d9-4118-998f-bce8bedbbfb7}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Application forms Complete" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_applicationformscomplete" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="leidos_applicationformscomplete" disabled="false" />
                       </cell>
                     </row>
                   </rows>
                 </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
                 <section name="Details_section_5" id="e92fa574-40e8-4c14-9e6b-e2e92b53c4e3" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
                   <labels>
                     <label description="Project Justification" languagecode="1033" />
@@ -547,9 +564,9 @@
                         </control>
                       </cell>
                     </row>
-                    <row></row>
-                    <row></row>
-                    <row></row>
+                    <row />
+                    <row />
+                    <row />
                     <row />
                     <row />
                     <row>
@@ -713,7 +730,7 @@
         </rows>
       </footer>
       <Navigation>
-        <NavBar></NavBar>
+        <NavBar />
         <NavBarAreas>
           <NavBarArea Id="Info">
             <Titles>

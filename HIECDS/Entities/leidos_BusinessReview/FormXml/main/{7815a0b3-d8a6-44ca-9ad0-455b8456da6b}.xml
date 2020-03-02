@@ -73,6 +73,18 @@
                         </labels>
                       </cell>
                     </row>
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{4a6a1719-7992-4a44-a395-49b3707368c9}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell showlabel="true" locklevel="0" id="{6dd6dd0e-af6d-422b-b9f2-680faa0a85da}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
                   </rows>
                 </section>
                 <section name="BusinessPlanSignOff" id="c7eed1ef-e6f9-4bdc-8b4e-574a6295c60d" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" visible="false">
@@ -754,6 +766,12 @@
               <labels>
                 <label description="" languagecode="1033" />
               </labels>
+            </cell>
+            <cell id="{4fbf0df1-e322-4a6b-a3a7-ad00e8e7bd00}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Created On" languagecode="1033" />
+              </labels>
+              <control id="createdon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="false" />
             </cell>
           </row>
         </rows>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Workflow WorkflowId="{73ae4fb7-bc54-ea11-a813-000d3a0bad17}" Name="BPF Application - On change of Stage" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <JsonFileName>/Workflows/BPFApplication-OnchangeofStage-73AE4FB7-BC54-EA11-A813-000D3A0BAD17.json</JsonFileName>
+<Workflow WorkflowId="{73ae4fb7-bc54-ea11-a813-000d3a0bad17}" Name="BPF Application - Flow - On change of Stage" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <JsonFileName>/Workflows/BPFApplication-Flow-OnchangeofStage-73AE4FB7-BC54-EA11-A813-000D3A0BAD17.json</JsonFileName>
   <Type>1</Type>
   <Subprocess>0</Subprocess>
   <Category>5</Category>
@@ -20,6 +20,6 @@
   <BusinessProcessType>0</BusinessProcessType>
   <PrimaryEntity>none</PrimaryEntity>
   <LocalizedNames>
-    <LocalizedName languagecode="1033" description="BPF Application - On change of Stage" />
+    <LocalizedName languagecode="1033" description="BPF Application - Flow - On change of Stage" />
   </LocalizedNames>
 </Workflow>

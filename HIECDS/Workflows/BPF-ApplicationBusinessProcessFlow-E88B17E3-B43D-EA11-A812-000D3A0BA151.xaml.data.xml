@@ -54,9 +54,6 @@
     <steplabels id="{1ce1d2ec-7207-42f6-86bc-c0ac667cfb3e}">
       <label languagecode="1033" description="Top Slice" />
     </steplabels>
-    <steplabels id="{b903c51f-f847-47d2-bd3e-31f4efcf42e4}">
-      <label languagecode="1033" description="Generate Application Question Set" />
-    </steplabels>
     <steplabels id="{cc5396f6-b2c2-4f19-b931-c5bdca172b2f}">
       <label languagecode="1033" description="Project Details" />
     </steplabels>
@@ -85,10 +82,10 @@
       <label languagecode="1033" description="Pre-Application Route" />
     </steplabels>
     <steplabels id="{aab54763-3195-49f4-9ced-348298732f67}">
-      <label languagecode="1033" description="Key Data" />
+      <label languagecode="1033" description="Generate Question Set" />
     </steplabels>
     <steplabels id="{c567353b-27ac-44df-8479-77531d45ac05}">
-      <label languagecode="1033" description="Application Reference" />
+      <label languagecode="1033" description="Generate Application Questions" />
     </steplabels>
     <steplabels id="{313c0376-8ef2-4f73-861e-cea865a2069f}">
       <label languagecode="1033" description="ISA Stage" />
@@ -105,11 +102,20 @@
     <steplabels id="{9041ecca-28a7-4fe9-90ee-639beb9f2026}">
       <label languagecode="1033" description="Initial Strategic Assessment Approved" />
     </steplabels>
+    <steplabels id="{a9c4a8f4-6387-4d0c-9df8-27e4243242ea}">
+      <label languagecode="1033" description="Generate Application Question Set" />
+    </steplabels>
     <steplabels id="{4f21da05-bba6-4c30-88f5-8ea86f006e88}">
       <label languagecode="1033" description="Application" />
     </steplabels>
-    <steplabels id="{aa7c776d-8d90-4a7f-8914-7cd9c6af4c0d}">
-      <label languagecode="1033" description="Application Reference" />
+    <steplabels id="{78d87812-06db-47a2-b506-4bf91c0db96c}">
+      <label languagecode="1033" description="Client Submits Part 1 Form" />
+    </steplabels>
+    <steplabels id="{2c99602f-975e-4afb-b518-1721f94136aa}">
+      <label languagecode="1033" description="Client Submits Part 2 Form" />
+    </steplabels>
+    <steplabels id="{06ee8d57-9dbf-4afe-b701-63d4b47c33ae}">
+      <label languagecode="1033" description="Application forms Complete" />
     </steplabels>
     <steplabels id="{e0460fb8-2024-4cec-aa73-2b4e75897f11}">
       <label languagecode="1033" description="Appraisal" />
