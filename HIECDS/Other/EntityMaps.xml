@@ -21,6 +21,16 @@
     </AttributeMaps>
   </EntityMap>
   <EntityMap>
+    <EntitySource>leidos_application</EntitySource>
+    <EntityTarget>leidos_stateaidassessment</EntityTarget>
+    <AttributeMaps>
+      <AttributeMap>
+        <AttributeSource>leidos_name</AttributeSource>
+        <AttributeTarget>leidos_name</AttributeTarget>
+      </AttributeMap>
+    </AttributeMaps>
+  </EntityMap>
+  <EntityMap>
     <EntitySource>leidos_businessreviewsummary</EntitySource>
     <EntityTarget>leidos_businessreviewactionplan</EntityTarget>
     <AttributeMaps>

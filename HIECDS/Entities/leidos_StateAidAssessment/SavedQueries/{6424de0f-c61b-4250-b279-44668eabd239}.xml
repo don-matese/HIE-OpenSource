@@ -11,6 +11,16 @@
       <grid name="resultset" jump="leidos_name" select="1" icon="1" preview="1">
         <row name="result" id="leidos_stateaidassessmentid">
           <cell name="leidos_name" width="300" />
+          <cell name="leidos_parentapplication" width="100" />
+          <cell name="leidos_isyourorganisationpartofagroup" width="100" />
+          <cell name="leidos_insolvency" width="100" />
+          <cell name="leidos_recoveryorder" width="100" />
+          <cell name="leidos_notrelocatedfromanothereeacountry" width="100" />
+          <cell name="leidos_nopreviousstateaid" width="100" />
+          <cell name="leidos_confrimattachaccounts" width="100" />
+          <cell name="leidos_financialturnover2yearsaccounts" width="100" />
+          <cell name="leidos_numberoffte" width="100" />
+          <cell name="leidos_netassets" width="100" />
           <cell name="createdon" width="125" />
         </row>
       </grid>
@@ -22,6 +32,16 @@
           <attribute name="leidos_stateaidassessmentid" />
           <attribute name="leidos_name" />
           <attribute name="createdon" />
+          <attribute name="leidos_isyourorganisationpartofagroup" />
+          <attribute name="leidos_insolvency" />
+          <attribute name="leidos_recoveryorder" />
+          <attribute name="leidos_notrelocatedfromanothereeacountry" />
+          <attribute name="leidos_nopreviousstateaid" />
+          <attribute name="leidos_confrimattachaccounts" />
+          <attribute name="leidos_financialturnover2yearsaccounts" />
+          <attribute name="leidos_netassets" />
+          <attribute name="leidos_parentapplication" />
+          <attribute name="leidos_numberoffte" />
           <order attribute="leidos_name" descending="false" />
         </entity>
       </fetch>

@@ -75,6 +75,11 @@
                         </labels>
                         <control id="leidos_meetingtype" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="leidos_meetingtype" disabled="false" />
                       </cell>
+                      <cell id="{d354c73e-c9bb-4c12-8943-da5d7dd0ad74}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
                     </row>
                     <row>
                       <cell auto="false" showlabel="true" locklevel="1" rowspan="1" colspan="2" id="{5D06EDBF-8D54-4710-8C6A-81483D6F41F4}">
@@ -260,25 +265,7 @@
         </internalresources>
       </clientresources>
       <footer id="{c974a7bd-ad56-4f0c-b1c9-4a449d3289e0}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
-        <rows>
-          <row>
-            <cell id="{14505639-3acb-42ac-8ec6-326e7ef489a9}" showlabel="false">
-              <labels>
-                <label description="" languagecode="1033" />
-              </labels>
-            </cell>
-            <cell id="{49d26de4-23b3-40c2-b959-a494e2de14e6}" showlabel="false">
-              <labels>
-                <label description="" languagecode="1033" />
-              </labels>
-            </cell>
-            <cell id="{78c65888-cc08-41ae-935f-aec25a24c24f}" showlabel="false">
-              <labels>
-                <label description="" languagecode="1033" />
-              </labels>
-            </cell>
-          </row>
-        </rows>
+        <rows></rows>
       </footer>
     </form>
     <LocalizedNames>

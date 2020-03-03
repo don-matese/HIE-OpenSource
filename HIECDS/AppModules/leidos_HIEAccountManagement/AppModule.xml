@@ -94,8 +94,17 @@
     <AppModuleComponent type="1" schemaName="leidos_projectoutput" />
     <AppModuleComponent type="1" schemaName="leidos_segmentation" />
     <AppModuleComponent type="1" schemaName="leidos_stateaidassessment" />
+    <AppModuleComponent type="60" id="{9ea0bcf9-d754-4cda-adae-59afddf70ad7}" />
+    <AppModuleComponent type="60" id="{9df3573a-f9af-45d5-9f89-4afda05b4943}" />
+    <AppModuleComponent type="1" schemaName="leidos_stateaidassessmentdetail" />
+    <AppModuleComponent type="60" id="{3f84accb-a85d-4bdb-b655-3b1c3064bdb7}" />
+    <AppModuleComponent type="60" id="{470ed666-f07e-48a7-b241-57e9e49925ed}" />
     <AppModuleComponent type="1" schemaName="leidos_stateaidcategory" />
+    <AppModuleComponent type="60" id="{3706dbab-6735-475a-a221-a2b9ea5e8b82}" />
+    <AppModuleComponent type="60" id="{e2f7c6d1-c3a6-4b00-bb55-e05d6ac32160}" />
     <AppModuleComponent type="1" schemaName="leidos_stateaidsubcategory" />
+    <AppModuleComponent type="60" id="{14ddf210-4dfc-4d9c-be55-9d0264618ab0}" />
+    <AppModuleComponent type="60" id="{905309af-a873-459e-897e-540f515556ec}" />
     <AppModuleComponent type="1" schemaName="leidos_strategicpriority" />
     <AppModuleComponent type="1" schemaName="leidos_supportitem" />
     <AppModuleComponent type="1" schemaName="task" />
