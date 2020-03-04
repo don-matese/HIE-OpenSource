@@ -74,18 +74,6 @@
                 <label description="" languagecode="1033" />
               </labels>
             </cell>
-            <cell id="{a3c1714c-069d-8296-1c19-a6186c2a6a22}" showlabel="true" locklevel="0">
-              <labels>
-                <label description="Parent Account" languagecode="1033" />
-              </labels>
-              <control id="header_leidos_parentaccount" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_parentaccount" disabled="false" />
-            </cell>
-            <cell id="{3b4b89a3-a718-4304-852b-6e62a2bd57e0}" showlabel="true" locklevel="0">
-              <labels>
-                <label description="Parent Application" languagecode="1033" />
-              </labels>
-              <control id="header_leidos_parentapplication" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_parentapplication" disabled="false" />
-            </cell>
             <cell id="{0666a0a3-d7a2-73c6-137b-9bd739dcb74a}" showlabel="true" locklevel="0">
               <labels>
                 <label description="Status Reason" languagecode="1033" />

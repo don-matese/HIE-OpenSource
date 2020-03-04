@@ -7,6 +7,7 @@
     <RolePrivilege name="prvAppendAccount" level="Basic" />
     <RolePrivilege name="prvAppendActionCard" level="Basic" />
     <RolePrivilege name="prvAppendActivity" level="Basic" />
+    <RolePrivilege name="prvAppendadx_invitation" level="Global" />
     <RolePrivilege name="prvAppendChannelPropertyGroup" level="Global" />
     <RolePrivilege name="prvAppendConnection" level="Global" />
     <RolePrivilege name="prvAppendContact" level="Basic" />
@@ -72,6 +73,7 @@
     <RolePrivilege name="prvAppendToAccount" level="Basic" />
     <RolePrivilege name="prvAppendToActionCard" level="Global" />
     <RolePrivilege name="prvAppendToActivity" level="Basic" />
+    <RolePrivilege name="prvAppendToadx_invitation" level="Global" />
     <RolePrivilege name="prvAppendToAsyncOperation" level="Basic" />
     <RolePrivilege name="prvAppendToChannelPropertyGroup" level="Global" />
     <RolePrivilege name="prvAppendToConnection" level="Global" />
@@ -196,6 +198,7 @@
     <RolePrivilege name="prvCreateActionCard" level="Basic" />
     <RolePrivilege name="prvCreateActionCardUserSettings" level="Basic" />
     <RolePrivilege name="prvCreateActivity" level="Basic" />
+    <RolePrivilege name="prvCreateadx_invitation" level="Global" />
     <RolePrivilege name="prvCreateCallbackRegistration" level="Basic" />
     <RolePrivilege name="prvCreateConnection" level="Basic" />
     <RolePrivilege name="prvCreateContact" level="Basic" />
@@ -291,6 +294,7 @@
     <RolePrivilege name="prvReadActionCard" level="Basic" />
     <RolePrivilege name="prvReadActionCardUserSettings" level="Basic" />
     <RolePrivilege name="prvReadActivity" level="Basic" />
+    <RolePrivilege name="prvReadadx_invitation" level="Global" />
     <RolePrivilege name="prvReadAppConfigMaster" level="Global" />
     <RolePrivilege name="prvReadApplicationFile" level="Global" />
     <RolePrivilege name="prvReadAppModule" level="Global" />
@@ -477,6 +481,7 @@
     <RolePrivilege name="prvWriteActionCard" level="Basic" />
     <RolePrivilege name="prvWriteActionCardUserSettings" level="Basic" />
     <RolePrivilege name="prvWriteActivity" level="Basic" />
+    <RolePrivilege name="prvWriteadx_invitation" level="Global" />
     <RolePrivilege name="prvWriteAsyncOperation" level="Basic" />
     <RolePrivilege name="prvWriteCallbackRegistration" level="Basic" />
     <RolePrivilege name="prvWriteConnection" level="Global" />

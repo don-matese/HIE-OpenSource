@@ -12,7 +12,6 @@
         <row name="result" id="leidos_tradinggeographyid">
           <cell name="leidos_name" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
           <cell name="leidos_geography" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
-          <cell name="leidos_parentaccount" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
           <cell name="leidos_percentageofsales" width="100" />
           <cell name="leidos_exportladder" width="100" />
           <cell name="leidos_markets" width="100" />
@@ -33,7 +32,6 @@
           </filter>
           <attribute name="statuscode" />
           <attribute name="leidos_percentageofsales" />
-          <attribute name="leidos_parentaccount" />
           <attribute name="leidos_markets" />
           <attribute name="leidos_geography" />
           <attribute name="leidos_exportladder" />
