@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Workflow WorkflowId="{e2041a46-2f48-ea11-a812-000d3a0ba151}" Name="Business Review - Flow - On Submitted" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <JsonFileName>/Workflows/BusinessReview-Flow-OnSubmitted-E2041A46-2F48-EA11-A812-000D3A0BA151.json</JsonFileName>
+<Workflow WorkflowId="{e2041a46-2f48-ea11-a812-000d3a0ba151}" Name="AM Client Plan- Flow - On Submitted" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <JsonFileName>/Workflows/AMClientPlan-Flow-OnSubmitted-E2041A46-2F48-EA11-A812-000D3A0BA151.json</JsonFileName>
   <Type>1</Type>
   <Subprocess>0</Subprocess>
   <Category>5</Category>
@@ -20,6 +20,6 @@
   <BusinessProcessType>0</BusinessProcessType>
   <PrimaryEntity>none</PrimaryEntity>
   <LocalizedNames>
-    <LocalizedName languagecode="1033" description="Business Review - Flow - On Submitted" />
+    <LocalizedName languagecode="1033" description="AM Client Plan- Flow - On Submitted" />
   </LocalizedNames>
 </Workflow>

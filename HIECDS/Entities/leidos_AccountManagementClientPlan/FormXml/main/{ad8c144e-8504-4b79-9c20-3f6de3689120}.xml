@@ -211,8 +211,8 @@
                         <control id="Subgrid_2" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
                           <parameters>
                             <TargetEntityType>leidos_clientplanreviewresponse</TargetEntityType>
-                            <ViewId>{152BA479-93F2-492D-84BA-A29D3A6E948B}</ViewId>
-                            <ViewIds>{152BA479-93F2-492D-84BA-A29D3A6E948B}</ViewIds>
+                            <ViewId>{24A07AB0-235E-EA11-A811-000D3A0BAD17}</ViewId>
+                            <ViewIds>{152BA479-93F2-492D-84BA-A29D3A6E948B},{24A07AB0-235E-EA11-A811-000D3A0BAD17}</ViewIds>
                             <EnableViewPicker>false</EnableViewPicker>
                             <RelationshipName>leidos_leidos_clientplanreviewresponse_le</RelationshipName>
                           </parameters>

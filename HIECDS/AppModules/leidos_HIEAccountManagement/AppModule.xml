@@ -27,10 +27,10 @@
     <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001031}" />
     <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001001}" />
     <AppModuleComponent type="26" id="{217061e1-853e-ea11-a812-000d3a0bad17}" />
+    <AppModuleComponent type="1" schemaName="leidos_accountmanagementclientplan" />
     <AppModuleComponent type="1" schemaName="leidos_accountmanagementrecord" />
     <AppModuleComponent type="60" id="{91234d33-ba89-4316-8c8d-4b4cd2367fba}" />
     <AppModuleComponent type="60" id="{a8dceb95-946f-4816-a956-79313fc809e6}" />
-    <AppModuleComponent type="1" schemaName="leidos_businessreviewactionplan" />
     <AppModuleComponent type="1" schemaName="activitypointer" />
     <AppModuleComponent type="1" schemaName="leidos_anticipatedspendprofile" />
     <AppModuleComponent type="1" schemaName="leidos_application" />
@@ -43,13 +43,13 @@
     <AppModuleComponent type="1" schemaName="leidos_bpf_businessreview" />
     <AppModuleComponent type="1" schemaName="leidos_bpfamrdirectcreation" />
     <AppModuleComponent type="1" schemaName="leidos_bpfaccountprocess" />
-    <AppModuleComponent type="1" schemaName="leidos_businessreview" />
-    <AppModuleComponent type="1" schemaName="leidos_businessreviewquestion" />
-    <AppModuleComponent type="1" schemaName="leidos_businessreviewquestioncategory" />
-    <AppModuleComponent type="1" schemaName="leidos_businessreviewanswers" />
-    <AppModuleComponent type="1" schemaName="leidos_businessreviewsummary" />
     <AppModuleComponent type="1" schemaName="leidos_categorynatureofenquiry" />
+    <AppModuleComponent type="1" schemaName="leidos_clientactionplan" />
     <AppModuleComponent type="1" schemaName="leidos_clientenquiryorigin" />
+    <AppModuleComponent type="1" schemaName="leidos_clientplanquestion" />
+    <AppModuleComponent type="1" schemaName="leidos_clientplanquestioncategory" />
+    <AppModuleComponent type="1" schemaName="leidos_clientplanreviewresponse" />
+    <AppModuleComponent type="1" schemaName="leidos_clientplansummary" />
     <AppModuleComponent type="1" schemaName="contact" />
     <AppModuleComponent type="60" id="{29de27bc-a257-4f29-99cf-bab4a84e688f}" />
     <AppModuleComponent type="60" id="{661157fe-2fc9-4eaa-835f-5bfa2f7b64f7}" />
