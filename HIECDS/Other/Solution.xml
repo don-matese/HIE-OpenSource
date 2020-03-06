@@ -108,6 +108,8 @@
       <RootComponent type="1" schemaName="leidos_financialyear" behavior="0" />
       <RootComponent type="1" schemaName="leidos_funddetail" behavior="0" />
       <RootComponent type="1" schemaName="leidos_fundingsource" behavior="0" />
+      <RootComponent type="1" schemaName="leidos_fundingsourceprivate" behavior="0" />
+      <RootComponent type="1" schemaName="leidos_fundingsourcepublic" behavior="0" />
       <RootComponent type="1" schemaName="leidos_geographies" behavior="0" />
       <RootComponent type="1" schemaName="leidos_legalentity" behavior="0" />
       <RootComponent type="1" schemaName="leidos_natureofenquiry" behavior="0" />
