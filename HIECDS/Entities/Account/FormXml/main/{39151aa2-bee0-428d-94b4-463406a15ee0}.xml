@@ -787,29 +787,6 @@
           <columns>
             <column width="100%">
               <sections>
-                <section name="ActionPlans" id="41953154-652b-46ae-8628-ee9efd49d795" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
-                  <labels>
-                    <label description="Action Plans" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell showlabel="false" locklevel="0" id="{fd737178-d35d-40a0-8470-d421b628a1e2}" rowspan="1" colspan="1">
-                        <labels>
-                          <label description="New SG control 1581933764648" languagecode="1033" />
-                        </labels>
-                        <control id="Subgrid_1" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
-                          <parameters>
-                            <TargetEntityType>leidos_businessreviewactionplan</TargetEntityType>
-                            <ViewId>{A90D8151-6E51-EA11-A813-000D3A7F1BBB}</ViewId>
-                            <ViewIds>{6522E35E-3B01-4685-9B36-07E25D3C1014},{A90D8151-6E51-EA11-A813-000D3A7F1BBB}</ViewIds>
-                            <EnableViewPicker>false</EnableViewPicker>
-                            <RelationshipName>leidos_BusinessReviewActionPlan_ParentAcc</RelationshipName>
-                          </parameters>
-                        </control>
-                      </cell>
-                    </row>
-                  </rows>
-                </section>
                 <section name="ActiveProjects" id="7f278a9d-5016-4336-8b3e-ed13ed2c8235" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
                   <labels>
                     <label description="Active Projects" languagecode="1033" />
@@ -1310,6 +1287,11 @@
               <Title LCID="1033" Text="Business Reviews" />
             </Titles>
           </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="msa_account_managingpartner" Sequence="1004" Area="Service" Id="nav_msa_account_managingpartner">
+            <Titles>
+              <Title LCID="1033" Text="Managed Accounts" />
+            </Titles>
+          </NavBarByRelationshipItem>
           <NavBarByRelationshipItem RelationshipName="leidos_Account_leidos_SupportItem" Sequence="1004" Area="Sales" Id="nav_leidos_Account_leidos_SupportItem" Show="false">
             <Titles>
               <Title LCID="1033" Text="Support Items" />
@@ -1318,11 +1300,6 @@
           <NavBarByRelationshipItem RelationshipName="msa_contact_managingpartner" Sequence="1005" Area="Service" Id="nav_msa_contact_managingpartner">
             <Titles>
               <Title LCID="1033" Text="Managed Contacts" />
-            </Titles>
-          </NavBarByRelationshipItem>
-          <NavBarByRelationshipItem RelationshipName="msa_account_managingpartner" Sequence="1004" Area="Service" Id="nav_msa_account_managingpartner">
-            <Titles>
-              <Title LCID="1033" Text="Managed Accounts" />
             </Titles>
           </NavBarByRelationshipItem>
           <NavBarByRelationshipItem RelationshipName="bpf_account_leidos_bpfaccountprocess" Sequence="1005" Area="Service" Id="nav_bpf_account_leidos_bpfaccountprocess">

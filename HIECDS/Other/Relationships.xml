@@ -13,7 +13,6 @@
   <EntityRelationship Name="business_unit_leidos_anticipatedspendprofile" />
   <EntityRelationship Name="business_unit_leidos_application" />
   <EntityRelationship Name="business_unit_leidos_applicationanswer" />
-  <EntityRelationship Name="business_unit_leidos_businessreviewactionplan" />
   <EntityRelationship Name="business_unit_leidos_clientactionplan" />
   <EntityRelationship Name="business_unit_leidos_clientplanreviewresponse" />
   <EntityRelationship Name="business_unit_leidos_clientplansummary" />
@@ -60,11 +59,7 @@
   <EntityRelationship Name="leidos_BusinessReview_AccountManagementRe_leidos_accountmanagementclientplan" />
   <EntityRelationship Name="leidos_BusinessReview_FinancialYear_leido_leidos_accountmanagementclientplan" />
   <EntityRelationship Name="leidos_BusinessReview_RelatedAccount_Acco_leidos_accountmanagementclientplan" />
-  <EntityRelationship Name="leidos_BusinessReviewActionPlan_ParentAcc" />
   <EntityRelationship Name="leidos_BusinessReviewActionPlan_ParentAcc_leidos_clientactionplan" />
-  <EntityRelationship Name="leidos_BusinessReviewActionPlan_ParentBus" />
-  <EntityRelationship Name="leidos_BusinessReviewActionPlan_ParentRev" />
-  <EntityRelationship Name="leidos_BusinessReviewActionPlan_Project_l" />
   <EntityRelationship Name="leidos_BusinessReviewActionPlan_Project_l_leidos_clientactionplan" />
   <EntityRelationship Name="leidos_ClientActionPlan_ParentClientPlan_" />
   <EntityRelationship Name="leidos_ClientActionPlan_ParentReviewTheme" />
@@ -139,8 +134,6 @@
   <EntityRelationship Name="lk_leidos_bpfamrdirectcreation_createdby" />
   <EntityRelationship Name="lk_leidos_bpfamrdirectcreation_modifiedby" />
   <EntityRelationship Name="lk_leidos_bpfamrdirectcreation_processid" />
-  <EntityRelationship Name="lk_leidos_businessreviewactionplan_createdby" />
-  <EntityRelationship Name="lk_leidos_businessreviewactionplan_modifiedby" />
   <EntityRelationship Name="lk_leidos_categorynatureofenquiry_createdby" />
   <EntityRelationship Name="lk_leidos_categorynatureofenquiry_modifiedby" />
   <EntityRelationship Name="lk_leidos_clientactionplan_createdby" />
@@ -267,7 +260,6 @@
   <EntityRelationship Name="owner_leidos_anticipatedspendprofile" />
   <EntityRelationship Name="owner_leidos_application" />
   <EntityRelationship Name="owner_leidos_applicationanswer" />
-  <EntityRelationship Name="owner_leidos_businessreviewactionplan" />
   <EntityRelationship Name="owner_leidos_clientactionplan" />
   <EntityRelationship Name="owner_leidos_clientplanreviewresponse" />
   <EntityRelationship Name="owner_leidos_clientplansummary" />
@@ -286,7 +278,6 @@
   <EntityRelationship Name="team_leidos_anticipatedspendprofile" />
   <EntityRelationship Name="team_leidos_application" />
   <EntityRelationship Name="team_leidos_applicationanswer" />
-  <EntityRelationship Name="team_leidos_businessreviewactionplan" />
   <EntityRelationship Name="team_leidos_clientactionplan" />
   <EntityRelationship Name="team_leidos_clientplanreviewresponse" />
   <EntityRelationship Name="team_leidos_clientplansummary" />
@@ -305,7 +296,6 @@
   <EntityRelationship Name="TransactionCurrency_leidos_AnticipatedSpendProfile" />
   <EntityRelationship Name="TransactionCurrency_leidos_Application" />
   <EntityRelationship Name="TransactionCurrency_leidos_ApplicationAnswer" />
-  <EntityRelationship Name="TransactionCurrency_leidos_BusinessReviewActionPlan" />
   <EntityRelationship Name="TransactionCurrency_leidos_ClientActionPlan" />
   <EntityRelationship Name="TransactionCurrency_leidos_EmploymentDetails" />
   <EntityRelationship Name="TransactionCurrency_leidos_Project" />
@@ -318,7 +308,6 @@
   <EntityRelationship Name="user_leidos_anticipatedspendprofile" />
   <EntityRelationship Name="user_leidos_application" />
   <EntityRelationship Name="user_leidos_applicationanswer" />
-  <EntityRelationship Name="user_leidos_businessreviewactionplan" />
   <EntityRelationship Name="user_leidos_clientactionplan" />
   <EntityRelationship Name="user_leidos_clientplanreviewresponse" />
   <EntityRelationship Name="user_leidos_clientplansummary" />

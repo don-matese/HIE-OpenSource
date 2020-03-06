@@ -47,7 +47,6 @@
     <AppModuleComponent type="1" schemaName="leidos_areaoffice" />
     <AppModuleComponent type="1" schemaName="leidos_bpf_amclientplan" />
     <AppModuleComponent type="1" schemaName="new_bpfapplicationbusinessprocessflow" />
-    <AppModuleComponent type="1" schemaName="leidos_bpf_businessreview" />
     <AppModuleComponent type="1" schemaName="leidos_bpfamrdirectcreation" />
     <AppModuleComponent type="1" schemaName="leidos_bpfaccountprocess" />
     <AppModuleComponent type="1" schemaName="leidos_categorynatureofenquiry" />
