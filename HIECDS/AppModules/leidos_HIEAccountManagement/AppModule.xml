@@ -81,11 +81,7 @@
     <AppModuleComponent type="1" schemaName="leidos_financialyear" />
     <AppModuleComponent type="1" schemaName="leidos_funddetail" />
     <AppModuleComponent type="1" schemaName="leidos_fundingsource" />
-    <AppModuleComponent type="1" schemaName="leidos_fundingsourceprivate" />
-    <AppModuleComponent type="1" schemaName="leidos_fundingsourcepublic" />
     <AppModuleComponent type="1" schemaName="leidos_geographies" />
-    <AppModuleComponent type="1" schemaName="leidos_growthplanmeasure" />
-    <AppModuleComponent type="1" schemaName="leidos_growthplanresponse" />
     <AppModuleComponent type="1" schemaName="leidos_legalentity" />
     <AppModuleComponent type="1" schemaName="leidos_natureofenquiry" />
     <AppModuleComponent type="1" schemaName="leidos_numberofemployees" />
