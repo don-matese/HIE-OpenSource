@@ -79,11 +79,27 @@
                         <control id="leidos_organisationtype" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_organisationtype" disabled="false" />
                       </cell>
                     </row>
+                    <row>
+                      <cell id="{d3a2b84e-33bf-4087-be40-3f52927b26d7}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Independently Owned/Controlled?" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_independentlyownedcontrolled" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="leidos_independentlyownedcontrolled" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{91269e6e-ed8a-451a-a69b-c1bdff9de1c6}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Is The Organisation Part Of A Group" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_istheorganisationpartofagroup" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="leidos_istheorganisationpartofagroup" disabled="false" />
+                      </cell>
+                    </row>
                   </rows>
                 </section>
                 <section name="ADDRESS" showlabel="true" locklevel="0" showbar="false" id="{cc0fe06e-4b5f-4648-A62d-84d1514e1fc5}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelposition="Left" labelid="{0481adf1-9e2d-444c-ab64-766f490ae898}">
                   <labels>
-                    <label description="ADDRESS" languagecode="1033" />
+                    <label description="Trading Address" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
@@ -124,6 +140,61 @@
                           <label description="Postal Code" languagecode="1033" />
                         </labels>
                         <control id="address1_postalcode" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="address1_postalcode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e4c24ab1-205c-45dd-810b-049e93edcc98}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Is you registered address different?" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_isyouregisteredaddressdifferent" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="leidos_isyouregisteredaddressdifferent" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="RegisterAddress" id="cd632aaf-3170-4836-8d2e-28c22cd165e6" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Registered Address" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a8ad079b-1d4b-4f1a-af55-ab58171ce98b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Street 1" languagecode="1033" />
+                        </labels>
+                        <control id="address2_line1" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="address2_line1" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{381c74ef-58a5-4ff9-94e8-184add726ed3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Street 2" languagecode="1033" />
+                        </labels>
+                        <control id="address2_line2" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="address2_line2" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c75cc364-d014-4341-8644-7820e57a41e9}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Street 3" languagecode="1033" />
+                        </labels>
+                        <control id="address2_line3" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="address2_line3" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{213d6bf1-291e-4323-9f5a-26345acd784f}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="City" languagecode="1033" />
+                        </labels>
+                        <control id="address2_city" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="address2_city" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{221571fe-8ef5-43fc-8811-8c9ec36dc403}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Postal Code" languagecode="1033" />
+                        </labels>
+                        <control id="address2_postalcode" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="address2_postalcode" disabled="false" />
                       </cell>
                     </row>
                   </rows>
@@ -1219,6 +1290,66 @@
               <Title LCID="1033" Text="Enquiries" />
             </Titles>
           </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="leidos_AccountManagementRecord_ParentAcco" Sequence="1000" Area="Sales" Id="nav_leidos_AccountManagementRecord_ParentAcco">
+            <Titles>
+              <Title LCID="1033" Text="Account Management Records" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="leidos_BusinessReview_RelatedAccount_Acco_leidos_accountmanagementclientplan" Sequence="1001" Area="Sales" Id="nav_leidos_BusinessReview_RelatedAccount_Acco_leidos_accountmanagementclientplan">
+            <Titles>
+              <Title LCID="1033" Text="Account Management Client Plans" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="leidos_BusinessReviewActionPlan_ParentAcc_leidos_clientactionplan" Sequence="1002" Area="Sales" Id="nav_leidos_BusinessReviewActionPlan_ParentAcc_leidos_clientactionplan">
+            <Titles>
+              <Title LCID="1033" Text="Client Action Plans" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="leidos_BusinessReview_RelatedAccount_Acco" Sequence="1003" Area="Sales" Id="nav_leidos_BusinessReview_RelatedAccount_Acco" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Business Reviews" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="leidos_Account_leidos_SupportItem" Sequence="1004" Area="Sales" Id="nav_leidos_Account_leidos_SupportItem" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Support Items" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="msa_contact_managingpartner" Sequence="1005" Area="Service" Id="nav_msa_contact_managingpartner">
+            <Titles>
+              <Title LCID="1033" Text="Managed Contacts" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="msa_account_managingpartner" Sequence="1004" Area="Service" Id="nav_msa_account_managingpartner">
+            <Titles>
+              <Title LCID="1033" Text="Managed Accounts" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="bpf_account_leidos_bpfaccountprocess" Sequence="1005" Area="Service" Id="nav_bpf_account_leidos_bpfaccountprocess">
+            <Titles>
+              <Title LCID="1033" Text="BPF Account Process" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="adx_webrole_account" Sequence="1007" Area="Marketing" Id="nav_adx_webrole_account">
+            <Titles>
+              <Title LCID="1033" Text="Web Roles" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="adx_invitation_assigntoaccount" Sequence="1008" Area="Marketing" Id="nav_adx_invitation_assigntoaccount">
+            <Titles>
+              <Title LCID="1033" Text="Invitations" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navDocument" Sequence="1009" Area="Marketing" Id="navDocument">
+            <Titles>
+              <Title LCID="1033" Text="Documents" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="Account_SharepointDocument" Sequence="1010" Area="Marketing" Id="navSPDocuments">
+            <Titles>
+              <Title LCID="1033" Text="Documents" />
+            </Titles>
+          </NavBarByRelationshipItem>
           <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navConnections" Sequence="8502" Area="Info" Id="navConnections" Show="false">
             <Titles>
               <Title LCID="1033" Text="Connections" />
@@ -1327,6 +1458,11 @@
               <Title LCID="1028" Text="對話方塊工作階段" />
             </Titles>
           </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="leidos_BusinessReviewActionPlan_ParentAcc" Sequence="10000" Area="Info" Id="nav_leidos_BusinessReviewActionPlan_ParentAcc" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Business Review Action Plans" />
+            </Titles>
+          </NavBarByRelationshipItem>
           <NavBarByRelationshipItem RelationshipName="leidos_account_leidos_enquiry_Account" Sequence="10003" Area="Info" Id="nav_leidos_account_leidos_enquiry_Account">
             <Titles>
               <Title LCID="1033" Text="Enquiries" />
@@ -1335,61 +1471,6 @@
           <NavBarByRelationshipItem RelationshipName="leidos_Application_ParentAccount_Account" Sequence="10005" Area="Info" Id="nav_leidos_Application_ParentAccount_Account">
             <Titles>
               <Title LCID="1033" Text="Applications" />
-            </Titles>
-          </NavBarByRelationshipItem>
-          <NavBarByRelationshipItem RelationshipName="leidos_AccountManagementRecord_ParentAcco" Sequence="1000" Area="Sales" Id="nav_leidos_AccountManagementRecord_ParentAcco">
-            <Titles>
-              <Title LCID="1033" Text="Account Management Records" />
-            </Titles>
-          </NavBarByRelationshipItem>
-          <NavBarByRelationshipItem RelationshipName="leidos_BusinessReview_RelatedAccount_Acco" Sequence="1001" Area="Sales" Id="nav_leidos_BusinessReview_RelatedAccount_Acco">
-            <Titles>
-              <Title LCID="1033" Text="Business Reviews" />
-            </Titles>
-          </NavBarByRelationshipItem>
-          <NavBarByRelationshipItem RelationshipName="leidos_Account_leidos_SupportItem" Sequence="1002" Area="Sales" Id="nav_leidos_Account_leidos_SupportItem">
-            <Titles>
-              <Title LCID="1033" Text="Support Items" />
-            </Titles>
-          </NavBarByRelationshipItem>
-          <NavBarByRelationshipItem RelationshipName="msa_contact_managingpartner" Sequence="1003" Area="Service" Id="nav_msa_contact_managingpartner">
-            <Titles>
-              <Title LCID="1033" Text="Managed Contacts" />
-            </Titles>
-          </NavBarByRelationshipItem>
-          <NavBarByRelationshipItem RelationshipName="msa_account_managingpartner" Sequence="1004" Area="Service" Id="nav_msa_account_managingpartner">
-            <Titles>
-              <Title LCID="1033" Text="Managed Accounts" />
-            </Titles>
-          </NavBarByRelationshipItem>
-          <NavBarByRelationshipItem RelationshipName="bpf_account_leidos_bpfaccountprocess" Sequence="1005" Area="Service" Id="nav_bpf_account_leidos_bpfaccountprocess">
-            <Titles>
-              <Title LCID="1033" Text="BPF Account Process" />
-            </Titles>
-          </NavBarByRelationshipItem>
-          <NavBarByRelationshipItem RelationshipName="leidos_account_leidos_tradinggeography_ParentAccount" Sequence="1006" Area="Service" Id="nav_leidos_account_leidos_tradinggeography_ParentAccount">
-            <Titles>
-              <Title LCID="1033" Text="Trading Geographies" />
-            </Titles>
-          </NavBarByRelationshipItem>
-          <NavBarByRelationshipItem RelationshipName="adx_webrole_account" Sequence="1007" Area="Marketing" Id="nav_adx_webrole_account">
-            <Titles>
-              <Title LCID="1033" Text="Web Roles" />
-            </Titles>
-          </NavBarByRelationshipItem>
-          <NavBarByRelationshipItem RelationshipName="adx_invitation_assigntoaccount" Sequence="1008" Area="Marketing" Id="nav_adx_invitation_assigntoaccount">
-            <Titles>
-              <Title LCID="1033" Text="Invitations" />
-            </Titles>
-          </NavBarByRelationshipItem>
-          <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navDocument" Sequence="1009" Area="Marketing" Id="navDocument">
-            <Titles>
-              <Title LCID="1033" Text="Documents" />
-            </Titles>
-          </NavBarByRelationshipItem>
-          <NavBarByRelationshipItem RelationshipName="Account_SharepointDocument" Sequence="1010" Area="Marketing" Id="navSPDocuments">
-            <Titles>
-              <Title LCID="1033" Text="Documents" />
             </Titles>
           </NavBarByRelationshipItem>
         </NavBar>

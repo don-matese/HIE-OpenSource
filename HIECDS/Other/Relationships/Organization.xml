@@ -57,12 +57,12 @@
       </Descriptions>
     </RelationshipDescription>
   </EntityRelationship>
-  <EntityRelationship Name="organization_leidos_bpf_businessreview">
+  <EntityRelationship Name="organization_leidos_bpf_amclientplan">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IsCustomizable>1</IsCustomizable>
     <IntroducedVersion>1.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
-    <ReferencingEntityName>leidos_bpf_businessreview</ReferencingEntityName>
+    <ReferencingEntityName>leidos_bpf_amclientplan</ReferencingEntityName>
     <ReferencedEntityName>Organization</ReferencedEntityName>
     <CascadeAssign>NoCascade</CascadeAssign>
     <CascadeDelete>NoCascade</CascadeDelete>
@@ -101,63 +101,6 @@
     <IntroducedVersion>1.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
     <ReferencingEntityName>leidos_bpfamrdirectcreation</ReferencingEntityName>
-    <ReferencedEntityName>Organization</ReferencedEntityName>
-    <CascadeAssign>NoCascade</CascadeAssign>
-    <CascadeDelete>NoCascade</CascadeDelete>
-    <CascadeReparent>NoCascade</CascadeReparent>
-    <CascadeShare>NoCascade</CascadeShare>
-    <CascadeUnshare>NoCascade</CascadeUnshare>
-    <ReferencingAttributeName>OrganizationId</ReferencingAttributeName>
-    <RelationshipDescription>
-      <Descriptions>
-        <Description description="Unique identifier for the organization" languagecode="1033" />
-      </Descriptions>
-    </RelationshipDescription>
-  </EntityRelationship>
-  <EntityRelationship Name="organization_leidos_businessreviewanswers">
-    <EntityRelationshipType>OneToMany</EntityRelationshipType>
-    <IsCustomizable>1</IsCustomizable>
-    <IntroducedVersion>1.2.0.0</IntroducedVersion>
-    <IsHierarchical>0</IsHierarchical>
-    <ReferencingEntityName>leidos_BusinessReviewAnswers</ReferencingEntityName>
-    <ReferencedEntityName>Organization</ReferencedEntityName>
-    <CascadeAssign>NoCascade</CascadeAssign>
-    <CascadeDelete>NoCascade</CascadeDelete>
-    <CascadeReparent>NoCascade</CascadeReparent>
-    <CascadeShare>NoCascade</CascadeShare>
-    <CascadeUnshare>NoCascade</CascadeUnshare>
-    <ReferencingAttributeName>OrganizationId</ReferencingAttributeName>
-    <RelationshipDescription>
-      <Descriptions>
-        <Description description="Unique identifier for the organization" languagecode="1033" />
-      </Descriptions>
-    </RelationshipDescription>
-  </EntityRelationship>
-  <EntityRelationship Name="organization_leidos_businessreviewquestion">
-    <EntityRelationshipType>OneToMany</EntityRelationshipType>
-    <IsCustomizable>1</IsCustomizable>
-    <IntroducedVersion>1.2.0.0</IntroducedVersion>
-    <IsHierarchical>0</IsHierarchical>
-    <ReferencingEntityName>leidos_BusinessReviewQuestion</ReferencingEntityName>
-    <ReferencedEntityName>Organization</ReferencedEntityName>
-    <CascadeAssign>NoCascade</CascadeAssign>
-    <CascadeDelete>NoCascade</CascadeDelete>
-    <CascadeReparent>NoCascade</CascadeReparent>
-    <CascadeShare>NoCascade</CascadeShare>
-    <CascadeUnshare>NoCascade</CascadeUnshare>
-    <ReferencingAttributeName>OrganizationId</ReferencingAttributeName>
-    <RelationshipDescription>
-      <Descriptions>
-        <Description description="Unique identifier for the organization" languagecode="1033" />
-      </Descriptions>
-    </RelationshipDescription>
-  </EntityRelationship>
-  <EntityRelationship Name="organization_leidos_businessreviewquestioncategory">
-    <EntityRelationshipType>OneToMany</EntityRelationshipType>
-    <IsCustomizable>1</IsCustomizable>
-    <IntroducedVersion>1.2.0.0</IntroducedVersion>
-    <IsHierarchical>0</IsHierarchical>
-    <ReferencingEntityName>leidos_BusinessReviewQuestionCategory</ReferencingEntityName>
     <ReferencedEntityName>Organization</ReferencedEntityName>
     <CascadeAssign>NoCascade</CascadeAssign>
     <CascadeDelete>NoCascade</CascadeDelete>
@@ -348,44 +291,6 @@
     <IntroducedVersion>1.0.0.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
     <ReferencingEntityName>leidos_geographies</ReferencingEntityName>
-    <ReferencedEntityName>Organization</ReferencedEntityName>
-    <CascadeAssign>NoCascade</CascadeAssign>
-    <CascadeDelete>NoCascade</CascadeDelete>
-    <CascadeReparent>NoCascade</CascadeReparent>
-    <CascadeShare>NoCascade</CascadeShare>
-    <CascadeUnshare>NoCascade</CascadeUnshare>
-    <ReferencingAttributeName>OrganizationId</ReferencingAttributeName>
-    <RelationshipDescription>
-      <Descriptions>
-        <Description description="Unique identifier for the organization" languagecode="1033" />
-      </Descriptions>
-    </RelationshipDescription>
-  </EntityRelationship>
-  <EntityRelationship Name="organization_leidos_growthplanmeasure">
-    <EntityRelationshipType>OneToMany</EntityRelationshipType>
-    <IsCustomizable>1</IsCustomizable>
-    <IntroducedVersion>1.2.0.0</IntroducedVersion>
-    <IsHierarchical>0</IsHierarchical>
-    <ReferencingEntityName>leidos_GrowthPlanMeasure</ReferencingEntityName>
-    <ReferencedEntityName>Organization</ReferencedEntityName>
-    <CascadeAssign>NoCascade</CascadeAssign>
-    <CascadeDelete>NoCascade</CascadeDelete>
-    <CascadeReparent>NoCascade</CascadeReparent>
-    <CascadeShare>NoCascade</CascadeShare>
-    <CascadeUnshare>NoCascade</CascadeUnshare>
-    <ReferencingAttributeName>OrganizationId</ReferencingAttributeName>
-    <RelationshipDescription>
-      <Descriptions>
-        <Description description="Unique identifier for the organization" languagecode="1033" />
-      </Descriptions>
-    </RelationshipDescription>
-  </EntityRelationship>
-  <EntityRelationship Name="organization_leidos_growthplanresponse">
-    <EntityRelationshipType>OneToMany</EntityRelationshipType>
-    <IsCustomizable>1</IsCustomizable>
-    <IntroducedVersion>1.2.0.0</IntroducedVersion>
-    <IsHierarchical>0</IsHierarchical>
-    <ReferencingEntityName>leidos_GrowthPlanResponse</ReferencingEntityName>
     <ReferencedEntityName>Organization</ReferencedEntityName>
     <CascadeAssign>NoCascade</CascadeAssign>
     <CascadeDelete>NoCascade</CascadeDelete>

@@ -476,40 +476,6 @@
       </EntityRelationshipRole>
     </EntityRelationshipRoles>
   </EntityRelationship>
-  <EntityRelationship Name="leidos_leidos_businessreview_leidos_Busin">
-    <EntityRelationshipType>OneToMany</EntityRelationshipType>
-    <IsCustomizable>1</IsCustomizable>
-    <IntroducedVersion>1.2.0.1</IntroducedVersion>
-    <IsHierarchical>0</IsHierarchical>
-    <ReferencingEntityName>leidos_BusinessReview</ReferencingEntityName>
-    <ReferencedEntityName>SystemUser</ReferencedEntityName>
-    <CascadeAssign>NoCascade</CascadeAssign>
-    <CascadeDelete>RemoveLink</CascadeDelete>
-    <CascadeReparent>NoCascade</CascadeReparent>
-    <CascadeShare>NoCascade</CascadeShare>
-    <CascadeUnshare>NoCascade</CascadeUnshare>
-    <CascadeRollupView>NoCascade</CascadeRollupView>
-    <IsValidForAdvancedFind>1</IsValidForAdvancedFind>
-    <ReferencingAttributeName>leidos_BusinessPlanApprovedBy</ReferencingAttributeName>
-    <RelationshipDescription>
-      <Descriptions>
-        <Description description="" languagecode="1033" />
-      </Descriptions>
-    </RelationshipDescription>
-    <EntityRelationshipRoles>
-      <EntityRelationshipRole>
-        <NavPaneDisplayOption>UseCollectionName</NavPaneDisplayOption>
-        <NavPaneArea>Details</NavPaneArea>
-        <NavPaneOrder>10000</NavPaneOrder>
-        <NavigationPropertyName>leidos_BusinessPlanApprovedBy</NavigationPropertyName>
-        <RelationshipRoleType>1</RelationshipRoleType>
-      </EntityRelationshipRole>
-      <EntityRelationshipRole>
-        <NavigationPropertyName>leidos_leidos_businessreview_leidos_Busin</NavigationPropertyName>
-        <RelationshipRoleType>0</RelationshipRoleType>
-      </EntityRelationshipRole>
-    </EntityRelationshipRoles>
-  </EntityRelationship>
   <EntityRelationship Name="leidos_Team_TeamPrimaryContact_SystemUser">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IsCustomizable>1</IsCustomizable>
@@ -848,12 +814,12 @@
       </Descriptions>
     </RelationshipDescription>
   </EntityRelationship>
-  <EntityRelationship Name="lk_leidos_bpf_businessreview_createdby">
+  <EntityRelationship Name="lk_leidos_bpf_amclientplan_createdby">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IsCustomizable>1</IsCustomizable>
     <IntroducedVersion>1.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
-    <ReferencingEntityName>leidos_bpf_businessreview</ReferencingEntityName>
+    <ReferencingEntityName>leidos_bpf_amclientplan</ReferencingEntityName>
     <ReferencedEntityName>SystemUser</ReferencedEntityName>
     <CascadeAssign>NoCascade</CascadeAssign>
     <CascadeDelete>NoCascade</CascadeDelete>
@@ -867,12 +833,12 @@
       </Descriptions>
     </RelationshipDescription>
   </EntityRelationship>
-  <EntityRelationship Name="lk_leidos_bpf_businessreview_modifiedby">
+  <EntityRelationship Name="lk_leidos_bpf_amclientplan_modifiedby">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IsCustomizable>1</IsCustomizable>
     <IntroducedVersion>1.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
-    <ReferencingEntityName>leidos_bpf_businessreview</ReferencingEntityName>
+    <ReferencingEntityName>leidos_bpf_amclientplan</ReferencingEntityName>
     <ReferencedEntityName>SystemUser</ReferencedEntityName>
     <CascadeAssign>NoCascade</CascadeAssign>
     <CascadeDelete>NoCascade</CascadeDelete>
@@ -962,44 +928,6 @@
       </Descriptions>
     </RelationshipDescription>
   </EntityRelationship>
-  <EntityRelationship Name="lk_leidos_businessreview_createdby">
-    <EntityRelationshipType>OneToMany</EntityRelationshipType>
-    <IsCustomizable>1</IsCustomizable>
-    <IntroducedVersion>1.2.0.0</IntroducedVersion>
-    <IsHierarchical>0</IsHierarchical>
-    <ReferencingEntityName>leidos_BusinessReview</ReferencingEntityName>
-    <ReferencedEntityName>SystemUser</ReferencedEntityName>
-    <CascadeAssign>NoCascade</CascadeAssign>
-    <CascadeDelete>NoCascade</CascadeDelete>
-    <CascadeReparent>NoCascade</CascadeReparent>
-    <CascadeShare>NoCascade</CascadeShare>
-    <CascadeUnshare>NoCascade</CascadeUnshare>
-    <ReferencingAttributeName>CreatedBy</ReferencingAttributeName>
-    <RelationshipDescription>
-      <Descriptions>
-        <Description description="Unique identifier of the user who created the record." languagecode="1033" />
-      </Descriptions>
-    </RelationshipDescription>
-  </EntityRelationship>
-  <EntityRelationship Name="lk_leidos_businessreview_modifiedby">
-    <EntityRelationshipType>OneToMany</EntityRelationshipType>
-    <IsCustomizable>1</IsCustomizable>
-    <IntroducedVersion>1.2.0.0</IntroducedVersion>
-    <IsHierarchical>0</IsHierarchical>
-    <ReferencingEntityName>leidos_BusinessReview</ReferencingEntityName>
-    <ReferencedEntityName>SystemUser</ReferencedEntityName>
-    <CascadeAssign>NoCascade</CascadeAssign>
-    <CascadeDelete>NoCascade</CascadeDelete>
-    <CascadeReparent>NoCascade</CascadeReparent>
-    <CascadeShare>NoCascade</CascadeShare>
-    <CascadeUnshare>NoCascade</CascadeUnshare>
-    <ReferencingAttributeName>ModifiedBy</ReferencingAttributeName>
-    <RelationshipDescription>
-      <Descriptions>
-        <Description description="Unique identifier of the user who modified the record." languagecode="1033" />
-      </Descriptions>
-    </RelationshipDescription>
-  </EntityRelationship>
   <EntityRelationship Name="lk_leidos_businessreviewactionplan_createdby">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IsCustomizable>1</IsCustomizable>
@@ -1025,158 +953,6 @@
     <IntroducedVersion>1.2.0.1</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
     <ReferencingEntityName>leidos_BusinessReviewActionPlan</ReferencingEntityName>
-    <ReferencedEntityName>SystemUser</ReferencedEntityName>
-    <CascadeAssign>NoCascade</CascadeAssign>
-    <CascadeDelete>NoCascade</CascadeDelete>
-    <CascadeReparent>NoCascade</CascadeReparent>
-    <CascadeShare>NoCascade</CascadeShare>
-    <CascadeUnshare>NoCascade</CascadeUnshare>
-    <ReferencingAttributeName>ModifiedBy</ReferencingAttributeName>
-    <RelationshipDescription>
-      <Descriptions>
-        <Description description="Unique identifier of the user who modified the record." languagecode="1033" />
-      </Descriptions>
-    </RelationshipDescription>
-  </EntityRelationship>
-  <EntityRelationship Name="lk_leidos_businessreviewanswers_createdby">
-    <EntityRelationshipType>OneToMany</EntityRelationshipType>
-    <IsCustomizable>1</IsCustomizable>
-    <IntroducedVersion>1.2.0.0</IntroducedVersion>
-    <IsHierarchical>0</IsHierarchical>
-    <ReferencingEntityName>leidos_BusinessReviewAnswers</ReferencingEntityName>
-    <ReferencedEntityName>SystemUser</ReferencedEntityName>
-    <CascadeAssign>NoCascade</CascadeAssign>
-    <CascadeDelete>NoCascade</CascadeDelete>
-    <CascadeReparent>NoCascade</CascadeReparent>
-    <CascadeShare>NoCascade</CascadeShare>
-    <CascadeUnshare>NoCascade</CascadeUnshare>
-    <ReferencingAttributeName>CreatedBy</ReferencingAttributeName>
-    <RelationshipDescription>
-      <Descriptions>
-        <Description description="Unique identifier of the user who created the record." languagecode="1033" />
-      </Descriptions>
-    </RelationshipDescription>
-  </EntityRelationship>
-  <EntityRelationship Name="lk_leidos_businessreviewanswers_modifiedby">
-    <EntityRelationshipType>OneToMany</EntityRelationshipType>
-    <IsCustomizable>1</IsCustomizable>
-    <IntroducedVersion>1.2.0.0</IntroducedVersion>
-    <IsHierarchical>0</IsHierarchical>
-    <ReferencingEntityName>leidos_BusinessReviewAnswers</ReferencingEntityName>
-    <ReferencedEntityName>SystemUser</ReferencedEntityName>
-    <CascadeAssign>NoCascade</CascadeAssign>
-    <CascadeDelete>NoCascade</CascadeDelete>
-    <CascadeReparent>NoCascade</CascadeReparent>
-    <CascadeShare>NoCascade</CascadeShare>
-    <CascadeUnshare>NoCascade</CascadeUnshare>
-    <ReferencingAttributeName>ModifiedBy</ReferencingAttributeName>
-    <RelationshipDescription>
-      <Descriptions>
-        <Description description="Unique identifier of the user who modified the record." languagecode="1033" />
-      </Descriptions>
-    </RelationshipDescription>
-  </EntityRelationship>
-  <EntityRelationship Name="lk_leidos_businessreviewquestion_createdby">
-    <EntityRelationshipType>OneToMany</EntityRelationshipType>
-    <IsCustomizable>1</IsCustomizable>
-    <IntroducedVersion>1.2.0.0</IntroducedVersion>
-    <IsHierarchical>0</IsHierarchical>
-    <ReferencingEntityName>leidos_BusinessReviewQuestion</ReferencingEntityName>
-    <ReferencedEntityName>SystemUser</ReferencedEntityName>
-    <CascadeAssign>NoCascade</CascadeAssign>
-    <CascadeDelete>NoCascade</CascadeDelete>
-    <CascadeReparent>NoCascade</CascadeReparent>
-    <CascadeShare>NoCascade</CascadeShare>
-    <CascadeUnshare>NoCascade</CascadeUnshare>
-    <ReferencingAttributeName>CreatedBy</ReferencingAttributeName>
-    <RelationshipDescription>
-      <Descriptions>
-        <Description description="Unique identifier of the user who created the record." languagecode="1033" />
-      </Descriptions>
-    </RelationshipDescription>
-  </EntityRelationship>
-  <EntityRelationship Name="lk_leidos_businessreviewquestion_modifiedby">
-    <EntityRelationshipType>OneToMany</EntityRelationshipType>
-    <IsCustomizable>1</IsCustomizable>
-    <IntroducedVersion>1.2.0.0</IntroducedVersion>
-    <IsHierarchical>0</IsHierarchical>
-    <ReferencingEntityName>leidos_BusinessReviewQuestion</ReferencingEntityName>
-    <ReferencedEntityName>SystemUser</ReferencedEntityName>
-    <CascadeAssign>NoCascade</CascadeAssign>
-    <CascadeDelete>NoCascade</CascadeDelete>
-    <CascadeReparent>NoCascade</CascadeReparent>
-    <CascadeShare>NoCascade</CascadeShare>
-    <CascadeUnshare>NoCascade</CascadeUnshare>
-    <ReferencingAttributeName>ModifiedBy</ReferencingAttributeName>
-    <RelationshipDescription>
-      <Descriptions>
-        <Description description="Unique identifier of the user who modified the record." languagecode="1033" />
-      </Descriptions>
-    </RelationshipDescription>
-  </EntityRelationship>
-  <EntityRelationship Name="lk_leidos_businessreviewquestioncategory_createdby">
-    <EntityRelationshipType>OneToMany</EntityRelationshipType>
-    <IsCustomizable>1</IsCustomizable>
-    <IntroducedVersion>1.2.0.0</IntroducedVersion>
-    <IsHierarchical>0</IsHierarchical>
-    <ReferencingEntityName>leidos_BusinessReviewQuestionCategory</ReferencingEntityName>
-    <ReferencedEntityName>SystemUser</ReferencedEntityName>
-    <CascadeAssign>NoCascade</CascadeAssign>
-    <CascadeDelete>NoCascade</CascadeDelete>
-    <CascadeReparent>NoCascade</CascadeReparent>
-    <CascadeShare>NoCascade</CascadeShare>
-    <CascadeUnshare>NoCascade</CascadeUnshare>
-    <ReferencingAttributeName>CreatedBy</ReferencingAttributeName>
-    <RelationshipDescription>
-      <Descriptions>
-        <Description description="Unique identifier of the user who created the record." languagecode="1033" />
-      </Descriptions>
-    </RelationshipDescription>
-  </EntityRelationship>
-  <EntityRelationship Name="lk_leidos_businessreviewquestioncategory_modifiedby">
-    <EntityRelationshipType>OneToMany</EntityRelationshipType>
-    <IsCustomizable>1</IsCustomizable>
-    <IntroducedVersion>1.2.0.0</IntroducedVersion>
-    <IsHierarchical>0</IsHierarchical>
-    <ReferencingEntityName>leidos_BusinessReviewQuestionCategory</ReferencingEntityName>
-    <ReferencedEntityName>SystemUser</ReferencedEntityName>
-    <CascadeAssign>NoCascade</CascadeAssign>
-    <CascadeDelete>NoCascade</CascadeDelete>
-    <CascadeReparent>NoCascade</CascadeReparent>
-    <CascadeShare>NoCascade</CascadeShare>
-    <CascadeUnshare>NoCascade</CascadeUnshare>
-    <ReferencingAttributeName>ModifiedBy</ReferencingAttributeName>
-    <RelationshipDescription>
-      <Descriptions>
-        <Description description="Unique identifier of the user who modified the record." languagecode="1033" />
-      </Descriptions>
-    </RelationshipDescription>
-  </EntityRelationship>
-  <EntityRelationship Name="lk_leidos_businessreviewsummary_createdby">
-    <EntityRelationshipType>OneToMany</EntityRelationshipType>
-    <IsCustomizable>1</IsCustomizable>
-    <IntroducedVersion>1.2.0.0</IntroducedVersion>
-    <IsHierarchical>0</IsHierarchical>
-    <ReferencingEntityName>leidos_BusinessReviewSummary</ReferencingEntityName>
-    <ReferencedEntityName>SystemUser</ReferencedEntityName>
-    <CascadeAssign>NoCascade</CascadeAssign>
-    <CascadeDelete>NoCascade</CascadeDelete>
-    <CascadeReparent>NoCascade</CascadeReparent>
-    <CascadeShare>NoCascade</CascadeShare>
-    <CascadeUnshare>NoCascade</CascadeUnshare>
-    <ReferencingAttributeName>CreatedBy</ReferencingAttributeName>
-    <RelationshipDescription>
-      <Descriptions>
-        <Description description="Unique identifier of the user who created the record." languagecode="1033" />
-      </Descriptions>
-    </RelationshipDescription>
-  </EntityRelationship>
-  <EntityRelationship Name="lk_leidos_businessreviewsummary_modifiedby">
-    <EntityRelationshipType>OneToMany</EntityRelationshipType>
-    <IsCustomizable>1</IsCustomizable>
-    <IntroducedVersion>1.2.0.0</IntroducedVersion>
-    <IsHierarchical>0</IsHierarchical>
-    <ReferencingEntityName>leidos_BusinessReviewSummary</ReferencingEntityName>
     <ReferencedEntityName>SystemUser</ReferencedEntityName>
     <CascadeAssign>NoCascade</CascadeAssign>
     <CascadeDelete>NoCascade</CascadeDelete>
@@ -1747,82 +1523,6 @@
     <IntroducedVersion>1.0.0.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
     <ReferencingEntityName>leidos_geographies</ReferencingEntityName>
-    <ReferencedEntityName>SystemUser</ReferencedEntityName>
-    <CascadeAssign>NoCascade</CascadeAssign>
-    <CascadeDelete>NoCascade</CascadeDelete>
-    <CascadeReparent>NoCascade</CascadeReparent>
-    <CascadeShare>NoCascade</CascadeShare>
-    <CascadeUnshare>NoCascade</CascadeUnshare>
-    <ReferencingAttributeName>ModifiedBy</ReferencingAttributeName>
-    <RelationshipDescription>
-      <Descriptions>
-        <Description description="Unique identifier of the user who modified the record." languagecode="1033" />
-      </Descriptions>
-    </RelationshipDescription>
-  </EntityRelationship>
-  <EntityRelationship Name="lk_leidos_growthplanmeasure_createdby">
-    <EntityRelationshipType>OneToMany</EntityRelationshipType>
-    <IsCustomizable>1</IsCustomizable>
-    <IntroducedVersion>1.2.0.0</IntroducedVersion>
-    <IsHierarchical>0</IsHierarchical>
-    <ReferencingEntityName>leidos_GrowthPlanMeasure</ReferencingEntityName>
-    <ReferencedEntityName>SystemUser</ReferencedEntityName>
-    <CascadeAssign>NoCascade</CascadeAssign>
-    <CascadeDelete>NoCascade</CascadeDelete>
-    <CascadeReparent>NoCascade</CascadeReparent>
-    <CascadeShare>NoCascade</CascadeShare>
-    <CascadeUnshare>NoCascade</CascadeUnshare>
-    <ReferencingAttributeName>CreatedBy</ReferencingAttributeName>
-    <RelationshipDescription>
-      <Descriptions>
-        <Description description="Unique identifier of the user who created the record." languagecode="1033" />
-      </Descriptions>
-    </RelationshipDescription>
-  </EntityRelationship>
-  <EntityRelationship Name="lk_leidos_growthplanmeasure_modifiedby">
-    <EntityRelationshipType>OneToMany</EntityRelationshipType>
-    <IsCustomizable>1</IsCustomizable>
-    <IntroducedVersion>1.2.0.0</IntroducedVersion>
-    <IsHierarchical>0</IsHierarchical>
-    <ReferencingEntityName>leidos_GrowthPlanMeasure</ReferencingEntityName>
-    <ReferencedEntityName>SystemUser</ReferencedEntityName>
-    <CascadeAssign>NoCascade</CascadeAssign>
-    <CascadeDelete>NoCascade</CascadeDelete>
-    <CascadeReparent>NoCascade</CascadeReparent>
-    <CascadeShare>NoCascade</CascadeShare>
-    <CascadeUnshare>NoCascade</CascadeUnshare>
-    <ReferencingAttributeName>ModifiedBy</ReferencingAttributeName>
-    <RelationshipDescription>
-      <Descriptions>
-        <Description description="Unique identifier of the user who modified the record." languagecode="1033" />
-      </Descriptions>
-    </RelationshipDescription>
-  </EntityRelationship>
-  <EntityRelationship Name="lk_leidos_growthplanresponse_createdby">
-    <EntityRelationshipType>OneToMany</EntityRelationshipType>
-    <IsCustomizable>1</IsCustomizable>
-    <IntroducedVersion>1.2.0.0</IntroducedVersion>
-    <IsHierarchical>0</IsHierarchical>
-    <ReferencingEntityName>leidos_GrowthPlanResponse</ReferencingEntityName>
-    <ReferencedEntityName>SystemUser</ReferencedEntityName>
-    <CascadeAssign>NoCascade</CascadeAssign>
-    <CascadeDelete>NoCascade</CascadeDelete>
-    <CascadeReparent>NoCascade</CascadeReparent>
-    <CascadeShare>NoCascade</CascadeShare>
-    <CascadeUnshare>NoCascade</CascadeUnshare>
-    <ReferencingAttributeName>CreatedBy</ReferencingAttributeName>
-    <RelationshipDescription>
-      <Descriptions>
-        <Description description="Unique identifier of the user who created the record." languagecode="1033" />
-      </Descriptions>
-    </RelationshipDescription>
-  </EntityRelationship>
-  <EntityRelationship Name="lk_leidos_growthplanresponse_modifiedby">
-    <EntityRelationshipType>OneToMany</EntityRelationshipType>
-    <IsCustomizable>1</IsCustomizable>
-    <IntroducedVersion>1.2.0.0</IntroducedVersion>
-    <IsHierarchical>0</IsHierarchical>
-    <ReferencingEntityName>leidos_GrowthPlanResponse</ReferencingEntityName>
     <ReferencedEntityName>SystemUser</ReferencedEntityName>
     <CascadeAssign>NoCascade</CascadeAssign>
     <CascadeDelete>NoCascade</CascadeDelete>
@@ -2881,50 +2581,12 @@
       </Descriptions>
     </RelationshipDescription>
   </EntityRelationship>
-  <EntityRelationship Name="user_leidos_businessreview">
-    <EntityRelationshipType>OneToMany</EntityRelationshipType>
-    <IsCustomizable>1</IsCustomizable>
-    <IntroducedVersion>1.2.0.0</IntroducedVersion>
-    <IsHierarchical>0</IsHierarchical>
-    <ReferencingEntityName>leidos_BusinessReview</ReferencingEntityName>
-    <ReferencedEntityName>SystemUser</ReferencedEntityName>
-    <CascadeAssign>NoCascade</CascadeAssign>
-    <CascadeDelete>NoCascade</CascadeDelete>
-    <CascadeReparent>NoCascade</CascadeReparent>
-    <CascadeShare>NoCascade</CascadeShare>
-    <CascadeUnshare>NoCascade</CascadeUnshare>
-    <ReferencingAttributeName>OwningUser</ReferencingAttributeName>
-    <RelationshipDescription>
-      <Descriptions>
-        <Description description="Unique identifier for the user that owns the record." languagecode="1033" />
-      </Descriptions>
-    </RelationshipDescription>
-  </EntityRelationship>
   <EntityRelationship Name="user_leidos_businessreviewactionplan">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IsCustomizable>1</IsCustomizable>
     <IntroducedVersion>1.2.0.1</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
     <ReferencingEntityName>leidos_BusinessReviewActionPlan</ReferencingEntityName>
-    <ReferencedEntityName>SystemUser</ReferencedEntityName>
-    <CascadeAssign>NoCascade</CascadeAssign>
-    <CascadeDelete>NoCascade</CascadeDelete>
-    <CascadeReparent>NoCascade</CascadeReparent>
-    <CascadeShare>NoCascade</CascadeShare>
-    <CascadeUnshare>NoCascade</CascadeUnshare>
-    <ReferencingAttributeName>OwningUser</ReferencingAttributeName>
-    <RelationshipDescription>
-      <Descriptions>
-        <Description description="Unique identifier for the user that owns the record." languagecode="1033" />
-      </Descriptions>
-    </RelationshipDescription>
-  </EntityRelationship>
-  <EntityRelationship Name="user_leidos_businessreviewsummary">
-    <EntityRelationshipType>OneToMany</EntityRelationshipType>
-    <IsCustomizable>1</IsCustomizable>
-    <IntroducedVersion>1.2.0.0</IntroducedVersion>
-    <IsHierarchical>0</IsHierarchical>
-    <ReferencingEntityName>leidos_BusinessReviewSummary</ReferencingEntityName>
     <ReferencedEntityName>SystemUser</ReferencedEntityName>
     <CascadeAssign>NoCascade</CascadeAssign>
     <CascadeDelete>NoCascade</CascadeDelete>

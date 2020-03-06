@@ -738,7 +738,13 @@
         </rows>
       </footer>
       <Navigation>
-        <NavBar />
+        <NavBar>
+          <NavBarByRelationshipItem RelationshipName="leidos_leidos_tradinggeography_leidos_Par" Sequence="10000" Area="Info" Id="nav_leidos_leidos_tradinggeography_leidos_Par" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Trading Geographies" />
+            </Titles>
+          </NavBarByRelationshipItem>
+        </NavBar>
         <NavBarAreas>
           <NavBarArea Id="Info">
             <Titles>

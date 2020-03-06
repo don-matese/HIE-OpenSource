@@ -244,9 +244,9 @@
                     <row>
                       <cell id="{77373a04-83fe-468f-851b-696c8cc82260}" showlabel="true" visible="true" labelid="{f3f4b59e-3a74-4bdd-a77c-55cb30f68fe3}">
                         <labels>
-                          <label description="Link to Recommndation" languagecode="1033" />
+                          <label description="Link to Recommendation" languagecode="1033" />
                         </labels>
-                        <control id="bpf_leidos_accountmanagementrecord_leidos_bpfaccountprocess:leidos_linktorecommndation" classid="{71716b6c-711e-476c-8ab8-5d11542bfb47}" datafieldname="leidos_linktorecommndation" relationship="bpf_leidos_accountmanagementrecord_leidos_bpfaccountprocess" isrequired="false" disabled="false" />
+                        <control id="bpf_leidos_accountmanagementrecord_leidos_bpfaccountprocess:leidos_linktorecommendation" classid="{71716b6c-711e-476c-8ab8-5d11542bfb47}" datafieldname="leidos_linktorecommendation" relationship="bpf_leidos_accountmanagementrecord_leidos_bpfaccountprocess" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                   </rows>

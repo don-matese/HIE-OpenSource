@@ -103,7 +103,7 @@
       <label languagecode="1033" description="AMR End Date" />
     </steplabels>
     <steplabels id="{77373a04-83fe-468f-851b-696c8cc82260}">
-      <label languagecode="1033" description="Link to Recommndation" />
+      <label languagecode="1033" description="Link to Recommendation" />
     </steplabels>
     <steplabels id="{47206328-fdc0-424e-9354-1ad96a985aa9}">
       <label languagecode="1033" description="AMR Approval" />

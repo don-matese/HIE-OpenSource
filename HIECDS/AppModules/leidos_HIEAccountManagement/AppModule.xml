@@ -9,14 +9,13 @@
   <NavigationType>0</NavigationType>
   <AppModuleComponents>
     <AppModuleComponent type="62" schemaName="leidos_HIEAccountManagement" />
+    <AppModuleComponent type="29" id="{da4d26e6-a960-4648-90bf-1d96a447f5dd}" />
     <AppModuleComponent type="29" id="{e88b17e3-b43d-ea11-a812-000d3a0ba151}" />
-    <AppModuleComponent type="29" id="{c16d94ee-ed57-4cdb-9a03-4acdb71b288b}" />
     <AppModuleComponent type="29" id="{b563bc4d-f5d3-4d7b-8d43-2179f246d138}" />
     <AppModuleComponent type="29" id="{aacd5128-30f4-49a1-81df-9c6354153fa1}" />
     <AppModuleComponent type="29" id="{440ae705-9cfd-460b-b681-d7a6b0cb6e7e}" />
     <AppModuleComponent type="60" id="{e85f3335-ca36-ea11-a813-000d3a0bad7c}" />
     <AppModuleComponent type="1" schemaName="account" />
-    <AppModuleComponent type="60" id="{4afa4550-1f3d-ea11-a812-000d3a0bad17}" />
     <AppModuleComponent type="60" id="{c19ef749-a13e-ea11-a812-000d3a0bad17}" />
     <AppModuleComponent type="60" id="{c9e7ec2d-efca-4e4c-b3e3-f63c4bba5e4b}" />
     <AppModuleComponent type="60" id="{098ae145-1567-41ec-8398-86dbaac70c9b}" />
@@ -28,17 +27,25 @@
     <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001001}" />
     <AppModuleComponent type="26" id="{217061e1-853e-ea11-a812-000d3a0bad17}" />
     <AppModuleComponent type="1" schemaName="leidos_accountmanagementclientplan" />
+    <AppModuleComponent type="60" id="{ad8c144e-8504-4b79-9c20-3f6de3689120}" />
+    <AppModuleComponent type="60" id="{ade802f5-089a-466a-850e-f29337ca9327}" />
     <AppModuleComponent type="1" schemaName="leidos_accountmanagementrecord" />
     <AppModuleComponent type="60" id="{91234d33-ba89-4316-8c8d-4b4cd2367fba}" />
     <AppModuleComponent type="60" id="{a8dceb95-946f-4816-a956-79313fc809e6}" />
     <AppModuleComponent type="1" schemaName="activitypointer" />
     <AppModuleComponent type="1" schemaName="leidos_anticipatedspendprofile" />
+    <AppModuleComponent type="60" id="{06197ad7-eab2-402d-88dd-9e2df37e8aa6}" />
+    <AppModuleComponent type="26" id="{81503cb9-4bcb-493f-8dd0-398bb659147b}" />
+    <AppModuleComponent type="26" id="{ebc1563f-e556-ea11-a811-000d3a7f1bbb}" />
     <AppModuleComponent type="1" schemaName="leidos_application" />
+    <AppModuleComponent type="60" id="{b3f1c88e-3b70-4309-9343-50ae803be87e}" />
     <AppModuleComponent type="1" schemaName="leidos_applicationanswer" />
+    <AppModuleComponent type="60" id="{483e21be-f9a5-42bf-b980-10ed1d9aaaae}" />
     <AppModuleComponent type="1" schemaName="leidos_applicationquestion" />
     <AppModuleComponent type="1" schemaName="leidos_applicationquestiontypes" />
     <AppModuleComponent type="1" schemaName="appointment" />
     <AppModuleComponent type="1" schemaName="leidos_areaoffice" />
+    <AppModuleComponent type="1" schemaName="leidos_bpf_amclientplan" />
     <AppModuleComponent type="1" schemaName="new_bpfapplicationbusinessprocessflow" />
     <AppModuleComponent type="1" schemaName="leidos_bpf_businessreview" />
     <AppModuleComponent type="1" schemaName="leidos_bpfamrdirectcreation" />
@@ -64,6 +71,8 @@
     <AppModuleComponent type="60" id="{898bd476-4331-4ecb-87b7-8d8c52e9cdfd}" />
     <AppModuleComponent type="60" id="{7e270050-4538-ea11-a813-000d3a0ba110}" />
     <AppModuleComponent type="60" id="{d8546885-3039-ea11-a813-000d3a0ba151}" />
+    <AppModuleComponent type="26" id="{59220721-d2ba-4980-867e-ad785aca299f}" />
+    <AppModuleComponent type="26" id="{9e09da59-c736-ea11-a813-000d3a0bad7c}" />
     <AppModuleComponent type="59" id="{85b0ad9b-c736-ea11-a813-000d3a0bad7c}" />
     <AppModuleComponent type="59" id="{0484260c-c736-ea11-a813-000d3a0bad7c}" />
     <AppModuleComponent type="59" id="{583d3d2f-ed36-ea11-a813-000d3a0bad7c}" />
@@ -87,9 +96,15 @@
     <AppModuleComponent type="60" id="{7717772f-f197-4fc7-b32f-82b63b9c74c8}" />
     <AppModuleComponent type="1" schemaName="leidos_projectactivity" />
     <AppModuleComponent type="1" schemaName="leidos_projectcost" />
+    <AppModuleComponent type="26" id="{ee1c9db8-d142-46b2-9401-acc6b4881aec}" />
+    <AppModuleComponent type="26" id="{957dcd2a-e956-ea11-a811-000d3a7f1bbb}" />
     <AppModuleComponent type="1" schemaName="leidos_projectcostcategory" />
     <AppModuleComponent type="1" schemaName="leidos_projectfunding" />
+    <AppModuleComponent type="26" id="{a04a55e0-5dca-4453-9399-8c81a6f9ba2c}" />
+    <AppModuleComponent type="26" id="{e180c04e-e956-ea11-a811-000d3a7f1bbb}" />
     <AppModuleComponent type="1" schemaName="leidos_projectmeasure" />
+    <AppModuleComponent type="26" id="{cf0c768a-5b6e-435a-8c17-8cc00d542333}" />
+    <AppModuleComponent type="26" id="{bc0bd59c-c457-ea11-a811-000d3a7f1bbb}" />
     <AppModuleComponent type="1" schemaName="leidos_projectoutcome" />
     <AppModuleComponent type="1" schemaName="leidos_projectoutput" />
     <AppModuleComponent type="1" schemaName="leidos_segmentation" />
@@ -118,8 +133,29 @@
     <AppModuleComponent type="1" schemaName="systemuser" />
     <AppModuleComponent type="60" id="{e365bd18-0c3d-ea11-a812-000d3a0bad17}" />
     <AppModuleComponent type="60" id="{ea38a0f6-dd40-ea11-a812-000d3a0bad17}" />
+    <AppModuleComponent type="26" id="{dbb8e4e1-fd3c-ea11-a812-000d3a0ba151}" />
+    <AppModuleComponent type="26" id="{aba981c9-16a2-4dcc-b694-376ae95fa4b0}" />
+    <AppModuleComponent type="26" id="{862c3cbf-23ff-4eab-b9a9-7b438bac70a9}" />
+    <AppModuleComponent type="26" id="{51af2f40-36bb-4198-9b0c-71a986c7c953}" />
+    <AppModuleComponent type="26" id="{f79ad170-ae03-4f4c-8132-d4aa08520a0c}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001119}" />
+    <AppModuleComponent type="26" id="{5953249b-2a59-43bf-a94f-6b8cc1f2d245}" />
     <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001019}" />
+    <AppModuleComponent type="26" id="{37ace280-844d-ea11-a812-000d3a0bad17}" />
+    <AppModuleComponent type="26" id="{da675923-da9d-4702-aad6-3207283a5ace}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001020}" />
+    <AppModuleComponent type="26" id="{8dd58e14-0138-47d4-ba2d-a7dc76094d05}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001021}" />
+    <AppModuleComponent type="26" id="{80c59598-fc3c-ea11-a812-000d3a0ba151}" />
+    <AppModuleComponent type="26" id="{af89fdc8-5d83-40b4-988c-a0941579ee9d}" />
+    <AppModuleComponent type="26" id="{bb3cd580-ecfb-4a85-a623-9a109b73815f}" />
     <AppModuleComponent type="26" id="{30ce6879-6b7a-e211-8976-00155d89ac0c}" />
+    <AppModuleComponent type="26" id="{aad628c6-f0dd-4d34-b0ed-9a78f9c23a20}" />
+    <AppModuleComponent type="26" id="{e88ca999-0b16-4ae9-b6a9-9edc840d42d8}" />
+    <AppModuleComponent type="26" id="{e5d893d1-2b1f-46e5-8ea4-25562567ccce}" />
+    <AppModuleComponent type="26" id="{31e76b45-bfe7-447e-b4b5-50dc393bcdbe}" />
+    <AppModuleComponent type="26" id="{fcf02d37-524a-4332-8ac7-497ef6b739f9}" />
+    <AppModuleComponent type="26" id="{89939d86-f073-42ba-bfc4-da7999c78825}" />
   </AppModuleComponents>
   <AppModuleRoleMaps>
     <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />

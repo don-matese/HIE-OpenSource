@@ -605,7 +605,7 @@
                     <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
                     <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
                       <Sequence DisplayName="ControlStep54">
-                        <mcwb:Control ClassId="71716b6c-711e-476c-8ab8-5d11542bfb47" ControlDisplayName="Link to Recommndation" ControlId="leidos_linktorecommndation" DataFieldName="leidos_linktorecommndation" IsSystemControl="False" IsUnbound="False" SystemStepType="0">
+                        <mcwb:Control ClassId="71716b6c-711e-476c-8ab8-5d11542bfb47" ControlDisplayName="Link to Recommendation" ControlId="leidos_linktorecommendation" DataFieldName="leidos_linktorecommendation" IsSystemControl="False" IsUnbound="False" SystemStepType="0">
                           <mcwb:Control.Parameters>
                             <InArgument x:TypeArguments="x:String">
                               <Literal x:TypeArguments="x:String" Value="" />
@@ -615,7 +615,7 @@
                       </Sequence>
                     </sco:Collection>
                     <sco:Collection x:TypeArguments="mcwo:StepLabel" x:Key="StepLabels">
-                      <mcwo:StepLabel Description="Link to Recommndation" LabelId="77373a04-83fe-468f-851b-696c8cc82260" LanguageCode="1033" />
+                      <mcwo:StepLabel Description="Link to Recommendation" LabelId="77373a04-83fe-468f-851b-696c8cc82260" LanguageCode="1033" />
                     </sco:Collection>
                     <x:String x:Key="ProcessStepId">77373a04-83fe-468f-851b-696c8cc82260</x:String>
                     <x:Boolean x:Key="IsProcessRequired">False</x:Boolean>

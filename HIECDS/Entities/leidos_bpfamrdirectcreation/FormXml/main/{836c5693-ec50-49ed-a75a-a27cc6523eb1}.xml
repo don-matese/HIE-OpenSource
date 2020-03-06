@@ -98,7 +98,7 @@
                         <labels>
                           <label description="Link to Recommndation" languagecode="1033" />
                         </labels>
-                        <control id="bpf_leidos_accountmanagementrecord_leidos_bpfamrdirectcreation:leidos_linktorecommndation" classid="{71716b6c-711e-476c-8ab8-5d11542bfb47}" datafieldname="leidos_linktorecommndation" relationship="bpf_leidos_accountmanagementrecord_leidos_bpfamrdirectcreation" isrequired="false" disabled="false" />
+                        <control id="bpf_leidos_accountmanagementrecord_leidos_bpfamrdirectcreation:leidos_linktorecommendation" classid="{71716b6c-711e-476c-8ab8-5d11542bfb47}" datafieldname="leidos_linktorecommendation" relationship="bpf_leidos_accountmanagementrecord_leidos_bpfamrdirectcreation" isrequired="true" disabled="false" />
                       </cell>
                     </row>
                   </rows>

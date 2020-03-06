@@ -10,8 +10,8 @@
     <layoutxml>
       <grid name="resultset" jump="leidos_typesofjob" select="1" icon="1" preview="1">
         <row name="result" id="leidos_employmentdetailsid">
-          <cell name="a_935b321753da4daea72973dc44056480.leidos_parentaccount" width="258" />
-          <cell name="leidos_parentamrrecord" width="190" />
+          <cell name="a_5828689ce45eea11a811000d3a0bad17.leidos_relatedaccount" width="100" disableSorting="1" />
+          <cell name="leidos_parentaccountmanagementclientplan" width="100" />
           <cell name="leidos_employmentrole" width="100" />
           <cell name="leidos_noofemployeesofthattype" width="221" />
           <cell name="leidos_salaryaverageforthattype" width="204" />
@@ -23,18 +23,18 @@
     <fetchxml>
       <fetch version="1.0" mapping="logical">
         <entity name="leidos_employmentdetails">
-          <attribute name="leidos_employmentdetailsid" />
           <filter type="and">
             <condition attribute="statecode" operator="eq" value="0" />
           </filter>
           <attribute name="leidos_noofemployeesofthattype" />
           <attribute name="leidos_salaryaverageforthattype" />
           <attribute name="leidos_totalsalary" />
-          <link-entity alias="a_935b321753da4daea72973dc44056480" name="leidos_accountmanagementrecord" to="leidos_parentamrrecord" from="leidos_accountmanagementrecordid" link-type="outer" visible="false">
-            <attribute name="leidos_parentaccount" />
-          </link-entity>
-          <attribute name="leidos_parentamrrecord" />
           <attribute name="leidos_employmentrole" />
+          <link-entity alias="a_5828689ce45eea11a811000d3a0bad17" name="leidos_accountmanagementclientplan" from="leidos_accountmanagementclientplanid" to="leidos_parentaccountmanagementclientplan" link-type="outer" visible="false">
+            <attribute name="leidos_relatedaccount" />
+          </link-entity>
+          <attribute name="leidos_parentaccountmanagementclientplan" />
+          <attribute name="leidos_employmentdetailsid" />
         </entity>
       </fetch>
     </fetchxml>

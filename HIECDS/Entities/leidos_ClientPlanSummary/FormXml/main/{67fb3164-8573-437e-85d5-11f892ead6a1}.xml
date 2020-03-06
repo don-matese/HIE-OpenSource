@@ -36,7 +36,7 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{15f098b0-3615-49fc-9815-320897f59cac}" showlabel="true" locklevel="0">
+                      <cell id="{f0222441-7e88-4163-8e72-b6b687828ef0}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Category Average" languagecode="1033" />
                         </labels>
@@ -144,6 +144,36 @@
           </row>
         </rows>
       </footer>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
       <DisplayConditions Order="0" FallbackForm="true" />
     </form>
     <IsCustomizable>1</IsCustomizable>

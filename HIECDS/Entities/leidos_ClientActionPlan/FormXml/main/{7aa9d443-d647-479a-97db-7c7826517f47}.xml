@@ -20,11 +20,11 @@
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{b3a16d30-8ca1-4114-99b6-5a8162d6af89}">
+                      <cell id="{e7d8a41e-d0b4-4421-a5b4-434939ad9771}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Name" languagecode="1033" />
+                          <label description="Parent Client Plan" languagecode="1033" />
                         </labels>
-                        <control id="leidos_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="leidos_name" />
+                        <control id="leidos_parentclientplan" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_parentclientplan" disabled="false" />
                       </cell>
                       <cell showlabel="false" locklevel="0" id="{1a0420aa-3526-4a6d-93e1-9ebe8ea05fd9}" auto="false">
                         <labels>
@@ -39,11 +39,23 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{e7d8a41e-d0b4-4421-a5b4-434939ad9771}" showlabel="true" locklevel="0">
+                      <cell id="{c1dc62b7-b61c-42b3-b3c5-fc73749225ad}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Parent Client Plan" languagecode="1033" />
+                          <label description="Parent Review Theme" languagecode="1033" />
                         </labels>
-                        <control id="leidos_parentclientplan" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_parentclientplan" disabled="false" />
+                        <control id="leidos_parentreviewtheme" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_parentreviewtheme" disabled="false" uniqueid="{92a1be36-9e37-6bc7-52b9-8259212e2286}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>true</DisableViewPicker>
+                            <DefaultViewId>{F32B54B8-3566-4FAA-B415-06F65ACE8DD3}</DefaultViewId>
+                            <FilterRelationshipName>leidos_leidos_clientplansummary_leidos_Pa</FilterRelationshipName>
+                            <DependentAttributeName>leidos_clientactionplan.leidos_parentclientplan</DependentAttributeName>
+                            <DependentAttributeType>leidos_accountmanagementclientplan</DependentAttributeType>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
                       </cell>
                       <cell showlabel="true" locklevel="0" id="{a32158d2-e8a9-4929-8893-ae7daf0c6630}">
                         <labels>
@@ -52,11 +64,10 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{c1dc62b7-b61c-42b3-b3c5-fc73749225ad}" showlabel="true" locklevel="0">
+                      <cell showlabel="true" locklevel="0" id="{19aa7271-e0ba-4a89-b0bd-7409830b443a}">
                         <labels>
-                          <label description="Parent Review Theme" languagecode="1033" />
+                          <label description="" languagecode="1033" />
                         </labels>
-                        <control id="leidos_parentreviewtheme" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_parentreviewtheme" disabled="false" />
                       </cell>
                       <cell showlabel="true" locklevel="0" id="{a536d682-70d0-4ab1-97b0-9a7bb93267c5}">
                         <labels>
@@ -167,6 +178,12 @@
                 <label description="" languagecode="1033" />
               </labels>
             </cell>
+            <cell id="{b3a16d30-8ca1-4114-99b6-5a8162d6af89}">
+              <labels>
+                <label description="Name" languagecode="1033" />
+              </labels>
+              <control id="header_leidos_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="leidos_name" disabled="true" />
+            </cell>
             <cell id="{4c7b3f3b-66ff-464d-b743-0c28fd98f54f}" showlabel="true" locklevel="0">
               <labels>
                 <label description="Parent Account" languagecode="1033" />
@@ -204,7 +221,7 @@
         </rows>
       </footer>
       <Navigation>
-        <NavBar></NavBar>
+        <NavBar />
         <NavBarAreas>
           <NavBarArea Id="Info">
             <Titles>
@@ -233,6 +250,7 @@
           </NavBarArea>
         </NavBarAreas>
       </Navigation>
+      <controlDescriptions />
       <DisplayConditions Order="0" FallbackForm="true" />
     </form>
     <IsCustomizable>1</IsCustomizable>
