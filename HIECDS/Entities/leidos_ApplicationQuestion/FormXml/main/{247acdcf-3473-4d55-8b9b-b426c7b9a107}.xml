@@ -44,6 +44,14 @@
                       </cell>
                     </row>
                     <row>
+                      <cell id="{6c2da68e-ef57-4ada-ab27-8d296a7151da}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Regex Validation" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_regexvalidation" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="leidos_regexvalidation" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
                       <cell showlabel="false" locklevel="0" id="{462f3c43-dbd6-4de0-90e1-134d617141e8}" rowspan="1" colspan="1">
                         <labels>
                           <label description="New SG control 1582800598632" languagecode="1033" />

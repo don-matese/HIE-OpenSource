@@ -10,7 +10,7 @@
     <layoutxml>
       <grid name="resultset" jump="leidos_name" select="1" icon="1" preview="1">
         <row name="result" id="leidos_applicationanswerid">
-          <cell name="leidos_name" width="300" />
+          <cell name="a_8eb478e0e9a6402aab7db6d2c8f5a682.leidos_questionfulltext" width="300" />
           <cell name="leidos_answernumber" width="300" />
         </row>
       </grid>
@@ -19,9 +19,7 @@
     <fetchxml>
       <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
         <entity name="leidos_applicationanswer">
-          <attribute name="leidos_name" />
           <attribute name="leidos_answernumber" />
-          <order attribute="leidos_name" descending="false" />
           <filter type="and">
             <condition attribute="statecode" operator="eq" value="0" />
           </filter>
@@ -33,6 +31,9 @@
             </link-entity>
           </link-entity>
           <attribute name="leidos_applicationanswerid" />
+          <link-entity alias="a_8eb478e0e9a6402aab7db6d2c8f5a682" name="leidos_applicationquestion" to="leidos_question" from="leidos_applicationquestionid" link-type="outer" visible="false">
+            <attribute name="leidos_questionfulltext" />
+          </link-entity>
         </entity>
       </fetch>
     </fetchxml>

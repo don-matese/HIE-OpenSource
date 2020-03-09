@@ -149,6 +149,70 @@
                     </row>
                   </rows>
                 </section>
+                <section name="General_section_5" id="2d434b2b-f814-499e-a12e-7d23bb0327b3" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="111" labelwidth="115">
+                  <labels>
+                    <label description="Gender Split Of Workforce" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{bac134f3-03c9-4386-90b0-c7a471836cbe}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Workforce - Across the Organisation - Male" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_workforceacrosstheorganisationmale" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="leidos_workforceacrosstheorganisationmale" disabled="false" />
+                      </cell>
+                      <cell id="{0b1a0692-ff48-4918-b065-c8db88cb093e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Workforce - Across the Organisation - Female" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_workforceacrosstheorganisationfemale" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="leidos_workforceacrosstheorganisationfemale" disabled="false" />
+                      </cell>
+                      <cell id="{813be8ee-63c0-4c9e-b785-8f70ae8b7d06}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Workforce - Across the Organisation - Total" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_workforceacrosstheorganisationtotal" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="leidos_workforceacrosstheorganisationtotal" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1380f6cf-7bf9-4147-abea-fa404a56884f}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Workforce - Managers and Senior Officials - Male" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_workforcemanagersandseniorofficialsmale" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="leidos_workforcemanagersandseniorofficialsmale" disabled="false" />
+                      </cell>
+                      <cell id="{9cc7d34a-2e8e-4028-a3e1-52c630fd02c3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Workforce - Managers and Senior Officials - Female" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_workforcemanagersandseniorofficialsfemale" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="leidos_workforcemanagersandseniorofficialsfemale" disabled="false" />
+                      </cell>
+                      <cell id="{6e4fb2db-3445-4112-9852-76d2e5d4362d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Workforce - Managers and Senior Officials - Total" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_workforcemanagersandseniorofficialstotal" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="leidos_workforcemanagersandseniorofficialstotal" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{9f80b261-bea2-47f5-a66d-9fc3c5cdcc3a}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell showlabel="true" locklevel="0" id="{a8a7dd6c-f3f4-472e-b3b4-7219c5572eae}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell showlabel="true" locklevel="0" id="{4e045fef-de1e-44cb-9218-91fe7bce00ed}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
               </sections>
             </column>
           </columns>
@@ -196,7 +260,7 @@
                     <row />
                     <row />
                     <row />
-                    <row></row>
+                    <row />
                     <row />
                     <row />
                     <row />
@@ -267,7 +331,7 @@
                     <row />
                     <row />
                     <row />
-                    <row></row>
+                    <row />
                     <row />
                     <row />
                     <row />
@@ -459,26 +523,7 @@
                     <label description="Employee Gender Split" languagecode="1033" />
                   </labels>
                   <rows>
-                    <row>
-                      <cell id="{749f17ac-95a5-44df-b5ad-f8baa75f6213}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Employee Gender Split Male %" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_employeegendersplitmale" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="leidos_employeegendersplitmale" disabled="false" />
-                      </cell>
-                      <cell id="{85d5ae0d-8be2-4df6-ad75-982be58cfd7c}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Employee Gender Split Female %" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_employeegendersplitfemale" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="leidos_employeegendersplitfemale" disabled="false" />
-                      </cell>
-                      <cell id="{ad5e9241-f449-41b7-8cee-ebc50cf03473}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Employee Gender Split Other %" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_employeegendersplitother" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="leidos_employeegendersplitother" disabled="false" />
-                      </cell>
-                    </row>
+                    <row />
                     <row>
                       <cell showlabel="true" locklevel="0" id="{97f48b69-2532-47ea-8afe-90b91579eb24}">
                         <labels>
@@ -738,7 +783,7 @@
         </rows>
       </footer>
       <Navigation>
-        <NavBar></NavBar>
+        <NavBar />
         <NavBarAreas>
           <NavBarArea Id="Info">
             <Titles>
