@@ -13,6 +13,7 @@
           <cell name="leidos_name" width="300" />
           <cell name="leidos_parentaccount" width="100" />
           <cell name="leidos_parentapplication" width="100" />
+          <cell name="leidos_projectreference" width="100" />
           <cell name="leidos_projectedspend" width="100" />
           <cell name="leidos_supportitemtype" width="100" />
           <cell name="leidos_topslice" width="100" />
@@ -54,6 +55,7 @@
             <attribute name="statuscode" />
             <attribute name="createdon" />
           </link-entity>
+          <attribute name="leidos_projectreference" />
         </entity>
       </fetch>
     </fetchxml>

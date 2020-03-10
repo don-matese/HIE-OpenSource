@@ -11,6 +11,7 @@
       <grid name="resultset" jump="leidos_name" select="1" icon="1" preview="1">
         <row name="result" id="leidos_projectid">
           <cell name="leidos_name" width="300" />
+          <cell name="leidos_projectreference" width="100" />
           <cell name="leidos_requestedbudget" width="100" />
           <cell name="leidos_approvedbudget" width="100" />
           <cell name="leidos_projectedspend" width="100" />
@@ -42,6 +43,7 @@
           <attribute name="leidos_approvedbudget" />
           <attribute name="leidos_requestedbudget" />
           <attribute name="statuscode" />
+          <attribute name="leidos_projectreference" />
         </entity>
       </fetch>
     </fetchxml>

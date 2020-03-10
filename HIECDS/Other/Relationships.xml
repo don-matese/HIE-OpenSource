@@ -50,7 +50,9 @@
   <EntityRelationship Name="leidos_Application_DelegatedAuthority_Sys" />
   <EntityRelationship Name="leidos_Application_ISAApprovalDelegatedAu" />
   <EntityRelationship Name="leidos_Application_ParentAccount_Account" />
+  <EntityRelationship Name="leidos_Application_QualificationAchieved_" />
   <EntityRelationship Name="leidos_Application_SourceEnquiry_leidos_e" />
+  <EntityRelationship Name="leidos_Application_Whattypeofexporterarey" />
   <EntityRelationship Name="leidos_ApplicationAnswer_ParentApplicatio" />
   <EntityRelationship Name="leidos_ApplicationAnswer_Question_leidos_" />
   <EntityRelationship Name="leidos_ApplicationQuestion_leidos_Support" />
@@ -196,6 +198,8 @@
   <EntityRelationship Name="lk_leidos_projectoutcome_modifiedby" />
   <EntityRelationship Name="lk_leidos_projectoutput_createdby" />
   <EntityRelationship Name="lk_leidos_projectoutput_modifiedby" />
+  <EntityRelationship Name="lk_leidos_qualification_createdby" />
+  <EntityRelationship Name="lk_leidos_qualification_modifiedby" />
   <EntityRelationship Name="lk_leidos_segmentation_createdby" />
   <EntityRelationship Name="lk_leidos_segmentation_modifiedby" />
   <EntityRelationship Name="lk_leidos_stateaidassessment_createdby" />
@@ -218,6 +222,8 @@
   <EntityRelationship Name="lk_leidos_turnover_modifiedby" />
   <EntityRelationship Name="lk_leidos_typeofassistancerequestedfromhie_createdby" />
   <EntityRelationship Name="lk_leidos_typeofassistancerequestedfromhie_modifiedby" />
+  <EntityRelationship Name="lk_leidos_typeofexporter_createdby" />
+  <EntityRelationship Name="lk_leidos_typeofexporter_modifiedby" />
   <EntityRelationship Name="lk_new_bpfapplicationbusinessprocessflow_activestageid" />
   <EntityRelationship Name="lk_new_bpfapplicationbusinessprocessflow_createdby" />
   <EntityRelationship Name="lk_new_bpfapplicationbusinessprocessflow_modifiedby" />
@@ -252,6 +258,7 @@
   <EntityRelationship Name="organization_leidos_projectactivity" />
   <EntityRelationship Name="organization_leidos_projectcostcategory" />
   <EntityRelationship Name="organization_leidos_projectoutput" />
+  <EntityRelationship Name="organization_leidos_qualification" />
   <EntityRelationship Name="organization_leidos_segmentation" />
   <EntityRelationship Name="organization_leidos_stateaidcategory" />
   <EntityRelationship Name="organization_leidos_stateaidsubcategory" />
@@ -260,6 +267,7 @@
   <EntityRelationship Name="organization_leidos_tradingstatus" />
   <EntityRelationship Name="organization_leidos_turnover" />
   <EntityRelationship Name="organization_leidos_typeofassistancerequestedfromhie" />
+  <EntityRelationship Name="organization_leidos_typeofexporter" />
   <EntityRelationship Name="organization_new_bpfapplicationbusinessprocessflow" />
   <EntityRelationship Name="owner_leidos_accountmanagementclientplan" />
   <EntityRelationship Name="owner_leidos_accountmanagementrecord" />

@@ -9,6 +9,11 @@
       "EnvironmentVariableDefinition.SchemaName": "leidos_ClientPortalUrl",
       "EnvironmentVariableValueId": "4014f5aa-fc56-ea11-a811-000d3a7f1bbb",
       "Value": "https://hienpdevclientportal.powerappsportals.com"
+    },
+    {
+      "EnvironmentVariableDefinition.SchemaName": "leidos_SharePoint_DocSitePath",
+      "EnvironmentVariableValueId": "f9ecdb16-aa62-ea11-a811-000d3a7f1bbb",
+      "Value": "Sites/Dev"
     }
   ]
 }

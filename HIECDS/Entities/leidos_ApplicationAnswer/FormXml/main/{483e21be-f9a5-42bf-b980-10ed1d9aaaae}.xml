@@ -76,7 +76,7 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{fbf32904-139a-49ea-b097-e2433a087302}" showlabel="true" locklevel="0">
+                      <cell id="{fbf32904-139a-49ea-b097-e2433a087302}" showlabel="true" locklevel="0" visible="false">
                         <labels>
                           <label description="Two Options" languagecode="1033" />
                         </labels>

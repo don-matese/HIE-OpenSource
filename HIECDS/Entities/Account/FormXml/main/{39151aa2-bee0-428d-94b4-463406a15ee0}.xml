@@ -240,6 +240,29 @@
                     </row>
                   </rows>
                 </section>
+                <section name="section_docStorage" id="05fe4ff7-e321-4cdc-b43d-178884e897cb" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Document Storage" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{0c40852c-8807-4bce-afc9-215743d66c09}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Create Document Store" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_createdocumentstore" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="leidos_createdocumentstore" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a7a00332-a75b-42eb-8f13-702340d87c4f}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Document Store Url" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_documentstoreurl" classid="{71716B6C-711E-476C-8AB8-5D11542BFB47}" datafieldname="leidos_documentstoreurl" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
                 <section name="SOCIAL_PANE_TAB" showlabel="false" showbar="false" id="{7a073b7c-5422-2418-3d26-b2a7eb290832}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelposition="Top" locklevel="0" celllabelalignment="Left" labelid="{cda820e1-42c8-4158-9212-988ca6102a5a}">
                   <labels>
                     <label description="SOCIAL PANE" languagecode="1033" />
@@ -1010,7 +1033,7 @@
         </event>
         <event name="onchange" application="false" active="false" attribute="primarycontactid">
           <Handlers>
-            <Handler functionName="N52.Clientside.ExecuteFormulas" libraryName="north52_/javascript/n52.clientside" handlerUniqueId="9cb6c38e-fd13-4169-adee-ff0bd2e81364" enabled="true" parameters="'kDo:*:CreateUpdate::0:217890000:217890000:217890000:217890000'" passExecutionContext="true" />
+            <Handler functionName="N52.Clientside.ExecuteFormulas" libraryName="north52_/javascript/n52.clientside" handlerUniqueId="18900847-1da4-4fd6-972c-01636366fbd9" enabled="true" parameters="'kDo:*:CreateUpdate::0:217890000:217890000:217890000:217890000'" passExecutionContext="true" />
           </Handlers>
         </event>
       </events>
@@ -1700,14 +1723,14 @@
           </row>
         </rows>
       </footer>
-      <formLibraries>
-        <Library name="north52_/javascript/n52.json2" libraryUniqueId="fc85a17f-6beb-4957-b898-4d40bef95289" />
-        <Library name="north52_/javascript/n52.rest" libraryUniqueId="122b963a-76b0-4525-b661-a4c732324153" />
-        <Library name="north52_/javascript/n52.clientside" libraryUniqueId="fedc3df2-382e-423c-9a60-e66f0a6aa5b2" />
-      </formLibraries>
       <DisplayConditions FallbackForm="true" Order="4">
         <Everyone />
       </DisplayConditions>
+      <formLibraries>
+        <Library name="north52_/javascript/n52.json2" libraryUniqueId="f4d985a4-51f2-4f84-8ed7-959b81b4f5ad" />
+        <Library name="north52_/javascript/n52.rest" libraryUniqueId="17931618-bbe9-4d99-87fa-169a46933d03" />
+        <Library name="north52_/javascript/n52.clientside" libraryUniqueId="2b38ee16-a1d5-47fb-9bb8-1637855288a5" />
+      </formLibraries>
     </form>
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>

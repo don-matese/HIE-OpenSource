@@ -11,6 +11,8 @@
       <grid name="resultset" jump="leidos_name" select="1" icon="1" preview="1">
         <row name="result" id="leidos_projectid">
           <cell name="leidos_name" width="300" />
+          <cell name="leidos_projectreference" width="100" />
+          <cell name="statuscode" width="100" />
           <cell name="createdon" width="125" />
         </row>
       </grid>
@@ -26,6 +28,8 @@
           <filter type="and">
             <condition attribute="statecode" operator="eq" value="1" />
           </filter>
+          <attribute name="leidos_projectreference" />
+          <attribute name="statuscode" />
         </entity>
       </fetch>
     </fetchxml>

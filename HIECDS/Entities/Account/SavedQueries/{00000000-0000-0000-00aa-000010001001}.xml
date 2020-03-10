@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <savedquery unmodified="1">
+  <savedquery>
     <isquickfindquery>0</isquickfindquery>
     <isprivate>0</isprivate>
     <isdefault>1</isdefault>
@@ -14,6 +14,7 @@
           <cell name="address1_city" width="100" />
           <cell name="primarycontactid" width="150" />
           <cell name="accountprimarycontactidcontactcontactid.emailaddress1" width="150" disableSorting="1" />
+          <cell name="statuscode" width="100" />
         </row>
       </grid>
     </layoutxml>
@@ -34,6 +35,7 @@
           <link-entity alias="accountprimarycontactidcontactcontactid" name="contact" from="contactid" to="primarycontactid" link-type="outer" visible="false">
             <attribute name="emailaddress1" />
           </link-entity>
+          <attribute name="statuscode" />
         </entity>
       </fetch>
     </fetchxml>

@@ -39,6 +39,7 @@
     <RolePrivilege name="prvAppendleidos_ProjectMeasure" level="Global" />
     <RolePrivilege name="prvAppendleidos_ProjectOutcome" level="Global" />
     <RolePrivilege name="prvAppendleidos_ProjectOutput" level="Global" />
+    <RolePrivilege name="prvAppendleidos_Qualification" level="Global" />
     <RolePrivilege name="prvAppendleidos_Sector" level="Global" />
     <RolePrivilege name="prvAppendleidos_Segmentation" level="Global" />
     <RolePrivilege name="prvAppendleidos_StateAidAssessment" level="Global" />
@@ -48,6 +49,7 @@
     <RolePrivilege name="prvAppendleidos_tradinggeography" level="Global" />
     <RolePrivilege name="prvAppendleidos_tradingstatus" level="Global" />
     <RolePrivilege name="prvAppendleidos_Turnover" level="Global" />
+    <RolePrivilege name="prvAppendleidos_TypeofExporter" level="Global" />
     <RolePrivilege name="prvAppendMailbox" level="Basic" />
     <RolePrivilege name="prvAppendMailboxTrackingFolder" level="Basic" />
     <RolePrivilege name="prvAppendMailMergeTemplate" level="Basic" />
@@ -99,6 +101,7 @@
     <RolePrivilege name="prvAppendToleidos_ProjectMeasure" level="Global" />
     <RolePrivilege name="prvAppendToleidos_ProjectOutcome" level="Global" />
     <RolePrivilege name="prvAppendToleidos_ProjectOutput" level="Global" />
+    <RolePrivilege name="prvAppendToleidos_Qualification" level="Global" />
     <RolePrivilege name="prvAppendToleidos_Sector" level="Global" />
     <RolePrivilege name="prvAppendToleidos_Segmentation" level="Global" />
     <RolePrivilege name="prvAppendToleidos_StateAidAssessment" level="Global" />
@@ -108,6 +111,7 @@
     <RolePrivilege name="prvAppendToleidos_tradinggeography" level="Global" />
     <RolePrivilege name="prvAppendToleidos_tradingstatus" level="Global" />
     <RolePrivilege name="prvAppendToleidos_Turnover" level="Global" />
+    <RolePrivilege name="prvAppendToleidos_TypeofExporter" level="Global" />
     <RolePrivilege name="prvAppendToMailMergeTemplate" level="Basic" />
     <RolePrivilege name="prvAppendTomsdyn_flow_approval" level="Global" />
     <RolePrivilege name="prvAppendTomsdyn_flow_approvalrequest" level="Global" />
@@ -331,6 +335,7 @@
     <RolePrivilege name="prvReadleidos_ProjectMeasure" level="Global" />
     <RolePrivilege name="prvReadleidos_ProjectOutcome" level="Global" />
     <RolePrivilege name="prvReadleidos_ProjectOutput" level="Global" />
+    <RolePrivilege name="prvReadleidos_Qualification" level="Global" />
     <RolePrivilege name="prvReadleidos_Sector" level="Global" />
     <RolePrivilege name="prvReadleidos_Segmentation" level="Global" />
     <RolePrivilege name="prvReadleidos_StateAidAssessment" level="Global" />
@@ -340,6 +345,7 @@
     <RolePrivilege name="prvReadleidos_tradinggeography" level="Global" />
     <RolePrivilege name="prvReadleidos_tradingstatus" level="Global" />
     <RolePrivilege name="prvReadleidos_Turnover" level="Global" />
+    <RolePrivilege name="prvReadleidos_TypeofExporter" level="Global" />
     <RolePrivilege name="prvReadLicense" level="Global" />
     <RolePrivilege name="prvReadMailbox" level="Basic" />
     <RolePrivilege name="prvReadMailboxTrackingFolder" level="Basic" />

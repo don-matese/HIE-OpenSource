@@ -7,14 +7,14 @@
     <FormActivationState>1</FormActivationState>
     <form headerdensity="HighWithControls">
       <tabs>
-        <tab verticallayout="true" id="{97f7bb7f-e248-48e0-987c-475c9ad0bb44}" IsUserDefined="1">
+        <tab verticallayout="true" id="{97f7bb7f-e248-48e0-987c-475c9ad0bb44}" IsUserDefined="1" name="General">
           <labels>
             <label description="General" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showlabel="false" showbar="false" IsUserDefined="0" id="{0b7f2a02-fd74-49c3-89f4-caeff91ad382}" name="General">
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{0b7f2a02-fd74-49c3-89f4-caeff91ad382}" name="General" columns="11">
                   <labels>
                     <label description="General" languagecode="1033" />
                   </labels>
@@ -26,6 +26,12 @@
                         </labels>
                         <control id="leidos_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="leidos_name" />
                       </cell>
+                      <cell id="{2badd315-5753-4bed-8e00-08686b672f49}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Project Postcode" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_projectpostcode" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="leidos_projectpostcode" disabled="false" />
+                      </cell>
                     </row>
                     <row>
                       <cell id="{090f15a7-2968-41b9-8da2-a1eb3f5f5bc0}" showlabel="true" locklevel="0">
@@ -33,6 +39,12 @@
                           <label description="Support Item Type" languagecode="1033" />
                         </labels>
                         <control id="leidos_supportitemtype" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_supportitemtype" disabled="false" />
+                      </cell>
+                      <cell id="{c99d9000-09e9-4e16-9064-3a0201f47d49}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Project Start Date" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_projectstartdate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="leidos_projectstartdate" disabled="false" />
                       </cell>
                     </row>
                     <row>
@@ -42,6 +54,12 @@
                         </labels>
                         <control id="leidos_projectsummary" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="leidos_projectsummary" disabled="false" />
                       </cell>
+                      <cell id="{2d53d4ef-fa2d-45fb-be0d-be4ccee9a7b4}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Project Duration (Months)" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_projectdurationmonths" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="leidos_projectdurationmonths" disabled="false" />
+                      </cell>
                     </row>
                     <row>
                       <cell id="{a0dda238-5d3f-4f6f-b525-739540c63c68}" showlabel="true" locklevel="0">
@@ -49,6 +67,23 @@
                           <label description="Projected Spend" languagecode="1033" />
                         </labels>
                         <control id="leidos_projectedspend" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_projectedspend" disabled="false" />
+                      </cell>
+                      <cell showlabel="false" locklevel="0" id="{6de80a7d-88e2-477c-82dd-c075482777e8}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{7876ed38-459b-4b85-a09f-c4ead92f5e48}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell showlabel="false" locklevel="0" id="{212ce7bd-a97a-436b-b571-d4390089f242}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
                       </cell>
                     </row>
                   </rows>
@@ -80,6 +115,67 @@
                         <control id="leidos_grossgrantequivalence" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_grossgrantequivalence" disabled="false" />
                       </cell>
                       <cell id="{eebed95c-d9d9-c01b-28cb-d12b55c2ca4c}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="CostandFundingSummary" id="a1d05b91-6e84-434e-b84e-00672616f964" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="111" labelwidth="115">
+                  <labels>
+                    <label description="Cost and Funding Summary" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a8b9d8ef-6bca-42e8-a4bb-d31474e75089}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Total Costs (Calculated)" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_totalcostscalculated" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_totalcostscalculated" disabled="false" />
+                      </cell>
+                      <cell id="{03703132-9e17-43e1-bec9-9f09568b72d9}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Total Funding (Calcualted)" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_totalfundingcalcualted" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_totalfundingcalcualted" disabled="false" />
+                      </cell>
+                      <cell id="{8aa58047-c336-4a02-91e4-5e7dfbc61704}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Total Spend Profile" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_totalspendprofile" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_totalspendprofile" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{88ddb39a-50c3-46ec-8572-0d93625a42e0}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell showlabel="true" locklevel="0" id="{28253626-878a-4b27-aa97-44cbd4247250}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell showlabel="true" locklevel="0" id="{ea775f18-b85f-4c85-adb2-ac58a9724303}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{3ac156ea-9ec5-4183-ae4f-4501acc1ea48}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell showlabel="true" locklevel="0" id="{620ee126-59fa-40f7-a3e9-2bf53dd0eb89}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell showlabel="true" locklevel="0" id="{5269d4c8-6c52-44bb-a134-9d9b2b0a96b8}">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -394,7 +490,7 @@
         </rows>
       </footer>
       <Navigation>
-        <NavBar></NavBar>
+        <NavBar />
         <NavBarAreas>
           <NavBarArea Id="Info">
             <Titles>
