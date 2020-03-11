@@ -233,7 +233,7 @@
           <columns>
             <column width="100%">
               <sections>
-                <section name="tab_3_section_1" id="fb5e4c6c-b465-4d40-93d5-4b0a7f45b5db" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" height="auto">
+                <section name="tab_3_section_1" id="fb5e4c6c-b465-4d40-93d5-4b0a7f45b5db" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" height="auto">
                   <labels>
                     <label description="New Section" languagecode="1033" />
                   </labels>
@@ -755,12 +755,12 @@
                         </control>
                       </cell>
                     </row>
-                    <row></row>
-                    <row></row>
-                    <row></row>
-                    <row></row>
-                    <row></row>
-                    <row></row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
                     <row>
                       <cell id="{1426f265-5086-41ce-b249-68219ac5d7a9}" showlabel="true" locklevel="0">
                         <labels>
@@ -833,6 +833,12 @@
               </labels>
               <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
             </cell>
+            <cell id="{f8896e62-787c-4e14-9891-d771b61c6d00}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="AMCP Reference" languagecode="1033" />
+              </labels>
+              <control id="header_leidos_amcpreference" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="leidos_amcpreference" disabled="false" />
+            </cell>
           </row>
         </rows>
       </header>
@@ -860,11 +866,17 @@
               </labels>
               <control id="statuscode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statuscode" disabled="false" />
             </cell>
+            <cell id="{f9455c68-6e56-45de-9279-29d005c306dc}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Created On" languagecode="1033" />
+              </labels>
+              <control id="createdon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="false" />
+            </cell>
           </row>
         </rows>
       </footer>
       <Navigation>
-        <NavBar></NavBar>
+        <NavBar />
         <NavBarAreas>
           <NavBarArea Id="Info">
             <Titles>

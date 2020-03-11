@@ -166,10 +166,6 @@
   <EntityRelationship Name="lk_leidos_funddetail_modifiedby" />
   <EntityRelationship Name="lk_leidos_fundingsource_createdby" />
   <EntityRelationship Name="lk_leidos_fundingsource_modifiedby" />
-  <EntityRelationship Name="lk_leidos_fundingsourceprivate_createdby" />
-  <EntityRelationship Name="lk_leidos_fundingsourceprivate_modifiedby" />
-  <EntityRelationship Name="lk_leidos_fundingsourcepublic_createdby" />
-  <EntityRelationship Name="lk_leidos_fundingsourcepublic_modifiedby" />
   <EntityRelationship Name="lk_leidos_geographies_createdby" />
   <EntityRelationship Name="lk_leidos_geographies_modifiedby" />
   <EntityRelationship Name="lk_leidos_legalentity_createdby" />
@@ -247,8 +243,6 @@
   <EntityRelationship Name="organization_leidos_financialyear" />
   <EntityRelationship Name="organization_leidos_funddetail" />
   <EntityRelationship Name="organization_leidos_fundingsource" />
-  <EntityRelationship Name="organization_leidos_fundingsourceprivate" />
-  <EntityRelationship Name="organization_leidos_fundingsourcepublic" />
   <EntityRelationship Name="organization_leidos_geographies" />
   <EntityRelationship Name="organization_leidos_legalentity" />
   <EntityRelationship Name="organization_leidos_natureofenquiry" />

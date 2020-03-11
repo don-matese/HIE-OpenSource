@@ -13,7 +13,7 @@
           <cell name="leidos_name" width="25" />
           <cell name="leidos_category" width="100" />
           <cell name="a_e93facc919f44b9da41d52bddb17f80a.leidos_statement" width="300" />
-          <cell name="leidos_notes" width="100" />
+          <cell name="leidos_notes" width="206" />
           <cell name="leidos_previousratingvalue" width="100" />
           <cell name="leidos_ratingvalue" width="100" />
           <cell name="leidos_notapplicable" width="100" />

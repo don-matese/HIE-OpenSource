@@ -109,8 +109,8 @@
     <IsHierarchical>0</IsHierarchical>
     <ReferencingEntityName>leidos_AccountManagementClientPlan</ReferencingEntityName>
     <ReferencedEntityName>leidos_AccountManagementRecord</ReferencedEntityName>
-    <CascadeAssign>NoCascade</CascadeAssign>
-    <CascadeDelete>RemoveLink</CascadeDelete>
+    <CascadeAssign>UserOwned</CascadeAssign>
+    <CascadeDelete>Cascade</CascadeDelete>
     <CascadeReparent>NoCascade</CascadeReparent>
     <CascadeShare>NoCascade</CascadeShare>
     <CascadeUnshare>NoCascade</CascadeUnshare>
