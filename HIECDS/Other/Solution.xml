@@ -420,16 +420,16 @@
         <Dependent key="27" type="29" displayName="Send Email to Subscribers of Alert" id="{551026f4-906d-411d-97d2-743ddca7c19a}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="28" type="29" displayName="Send Email Two Factor Code To Contact" solution="MicrosoftIdentityWorkflows (9.2.10.0)" id="{f5ccd248-6d34-41be-b0ef-d01c890f8b0d}" />
-        <Dependent key="28" type="29" displayName="Send Email Two Factor Code To Contact" id="{f5ccd248-6d34-41be-b0ef-d01c890f8b0d}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="29" type="29" displayName="Send Password Reset To Contact" solution="MicrosoftIdentityWorkflows (9.2.10.0)" id="{64d6844a-4133-43d8-90c4-a5b4e56c11d6}" />
-        <Dependent key="29" type="29" displayName="Send Password Reset To Contact" id="{64d6844a-4133-43d8-90c4-a5b4e56c11d6}" />
+        <Required key="28" type="29" displayName="Send Password Reset To Contact" solution="MicrosoftIdentityWorkflows (9.2.10.0)" id="{64d6844a-4133-43d8-90c4-a5b4e56c11d6}" />
+        <Dependent key="28" type="29" displayName="Send Password Reset To Contact" id="{64d6844a-4133-43d8-90c4-a5b4e56c11d6}" />
       </MissingDependency>
       <MissingDependency>
         <Required key="5" type="29" displayName="Send Invitation" solution="MicrosoftCrmPortalBaseWorkflows (9.2.10.0)" id="{15c03c8d-754f-4386-a62c-cf7e91337ebd}" />
         <Dependent key="5" type="29" displayName="Send Invitation" id="{15c03c8d-754f-4386-a62c-cf7e91337ebd}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="29" type="29" displayName="Send Email Two Factor Code To Contact" solution="MicrosoftIdentityWorkflows (9.2.10.0)" id="{f5ccd248-6d34-41be-b0ef-d01c890f8b0d}" />
+        <Dependent key="29" type="29" displayName="Send Email Two Factor Code To Contact" id="{f5ccd248-6d34-41be-b0ef-d01c890f8b0d}" />
       </MissingDependency>
       <MissingDependency>
         <Required key="30" type="29" displayName="Send Email Confirmation To Contact" solution="MicrosoftIdentityWorkflows (9.2.10.0)" id="{da70a700-2cba-4fa9-b685-f703e2ecd0fa}" />

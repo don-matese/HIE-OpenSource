@@ -11,7 +11,7 @@
       <grid name="resultset" jump="leidos_question" select="1" icon="1" preview="1">
         <row name="result" id="leidos_applicationquestionid">
           <cell name="leidos_question" width="300" />
-          <cell name="createdon" width="125" />
+          <cell name="leidos_questiontype" width="100" />
         </row>
       </grid>
     </layoutxml>
@@ -21,7 +21,6 @@
         <entity name="leidos_applicationquestion">
           <attribute name="leidos_applicationquestionid" />
           <attribute name="leidos_question" />
-          <attribute name="createdon" />
           <order attribute="leidos_question" descending="false" />
           <filter type="and">
             <condition attribute="statecode" operator="eq" value="0" />
@@ -29,6 +28,7 @@
           <filter type="or" isquickfindfields="1">
             <condition attribute="leidos_question" operator="like" value="{0}" />
           </filter>
+          <attribute name="leidos_questiontype" />
         </entity>
       </fetch>
     </fetchxml>

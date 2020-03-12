@@ -363,7 +363,7 @@
           <columns>
             <column width="100%">
               <sections>
-                <section name="tab_4_section_1" id="965a676b-8ef8-40cc-b1f6-ef24fbdd0533" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                <section name="tab_4_section_1" id="965a676b-8ef8-40cc-b1f6-ef24fbdd0533" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
                   <labels>
                     <label description="New Section" languagecode="1033" />
                   </labels>
