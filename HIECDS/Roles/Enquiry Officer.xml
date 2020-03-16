@@ -7,12 +7,12 @@
     <RolePrivilege name="prvAppendAccount" level="Basic" />
     <RolePrivilege name="prvAppendActionCard" level="Basic" />
     <RolePrivilege name="prvAppendActivity" level="Basic" />
+    <RolePrivilege name="prvAppendadx_tag" level="Global" />
     <RolePrivilege name="prvAppendChannelPropertyGroup" level="Global" />
     <RolePrivilege name="prvAppendConnection" level="Global" />
     <RolePrivilege name="prvAppendContact" level="Basic" />
     <RolePrivilege name="prvAppendCustomerRelationship" level="Basic" />
     <RolePrivilege name="prvAppendEmailTemplate" level="Local" />
-    <RolePrivilege name="prvAppendExpiredProcess" level="Global" />
     <RolePrivilege name="prvAppendFeedback" level="Basic" />
     <RolePrivilege name="prvAppendImport" level="Basic" />
     <RolePrivilege name="prvAppendImportFile" level="Basic" />
@@ -20,27 +20,42 @@
     <RolePrivilege name="prvAppendLanguageLocale" level="Global" />
     <RolePrivilege name="prvAppendleidos_AccountManagementRecord" level="Global" />
     <RolePrivilege name="prvAppendleidos_Application" level="Global" />
+    <RolePrivilege name="prvAppendleidos_ApplicationAnswer" level="Global" />
+    <RolePrivilege name="prvAppendleidos_ApplicationQuestion" level="Global" />
+    <RolePrivilege name="prvAppendleidos_ApplicationQuestionTypes" level="Global" />
     <RolePrivilege name="prvAppendleidos_AreaOffice" level="Global" />
+    <RolePrivilege name="prvAppendleidos_CategoryNatureofEnquiry" level="Global" />
+    <RolePrivilege name="prvAppendleidos_ClientActionPlan" level="Global" />
     <RolePrivilege name="prvAppendleidos_ClientEnquiryOrigin" level="Global" />
+    <RolePrivilege name="prvAppendleidos_ClientPlanQuestion" level="Global" />
+    <RolePrivilege name="prvAppendleidos_ClientPlanQuestionCategory" level="Global" />
+    <RolePrivilege name="prvAppendleidos_ClientPlanReviewResponse" level="Global" />
+    <RolePrivilege name="prvAppendleidos_ClientPlanSummary" level="Global" />
     <RolePrivilege name="prvAppendleidos_EmploymentDetails" level="Global" />
+    <RolePrivilege name="prvAppendleidos_EmploymentRoles" level="Global" />
     <RolePrivilege name="prvAppendleidos_enquiry" level="Global" />
+    <RolePrivilege name="prvAppendleidos_enquirybusinessflow" level="Global" />
+    <RolePrivilege name="prvAppendleidos_FinancialYear" level="Global" />
+    <RolePrivilege name="prvAppendleidos_FundingSource" level="Global" />
     <RolePrivilege name="prvAppendleidos_geographies" level="Global" />
     <RolePrivilege name="prvAppendleidos_LegalEntity" level="Global" />
     <RolePrivilege name="prvAppendleidos_natureofenquiry" level="Global" />
     <RolePrivilege name="prvAppendleidos_NumberofEmployees" level="Global" />
     <RolePrivilege name="prvAppendleidos_OrganisationType" level="Global" />
-    <RolePrivilege name="prvAppendleidos_Sector" level="Global" />
+    <RolePrivilege name="prvAppendleidos_Project" level="Global" />
+    <RolePrivilege name="prvAppendleidos_Qualification" level="Global" />
     <RolePrivilege name="prvAppendleidos_Segmentation" level="Global" />
     <RolePrivilege name="prvAppendleidos_tradinggeography" level="Global" />
     <RolePrivilege name="prvAppendleidos_tradingstatus" level="Global" />
     <RolePrivilege name="prvAppendleidos_Turnover" level="Global" />
+    <RolePrivilege name="prvAppendleidos_TypeofassistancerequestedfromHIE" level="Global" />
+    <RolePrivilege name="prvAppendleidos_TypeofExporter" level="Global" />
     <RolePrivilege name="prvAppendMailbox" level="Basic" />
     <RolePrivilege name="prvAppendMailboxTrackingFolder" level="Basic" />
     <RolePrivilege name="prvAppendMailMergeTemplate" level="Basic" />
     <RolePrivilege name="prvAppendmsdyn_flow_approval" level="Global" />
     <RolePrivilege name="prvAppendmsdyn_flow_approvalrequest" level="Global" />
     <RolePrivilege name="prvAppendmsdyn_flow_approvalresponse" level="Global" />
-    <RolePrivilege name="prvAppendNewProcess" level="Global" />
     <RolePrivilege name="prvAppendNote" level="Basic" />
     <RolePrivilege name="prvAppendPersonalDocumentTemplate" level="Basic" />
     <RolePrivilege name="prvAppendPost" level="Global" />
@@ -51,6 +66,7 @@
     <RolePrivilege name="prvAppendToAccount" level="Basic" />
     <RolePrivilege name="prvAppendToActionCard" level="Global" />
     <RolePrivilege name="prvAppendToActivity" level="Basic" />
+    <RolePrivilege name="prvAppendToadx_tag" level="Global" />
     <RolePrivilege name="prvAppendToAsyncOperation" level="Basic" />
     <RolePrivilege name="prvAppendToChannelPropertyGroup" level="Global" />
     <RolePrivilege name="prvAppendToConnection" level="Global" />
@@ -58,7 +74,6 @@
     <RolePrivilege name="prvAppendToCustomerRelationship" level="Basic" />
     <RolePrivilege name="prvAppendToEmailServerProfile" level="Global" />
     <RolePrivilege name="prvAppendToExpanderEvent" level="Global" />
-    <RolePrivilege name="prvAppendToExpiredProcess" level="Global" />
     <RolePrivilege name="prvAppendToFeedback" level="Basic" />
     <RolePrivilege name="prvAppendToImport" level="Basic" />
     <RolePrivilege name="prvAppendToImportFile" level="Basic" />
@@ -66,25 +81,40 @@
     <RolePrivilege name="prvAppendToLanguageLocale" level="Global" />
     <RolePrivilege name="prvAppendToleidos_AccountManagementRecord" level="Global" />
     <RolePrivilege name="prvAppendToleidos_Application" level="Global" />
+    <RolePrivilege name="prvAppendToleidos_ApplicationAnswer" level="Global" />
+    <RolePrivilege name="prvAppendToleidos_ApplicationQuestion" level="Global" />
+    <RolePrivilege name="prvAppendToleidos_ApplicationQuestionTypes" level="Global" />
     <RolePrivilege name="prvAppendToleidos_AreaOffice" level="Global" />
+    <RolePrivilege name="prvAppendToleidos_CategoryNatureofEnquiry" level="Global" />
+    <RolePrivilege name="prvAppendToleidos_ClientActionPlan" level="Global" />
     <RolePrivilege name="prvAppendToleidos_ClientEnquiryOrigin" level="Global" />
+    <RolePrivilege name="prvAppendToleidos_ClientPlanQuestion" level="Global" />
+    <RolePrivilege name="prvAppendToleidos_ClientPlanQuestionCategory" level="Global" />
+    <RolePrivilege name="prvAppendToleidos_ClientPlanReviewResponse" level="Global" />
+    <RolePrivilege name="prvAppendToleidos_ClientPlanSummary" level="Global" />
     <RolePrivilege name="prvAppendToleidos_EmploymentDetails" level="Global" />
+    <RolePrivilege name="prvAppendToleidos_EmploymentRoles" level="Global" />
     <RolePrivilege name="prvAppendToleidos_enquiry" level="Global" />
+    <RolePrivilege name="prvAppendToleidos_enquirybusinessflow" level="Global" />
+    <RolePrivilege name="prvAppendToleidos_FinancialYear" level="Global" />
+    <RolePrivilege name="prvAppendToleidos_FundingSource" level="Global" />
     <RolePrivilege name="prvAppendToleidos_geographies" level="Global" />
     <RolePrivilege name="prvAppendToleidos_LegalEntity" level="Global" />
     <RolePrivilege name="prvAppendToleidos_natureofenquiry" level="Global" />
     <RolePrivilege name="prvAppendToleidos_NumberofEmployees" level="Global" />
     <RolePrivilege name="prvAppendToleidos_OrganisationType" level="Global" />
-    <RolePrivilege name="prvAppendToleidos_Sector" level="Global" />
+    <RolePrivilege name="prvAppendToleidos_Project" level="Global" />
+    <RolePrivilege name="prvAppendToleidos_Qualification" level="Global" />
     <RolePrivilege name="prvAppendToleidos_Segmentation" level="Global" />
     <RolePrivilege name="prvAppendToleidos_tradinggeography" level="Global" />
     <RolePrivilege name="prvAppendToleidos_tradingstatus" level="Global" />
     <RolePrivilege name="prvAppendToleidos_Turnover" level="Global" />
+    <RolePrivilege name="prvAppendToleidos_TypeofassistancerequestedfromHIE" level="Global" />
+    <RolePrivilege name="prvAppendToleidos_TypeofExporter" level="Global" />
     <RolePrivilege name="prvAppendToMailMergeTemplate" level="Basic" />
     <RolePrivilege name="prvAppendTomsdyn_flow_approval" level="Global" />
     <RolePrivilege name="prvAppendTomsdyn_flow_approvalrequest" level="Global" />
     <RolePrivilege name="prvAppendTomsdyn_flow_approvalresponse" level="Global" />
-    <RolePrivilege name="prvAppendToNewProcess" level="Global" />
     <RolePrivilege name="prvAppendToNote" level="Basic" />
     <RolePrivilege name="prvAppendToPersonalDocumentTemplate" level="Basic" />
     <RolePrivilege name="prvAppendToPost" level="Global" />
@@ -95,14 +125,12 @@
     <RolePrivilege name="prvAppendToSyncError" level="Basic" />
     <RolePrivilege name="prvAppendToTraceLog" level="Global" />
     <RolePrivilege name="prvAppendToTransactionCurrency" level="Global" />
-    <RolePrivilege name="prvAppendToTranslationProcess" level="Global" />
     <RolePrivilege name="prvAppendToUser" level="Local" />
     <RolePrivilege name="prvAppendToUserSettings" level="Local" />
     <RolePrivilege name="prvAppendToWorkflow" level="Global" />
     <RolePrivilege name="prvAppendToWorkflowSession" level="Basic" />
     <RolePrivilege name="prvAppendTraceLog" level="Global" />
     <RolePrivilege name="prvAppendTransactionCurrency" level="Global" />
-    <RolePrivilege name="prvAppendTranslationProcess" level="Global" />
     <RolePrivilege name="prvAppendUser" level="Local" />
     <RolePrivilege name="prvAppendWorkflow" level="Basic" />
     <RolePrivilege name="prvAppendWorkflowSession" level="Basic" />
@@ -119,8 +147,13 @@
     <RolePrivilege name="prvAssignImportFile" level="Basic" />
     <RolePrivilege name="prvAssignImportMap" level="Local" />
     <RolePrivilege name="prvAssignleidos_AccountManagementRecord" level="Local" />
+    <RolePrivilege name="prvAssignleidos_ApplicationAnswer" level="Global" />
+    <RolePrivilege name="prvAssignleidos_ClientActionPlan" level="Global" />
+    <RolePrivilege name="prvAssignleidos_ClientPlanReviewResponse" level="Global" />
+    <RolePrivilege name="prvAssignleidos_ClientPlanSummary" level="Global" />
     <RolePrivilege name="prvAssignleidos_EmploymentDetails" level="Local" />
     <RolePrivilege name="prvAssignleidos_enquiry" level="Global" />
+    <RolePrivilege name="prvAssignleidos_Project" level="Global" />
     <RolePrivilege name="prvAssignleidos_tradinggeography" level="Basic" />
     <RolePrivilege name="prvAssignMailMergeTemplate" level="Basic" />
     <RolePrivilege name="prvAssignmsdyn_flow_approval" level="Global" />
@@ -150,20 +183,19 @@
     <RolePrivilege name="prvCreateEmailSignature" level="Basic" />
     <RolePrivilege name="prvCreateEmailTemplate" level="Basic" />
     <RolePrivilege name="prvCreateExchangeSyncIdMapping" level="Basic" />
-    <RolePrivilege name="prvCreateExpiredProcess" level="Global" />
     <RolePrivilege name="prvCreateImport" level="Basic" />
     <RolePrivilege name="prvCreateImportFile" level="Basic" />
     <RolePrivilege name="prvCreateImportMap" level="Local" />
     <RolePrivilege name="prvCreateleidos_AccountManagementRecord" level="Global" />
     <RolePrivilege name="prvCreateleidos_EmploymentDetails" level="Global" />
     <RolePrivilege name="prvCreateleidos_enquiry" level="Global" />
+    <RolePrivilege name="prvCreateleidos_enquirybusinessflow" level="Global" />
     <RolePrivilege name="prvCreateleidos_tradinggeography" level="Global" />
     <RolePrivilege name="prvCreateMailboxTrackingFolder" level="Basic" />
     <RolePrivilege name="prvCreateMailMergeTemplate" level="Basic" />
     <RolePrivilege name="prvCreatemsdyn_flow_approval" level="Global" />
     <RolePrivilege name="prvCreatemsdyn_flow_approvalrequest" level="Global" />
     <RolePrivilege name="prvCreatemsdyn_flow_approvalresponse" level="Global" />
-    <RolePrivilege name="prvCreateNewProcess" level="Global" />
     <RolePrivilege name="prvCreateNote" level="Basic" />
     <RolePrivilege name="prvCreatePersonalDocumentTemplate" level="Basic" />
     <RolePrivilege name="prvCreatePost" level="Global" />
@@ -173,7 +205,6 @@
     <RolePrivilege name="prvCreateSharePointDocumentLocation" level="Global" />
     <RolePrivilege name="prvCreateSyncError" level="Basic" />
     <RolePrivilege name="prvCreateTraceLog" level="Global" />
-    <RolePrivilege name="prvCreateTranslationProcess" level="Global" />
     <RolePrivilege name="prvCreateUserApplicationMetadata" level="Basic" />
     <RolePrivilege name="prvCreateUserEntityInstanceData" level="Basic" />
     <RolePrivilege name="prvCreateUserEntityUISettings" level="Basic" />
@@ -193,20 +224,17 @@
     <RolePrivilege name="prvDeleteEmailSignature" level="Basic" />
     <RolePrivilege name="prvDeleteEmailTemplate" level="Basic" />
     <RolePrivilege name="prvDeleteExchangeSyncIdMapping" level="Basic" />
-    <RolePrivilege name="prvDeleteExpiredProcess" level="Global" />
     <RolePrivilege name="prvDeleteImport" level="Basic" />
     <RolePrivilege name="prvDeleteImportFile" level="Basic" />
     <RolePrivilege name="prvDeleteImportMap" level="Local" />
-    <RolePrivilege name="prvDeleteleidos_Application" level="Global" />
+    <RolePrivilege name="prvDeleteleidos_enquirybusinessflow" level="Global" />
     <RolePrivilege name="prvDeleteMailboxTrackingFolder" level="Basic" />
     <RolePrivilege name="prvDeleteMailMergeTemplate" level="Basic" />
-    <RolePrivilege name="prvDeleteNewProcess" level="Global" />
     <RolePrivilege name="prvDeleteNote" level="Basic" />
     <RolePrivilege name="prvDeletePersonalDocumentTemplate" level="Basic" />
     <RolePrivilege name="prvDeletePostFollow" level="Basic" />
     <RolePrivilege name="prvDeleteReport" level="Basic" />
     <RolePrivilege name="prvDeleteSyncError" level="Basic" />
-    <RolePrivilege name="prvDeleteTranslationProcess" level="Global" />
     <RolePrivilege name="prvDeleteUserApplicationMetadata" level="Basic" />
     <RolePrivilege name="prvDeleteUserEntityInstanceData" level="Basic" />
     <RolePrivilege name="prvDeleteUserEntityUISettings" level="Basic" />
@@ -228,6 +256,7 @@
     <RolePrivilege name="prvReadActionCard" level="Basic" />
     <RolePrivilege name="prvReadActionCardUserSettings" level="Basic" />
     <RolePrivilege name="prvReadActivity" level="Basic" />
+    <RolePrivilege name="prvReadadx_tag" level="Global" />
     <RolePrivilege name="prvReadAppConfigMaster" level="Global" />
     <RolePrivilege name="prvReadApplicationFile" level="Global" />
     <RolePrivilege name="prvReadAppModule" level="Global" />
@@ -256,7 +285,6 @@
     <RolePrivilege name="prvReadEntityMap" level="Global" />
     <RolePrivilege name="prvReadExchangeSyncIdMapping" level="Basic" />
     <RolePrivilege name="prvReadExpanderEvent" level="Global" />
-    <RolePrivilege name="prvReadExpiredProcess" level="Global" />
     <RolePrivilege name="prvReadFeedback" level="Basic" />
     <RolePrivilege name="prvReadflowsession" level="Basic" />
     <RolePrivilege name="prvReadGoalRollupQuery" level="Basic" />
@@ -268,20 +296,49 @@
     <RolePrivilege name="prvReadLanguageLocale" level="Global" />
     <RolePrivilege name="prvReadleidos_AccountManagementRecord" level="Global" />
     <RolePrivilege name="prvReadleidos_Application" level="Global" />
+    <RolePrivilege name="prvReadleidos_ApplicationAnswer" level="Global" />
+    <RolePrivilege name="prvReadleidos_ApplicationQuestion" level="Global" />
+    <RolePrivilege name="prvReadleidos_ApplicationQuestionTypes" level="Global" />
     <RolePrivilege name="prvReadleidos_AreaOffice" level="Global" />
+    <RolePrivilege name="prvReadleidos_CategoryNatureofEnquiry" level="Global" />
+    <RolePrivilege name="prvReadleidos_ClientActionPlan" level="Global" />
     <RolePrivilege name="prvReadleidos_ClientEnquiryOrigin" level="Global" />
+    <RolePrivilege name="prvReadleidos_ClientPlanQuestion" level="Global" />
+    <RolePrivilege name="prvReadleidos_ClientPlanQuestionCategory" level="Global" />
+    <RolePrivilege name="prvReadleidos_ClientPlanReviewResponse" level="Global" />
+    <RolePrivilege name="prvReadleidos_ClientPlanSummary" level="Global" />
     <RolePrivilege name="prvReadleidos_EmploymentDetails" level="Global" />
+    <RolePrivilege name="prvReadleidos_EmploymentRoles" level="Global" />
     <RolePrivilege name="prvReadleidos_enquiry" level="Global" />
+    <RolePrivilege name="prvReadleidos_enquirybusinessflow" level="Global" />
+    <RolePrivilege name="prvReadleidos_FinancialYear" level="Global" />
+    <RolePrivilege name="prvReadleidos_FundingSource" level="Global" />
     <RolePrivilege name="prvReadleidos_geographies" level="Global" />
     <RolePrivilege name="prvReadleidos_LegalEntity" level="Global" />
     <RolePrivilege name="prvReadleidos_natureofenquiry" level="Global" />
     <RolePrivilege name="prvReadleidos_NumberofEmployees" level="Global" />
     <RolePrivilege name="prvReadleidos_OrganisationType" level="Global" />
-    <RolePrivilege name="prvReadleidos_Sector" level="Global" />
+    <RolePrivilege name="prvReadleidos_Project" level="Global" />
+    <RolePrivilege name="prvReadleidos_ProjectActivity" level="Global" />
+    <RolePrivilege name="prvReadleidos_ProjectCost" level="Global" />
+    <RolePrivilege name="prvReadleidos_ProjectCostCategory" level="Global" />
+    <RolePrivilege name="prvReadleidos_ProjectFunding" level="Global" />
+    <RolePrivilege name="prvReadleidos_ProjectMeasure" level="Global" />
+    <RolePrivilege name="prvReadleidos_ProjectOutcome" level="Global" />
+    <RolePrivilege name="prvReadleidos_ProjectOutput" level="Global" />
+    <RolePrivilege name="prvReadleidos_Qualification" level="Global" />
     <RolePrivilege name="prvReadleidos_Segmentation" level="Global" />
+    <RolePrivilege name="prvReadleidos_StateAidAssessment" level="Global" />
+    <RolePrivilege name="prvReadleidos_StateAidAssessmentDetail" level="Global" />
+    <RolePrivilege name="prvReadleidos_StateAidCategory" level="Global" />
+    <RolePrivilege name="prvReadleidos_StateAidSubCategory" level="Global" />
+    <RolePrivilege name="prvReadleidos_StrategicPriority" level="Global" />
+    <RolePrivilege name="prvReadleidos_SupportItem" level="Global" />
     <RolePrivilege name="prvReadleidos_tradinggeography" level="Global" />
     <RolePrivilege name="prvReadleidos_tradingstatus" level="Global" />
     <RolePrivilege name="prvReadleidos_Turnover" level="Global" />
+    <RolePrivilege name="prvReadleidos_TypeofassistancerequestedfromHIE" level="Global" />
+    <RolePrivilege name="prvReadleidos_TypeofExporter" level="Global" />
     <RolePrivilege name="prvReadLicense" level="Global" />
     <RolePrivilege name="prvReadMailbox" level="Basic" />
     <RolePrivilege name="prvReadMailboxTrackingFolder" level="Basic" />
@@ -292,7 +349,6 @@
     <RolePrivilege name="prvReadmsdyn_flow_approval" level="Global" />
     <RolePrivilege name="prvReadmsdyn_flow_approvalrequest" level="Global" />
     <RolePrivilege name="prvReadmsdyn_flow_approvalresponse" level="Global" />
-    <RolePrivilege name="prvReadNewProcess" level="Global" />
     <RolePrivilege name="prvReadNewsArticle" level="Global" />
     <RolePrivilege name="prvReadNote" level="Basic" />
     <RolePrivilege name="prvReadOptionSet" level="Global" />
@@ -325,7 +381,6 @@
     <RolePrivilege name="prvReadTeam" level="Global" />
     <RolePrivilege name="prvReadTraceLog" level="Global" />
     <RolePrivilege name="prvReadTransactionCurrency" level="Global" />
-    <RolePrivilege name="prvReadTranslationProcess" level="Global" />
     <RolePrivilege name="prvReadUser" level="Global" />
     <RolePrivilege name="prvReadUserApplicationMetadata" level="Basic" />
     <RolePrivilege name="prvReadUserEntityInstanceData" level="Basic" />
@@ -353,8 +408,13 @@
     <RolePrivilege name="prvShareImportFile" level="Deep" />
     <RolePrivilege name="prvShareImportMap" level="Global" />
     <RolePrivilege name="prvShareleidos_AccountManagementRecord" level="Local" />
+    <RolePrivilege name="prvShareleidos_ApplicationAnswer" level="Global" />
+    <RolePrivilege name="prvShareleidos_ClientActionPlan" level="Global" />
+    <RolePrivilege name="prvShareleidos_ClientPlanReviewResponse" level="Global" />
+    <RolePrivilege name="prvShareleidos_ClientPlanSummary" level="Global" />
     <RolePrivilege name="prvShareleidos_EmploymentDetails" level="Local" />
     <RolePrivilege name="prvShareleidos_enquiry" level="Global" />
+    <RolePrivilege name="prvShareleidos_Project" level="Global" />
     <RolePrivilege name="prvShareleidos_tradinggeography" level="Basic" />
     <RolePrivilege name="prvShareMailMergeTemplate" level="Global" />
     <RolePrivilege name="prvSharemsdyn_flow_approval" level="Global" />
@@ -391,13 +451,13 @@
     <RolePrivilege name="prvWriteEmailTemplate" level="Basic" />
     <RolePrivilege name="prvWriteExchangeSyncIdMapping" level="Basic" />
     <RolePrivilege name="prvWriteExpanderEvent" level="Global" />
-    <RolePrivilege name="prvWriteExpiredProcess" level="Global" />
     <RolePrivilege name="prvWriteImport" level="Basic" />
     <RolePrivilege name="prvWriteImportFile" level="Basic" />
     <RolePrivilege name="prvWriteImportMap" level="Local" />
     <RolePrivilege name="prvWriteleidos_AccountManagementRecord" level="Local" />
     <RolePrivilege name="prvWriteleidos_EmploymentDetails" level="Local" />
     <RolePrivilege name="prvWriteleidos_enquiry" level="Global" />
+    <RolePrivilege name="prvWriteleidos_enquirybusinessflow" level="Global" />
     <RolePrivilege name="prvWriteleidos_tradinggeography" level="Basic" />
     <RolePrivilege name="prvWriteMailbox" level="Basic" />
     <RolePrivilege name="prvWriteMailboxTrackingFolder" level="Basic" />
@@ -405,14 +465,12 @@
     <RolePrivilege name="prvWritemsdyn_flow_approval" level="Global" />
     <RolePrivilege name="prvWritemsdyn_flow_approvalrequest" level="Global" />
     <RolePrivilege name="prvWritemsdyn_flow_approvalresponse" level="Global" />
-    <RolePrivilege name="prvWriteNewProcess" level="Global" />
     <RolePrivilege name="prvWriteNote" level="Basic" />
     <RolePrivilege name="prvWritePersonalDocumentTemplate" level="Basic" />
     <RolePrivilege name="prvWriteReport" level="Basic" />
     <RolePrivilege name="prvWriteSharePointData" level="Global" />
     <RolePrivilege name="prvWriteSharePointDocumentLocation" level="Global" />
     <RolePrivilege name="prvWriteSyncError" level="Basic" />
-    <RolePrivilege name="prvWriteTranslationProcess" level="Global" />
     <RolePrivilege name="prvWriteUserApplicationMetadata" level="Basic" />
     <RolePrivilege name="prvWriteUserEntityInstanceData" level="Basic" />
     <RolePrivilege name="prvWriteUserEntityUISettings" level="Basic" />
