@@ -18,9 +18,6 @@
           <cell name="leidos_notrelocatedfromanothereeacountry" width="100" />
           <cell name="leidos_nopreviousstateaid" width="100" />
           <cell name="leidos_confrimattachaccounts" width="100" />
-          <cell name="leidos_financialturnover2yearsaccounts" width="100" />
-          <cell name="leidos_numberoffte" width="100" />
-          <cell name="leidos_netassets" width="100" />
           <cell name="createdon" width="125" />
         </row>
       </grid>
@@ -41,10 +38,7 @@
           <attribute name="leidos_notrelocatedfromanothereeacountry" />
           <attribute name="leidos_nopreviousstateaid" />
           <attribute name="leidos_confrimattachaccounts" />
-          <attribute name="leidos_financialturnover2yearsaccounts" />
-          <attribute name="leidos_netassets" />
           <attribute name="leidos_parentapplication" />
-          <attribute name="leidos_numberoffte" />
           <order attribute="leidos_name" descending="false" />
         </entity>
       </fetch>

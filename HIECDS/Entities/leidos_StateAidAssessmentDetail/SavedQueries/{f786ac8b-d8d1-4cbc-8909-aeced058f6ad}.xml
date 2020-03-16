@@ -11,7 +11,7 @@
       <grid name="leidos_stateaidassessmentdetails" jump="leidos_name" select="1" icon="1" preview="1">
         <row name="leidos_stateaidassessmentdetail" id="leidos_stateaidassessmentdetailid">
           <cell name="leidos_name" width="300" />
-          <cell name="leidos_sourceofdeminimisaid" width="100" />
+          <cell name="leidos_sourceofaid" width="100" />
           <cell name="leidos_totalineuro" width="100" />
           <cell name="leidos_dateofaward" width="100" />
         </row>
@@ -21,15 +21,15 @@
     <fetchxml>
       <fetch version="1.0" mapping="logical">
         <entity name="leidos_stateaidassessmentdetail">
-          <attribute name="leidos_stateaidassessmentdetailid" />
           <attribute name="leidos_name" />
           <order attribute="leidos_name" descending="false" />
           <filter type="and">
             <condition attribute="statecode" operator="eq" value="0" />
           </filter>
-          <attribute name="leidos_sourceofdeminimisaid" />
           <attribute name="leidos_totalineuro" />
           <attribute name="leidos_dateofaward" />
+          <attribute name="leidos_sourceofaid" />
+          <attribute name="leidos_stateaidassessmentdetailid" />
         </entity>
       </fetch>
     </fetchxml>

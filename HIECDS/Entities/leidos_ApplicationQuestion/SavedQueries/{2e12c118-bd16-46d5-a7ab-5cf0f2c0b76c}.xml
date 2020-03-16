@@ -27,6 +27,8 @@
           </filter>
           <filter type="or" isquickfindfields="1">
             <condition attribute="leidos_question" operator="like" value="{0}" />
+            <condition attribute="leidos_questionfulltext" operator="like" value="{0}" />
+            <condition attribute="leidos_questiontype" operator="like" value="{0}" />
           </filter>
           <attribute name="leidos_questiontype" />
         </entity>

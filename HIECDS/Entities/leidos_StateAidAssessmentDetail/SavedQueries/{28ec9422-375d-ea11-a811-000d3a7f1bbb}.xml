@@ -10,7 +10,7 @@
     <layoutxml>
       <grid name="resultset" jump="leidos_name" select="1" icon="1" preview="1">
         <row name="result" id="leidos_stateaidassessmentdetailid">
-          <cell name="leidos_sourceofdeminimisaid" width="100" />
+          <cell name="leidos_sourceofaid" width="300" />
           <cell name="leidos_totalineuro" width="100" />
           <cell name="leidos_dateofaward" width="100" />
         </row>
@@ -21,9 +21,9 @@
       <fetch version="1.0" output-format="xml-platform" mapping="logical">
         <entity name="leidos_stateaidassessmentdetail">
           <attribute name="leidos_stateaidassessmentdetailid" />
-          <attribute name="leidos_sourceofdeminimisaid" />
           <attribute name="leidos_totalineuro" />
           <attribute name="leidos_dateofaward" />
+          <attribute name="leidos_sourceofaid" />
         </entity>
       </fetch>
     </fetchxml>

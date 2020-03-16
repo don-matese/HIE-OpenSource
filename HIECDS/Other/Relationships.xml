@@ -7,6 +7,7 @@
   <EntityRelationship Name="bpf_leidos_accountmanagementrecord_leidos_bpfamrdirectcreation" />
   <EntityRelationship Name="bpf_leidos_application_new_bpfapplicationbusinessprocessflow" />
   <EntityRelationship Name="bpf_leidos_enquiry_leidos_enquirybusinessflow" />
+  <EntityRelationship Name="bpf_leidos_project_leidos_bpf_project" />
   <EntityRelationship Name="bpf_leidos_project_new_bpfapplicationbusinessprocessflow" />
   <EntityRelationship Name="business_unit_leidos_accountmanagementclientplan" />
   <EntityRelationship Name="business_unit_leidos_accountmanagementrecord" />
@@ -79,6 +80,7 @@
   <EntityRelationship Name="leidos_FundDetail_FundingSource_leidos_Fu" />
   <EntityRelationship Name="leidos_leidos_accountmanagementclientplan" />
   <EntityRelationship Name="leidos_leidos_accountmanagementclientplan_leidos_employmentdetails_ParentAccountManagementClientPlan" />
+  <EntityRelationship Name="leidos_leidos_application_leidos_Applicat" />
   <EntityRelationship Name="leidos_leidos_areaoffice_leidos_AreaOffic" />
   <EntityRelationship Name="leidos_leidos_clientplanquestion_leidos_C" />
   <EntityRelationship Name="leidos_leidos_clientplanreviewresponse_le" />
@@ -105,6 +107,7 @@
   <EntityRelationship Name="leidos_ProjectOutput_StrategicPriority_le" />
   <EntityRelationship Name="leidos_StateAidAssessment_ParentApplicati" />
   <EntityRelationship Name="leidos_StateAidAssessmentDetail_ParentSta" />
+  <EntityRelationship Name="leidos_StateAidAssessmentDetail_SourceofA" />
   <EntityRelationship Name="leidos_StateAidSubCategory_StateAidCatego" />
   <EntityRelationship Name="leidos_Team_TeamPrimaryContact_SystemUser" />
   <EntityRelationship Name="leidos_tradinggeography_ParentClientPlan_" />
@@ -128,6 +131,10 @@
   <EntityRelationship Name="lk_leidos_bpf_amclientplan_createdby" />
   <EntityRelationship Name="lk_leidos_bpf_amclientplan_modifiedby" />
   <EntityRelationship Name="lk_leidos_bpf_amclientplan_processid" />
+  <EntityRelationship Name="lk_leidos_bpf_project_activestageid" />
+  <EntityRelationship Name="lk_leidos_bpf_project_createdby" />
+  <EntityRelationship Name="lk_leidos_bpf_project_modifiedby" />
+  <EntityRelationship Name="lk_leidos_bpf_project_processid" />
   <EntityRelationship Name="lk_leidos_bpfaccountprocess_activestageid" />
   <EntityRelationship Name="lk_leidos_bpfaccountprocess_createdby" />
   <EntityRelationship Name="lk_leidos_bpfaccountprocess_modifiedby" />
@@ -232,6 +239,7 @@
   <EntityRelationship Name="organization_leidos_applicationquestiontypes" />
   <EntityRelationship Name="organization_leidos_areaoffice" />
   <EntityRelationship Name="organization_leidos_bpf_amclientplan" />
+  <EntityRelationship Name="organization_leidos_bpf_project" />
   <EntityRelationship Name="organization_leidos_bpfaccountprocess" />
   <EntityRelationship Name="organization_leidos_bpfamrdirectcreation" />
   <EntityRelationship Name="organization_leidos_categorynatureofenquiry" />

@@ -10,7 +10,10 @@
     <layoutxml>
       <grid name="resultset" jump="leidos_name" select="1" icon="1" preview="1">
         <row name="result" id="leidos_stateaidassessmentdetailid">
-          <cell name="leidos_name" width="300" />
+          <cell name="leidos_parentstateaidrecord" width="300" />
+          <cell name="leidos_sourceofaid" width="300" />
+          <cell name="leidos_totalineuro" width="100" />
+          <cell name="leidos_dateofaward" width="100" />
           <cell name="createdon" width="125" />
         </row>
       </grid>
@@ -20,12 +23,14 @@
       <fetch version="1.0" mapping="logical">
         <entity name="leidos_stateaidassessmentdetail">
           <attribute name="leidos_stateaidassessmentdetailid" />
-          <attribute name="leidos_name" />
           <attribute name="createdon" />
-          <order attribute="leidos_name" descending="false" />
           <filter type="and">
             <condition attribute="statecode" operator="eq" value="1" />
           </filter>
+          <attribute name="leidos_parentstateaidrecord" />
+          <attribute name="leidos_sourceofaid" />
+          <attribute name="leidos_totalineuro" />
+          <attribute name="leidos_dateofaward" />
         </entity>
       </fetch>
     </fetchxml>

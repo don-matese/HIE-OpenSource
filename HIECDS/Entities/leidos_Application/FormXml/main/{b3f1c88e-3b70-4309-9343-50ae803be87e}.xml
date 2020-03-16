@@ -267,6 +267,29 @@
                     </row>
                   </rows>
                 </section>
+                <section name="general_section_7" id="ae3197bd-fc46-47e0-91c2-5daf1356b0ff" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Application Declaration" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{2cca241c-612b-4c9f-ba91-a45d138a5784}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Application Signatory " languagecode="1033" />
+                        </labels>
+                        <control id="leidos_applicationsignatory" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_applicationsignatory" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{442c9576-db15-4081-b5db-3f73934c12d7}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Application Declaration Signed on Date" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_applicationdeclarationsignedondate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="leidos_applicationdeclarationsignedondate" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
               </sections>
             </column>
           </columns>

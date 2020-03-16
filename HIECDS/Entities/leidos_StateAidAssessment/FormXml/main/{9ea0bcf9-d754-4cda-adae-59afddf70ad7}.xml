@@ -122,33 +122,78 @@
                     </row>
                   </rows>
                 </section>
-                <section name="Metrics" id="c4cb1d3e-fecb-41d1-abb9-1fe72986549b" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                <section name="Metrics" id="c4cb1d3e-fecb-41d1-abb9-1fe72986549b" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115">
                   <labels>
-                    <label description="State Aid Metrics" languagecode="1033" />
+                    <label description="Enter the relevant data for the last two full accounting periods (i.e. annual approved accounts, not management accounts)" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{a8911379-6210-4dcc-b22a-6789111c486f}" showlabel="true" locklevel="0">
+                      <cell id="{8647a7ac-28bd-44d6-8138-44a377272d22}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Financial turnover from last 2 years accounts" languagecode="1033" />
+                          <label description="Turnover from Last full Financial Year Accounts" languagecode="1033" />
                         </labels>
-                        <control id="leidos_financialturnover2yearsaccounts" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_financialturnover2yearsaccounts" disabled="false" />
+                        <control id="leidos_turnoverlastfinancialyearaccounts" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_turnoverlastfinancialyearaccounts" disabled="false" />
+                      </cell>
+                      <cell id="{9da510a9-002e-4b00-8085-e7931b7a8cbd}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Turnover from Accounts 2 years Ago" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_turnoverfromaccounts2yearsago" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_turnoverfromaccounts2yearsago" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{595f7cbd-58a7-49aa-9a51-58fe53fb4ff3}" showlabel="true" locklevel="0">
+                      <cell id="{dd0a4caa-daee-4245-904a-419d5ba4bf40}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Net Assets (balance sheet) total from last 2 years" languagecode="1033" />
+                          <label description="Nett Assets for Last Full Year Accounts" languagecode="1033" />
                         </labels>
-                        <control id="leidos_netassets" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_netassets" disabled="false" />
+                        <control id="leidos_nettassetsforlastfullyearaccounts" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_nettassetsforlastfullyearaccounts" disabled="false" />
+                      </cell>
+                      <cell id="{e883796a-eea8-4995-83d3-f5f2ae8b9ae4}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Nett Assets from Accounts 2 years ago" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_nettassetsfromaccounts2yearsago" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_nettassetsfromaccounts2yearsago" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{f90d932b-9656-42cd-a47b-997d10afcf56}" showlabel="true" locklevel="0">
+                      <cell id="{e57f58b9-60c0-4311-b9ab-cf3d72667e63}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Number of FTE Employees from the last 2 years acco" languagecode="1033" />
+                          <label description="Number of FTE Employees from Last Year" languagecode="1033" />
                         </labels>
-                        <control id="leidos_numberoffte" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="leidos_numberoffte" disabled="false" />
+                        <control id="leidos_numberoffteemployeesfromlastyear" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="leidos_numberoffteemployeesfromlastyear" disabled="false" />
+                      </cell>
+                      <cell id="{ff6400c1-8559-49f7-b323-e453139e509b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Number of FTE Employees from Two Years Ago" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_numberoffteemployeesfromtwoyearsago" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="leidos_numberoffteemployeesfromtwoyearsago" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5ba7f301-0176-4376-b47e-c69120209a03}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Period End Date 1 Year Ago" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_dateoflastfullyearaccounts" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="leidos_dateoflastfullyearaccounts" disabled="false" />
+                      </cell>
+                      <cell id="{9f998eac-f7be-472f-8d04-18dfc7ea3da3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Period End Date 2 Years Ago" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_dateofaccounts2yearsago" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="leidos_dateofaccounts2yearsago" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c54248db-f417-4ee9-b782-c9f231f4e04c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="EU Size Clasification" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_eusizeclasification" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="leidos_eusizeclasification" disabled="false" />
+                      </cell>
+                      <cell showlabel="true" locklevel="0" id="{c1faa176-2a75-463d-96eb-bae7666cb10c}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
                       </cell>
                     </row>
                   </rows>
@@ -189,6 +234,40 @@
                     <row />
                     <row />
                     <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="PreviousAwards" id="cccce7f8-3b66-43c6-96b9-f5f49157c8c1" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Previous Awards" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="PreviousAwards" id="09516c2a-a447-4602-8317-8a8af05a4228" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Previous Awards" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{8426f3d3-12d9-4b8f-8e2c-a2a98a2a8697}" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="New SG control 1584017275651" languagecode="1033" />
+                        </labels>
+                        <control id="Subgrid_1" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>leidos_stateaidassessmentdetail</TargetEntityType>
+                            <ViewId>{28EC9422-375D-EA11-A811-000D3A7F1BBB}</ViewId>
+                            <ViewIds>{BE8CA54D-BF07-4011-91BE-AB3D09A48548},{28EC9422-375D-EA11-A811-000D3A7F1BBB}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>leidos_StateAidAssessmentDetail_ParentSta</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
                   </rows>
                 </section>
               </sections>

@@ -2112,32 +2112,32 @@
               <Description description="Reason for the status of the Project" languagecode="1033" />
             </Descriptions>
             <statuses>
-              <status value="1" state="0" TransitionData="" Color="#0000ff">
+              <status value="1" state="0" TransitionData="&lt;allowedtransitions xmlns=&quot;http://schemas.microsoft.com/crm/2009/WebServices&quot;&gt;&lt;allowedtransition sourcestatusid=&quot;1&quot; tostatusid=&quot;445260000&quot; /&gt;&lt;allowedtransition sourcestatusid=&quot;1&quot; tostatusid=&quot;445260003&quot; /&gt;&lt;/allowedtransitions&gt;" Color="#0000ff">
                 <labels>
                   <label description="Recommendation" languagecode="1033" />
                 </labels>
               </status>
-              <status value="445260000" state="0" TransitionData="" Color="#0000ff">
+              <status value="445260000" state="0" TransitionData="&lt;allowedtransitions xmlns=&quot;http://schemas.microsoft.com/crm/2009/WebServices&quot;&gt;&lt;allowedtransition sourcestatusid=&quot;445260000&quot; tostatusid=&quot;445260001&quot; /&gt;&lt;allowedtransition sourcestatusid=&quot;445260000&quot; tostatusid=&quot;445260003&quot; /&gt;&lt;allowedtransition sourcestatusid=&quot;445260000&quot; tostatusid=&quot;1&quot; /&gt;&lt;/allowedtransitions&gt;" Color="#0000ff">
                 <labels>
                   <label description="Approved" languagecode="1033" />
                 </labels>
               </status>
-              <status value="445260001" state="0" TransitionData="" Color="#0000ff">
+              <status value="445260001" state="0" TransitionData="&lt;allowedtransitions xmlns=&quot;http://schemas.microsoft.com/crm/2009/WebServices&quot;&gt;&lt;allowedtransition sourcestatusid=&quot;445260001&quot; tostatusid=&quot;445260002&quot; /&gt;&lt;allowedtransition sourcestatusid=&quot;445260001&quot; tostatusid=&quot;445260003&quot; /&gt;&lt;allowedtransition sourcestatusid=&quot;445260001&quot; tostatusid=&quot;1&quot; /&gt;&lt;/allowedtransitions&gt;" Color="#0000ff">
                 <labels>
                   <label description="Clear to Pay" languagecode="1033" />
                 </labels>
               </status>
-              <status value="445260002" state="0" TransitionData="" Color="#0000ff">
+              <status value="445260002" state="0" TransitionData="&lt;allowedtransitions xmlns=&quot;http://schemas.microsoft.com/crm/2009/WebServices&quot;&gt;&lt;allowedtransition sourcestatusid=&quot;445260002&quot; tostatusid=&quot;2&quot; /&gt;&lt;allowedtransition sourcestatusid=&quot;445260002&quot; tostatusid=&quot;445260003&quot; /&gt;&lt;/allowedtransitions&gt;" Color="#0000ff">
                 <labels>
                   <label description="Claims Complete" languagecode="1033" />
                 </labels>
               </status>
-              <status value="2" state="1" TransitionData="" Color="#0000ff">
+              <status value="2" state="1" TransitionData="&lt;allowedtransitions xmlns=&quot;http://schemas.microsoft.com/crm/2009/WebServices&quot; /&gt;" Color="#0000ff">
                 <labels>
                   <label description="Project Complete" languagecode="1033" />
                 </labels>
               </status>
-              <status value="445260003" state="1" TransitionData="" Color="#0000ff">
+              <status value="445260003" state="1" TransitionData="&lt;allowedtransitions xmlns=&quot;http://schemas.microsoft.com/crm/2009/WebServices&quot;&gt;&lt;allowedtransition sourcestatusid=&quot;445260003&quot; tostatusid=&quot;1&quot; /&gt;&lt;/allowedtransitions&gt;" Color="#0000ff">
                 <labels>
                   <label description="Project Cancelled" languagecode="1033" />
                 </labels>
@@ -2363,7 +2363,7 @@
       <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
       <CanEnableSyncToExternalSearchIndex>1</CanEnableSyncToExternalSearchIndex>
       <IconVectorName>leidos_project.svg</IconVectorName>
-      <EnforceStateTransitions>0</EnforceStateTransitions>
+      <EnforceStateTransitions>1</EnforceStateTransitions>
       <CanChangeHierarchicalRelationship>1</CanChangeHierarchicalRelationship>
       <EntityHelpUrlEnabled>0</EntityHelpUrlEnabled>
       <ChangeTrackingEnabled>1</ChangeTrackingEnabled>
