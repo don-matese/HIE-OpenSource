@@ -82,13 +82,13 @@
                       <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
                       <mcwc:SetFieldRequiredLevel ControlId="leidos_areaoffice" ControlType="standard" DisplayName="SetFieldRequiredLevelStep18" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="leidos_application" RequiredLevel="None" />
                     </Sequence>
-                    <Sequence DisplayName="SetVisibilityStep_SetFieldRequiredLevelStep18_21: Board Level">
+                    <Sequence DisplayName="SetVisibilityStep21: Board Level">
                       <mcwc:SetVisibility ControlId="leidos_boardrepresentative" ControlType="standard" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="leidos_application" IsVisible="False" />
                     </Sequence>
-                    <Sequence DisplayName="SetFieldRequiredLevelStep_SetFieldRequiredLevelStep18_21_24: Board Level">
+                    <Sequence DisplayName="SetFieldRequiredLevelStep24: Board Level">
                       <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;leidos_application&quot;)]" />
                       <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
-                      <mcwc:SetFieldRequiredLevel ControlId="leidos_boardrepresentative" ControlType="standard" DisplayName="SetFieldRequiredLevelStep_SetFieldRequiredLevelStep18_21_24" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="leidos_application" RequiredLevel="None" />
+                      <mcwc:SetFieldRequiredLevel ControlId="leidos_boardrepresentative" ControlType="standard" DisplayName="SetFieldRequiredLevelStep24" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="leidos_application" RequiredLevel="None" />
                     </Sequence>
                   </sco:Collection>
                 </mxswa:ActivityReference.Properties>
@@ -149,13 +149,13 @@
                       <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
                       <mcwc:SetFieldRequiredLevel ControlId="leidos_areaoffice" ControlType="standard" DisplayName="SetFieldRequiredLevelStep19" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="leidos_application" RequiredLevel="Required" />
                     </Sequence>
-                    <Sequence DisplayName="SetVisibilityStep_SetFieldRequiredLevelStep19_22: Board Level">
+                    <Sequence DisplayName="SetVisibilityStep22: Board Level">
                       <mcwc:SetVisibility ControlId="leidos_boardrepresentative" ControlType="standard" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="leidos_application" IsVisible="False" />
                     </Sequence>
-                    <Sequence DisplayName="SetFieldRequiredLevelStep_SetFieldRequiredLevelStep19_22_25: Board Level">
+                    <Sequence DisplayName="SetFieldRequiredLevelStep25: Board Level">
                       <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;leidos_application&quot;)]" />
                       <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
-                      <mcwc:SetFieldRequiredLevel ControlId="leidos_boardrepresentative" ControlType="standard" DisplayName="SetFieldRequiredLevelStep_SetFieldRequiredLevelStep19_22_25" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="leidos_application" RequiredLevel="None" />
+                      <mcwc:SetFieldRequiredLevel ControlId="leidos_boardrepresentative" ControlType="standard" DisplayName="SetFieldRequiredLevelStep25" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="leidos_application" RequiredLevel="None" />
                     </Sequence>
                   </sco:Collection>
                 </mxswa:ActivityReference.Properties>
@@ -216,13 +216,13 @@
                       <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
                       <mcwc:SetFieldRequiredLevel ControlId="leidos_areaoffice" ControlType="standard" DisplayName="SetFieldRequiredLevelStep20" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="leidos_application" RequiredLevel="None" />
                     </Sequence>
-                    <Sequence DisplayName="SetVisibilityStep_SetFieldRequiredLevelStep20_23: Board Level">
+                    <Sequence DisplayName="SetVisibilityStep23: Board Level">
                       <mcwc:SetVisibility ControlId="leidos_boardrepresentative" ControlType="standard" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="leidos_application" IsVisible="True" />
                     </Sequence>
-                    <Sequence DisplayName="SetFieldRequiredLevelStep_SetFieldRequiredLevelStep20_23_26: Board Level">
+                    <Sequence DisplayName="SetFieldRequiredLevelStep26: Board Level">
                       <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;leidos_application&quot;)]" />
                       <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
-                      <mcwc:SetFieldRequiredLevel ControlId="leidos_boardrepresentative" ControlType="standard" DisplayName="SetFieldRequiredLevelStep_SetFieldRequiredLevelStep20_23_26" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="leidos_application" RequiredLevel="Required" />
+                      <mcwc:SetFieldRequiredLevel ControlId="leidos_boardrepresentative" ControlType="standard" DisplayName="SetFieldRequiredLevelStep26" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="leidos_application" RequiredLevel="Required" />
                     </Sequence>
                   </sco:Collection>
                 </mxswa:ActivityReference.Properties>

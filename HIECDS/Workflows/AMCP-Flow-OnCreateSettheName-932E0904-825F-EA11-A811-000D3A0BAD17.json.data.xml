@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Workflow WorkflowId="{932e0904-825f-ea11-a811-000d3a0bad17}" Name="AM Client Action Plan on Create -&gt; Get Account Management Client Plan R..." xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <JsonFileName>/Workflows/AMClientActionPlanonCreate-GetAccountManagementCli-932E0904-825F-EA11-A811-000D3A0BAD17.json</JsonFileName>
+<Workflow WorkflowId="{932e0904-825f-ea11-a811-000d3a0bad17}" Name="AMCP - Flow - On Create Set the Name" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <JsonFileName>/Workflows/AMCP-Flow-OnCreateSettheName-932E0904-825F-EA11-A811-000D3A0BAD17.json</JsonFileName>
   <Type>1</Type>
   <Subprocess>0</Subprocess>
   <Category>5</Category>
@@ -20,6 +20,6 @@
   <BusinessProcessType>0</BusinessProcessType>
   <PrimaryEntity>none</PrimaryEntity>
   <LocalizedNames>
-    <LocalizedName languagecode="1033" description="AM Client Action Plan on Create -&gt; Get Account Management Client Plan R..." />
+    <LocalizedName languagecode="1033" description="AMCP - Flow - On Create Set the Name" />
   </LocalizedNames>
 </Workflow>

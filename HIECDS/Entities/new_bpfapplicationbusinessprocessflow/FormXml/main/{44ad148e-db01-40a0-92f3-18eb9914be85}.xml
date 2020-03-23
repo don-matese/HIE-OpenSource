@@ -388,14 +388,6 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{3e46be49-f292-4aeb-a16a-3d7932078038}" showlabel="true" visible="true" labelid="{8db8f93c-c65d-4c71-97d8-6df3732f6299}">
-                        <labels>
-                          <label description="Budget Approval Decision Outcome" languagecode="1033" />
-                        </labels>
-                        <control id="bpf_leidos_application_new_bpfapplicationbusinessprocessflow:leidos_budgetapprovaldelegatedauthority" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="leidos_budgetapprovaldelegatedauthority" relationship="bpf_leidos_application_new_bpfapplicationbusinessprocessflow" isrequired="true" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
                       <cell id="{8b3410c1-c11f-4f6f-a2e9-0a251bcc8827}" showlabel="true" visible="true" labelid="{c55f4499-9796-4e1a-b6b2-181303cfd491}">
                         <labels>
                           <label description="Submit Application for Budget Approval" languagecode="1033" />

@@ -16,6 +16,7 @@
           <cell name="leidos_contact" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
           <cell name="leidos_enquirymessage" width="300" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
           <cell name="leidos_enquirysource" width="100" />
+          <cell name="leidos_sector" width="100" />
           <cell name="statuscode" width="100" />
           <cell name="createdon" width="125" />
         </row>
@@ -40,6 +41,7 @@
           </filter>
           <order attribute="createdon" descending="true" />
           <order attribute="leidos_name" descending="false" />
+          <attribute name="leidos_sector" />
         </entity>
       </fetch>
     </fetchxml>

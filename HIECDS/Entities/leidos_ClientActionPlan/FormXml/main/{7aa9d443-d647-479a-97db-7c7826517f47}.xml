@@ -64,10 +64,11 @@
                       </cell>
                     </row>
                     <row>
-                      <cell showlabel="true" locklevel="0" id="{19aa7271-e0ba-4a89-b0bd-7409830b443a}">
+                      <cell id="{a67879e7-adef-4233-b573-705b6f4054f2}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Status Reason" languagecode="1033" />
                         </labels>
+                        <control id="statuscode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statuscode" disabled="false" />
                       </cell>
                       <cell showlabel="true" locklevel="0" id="{a536d682-70d0-4ab1-97b0-9a7bb93267c5}">
                         <labels>

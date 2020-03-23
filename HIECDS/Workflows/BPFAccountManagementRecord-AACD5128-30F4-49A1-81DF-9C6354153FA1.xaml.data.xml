@@ -76,7 +76,7 @@
       <label languagecode="1033" description="Status Reason" />
     </steplabels>
     <steplabels id="{1d7fbbf6-31a7-4055-a076-3137cf383b61}">
-      <label languagecode="1033" description="Account Management" />
+      <label languagecode="1033" description="Monitoring &amp; Aftercare" />
     </steplabels>
     <steplabels id="{01fe1535-eaf6-433b-9cb4-c4a690d289fa}">
       <label languagecode="1033" description="Complete Business Diagnostic" />
@@ -86,6 +86,15 @@
     </steplabels>
     <steplabels id="{a01420ef-1c6a-4956-905d-cbca0cd1c410}">
       <label languagecode="1033" description="Complete Schedule Regular Check" />
+    </steplabels>
+    <steplabels id="{677f85cf-5880-402f-9d26-3527f9811437}">
+      <label languagecode="1033" description="Complete  / Disengage" />
+    </steplabels>
+    <steplabels id="{d6efbc65-d958-48e0-a81e-7dafa5083753}">
+      <label languagecode="1033" description="Date of Exit Interview" />
+    </steplabels>
+    <steplabels id="{8e62be7d-1a83-4781-b44e-f814e29d72b6}">
+      <label languagecode="1033" description="Partner Signpost" />
     </steplabels>
   </labels>
 </Workflow>

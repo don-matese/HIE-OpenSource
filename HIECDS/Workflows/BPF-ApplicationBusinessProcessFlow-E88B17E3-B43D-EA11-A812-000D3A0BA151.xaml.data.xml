@@ -138,9 +138,6 @@
     <steplabels id="{e3a85aea-0f73-49a8-95da-5fa1aa4aa9cb}">
       <label languagecode="1033" description="Board Representative " />
     </steplabels>
-    <steplabels id="{3e46be49-f292-4aeb-a16a-3d7932078038}">
-      <label languagecode="1033" description="Budget Approval Decision Outcome" />
-    </steplabels>
     <steplabels id="{8b3410c1-c11f-4f6f-a2e9-0a251bcc8827}">
       <label languagecode="1033" description="Submit Application for Budget Approval" />
     </steplabels>

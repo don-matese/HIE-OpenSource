@@ -41,6 +41,7 @@
   <EntityRelationship Name="leidos_AccountManagementRecord_CompletedB" />
   <EntityRelationship Name="leidos_AccountManagementRecord_DelegatedA" />
   <EntityRelationship Name="leidos_AccountManagementRecord_ParentAcco" />
+  <EntityRelationship Name="leidos_AccountManagementRecord_PartnerSig" />
   <EntityRelationship Name="leidos_AccountManagementRecord_PortfolioM" />
   <EntityRelationship Name="leidos_AnticipatedSpendProfile_HIEFinanci" />
   <EntityRelationship Name="leidos_AnticipatedSpendProfile_ParentProj" />
@@ -75,6 +76,7 @@
   <EntityRelationship Name="leidos_enquiry_NoofEmployees_leidos_Numbe" />
   <EntityRelationship Name="leidos_enquiry_RelevantPerson_SystemUser" />
   <EntityRelationship Name="leidos_enquiry_RelevantTeam_Team" />
+  <EntityRelationship Name="leidos_enquiry_Sector_leidos_Sector" />
   <EntityRelationship Name="leidos_enquiry_SEPPartnerOrganisation_Acc" />
   <EntityRelationship Name="leidos_enquiry_Turnover_leidos_Turnover" />
   <EntityRelationship Name="leidos_FundDetail_FundingSource_leidos_Fu" />
@@ -99,6 +101,8 @@
   <EntityRelationship Name="leidos_ProjectFunding_FundDetails_leidos_" />
   <EntityRelationship Name="leidos_ProjectFunding_FundingSource_leido" />
   <EntityRelationship Name="leidos_ProjectFunding_ParentProject_leido" />
+  <EntityRelationship Name="leidos_ProjectFunding_StateAidCategory_le" />
+  <EntityRelationship Name="leidos_ProjectFunding_StateAidSubCategory" />
   <EntityRelationship Name="leidos_ProjectMeasure_Activity_leidos_Pro" />
   <EntityRelationship Name="leidos_ProjectMeasure_Output_leidos_Proje" />
   <EntityRelationship Name="leidos_ProjectMeasure_ParentAccount_Accou" />
@@ -203,6 +207,8 @@
   <EntityRelationship Name="lk_leidos_projectoutput_modifiedby" />
   <EntityRelationship Name="lk_leidos_qualification_createdby" />
   <EntityRelationship Name="lk_leidos_qualification_modifiedby" />
+  <EntityRelationship Name="lk_leidos_sector_createdby" />
+  <EntityRelationship Name="lk_leidos_sector_modifiedby" />
   <EntityRelationship Name="lk_leidos_segmentation_createdby" />
   <EntityRelationship Name="lk_leidos_segmentation_modifiedby" />
   <EntityRelationship Name="lk_leidos_stateaidassessment_createdby" />
@@ -261,6 +267,7 @@
   <EntityRelationship Name="organization_leidos_projectcostcategory" />
   <EntityRelationship Name="organization_leidos_projectoutput" />
   <EntityRelationship Name="organization_leidos_qualification" />
+  <EntityRelationship Name="organization_leidos_sector" />
   <EntityRelationship Name="organization_leidos_segmentation" />
   <EntityRelationship Name="organization_leidos_stateaidcategory" />
   <EntityRelationship Name="organization_leidos_stateaidsubcategory" />

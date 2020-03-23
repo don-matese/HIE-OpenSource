@@ -81,6 +81,9 @@
     <steplabels id="{d330b11b-ef60-42e9-9799-9baadaefce4f}">
       <label languagecode="1033" description="Nature of Business Activity" />
     </steplabels>
+    <steplabels id="{5ecf3204-6da8-4eae-b8c3-6c8de9af0cb0}">
+      <label languagecode="1033" description="Sector" />
+    </steplabels>
     <steplabels id="{71a6ad7f-ec8c-4c44-9c4f-06530e481c72}">
       <label languagecode="1033" description="Fisheries" />
     </steplabels>

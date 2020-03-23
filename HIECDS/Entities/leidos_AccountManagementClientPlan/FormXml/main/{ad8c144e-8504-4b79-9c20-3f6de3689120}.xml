@@ -160,7 +160,7 @@
           <columns>
             <column width="100%">
               <sections>
-                <section name="tab_2_section_1" id="abe83d31-16e9-4afb-b36f-cdc5c150454f" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                <section name="tab_2_section_1" id="abe83d31-16e9-4afb-b36f-cdc5c150454f" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
                   <labels>
                     <label description="New Section" languagecode="1033" />
                   </labels>
@@ -336,7 +336,7 @@
           <columns>
             <column width="100%">
               <sections>
-                <section name="tab_5_section_1" id="f4fc78bb-9c82-47ae-96f2-77352af4e9e2" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                <section name="tab_5_section_1" id="f4fc78bb-9c82-47ae-96f2-77352af4e9e2" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
                   <labels>
                     <label description="New Section" languagecode="1033" />
                   </labels>

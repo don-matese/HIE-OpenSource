@@ -10,6 +10,7 @@
     <layoutxml>
       <grid name="resultset" jump="leidos_name" select="1" icon="1" preview="1">
         <row name="result" id="leidos_clientplansummaryid">
+          <cell name="leidos_index" width="100" />
           <cell name="leidos_name" width="300" />
           <cell name="leidos_parentclientplan" width="100" />
           <cell name="leidos_category" width="100" />
@@ -36,7 +37,8 @@
           <attribute name="leidos_name" />
           <attribute name="createdon" />
           <attribute name="leidos_parentclientplan" />
-          <order attribute="leidos_name" descending="false" />
+          <attribute name="leidos_index" />
+          <order attribute="leidos_index" descending="false" />
         </entity>
       </fetch>
     </fetchxml>

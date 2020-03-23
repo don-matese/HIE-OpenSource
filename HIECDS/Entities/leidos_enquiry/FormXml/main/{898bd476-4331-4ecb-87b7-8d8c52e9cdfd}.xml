@@ -252,6 +252,14 @@
                       </cell>
                     </row>
                     <row>
+                      <cell id="{72892c35-bc74-42dd-b9a6-8b049bd9bf2b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Sector" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_sector" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_sector" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
                       <cell id="{65d43025-885e-4dfc-ae72-c9e60e7c15c6}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Potential Support Options" languagecode="1033" />
@@ -498,6 +506,12 @@
               <labels>
                 <label description="" languagecode="1033" />
               </labels>
+            </cell>
+            <cell id="{a96a70f5-a9f2-4547-92d3-d740dc93f2b7}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Account Created On Date" languagecode="1033" />
+              </labels>
+              <control id="leidos_accountcreatedondate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="leidos_accountcreatedondate" disabled="false" />
             </cell>
           </row>
         </rows>

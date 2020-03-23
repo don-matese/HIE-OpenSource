@@ -252,6 +252,50 @@
             </column>
           </columns>
         </tab>
+        <tab name="MonitoringandAftercare" id="98aa26b4-ba38-4e61-b92b-243c7a7d0b70" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Monitoring and Aftercare" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="Disengagement " id="2abf1b20-f3e9-4bd5-b7d6-9ed5c4e84f3b" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Disengagement " languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{3ed82571-00b5-43c0-9f51-d6d166031ecc}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Date of Exit Interview" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_dateofexitinterview" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="leidos_dateofexitinterview" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1b10e47b-6bfe-4006-abf2-7b941e7f045c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Partner Signpost" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_partnersignpost" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_partnersignpost" disabled="false" uniqueid="{cd4b73b7-703d-cc1e-c545-eb6d9893ee39}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A9AF0AB8-861D-4CFA-92A5-C6281FED7FAB}</DefaultViewId>
+                            <AvailableViewIds>{A9AF0AB8-861D-4CFA-92A5-C6281FED7FAB},{217061E1-853E-EA11-A812-000D3A0BAD17}</AvailableViewIds>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
         <tab name="Time Line" id="6b7b0628-a7bc-46fb-8b04-9f2a7976ebac" IsUserDefined="0" locklevel="0" showlabel="true">
           <labels>
             <label description="Time Line" languagecode="1033" />
@@ -368,11 +412,6 @@
           <NavBarByRelationshipItem RelationshipName="bpf_leidos_accountmanagementrecord_leidos_bpfaccountprocess" Sequence="10000" Area="Info" Id="nav_bpf_leidos_accountmanagementrecord_leidos_bpfaccountprocess" Show="false">
             <Titles>
               <Title LCID="1033" Text="BPF Account Process" />
-            </Titles>
-          </NavBarByRelationshipItem>
-          <NavBarByRelationshipItem RelationshipName="leidos_BusinessReview_AccountManagementRe" Sequence="10000" Area="Info" Id="nav_leidos_BusinessReview_AccountManagementRe" Show="false">
-            <Titles>
-              <Title LCID="1033" Text="Business Reviews" />
             </Titles>
           </NavBarByRelationshipItem>
           <NavBarByRelationshipItem RelationshipName="bpf_leidos_accountmanagementrecord_leidos_bpfamrdirectcreation" Sequence="10000" Area="Info" Id="nav_bpf_leidos_accountmanagementrecord_leidos_bpfamrdirectcreation" Show="false">

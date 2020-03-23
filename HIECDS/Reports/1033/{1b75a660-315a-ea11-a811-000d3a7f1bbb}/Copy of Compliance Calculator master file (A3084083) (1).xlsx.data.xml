@@ -18,5 +18,6 @@
   </ReportVisibilities>
   <ReportEntities>
     <ReportEntity>leidos_application</ReportEntity>
+    <ReportEntity>leidos_project</ReportEntity>
   </ReportEntities>
 </Report>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Workflow WorkflowId="{00aff4e8-514e-ea11-a812-000d3a0bad17}" Name="AM is Approved -&gt; Send an email notification (V3),AM Logo,Logo,Foot..." xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <JsonFileName>/Workflows/AMisApproved-SendanemailnotificationV3AMLogoLogoFo-00AFF4E8-514E-EA11-A812-000D3A0BAD17.json</JsonFileName>
+<Workflow WorkflowId="{00aff4e8-514e-ea11-a812-000d3a0bad17}" Name="AMR - Flow - On Change of Status Reason Send Engage - Disengage email" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <JsonFileName>/Workflows/AMR-Flow-OnChangeofStatusReasonSendEngage-Disengag-00AFF4E8-514E-EA11-A812-000D3A0BAD17.json</JsonFileName>
   <Type>1</Type>
   <Subprocess>0</Subprocess>
   <Category>5</Category>
@@ -20,6 +20,6 @@
   <BusinessProcessType>0</BusinessProcessType>
   <PrimaryEntity>none</PrimaryEntity>
   <LocalizedNames>
-    <LocalizedName languagecode="1033" description="AM is Approved -&gt; Send an email notification (V3),AM Logo,Logo,Foot..." />
+    <LocalizedName languagecode="1033" description="AMR - Flow - On Change of Status Reason Send Engage - Disengage email" />
   </LocalizedNames>
 </Workflow>

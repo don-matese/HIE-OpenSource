@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Workflow WorkflowId="{b350838c-9241-451c-a2a9-13f16b5155d5}" Name="Application On Approved Create task" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <XamlFileName>/Workflows/ApplicationOnApprovedCreatetask-B350838C-9241-451C-A2A9-13F16B5155D5.xaml</XamlFileName>
+<Workflow WorkflowId="{b350838c-9241-451c-a2a9-13f16b5155d5}" Name="Application - Action - On Approved Create task" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/Application-Action-OnApprovedCreatetask-B350838C-9241-451C-A2A9-13F16B5155D5.xaml</XamlFileName>
   <Type>1</Type>
   <Subprocess>0</Subprocess>
   <Category>3</Category>
@@ -23,6 +23,6 @@
   <FormId>{00000000-0000-0000-0000-000000000000}</FormId>
   <PrimaryEntity>leidos_Application</PrimaryEntity>
   <LocalizedNames>
-    <LocalizedName languagecode="1033" description="Application On Approved Create task" />
+    <LocalizedName languagecode="1033" description="Application - Action - On Approved Create task" />
   </LocalizedNames>
 </Workflow>

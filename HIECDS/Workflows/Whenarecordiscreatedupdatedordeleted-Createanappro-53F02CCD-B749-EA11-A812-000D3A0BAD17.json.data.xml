@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Workflow WorkflowId="{03ec9020-a75f-ea11-a811-000d3a0bad17}" Name="When a record is created, updated or deleted -&gt; Sum of Categoty,Cou..." xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <JsonFileName>/Workflows/Whenarecordiscreatedupdatedordeleted-SumofCategoty-03EC9020-A75F-EA11-A811-000D3A0BAD17.json</JsonFileName>
+<Workflow WorkflowId="{53f02ccd-b749-ea11-a812-000d3a0bad17}" Name="When a record is created, updated or deleted -&gt; Create an approval" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <JsonFileName>/Workflows/Whenarecordiscreatedupdatedordeleted-Createanappro-53F02CCD-B749-EA11-A812-000D3A0BAD17.json</JsonFileName>
   <Type>1</Type>
   <Subprocess>0</Subprocess>
   <Category>5</Category>
@@ -20,6 +20,6 @@
   <BusinessProcessType>0</BusinessProcessType>
   <PrimaryEntity>none</PrimaryEntity>
   <LocalizedNames>
-    <LocalizedName languagecode="1033" description="When a record is created, updated or deleted -&gt; Sum of Categoty,Cou..." />
+    <LocalizedName languagecode="1033" description="When a record is created, updated or deleted -&gt; Create an approval" />
   </LocalizedNames>
 </Workflow>
