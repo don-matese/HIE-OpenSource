@@ -19,6 +19,7 @@
     <RolePrivilege name="prvAppendImportFile" level="Basic" />
     <RolePrivilege name="prvAppendImportMap" level="Local" />
     <RolePrivilege name="prvAppendLanguageLocale" level="Global" />
+    <RolePrivilege name="prvAppendleidos_AccountManagementClientPlan" level="Global" />
     <RolePrivilege name="prvAppendleidos_AccountManagementRecord" level="Global" />
     <RolePrivilege name="prvAppendleidos_Application" level="Global" />
     <RolePrivilege name="prvAppendleidos_ApplicationAnswer" level="Global" />
@@ -104,6 +105,7 @@
     <RolePrivilege name="prvAppendToImportFile" level="Basic" />
     <RolePrivilege name="prvAppendToImportMap" level="Local" />
     <RolePrivilege name="prvAppendToLanguageLocale" level="Global" />
+    <RolePrivilege name="prvAppendToleidos_AccountManagementClientPlan" level="Global" />
     <RolePrivilege name="prvAppendToleidos_AccountManagementRecord" level="Global" />
     <RolePrivilege name="prvAppendToleidos_Application" level="Global" />
     <RolePrivilege name="prvAppendToleidos_ApplicationAnswer" level="Global" />
@@ -195,6 +197,7 @@
     <RolePrivilege name="prvAssignImport" level="Basic" />
     <RolePrivilege name="prvAssignImportFile" level="Basic" />
     <RolePrivilege name="prvAssignImportMap" level="Local" />
+    <RolePrivilege name="prvAssignleidos_AccountManagementClientPlan" level="Global" />
     <RolePrivilege name="prvAssignleidos_AccountManagementRecord" level="Global" />
     <RolePrivilege name="prvAssignleidos_Application" level="Local" />
     <RolePrivilege name="prvAssignleidos_ApplicationAnswer" level="Local" />
@@ -248,6 +251,7 @@
     <RolePrivilege name="prvCreateImport" level="Basic" />
     <RolePrivilege name="prvCreateImportFile" level="Basic" />
     <RolePrivilege name="prvCreateImportMap" level="Local" />
+    <RolePrivilege name="prvCreateleidos_AccountManagementClientPlan" level="Global" />
     <RolePrivilege name="prvCreateleidos_AccountManagementRecord" level="Global" />
     <RolePrivilege name="prvCreateleidos_Application" level="Global" />
     <RolePrivilege name="prvCreateleidos_ApplicationAnswer" level="Global" />
@@ -392,6 +396,7 @@
     <RolePrivilege name="prvReadImportMap" level="Global" />
     <RolePrivilege name="prvReadInteractionForEmail" level="Global" />
     <RolePrivilege name="prvReadLanguageLocale" level="Global" />
+    <RolePrivilege name="prvReadleidos_AccountManagementClientPlan" level="Global" />
     <RolePrivilege name="prvReadleidos_AccountManagementRecord" level="Global" />
     <RolePrivilege name="prvReadleidos_Application" level="Global" />
     <RolePrivilege name="prvReadleidos_ApplicationAnswer" level="Global" />
@@ -516,6 +521,7 @@
     <RolePrivilege name="prvShareImport" level="Deep" />
     <RolePrivilege name="prvShareImportFile" level="Deep" />
     <RolePrivilege name="prvShareImportMap" level="Global" />
+    <RolePrivilege name="prvShareleidos_AccountManagementClientPlan" level="Global" />
     <RolePrivilege name="prvShareleidos_AccountManagementRecord" level="Global" />
     <RolePrivilege name="prvShareleidos_Application" level="Local" />
     <RolePrivilege name="prvShareleidos_ApplicationAnswer" level="Local" />
@@ -576,6 +582,7 @@
     <RolePrivilege name="prvWriteImport" level="Basic" />
     <RolePrivilege name="prvWriteImportFile" level="Basic" />
     <RolePrivilege name="prvWriteImportMap" level="Local" />
+    <RolePrivilege name="prvWriteleidos_AccountManagementClientPlan" level="Local" />
     <RolePrivilege name="prvWriteleidos_AccountManagementRecord" level="Local" />
     <RolePrivilege name="prvWriteleidos_Application" level="Local" />
     <RolePrivilege name="prvWriteleidos_ApplicationAnswer" level="Local" />
