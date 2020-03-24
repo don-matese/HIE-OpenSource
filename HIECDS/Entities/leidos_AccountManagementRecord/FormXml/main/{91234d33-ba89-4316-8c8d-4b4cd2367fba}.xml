@@ -259,7 +259,30 @@
           <columns>
             <column width="100%">
               <sections>
-                <section name="Disengagement " id="2abf1b20-f3e9-4bd5-b7d6-9ed5c4e84f3b" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                <section name="MonitoringandAftercare_ClientPlans" id="d1e5b3c6-28fb-43c4-a2c0-6e6eb1cf39d6" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Client Plans" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{e7852731-4b2d-472a-94d0-c900b66340c2}" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="Active " languagecode="1033" />
+                        </labels>
+                        <control id="ClientPlans" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>leidos_accountmanagementclientplan</TargetEntityType>
+                            <ViewId>{F8227C58-D06D-EA11-A811-000D3A7F1BBB}</ViewId>
+                            <ViewIds>{3F04FFF6-7CE1-4B2B-9075-5706F4F27F29},{F8227C58-D06D-EA11-A811-000D3A7F1BBB}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>leidos_BusinessReview_AccountManagementRe_leidos_accountmanagementclientplan</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="MonitoringandAftercare_section_3" id="2abf1b20-f3e9-4bd5-b7d6-9ed5c4e84f3b" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
                   <labels>
                     <label description="Disengagement " languagecode="1033" />
                   </labels>

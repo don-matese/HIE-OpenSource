@@ -11,7 +11,8 @@
       <grid name="resultset" jump="leidos_numberofemployees" select="1" icon="1" preview="1">
         <row name="result" id="leidos_numberofemployeesid">
           <cell name="leidos_numberofemployees" width="300" />
-          <cell name="createdon" width="125" />
+          <cell name="leidos_minimumbandnumber" width="100" />
+          <cell name="leidos_maximumbandnumber" width="100" />
         </row>
       </grid>
     </layoutxml>
@@ -21,11 +22,12 @@
         <entity name="leidos_numberofemployees">
           <attribute name="leidos_numberofemployeesid" />
           <attribute name="leidos_numberofemployees" />
-          <attribute name="createdon" />
-          <order attribute="leidos_numberofemployees" descending="false" />
           <filter type="and">
             <condition attribute="statecode" operator="eq" value="0" />
           </filter>
+          <attribute name="leidos_minimumbandnumber" />
+          <attribute name="leidos_maximumbandnumber" />
+          <order attribute="leidos_minimumbandnumber" descending="false" />
         </entity>
       </fetch>
     </fetchxml>
