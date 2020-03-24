@@ -137,6 +137,14 @@
                         <control id="leidos_account" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_account" disabled="false" />
                       </cell>
                     </row>
+                    <row>
+                      <cell id="{5b23fdaa-7446-4032-80e2-4df3e671960c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="New Account Created by Enquiry" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_newaccountcreatedbyenquiry" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="leidos_newaccountcreatedbyenquiry" disabled="false" />
+                      </cell>
+                    </row>
                   </rows>
                 </section>
                 <section name="Contact Details" showlabel="false" showbar="false" locklevel="0" id="{2288b01d-167c-eb95-3b1c-54cd1ea25084}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
