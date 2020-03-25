@@ -235,6 +235,14 @@
                         <control id="bpf_leidos_accountmanagementrecord_leidos_bpfamrdirectcreation:leidos_partnersignpost" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="leidos_partnersignpost" relationship="bpf_leidos_accountmanagementrecord_leidos_bpfamrdirectcreation" isrequired="true" disabled="false" />
                       </cell>
                     </row>
+                    <row>
+                      <cell id="{24043c7b-969f-4b03-8b54-73a27688b3ef}" showlabel="true" visible="true" labelid="{b80102d5-d7f4-479b-8164-bd6902039ca8}">
+                        <labels>
+                          <label description="Automatically Send Disengagement Letter" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_leidos_accountmanagementrecord_leidos_bpfamrdirectcreation:leidos_automaticallysenddisengagementletter" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="leidos_automaticallysenddisengagementletter" relationship="bpf_leidos_accountmanagementrecord_leidos_bpfamrdirectcreation" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
                   </rows>
                 </section>
               </sections>

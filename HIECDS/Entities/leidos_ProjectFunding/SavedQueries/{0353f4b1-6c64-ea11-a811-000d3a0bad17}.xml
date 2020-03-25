@@ -22,6 +22,8 @@
           <cell name="a_e218a45627d34ba68da01e2f84dba9a8.leidos_approvedbudget" width="100" />
           <cell name="leidos_funddetails" width="100" />
           <cell name="leidos_fundingsource" width="150" />
+          <cell name="leidos_stateaidcategory" width="100" />
+          <cell name="leidos_stateaidsubcategory" width="100" />
           <cell name="leidos_fundingamount" width="100" />
         </row>
       </grid>
@@ -46,6 +48,8 @@
           <attribute name="leidos_funddetails" />
           <attribute name="leidos_fundingsource" />
           <attribute name="leidos_fundingamount" />
+          <attribute name="leidos_stateaidcategory" />
+          <attribute name="leidos_stateaidsubcategory" />
         </entity>
       </fetch>
     </fetchxml>

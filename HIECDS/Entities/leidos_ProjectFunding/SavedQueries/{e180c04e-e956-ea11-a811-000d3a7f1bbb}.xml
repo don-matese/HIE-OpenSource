@@ -14,7 +14,9 @@
           <cell name="leidos_fundingamount" width="100" />
           <cell name="leidos_fundingsource" width="100" />
           <cell name="leidos_funddetails" width="100" />
+          <cell name="leidos_stateaidcategory" width="100" />
           <cell name="leidos_evidencenotes" width="100" />
+          <cell name="leidos_stateaidsubcategory" width="100" />
           <cell name="createdon" width="125" />
         </row>
       </grid>
@@ -31,6 +33,8 @@
           <attribute name="leidos_fundingsource" />
           <attribute name="leidos_funddetails" />
           <order attribute="leidos_name" descending="false" />
+          <attribute name="leidos_stateaidcategory" />
+          <attribute name="leidos_stateaidsubcategory" />
         </entity>
       </fetch>
     </fetchxml>

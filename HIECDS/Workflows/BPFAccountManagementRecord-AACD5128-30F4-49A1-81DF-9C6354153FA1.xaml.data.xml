@@ -96,5 +96,8 @@
     <steplabels id="{8e62be7d-1a83-4781-b44e-f814e29d72b6}">
       <label languagecode="1033" description="Partner Signpost" />
     </steplabels>
+    <steplabels id="{24043c7b-969f-4b03-8b54-73a27688b3ef}">
+      <label languagecode="1033" description="Automatically Send Disengagement Letter" />
+    </steplabels>
   </labels>
 </Workflow>

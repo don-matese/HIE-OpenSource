@@ -782,6 +782,14 @@
                   </labels>
                   <rows>
                     <row>
+                      <cell id="{57172dad-f0e1-466b-9fb7-f25b0c2b028f}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Supplier Orginisation" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_supplierorginisation" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="leidos_supplierorginisation" disabled="false" uniqueid="{10a5415f-29ac-4d78-911b-e34fb8122e8c}" />
+                      </cell>
+                    </row>
+                    <row>
                       <cell id="{8ee996eb-cf5b-4273-8387-95287d2e784a}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="SEP Partner Orginisation" languagecode="1033" />
@@ -790,11 +798,11 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{57172dad-f0e1-466b-9fb7-f25b0c2b028f}" showlabel="true" locklevel="0">
+                      <cell id="{7a6cb559-f1b9-40cf-95a8-9e5242a7b725}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Supplier Orginisation" languagecode="1033" />
+                          <label description="Partner Service Summary" languagecode="1033" />
                         </labels>
-                        <control id="leidos_supplierorginisation" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="leidos_supplierorginisation" disabled="false" uniqueid="{10a5415f-29ac-4d78-911b-e34fb8122e8c}" />
+                        <control id="leidos_partnerservicesummary" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="leidos_partnerservicesummary" disabled="false" />
                       </cell>
                     </row>
                   </rows>

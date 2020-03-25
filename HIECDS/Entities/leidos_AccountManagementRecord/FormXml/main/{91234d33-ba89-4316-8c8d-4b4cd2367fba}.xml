@@ -305,12 +305,20 @@
                             <AutoResolve>true</AutoResolve>
                             <DisableMru>false</DisableMru>
                             <DisableQuickFind>false</DisableQuickFind>
-                            <DisableViewPicker>false</DisableViewPicker>
-                            <DefaultViewId>{A9AF0AB8-861D-4CFA-92A5-C6281FED7FAB}</DefaultViewId>
+                            <DisableViewPicker>true</DisableViewPicker>
+                            <DefaultViewId>{217061E1-853E-EA11-A812-000D3A0BAD17}</DefaultViewId>
                             <AvailableViewIds>{A9AF0AB8-861D-4CFA-92A5-C6281FED7FAB},{217061E1-853E-EA11-A812-000D3A0BAD17}</AvailableViewIds>
                             <AllowFilterOff>false</AllowFilterOff>
                           </parameters>
                         </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{711b46be-dac3-4eec-85ee-e5cb12dd2122}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Automatically Send Disengagement Letter" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_automaticallysenddisengagementletter" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="leidos_automaticallysenddisengagementletter" disabled="false" uniqueid="{11d0ed26-fed2-475f-88cc-7ea60d9cafeb}" />
                       </cell>
                     </row>
                   </rows>
@@ -471,7 +479,30 @@
           </NavBarArea>
         </NavBarAreas>
       </Navigation>
-      <controlDescriptions />
+      <controlDescriptions>
+        <controlDescription forControl="{11d0ed26-fed2-475f-88cc-7ea60d9cafeb}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>leidos_automaticallysenddisengagementletter</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>leidos_automaticallysenddisengagementletter</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>leidos_automaticallysenddisengagementletter</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>leidos_automaticallysenddisengagementletter</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
       <DisplayConditions Order="0" FallbackForm="true">
         <Everyone />
       </DisplayConditions>
