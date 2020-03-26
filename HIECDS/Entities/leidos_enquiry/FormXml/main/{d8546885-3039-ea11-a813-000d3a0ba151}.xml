@@ -14,7 +14,7 @@
           <columns>
             <column width="100%">
               <sections>
-                <section name="Contact Details" id="200a84ea-116c-4a58-90bf-c75218d06eeb" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115">
+                <section name="Contact Details" id="200a84ea-116c-4a58-90bf-c75218d06eeb" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115" visible="false">
                   <labels>
                     <label description="Contact Details" languagecode="1033" />
                   </labels>
@@ -84,6 +84,14 @@
                       </cell>
                     </row>
                     <row>
+                      <cell id="{12a5eff3-ec3f-4363-8f27-9768b6bf80bc}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Product or Service" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_productorservice" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_productorservice" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
                       <cell id="{d50d4835-aa4e-4c59-3b08-acb3367ee0b7}" showlabel="true" rowspan="5" auto="false" colspan="1" locklevel="0">
                         <labels>
                           <label description="Note Text" languagecode="1033" />
@@ -147,7 +155,7 @@
         </rows>
       </header>
       <Navigation>
-        <NavBar></NavBar>
+        <NavBar />
         <NavBarAreas>
           <NavBarArea Id="Info">
             <Titles>

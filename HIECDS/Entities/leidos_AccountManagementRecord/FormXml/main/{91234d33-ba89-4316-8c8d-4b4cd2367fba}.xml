@@ -280,6 +280,14 @@
                         </control>
                       </cell>
                     </row>
+                    <row>
+                      <cell id="{fa164aa0-d01f-4e9e-9c18-8d3e9a9371e8}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Last Approved Client Plan" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_lastapprovedclientplan" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_lastapprovedclientplan" disabled="false" />
+                      </cell>
+                    </row>
                   </rows>
                 </section>
                 <section name="MonitoringandAftercare_section_3" id="2abf1b20-f3e9-4bd5-b7d6-9ed5c4e84f3b" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">

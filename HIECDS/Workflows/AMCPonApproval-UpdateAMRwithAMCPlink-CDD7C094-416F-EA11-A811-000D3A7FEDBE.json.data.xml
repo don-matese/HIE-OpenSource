@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Workflow WorkflowId="{a4328629-c85e-ea11-a811-000d3a0bad17}" Name="Account Management Client Plan - Flow - Submit for Approval" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <JsonFileName>/Workflows/AccountManagementClientPlan-Flow-SubmitforApproval-A4328629-C85E-EA11-A811-000D3A0BAD17.json</JsonFileName>
+<Workflow WorkflowId="{cdd7c094-416f-ea11-a811-000d3a7fedbe}" Name="AMCP on Approval -&gt; Update AMR with AMCP link" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <JsonFileName>/Workflows/AMCPonApproval-UpdateAMRwithAMCPlink-CDD7C094-416F-EA11-A811-000D3A7FEDBE.json</JsonFileName>
   <Type>1</Type>
   <Subprocess>0</Subprocess>
   <Category>5</Category>
@@ -20,6 +20,6 @@
   <BusinessProcessType>0</BusinessProcessType>
   <PrimaryEntity>none</PrimaryEntity>
   <LocalizedNames>
-    <LocalizedName languagecode="1033" description="Account Management Client Plan - Flow - Submit for Approval" />
+    <LocalizedName languagecode="1033" description="AMCP on Approval -&gt; Update AMR with AMCP link" />
   </LocalizedNames>
 </Workflow>

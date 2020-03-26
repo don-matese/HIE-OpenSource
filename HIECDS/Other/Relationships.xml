@@ -40,6 +40,7 @@
   <EntityRelationship Name="leidos_AccountManagementRecord_AreaOffice" />
   <EntityRelationship Name="leidos_AccountManagementRecord_CompletedB" />
   <EntityRelationship Name="leidos_AccountManagementRecord_DelegatedA" />
+  <EntityRelationship Name="leidos_AccountManagementRecord_LastApprov" />
   <EntityRelationship Name="leidos_AccountManagementRecord_ParentAcco" />
   <EntityRelationship Name="leidos_AccountManagementRecord_PartnerSig" />
   <EntityRelationship Name="leidos_AccountManagementRecord_PortfolioM" />
@@ -87,6 +88,7 @@
   <EntityRelationship Name="leidos_leidos_clientplanquestion_leidos_C" />
   <EntityRelationship Name="leidos_leidos_clientplanreviewresponse_le" />
   <EntityRelationship Name="leidos_leidos_clientplansummary_leidos_Pa" />
+  <EntityRelationship Name="leidos_leidos_enquiry_leidos_ProductorSer" />
   <EntityRelationship Name="leidos_leidos_geographies_leidos_tradinggeography_Geography" />
   <EntityRelationship Name="leidos_leidos_natureofenquiry_leidos_enquiry_NatureofEnquiry" />
   <EntityRelationship Name="leidos_leidos_tradinggeography_leidos_Par" />
