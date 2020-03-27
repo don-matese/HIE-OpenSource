@@ -12,7 +12,6 @@
       <field displayname="Status" name="statecode" type="state" />
       <field displayname="Status Reason" name="statuscode" type="status" />
       <field displayname="Application Question" name="leidos_applicationquestionid" type="guid" primaryKey="true" />
-      <field displayname="leidos_questiontypename" name="leidos_questiontypename" type="string" customfield="true" />
       <field displayname="Question" name="leidos_question" type="string" customfield="true" />
       <field displayname="Question Full Text" name="leidos_questionfulltext" type="string" customfield="true" />
       <field displayname="Question Type" name="leidos_questiontype" type="entityreference" lookupType="leidos_applicationquestiontypes" customfield="true" />
@@ -48,7 +47,6 @@
       <field displayname=" INDICATORS OF GOOD PRACTICE " name="leidos_indicatorsofgoodpractice" type="string" customfield="true" />
       <field displayname="Category" name="leidos_category" type="entityreference" lookupType="leidos_clientplanquestioncategory" customfield="true" />
       <field displayname="Client Plan Question" name="leidos_clientplanquestionid" type="guid" primaryKey="true" />
-      <field displayname="leidos_categoryname" name="leidos_categoryname" type="string" customfield="true" />
       <field displayname="Question" name="leidos_question" type="string" customfield="true" />
       <field displayname="Question Index" name="leidos_questionindex" type="number" customfield="true" />
       <field displayname="Statement" name="leidos_statement" type="string" customfield="true" />
@@ -89,7 +87,6 @@
       <field displayname="Fund" name="leidos_fund" type="string" customfield="true" />
       <field displayname="Fund Detail" name="leidos_funddetailid" type="guid" primaryKey="true" />
       <field displayname="Funding Source" name="leidos_fundingsource" type="entityreference" lookupType="leidos_fundingsource" customfield="true" />
-      <field displayname="leidos_fundingsourcename" name="leidos_fundingsourcename" type="string" customfield="true" />
     </fields>
   </entity>
   <entity name="leidos_geographies" displayname="Geography" etc="10275" primaryidfield="leidos_geographiesid" primarynamefield="leidos_geography" disableplugins="false">
@@ -109,7 +106,6 @@
   <entity name="leidos_natureofenquiry" displayname="Nature of Enquiry" etc="10277" primaryidfield="leidos_natureofenquiryid" primarynamefield="leidos_name" disableplugins="false">
     <fields>
       <field displayname="Category" name="leidos_category" type="entityreference" lookupType="leidos_categorynatureofenquiry" customfield="true" />
-      <field displayname="leidos_categoryname" name="leidos_categoryname" type="string" customfield="true" />
       <field displayname="Nature of Enquiry" name="leidos_natureofenquiryid" type="guid" primaryKey="true" />
       <field displayname="Nature of Enquiry" name="leidos_name" type="string" customfield="true" />
       <field displayname="Status" name="statecode" type="state" />
@@ -144,7 +140,6 @@
   </entity>
   <entity name="leidos_projectactivity" displayname="Project Activity" etc="10282" primaryidfield="leidos_projectactivityid" primarynamefield="leidos_activity" disableplugins="false">
     <fields>
-      <field displayname="leidos_strategicpriorityname" name="leidos_strategicpriorityname" type="string" customfield="true" />
       <field displayname="Project Activity" name="leidos_projectactivityid" type="guid" primaryKey="true" />
       <field displayname="Status" name="statecode" type="state" />
       <field displayname="Status Reason" name="statuscode" type="status" />
@@ -162,7 +157,6 @@
   </entity>
   <entity name="leidos_projectoutput" displayname="Project Output" etc="10288" primaryidfield="leidos_projectoutputid" primarynamefield="leidos_projectoutput" disableplugins="false">
     <fields>
-      <field displayname="leidos_strategicpriorityname" name="leidos_strategicpriorityname" type="string" customfield="true" />
       <field displayname="Output Primary In Year Measure" name="leidos_outputprimaryinyearmeasure" type="bool" customfield="true" />
       <field displayname="Project Output" name="leidos_projectoutputid" type="guid" primaryKey="true" />
       <field displayname="Project Output" name="leidos_projectoutput" type="string" customfield="true" />
@@ -205,7 +199,6 @@
   </entity>
   <entity name="leidos_stateaidsubcategory" displayname="State Aid Sub - Category" etc="10293" primaryidfield="leidos_stateaidsubcategoryid" primarynamefield="leidos_subtype" disableplugins="false">
     <fields>
-      <field displayname="leidos_stateaidcategoryname" name="leidos_stateaidcategoryname" type="string" customfield="true" />
       <field displayname="State Aid Category" name="leidos_stateaidcategory" type="entityreference" lookupType="leidos_stateaidcategory" customfield="true" />
       <field displayname="State Aid Sub - Category" name="leidos_stateaidsubcategoryid" type="guid" primaryKey="true" />
       <field displayname="Status" name="statecode" type="state" />
