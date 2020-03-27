@@ -76,11 +76,14 @@
   <EntityRelationship Name="leidos_contact_leidos_enquiry_Contact" />
   <EntityRelationship Name="leidos_EmploymentDetails_EmploymentRole_l" />
   <EntityRelationship Name="leidos_enquiry_NoofEmployees_leidos_Numbe" />
+  <EntityRelationship Name="leidos_enquiry_NoofEmployees_leidos_Numbe_account" />
   <EntityRelationship Name="leidos_enquiry_RelevantPerson_SystemUser" />
   <EntityRelationship Name="leidos_enquiry_RelevantTeam_Team" />
   <EntityRelationship Name="leidos_enquiry_Sector_leidos_Sector" />
+  <EntityRelationship Name="leidos_enquiry_Sector_leidos_Sector_account" />
   <EntityRelationship Name="leidos_enquiry_SEPPartnerOrganisation_Acc" />
   <EntityRelationship Name="leidos_enquiry_Turnover_leidos_Turnover" />
+  <EntityRelationship Name="leidos_enquiry_Turnover_leidos_Turnover_account" />
   <EntityRelationship Name="leidos_FundDetail_FundingSource_leidos_Fu" />
   <EntityRelationship Name="leidos_leidos_accountmanagementclientplan" />
   <EntityRelationship Name="leidos_leidos_accountmanagementclientplan_leidos_employmentdetails_ParentAccountManagementClientPlan" />
