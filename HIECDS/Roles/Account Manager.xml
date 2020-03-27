@@ -321,7 +321,6 @@
     <RolePrivilege name="prvDeleteleidos_bpf_project" level="Global" />
     <RolePrivilege name="prvDeleteleidos_bpfaccountprocess" level="Global" />
     <RolePrivilege name="prvDeleteleidos_bpfamrdirectcreation" level="Global" />
-    <RolePrivilege name="prvDeleteleidos_ClientActionPlan" level="Global" />
     <RolePrivilege name="prvDeleteleidos_EmploymentRoles" level="Global" />
     <RolePrivilege name="prvDeleteleidos_enquirybusinessflow" level="Global" />
     <RolePrivilege name="prvDeleteleidos_geographies" level="Global" />
