@@ -81,32 +81,26 @@
     <steplabels id="{8f40dc10-d9e5-4df3-baeb-888032fd9ed8}">
       <label languagecode="1033" description="Enquiry Triage" />
     </steplabels>
-    <steplabels id="{d330b11b-ef60-42e9-9799-9baadaefce4f}">
-      <label languagecode="1033" description="Nature of Business Activity" />
-    </steplabels>
-    <steplabels id="{5ecf3204-6da8-4eae-b8c3-6c8de9af0cb0}">
-      <label languagecode="1033" description="Sector" />
-    </steplabels>
-    <steplabels id="{71a6ad7f-ec8c-4c44-9c4f-06530e481c72}">
+    <steplabels id="{e00879b3-4851-4755-93c0-4ef0f918c53e}">
       <label languagecode="1033" description="Fisheries" />
     </steplabels>
-    <steplabels id="{1e1f7a15-cde1-4c0a-8ac4-a04e0f123ff7}">
+    <steplabels id="{6bfac2fb-fe02-40be-a5d6-bb004d076a62}">
       <label languagecode="1033" description="Farming/Horticulture" />
     </steplabels>
-    <steplabels id="{8df10f54-7e7c-4253-b259-73a36d093ff3}">
+    <steplabels id="{47e750e2-b037-4a9a-a875-148126151b87}">
       <label languagecode="1033" description="Road Freight Transport" />
     </steplabels>
-    <steplabels id="{a587289f-9248-47c5-a982-f9592283b12c}">
+    <steplabels id="{619712d8-b3f8-4c2c-9400-1f813eee3d89}">
+      <label languagecode="1033" description="Sector" />
+    </steplabels>
+    <steplabels id="{481bf2be-a566-4fd3-9bfb-a73b958164eb}">
       <label languagecode="1033" description="Turnover" />
     </steplabels>
-    <steplabels id="{0d8bab03-5f21-45e4-ac50-fc92999a094a}">
+    <steplabels id="{54e72eb6-56a8-4285-8758-52c30ceeb046}">
       <label languagecode="1033" description="No of Employees" />
     </steplabels>
-    <steplabels id="{ad2aedab-4aa4-4a11-9aaf-be4a5614a2cb}">
-      <label languagecode="1033" description="Potential Support Options" />
-    </steplabels>
     <steplabels id="{4834109a-38b7-4d6a-bbfb-bd8593eac8af}">
-      <label languagecode="1033" description="Route To Relevant Team Or Person" />
+      <label languagecode="1033" description="New Account Route To Relevant Team Or Person" />
     </steplabels>
     <steplabels id="{d1fd7a25-0976-4004-b7eb-9e9de816431d}">
       <label languagecode="1033" description="Summary of Discussions" />
@@ -124,13 +118,13 @@
       <label languagecode="1033" description="Relevant Team" />
     </steplabels>
     <steplabels id="{d1fe7460-ee05-417e-9265-d1625baee865}">
-      <label languagecode="1033" description="Progressed" />
+      <label languagecode="1033" description="New Account Progressed" />
     </steplabels>
     <steplabels id="{d8c4fae5-1402-4b04-bd57-36ceb2219a79}">
       <label languagecode="1033" description="Close By" />
     </steplabels>
     <steplabels id="{70e01e2d-3c88-4c15-b235-31bc0fe0dca1}">
-      <label languagecode="1033" description="Route To Relevant Team Or Person" />
+      <label languagecode="1033" description="Existing Account Route To Relevant Team Or Person" />
     </steplabels>
     <steplabels id="{13dfaeb8-c7fd-4711-91e1-fe113d93b01b}">
       <label languagecode="1033" description="Summary of Discussions" />
@@ -148,7 +142,7 @@
       <label languagecode="1033" description="Relevant Team" />
     </steplabels>
     <steplabels id="{d794c76f-0b4f-41a7-98d0-bcdad3519de7}">
-      <label languagecode="1033" description="Progressed" />
+      <label languagecode="1033" description="Existing Account Progressed" />
     </steplabels>
     <steplabels id="{1a600195-a900-4aa0-a355-7e55e37feef7}">
       <label languagecode="1033" description="Close By" />

@@ -7,14 +7,14 @@
     <FormActivationState>1</FormActivationState>
     <form headerdensity="HighWithControls" shownavigationbar="true" showImage="false" maxWidth="1920">
       <tabs>
-        <tab verticallayout="true" id="{6b9f25ef-d863-4c10-b679-a6e6cc54e752}" IsUserDefined="1" name="General" labelid="{3cea4a5c-e09a-449f-9a2b-eb453493b45e}">
+        <tab name="tab_4" id="c443544a-4065-4cdb-a62a-bf2ad9393805" IsUserDefined="0" locklevel="0" showlabel="true" labelid="{d5cfa552-c855-4fc3-b562-f45b09457e6e}">
           <labels>
-            <label description="General" languagecode="1033" />
+            <label description="Growth Plan" languagecode="1033" />
           </labels>
           <columns>
-            <column width="33%">
+            <column width="100%">
               <sections>
-                <section showlabel="false" showbar="false" IsUserDefined="0" id="{d2149774-5c1f-4392-8884-cbd51145db45}" labelid="{a3721fb3-390c-4e7e-a653-f60223767244}">
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{d2149774-5c1f-4392-8884-cbd51145db45}" labelid="{a3721fb3-390c-4e7e-a653-f60223767244}" name="tab_4_section_8">
                   <labels>
                     <label description="General" languagecode="1033" />
                   </labels>
@@ -24,7 +24,7 @@
                         <labels>
                           <label description="Name" languagecode="1033" />
                         </labels>
-                        <control id="leidos_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="leidos_name" />
+                        <control id="leidos_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="leidos_name" disabled="true" />
                       </cell>
                     </row>
                     <row>
@@ -32,7 +32,7 @@
                         <labels>
                           <label description="Related Account" languagecode="1033" />
                         </labels>
-                        <control id="leidos_relatedaccount" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_relatedaccount" disabled="false" />
+                        <control id="leidos_relatedaccount" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_relatedaccount" disabled="true" />
                       </cell>
                     </row>
                     <row>
@@ -40,7 +40,7 @@
                         <labels>
                           <label description="Account Management Record" languagecode="1033" />
                         </labels>
-                        <control id="leidos_accountmanagementrecord" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_accountmanagementrecord" disabled="false" uniqueid="{55c1916a-8bb8-7541-7ed2-9ecd9c21c32b}">
+                        <control id="leidos_accountmanagementrecord" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_accountmanagementrecord" disabled="true" uniqueid="{55c1916a-8bb8-7541-7ed2-9ecd9c21c32b}">
                           <parameters>
                             <AutoResolve>true</AutoResolve>
                             <DisableMru>false</DisableMru>
@@ -60,340 +60,12 @@
                         <labels>
                           <label description="Financial Year" languagecode="1033" />
                         </labels>
-                        <control id="leidos_financialyear" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_financialyear" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{50a08bac-a312-47c1-b52c-cc035ec755a2}" showlabel="true" locklevel="0" labelid="{c80a3309-6d98-4a93-ba1d-345ac67f39dc}">
-                        <labels>
-                          <label description="Share with Customer" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_sharewithcustomer" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="leidos_sharewithcustomer" disabled="false" />
+                        <control id="leidos_financialyear" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_financialyear" disabled="true" />
                       </cell>
                     </row>
                   </rows>
                 </section>
-              </sections>
-            </column>
-            <column width="66%">
-              <sections>
-                <section showlabel="false" showbar="false" id="{6abf4a3c-f67d-4332-8309-8e3ad35ad325}" IsUserDefined="0" height="auto" labelid="{db4892f7-6426-4712-ac8b-86e544dc31ac}">
-                  <labels>
-                    <label description="Notes" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell showlabel="false" rowspan="15" auto="false" id="{de207a86-b799-4474-ac07-817d7dc01b7c}" labelid="{1e12d3e0-aaee-4a94-b4d5-7c44f081c905}">
-                        <labels>
-                          <label description="Note Text" languagecode="1033" />
-                        </labels>
-                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}">
-                          <parameters>
-                            <DefaultTabId>NotesTab</DefaultTabId>
-                          </parameters>
-                        </control>
-                      </cell>
-                    </row>
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row height="auto" />
-                  </rows>
-                </section>
-                <section name="Client Plan Sign Off" id="46e24190-98dc-4f06-b3b5-6e68f571e0ba" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" labelid="{f967ffa7-99f4-49f1-be0e-cca5c97513f3}">
-                  <labels>
-                    <label description="Client Plan Sign Off" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell id="{5ed323f5-4aeb-484c-922f-9a91dd5d9789}" showlabel="true" locklevel="0" labelid="{f8bfcf3d-3d05-48fc-a27a-034fd21af81d}">
-                        <labels>
-                          <label description="Submit Client Plan for Approval" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_submitclientplanforapproval" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="leidos_submitclientplanforapproval" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{0fd6fe54-1508-4a08-b4e0-c792e44ff0e5}" showlabel="true" locklevel="0" labelid="{3f365248-0e9c-4dba-bbba-fb8c8898bc5c}">
-                        <labels>
-                          <label description="Submitted On" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_submittedon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="leidos_submittedon" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{4c5cdf48-901d-4add-8f87-7d9d50c4d5fa}" showlabel="true" locklevel="0" labelid="{d44d4362-ed50-4420-8c92-d359dce749e1}">
-                        <labels>
-                          <label description="Client Plan Approved By" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_clientplanapprovedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_clientplanapprovedby" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{7c6834b9-6058-477f-ba77-0fdcf33a19db}" showlabel="true" locklevel="0" labelid="{130d59c3-e29e-4147-97ec-51f1373cbde6}">
-                        <labels>
-                          <label description="Client Plan Approved on" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_clientplanapprovedon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="leidos_clientplanapprovedon" disabled="false" />
-                      </cell>
-                    </row>
-                  </rows>
-                </section>
-              </sections>
-            </column>
-          </columns>
-        </tab>
-        <tab name="Summary" id="cec7cd19-9d95-43f3-aa38-448048ee0110" IsUserDefined="0" locklevel="0" showlabel="true" labelid="{30ee008e-7f0e-41bb-ae50-a24ae8b58e56}">
-          <labels>
-            <label description="Summary" languagecode="1033" />
-          </labels>
-          <columns>
-            <column width="100%">
-              <sections>
-                <section name="tab_2_section_1" id="abe83d31-16e9-4afb-b36f-cdc5c150454f" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" labelid="{b40a330d-d448-4ee5-8e58-f9b9391b56ef}">
-                  <labels>
-                    <label description="New Section" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell showlabel="false" locklevel="0" id="{0e5e0668-1d55-4e46-8536-5cb750f9fa08}" rowspan="22" colspan="1" auto="false" labelid="{0494735e-3869-4464-ba0e-1ba0257cb580}">
-                        <labels>
-                          <label description="New SG control 1583329603585" languagecode="1033" />
-                        </labels>
-                        <control id="Subgrid_1" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" indicationOfSubgrid="true" uniqueid="{361d3b5a-0081-1673-d50d-022ebe254665}">
-                          <parameters>
-                            <TargetEntityType>leidos_clientplansummary</TargetEntityType>
-                            <ViewId>{B2D8ADE5-185E-EA11-A811-000D3A7F1BBB}</ViewId>
-                            <ViewIds>{72524B7D-1C87-4496-A1F0-A418D1F8DD09},{B2D8ADE5-185E-EA11-A811-000D3A7F1BBB}</ViewIds>
-                            <EnableViewPicker>false</EnableViewPicker>
-                            <RelationshipName>leidos_leidos_clientplansummary_leidos_Pa</RelationshipName>
-                            <RecordsPerPage>20</RecordsPerPage>
-                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
-                            <IsUserView>false</IsUserView>
-                            <EnableQuickFind>false</EnableQuickFind>
-                            <EnableJumpBar>false</EnableJumpBar>
-                            <AutoExpand>Fixed</AutoExpand>
-                            <ChartGridMode>All</ChartGridMode>
-                            <VisualizationId />
-                            <IsUserChart>false</IsUserChart>
-                            <EnableChartPicker>true</EnableChartPicker>
-                          </parameters>
-                        </control>
-                      </cell>
-                    </row>
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row>
-                      <cell id="{4c45c986-7b77-492a-8ef7-70bb6dd650f1}" showlabel="true" locklevel="0" labelid="{3e98ed36-d6ff-4949-8d48-d8d85d55518c}">
-                        <labels>
-                          <label description="Review Summary Complete" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_reviewsummarycomplete" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="leidos_reviewsummarycomplete" disabled="false" />
-                      </cell>
-                    </row>
-                  </rows>
-                </section>
-              </sections>
-            </column>
-          </columns>
-        </tab>
-        <tab name="tab_3" id="b7349981-9d10-4f53-8c06-2ef7e92ae7f9" IsUserDefined="0" locklevel="0" showlabel="true" labelid="{6f98704f-b8ab-46fe-b275-03359366aa85}">
-          <labels>
-            <label description="Client Plan" languagecode="1033" />
-          </labels>
-          <columns>
-            <column width="100%">
-              <sections>
-                <section name="tab_3_section_1" id="fb5e4c6c-b465-4d40-93d5-4b0a7f45b5db" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" height="auto" labelid="{a3a1544e-64d2-4729-8f40-677f77a23d55}">
-                  <labels>
-                    <label description="New Section" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell showlabel="false" locklevel="0" id="{a5e38c70-1610-4570-abed-531989dbe0d1}" rowspan="52" colspan="1" auto="false" labelid="{a92d382f-ede1-4de6-993c-f014cd838e9a}">
-                        <labels>
-                          <label description="New SG control 1583329635140" languagecode="1033" />
-                        </labels>
-                        <control id="Subgrid_2" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" indicationOfSubgrid="true" uniqueid="{e0da19e8-3eab-47b5-ac2d-381ec1966eee}">
-                          <parameters>
-                            <TargetEntityType>leidos_clientplanreviewresponse</TargetEntityType>
-                            <ViewId>{24A07AB0-235E-EA11-A811-000D3A0BAD17}</ViewId>
-                            <ViewIds>{152BA479-93F2-492D-84BA-A29D3A6E948B},{24A07AB0-235E-EA11-A811-000D3A0BAD17}</ViewIds>
-                            <EnableViewPicker>false</EnableViewPicker>
-                            <RelationshipName>leidos_leidos_clientplanreviewresponse_le</RelationshipName>
-                            <RecordsPerPage>50</RecordsPerPage>
-                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
-                            <IsUserView>false</IsUserView>
-                            <EnableQuickFind>false</EnableQuickFind>
-                            <EnableJumpBar>false</EnableJumpBar>
-                            <AutoExpand>Fixed</AutoExpand>
-                            <ChartGridMode>All</ChartGridMode>
-                            <VisualizationId />
-                            <IsUserChart>false</IsUserChart>
-                            <EnableChartPicker>true</EnableChartPicker>
-                          </parameters>
-                        </control>
-                      </cell>
-                    </row>
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row>
-                      <cell id="{7c77e2b2-834c-8624-6938-3e05cd321a56}" showlabel="true" locklevel="0" labelid="{401d70ff-4f85-4b4a-9db8-bbe995c8dd0c}">
-                        <labels>
-                          <label description="Client Plan Details Complete" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_clientplandetailscomplete" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="leidos_clientplandetailscomplete" disabled="false" />
-                      </cell>
-                    </row>
-                  </rows>
-                </section>
-              </sections>
-            </column>
-          </columns>
-        </tab>
-        <tab name="tab_5" id="2e7f22e9-bd36-4752-a855-25468095bd03" IsUserDefined="0" locklevel="0" showlabel="true" labelid="{146f8d82-d06b-4cf3-9213-7298f0d88de5}">
-          <labels>
-            <label description="Action Plan" languagecode="1033" />
-          </labels>
-          <columns>
-            <column width="100%">
-              <sections>
-                <section name="tab_5_section_1" id="f4fc78bb-9c82-47ae-96f2-77352af4e9e2" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" labelid="{fb836b89-db74-463e-b904-07b9112f764b}">
-                  <labels>
-                    <label description="New Section" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell showlabel="false" locklevel="0" id="{beae6cf0-90c7-45da-a155-1ff7610d1141}" rowspan="6" colspan="1" auto="false" labelid="{f8249ed6-4ed5-4cf0-be34-3f39c3386267}">
-                        <labels>
-                          <label description="New SG control 1583329670777" languagecode="1033" />
-                        </labels>
-                        <control id="Subgrid_3" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" indicationOfSubgrid="true" uniqueid="{a764b656-6151-c101-c442-aa9b741117a7}">
-                          <parameters>
-                            <TargetEntityType>leidos_clientactionplan</TargetEntityType>
-                            <ViewId>{B376BD0A-1E5E-EA11-A811-000D3A0BAD17}</ViewId>
-                            <ViewIds>{D9372E31-EF05-4158-A5F4-14C81951E262},{B376BD0A-1E5E-EA11-A811-000D3A0BAD17}</ViewIds>
-                            <EnableViewPicker>false</EnableViewPicker>
-                            <RelationshipName>leidos_ClientActionPlan_ParentClientPlan_</RelationshipName>
-                            <RecordsPerPage>4</RecordsPerPage>
-                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
-                            <IsUserView>false</IsUserView>
-                            <EnableQuickFind>false</EnableQuickFind>
-                            <EnableJumpBar>false</EnableJumpBar>
-                            <AutoExpand>Fixed</AutoExpand>
-                            <ChartGridMode>All</ChartGridMode>
-                            <VisualizationId />
-                            <IsUserChart>false</IsUserChart>
-                            <EnableChartPicker>true</EnableChartPicker>
-                          </parameters>
-                        </control>
-                      </cell>
-                    </row>
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row>
-                      <cell id="{a138cd79-505c-46cc-aff7-d49b6dfdf620}" showlabel="true" locklevel="0" labelid="{9095e976-5188-4606-a5f5-17ba34e38e78}">
-                        <labels>
-                          <label description="Action Plan Complete" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_actionplancomplete" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="leidos_actionplancomplete" disabled="false" />
-                      </cell>
-                    </row>
-                  </rows>
-                </section>
-              </sections>
-            </column>
-          </columns>
-        </tab>
-        <tab name="tab_4" id="c443544a-4065-4cdb-a62a-bf2ad9393805" IsUserDefined="0" locklevel="0" showlabel="true" labelid="{d5cfa552-c855-4fc3-b562-f45b09457e6e}">
-          <labels>
-            <label description="Growth Plan" languagecode="1033" />
-          </labels>
-          <columns>
-            <column width="100%">
-              <sections>
-                <section name="Income" id="6df2f850-c3fc-4f00-acb6-af6460bd91e1" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115" labelid="{f0aae625-651a-4d9b-a82d-16c02fde022f}">
+                <section name="tab_4_section_9" id="6df2f850-c3fc-4f00-acb6-af6460bd91e1" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115" labelid="{f0aae625-651a-4d9b-a82d-16c02fde022f}">
                   <labels>
                     <label description="Income" languagecode="1033" />
                   </labels>
@@ -906,129 +578,6 @@
         </NavBarAreas>
       </Navigation>
       <controlDescriptions>
-        <controlDescription forControl="{a764b656-6151-c101-c442-aa9b741117a7}">
-          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" formFactor="0">
-            <parameters />
-          </customControl>
-          <customControl formFactor="1" name="MscrmControls.Grid.GridControl">
-            <parameters>
-              <data-set name="Grid">
-                <ViewId>{B376BD0A-1E5E-EA11-A811-000D3A0BAD17}</ViewId>
-                <columnsDefaultView />
-                <IsUserView>false</IsUserView>
-                <RelationshipName>leidos_ClientActionPlan_ParentClientPlan_</RelationshipName>
-                <TargetEntityType>leidos_clientactionplan</TargetEntityType>
-                <EnableViewPicker>false</EnableViewPicker>
-                <FilteredViewIds>{D9372E31-EF05-4158-A5F4-14C81951E262},{B376BD0A-1E5E-EA11-A811-000D3A0BAD17}</FilteredViewIds>
-              </data-set>
-              <EnableGroupBy static="true" type="Enum">yes</EnableGroupBy>
-              <EnableEditing static="true" type="Enum">yes</EnableEditing>
-              <ReflowBehavior static="true" type="Enum">GridOnly</ReflowBehavior>
-              <EnableFiltering static="true" type="Enum">yes</EnableFiltering>
-              <HideNestedGridColumnHeader static="true" type="Enum">no</HideNestedGridColumnHeader>
-            </parameters>
-          </customControl>
-          <customControl formFactor="2" name="MscrmControls.Grid.GridControl">
-            <parameters>
-              <data-set name="Grid">
-                <ViewId>{B376BD0A-1E5E-EA11-A811-000D3A0BAD17}</ViewId>
-                <columnsDefaultView />
-                <IsUserView>false</IsUserView>
-                <RelationshipName>leidos_ClientActionPlan_ParentClientPlan_</RelationshipName>
-                <TargetEntityType>leidos_clientactionplan</TargetEntityType>
-                <EnableViewPicker>false</EnableViewPicker>
-                <FilteredViewIds>{D9372E31-EF05-4158-A5F4-14C81951E262},{B376BD0A-1E5E-EA11-A811-000D3A0BAD17}</FilteredViewIds>
-              </data-set>
-              <EnableGroupBy static="true" type="Enum">yes</EnableGroupBy>
-              <EnableEditing static="true" type="Enum">yes</EnableEditing>
-              <ReflowBehavior static="true" type="Enum">GridOnly</ReflowBehavior>
-              <EnableFiltering static="true" type="Enum">yes</EnableFiltering>
-              <HideNestedGridColumnHeader static="true" type="Enum">no</HideNestedGridColumnHeader>
-            </parameters>
-          </customControl>
-        </controlDescription>
-        <controlDescription forControl="{e0da19e8-3eab-47b5-ac2d-381ec1966eee}">
-          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" formFactor="0">
-            <parameters />
-          </customControl>
-          <customControl formFactor="1" name="MscrmControls.Grid.GridControl">
-            <parameters>
-              <data-set name="Grid">
-                <ViewId>{24A07AB0-235E-EA11-A811-000D3A0BAD17}</ViewId>
-                <columnsDefaultView />
-                <IsUserView>false</IsUserView>
-                <RelationshipName>leidos_leidos_clientplanreviewresponse_le</RelationshipName>
-                <TargetEntityType>leidos_clientplanreviewresponse</TargetEntityType>
-                <EnableViewPicker>false</EnableViewPicker>
-                <FilteredViewIds>{152BA479-93F2-492D-84BA-A29D3A6E948B},{24A07AB0-235E-EA11-A811-000D3A0BAD17}</FilteredViewIds>
-              </data-set>
-              <EnableGroupBy static="true" type="Enum">no</EnableGroupBy>
-              <EnableEditing static="true" type="Enum">yes</EnableEditing>
-              <ReflowBehavior static="true" type="Enum">GridOnly</ReflowBehavior>
-              <EnableFiltering static="true" type="Enum">no</EnableFiltering>
-              <HideNestedGridColumnHeader static="true" type="Enum">no</HideNestedGridColumnHeader>
-            </parameters>
-          </customControl>
-          <customControl formFactor="2" name="MscrmControls.Grid.GridControl">
-            <parameters>
-              <data-set name="Grid">
-                <ViewId>{24A07AB0-235E-EA11-A811-000D3A0BAD17}</ViewId>
-                <columnsDefaultView />
-                <IsUserView>false</IsUserView>
-                <RelationshipName>leidos_leidos_clientplanreviewresponse_le</RelationshipName>
-                <TargetEntityType>leidos_clientplanreviewresponse</TargetEntityType>
-                <EnableViewPicker>false</EnableViewPicker>
-                <FilteredViewIds>{152BA479-93F2-492D-84BA-A29D3A6E948B},{24A07AB0-235E-EA11-A811-000D3A0BAD17}</FilteredViewIds>
-              </data-set>
-              <EnableGroupBy static="true" type="Enum">no</EnableGroupBy>
-              <EnableEditing static="true" type="Enum">yes</EnableEditing>
-              <ReflowBehavior static="true" type="Enum">GridOnly</ReflowBehavior>
-              <EnableFiltering static="true" type="Enum">no</EnableFiltering>
-              <HideNestedGridColumnHeader static="true" type="Enum">no</HideNestedGridColumnHeader>
-            </parameters>
-          </customControl>
-        </controlDescription>
-        <controlDescription forControl="{361d3b5a-0081-1673-d50d-022ebe254665}">
-          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" formFactor="0">
-            <parameters />
-          </customControl>
-          <customControl formFactor="1" name="MscrmControls.Grid.GridControl">
-            <parameters>
-              <data-set name="Grid">
-                <ViewId>{B2D8ADE5-185E-EA11-A811-000D3A7F1BBB}</ViewId>
-                <columnsDefaultView />
-                <IsUserView>false</IsUserView>
-                <RelationshipName>leidos_leidos_clientplansummary_leidos_Pa</RelationshipName>
-                <TargetEntityType>leidos_clientplansummary</TargetEntityType>
-                <EnableViewPicker>false</EnableViewPicker>
-                <FilteredViewIds>{72524B7D-1C87-4496-A1F0-A418D1F8DD09},{B2D8ADE5-185E-EA11-A811-000D3A7F1BBB}</FilteredViewIds>
-              </data-set>
-              <EnableGroupBy static="true" type="Enum">no</EnableGroupBy>
-              <EnableEditing static="true" type="Enum">yes</EnableEditing>
-              <ReflowBehavior static="true" type="Enum">GridOnly</ReflowBehavior>
-              <EnableFiltering static="true" type="Enum">no</EnableFiltering>
-              <HideNestedGridColumnHeader static="true" type="Enum">no</HideNestedGridColumnHeader>
-            </parameters>
-          </customControl>
-          <customControl formFactor="2" name="MscrmControls.Grid.GridControl">
-            <parameters>
-              <data-set name="Grid">
-                <ViewId>{B2D8ADE5-185E-EA11-A811-000D3A7F1BBB}</ViewId>
-                <columnsDefaultView />
-                <IsUserView>false</IsUserView>
-                <RelationshipName>leidos_leidos_clientplansummary_leidos_Pa</RelationshipName>
-                <TargetEntityType>leidos_clientplansummary</TargetEntityType>
-                <EnableViewPicker>false</EnableViewPicker>
-                <FilteredViewIds>{72524B7D-1C87-4496-A1F0-A418D1F8DD09},{B2D8ADE5-185E-EA11-A811-000D3A7F1BBB}</FilteredViewIds>
-              </data-set>
-              <EnableGroupBy static="true" type="Enum">no</EnableGroupBy>
-              <EnableEditing static="true" type="Enum">yes</EnableEditing>
-              <ReflowBehavior static="true" type="Enum">GridOnly</ReflowBehavior>
-              <EnableFiltering static="true" type="Enum">no</EnableFiltering>
-              <HideNestedGridColumnHeader static="true" type="Enum">no</HideNestedGridColumnHeader>
-            </parameters>
-          </customControl>
-        </controlDescription>
         <controlDescription forControl="{884045c4-40c6-dd2a-7647-965a09708ddd}">
           <customControl id="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" formFactor="0">
             <parameters>
