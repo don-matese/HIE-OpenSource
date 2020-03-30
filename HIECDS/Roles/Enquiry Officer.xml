@@ -44,6 +44,7 @@
     <RolePrivilege name="prvAppendleidos_OrganisationType" level="Global" />
     <RolePrivilege name="prvAppendleidos_Project" level="Global" />
     <RolePrivilege name="prvAppendleidos_Qualification" level="Global" />
+    <RolePrivilege name="prvAppendleidos_Sector" level="Global" />
     <RolePrivilege name="prvAppendleidos_Segmentation" level="Global" />
     <RolePrivilege name="prvAppendleidos_tradinggeography" level="Global" />
     <RolePrivilege name="prvAppendleidos_tradingstatus" level="Global" />
@@ -105,6 +106,7 @@
     <RolePrivilege name="prvAppendToleidos_OrganisationType" level="Global" />
     <RolePrivilege name="prvAppendToleidos_Project" level="Global" />
     <RolePrivilege name="prvAppendToleidos_Qualification" level="Global" />
+    <RolePrivilege name="prvAppendToleidos_Sector" level="Global" />
     <RolePrivilege name="prvAppendToleidos_Segmentation" level="Global" />
     <RolePrivilege name="prvAppendToleidos_tradinggeography" level="Global" />
     <RolePrivilege name="prvAppendToleidos_tradingstatus" level="Global" />
@@ -186,7 +188,6 @@
     <RolePrivilege name="prvCreateImport" level="Basic" />
     <RolePrivilege name="prvCreateImportFile" level="Basic" />
     <RolePrivilege name="prvCreateImportMap" level="Local" />
-    <RolePrivilege name="prvCreateleidos_AccountManagementRecord" level="Global" />
     <RolePrivilege name="prvCreateleidos_EmploymentDetails" level="Global" />
     <RolePrivilege name="prvCreateleidos_enquiry" level="Global" />
     <RolePrivilege name="prvCreateleidos_enquirybusinessflow" level="Global" />
@@ -294,6 +295,7 @@
     <RolePrivilege name="prvReadImportMap" level="Global" />
     <RolePrivilege name="prvReadInteractionForEmail" level="Global" />
     <RolePrivilege name="prvReadLanguageLocale" level="Global" />
+    <RolePrivilege name="prvReadleidos_AccountManagementClientPlan" level="Global" />
     <RolePrivilege name="prvReadleidos_AccountManagementRecord" level="Global" />
     <RolePrivilege name="prvReadleidos_Application" level="Global" />
     <RolePrivilege name="prvReadleidos_ApplicationAnswer" level="Global" />
@@ -327,6 +329,7 @@
     <RolePrivilege name="prvReadleidos_ProjectOutcome" level="Global" />
     <RolePrivilege name="prvReadleidos_ProjectOutput" level="Global" />
     <RolePrivilege name="prvReadleidos_Qualification" level="Global" />
+    <RolePrivilege name="prvReadleidos_Sector" level="Global" />
     <RolePrivilege name="prvReadleidos_Segmentation" level="Global" />
     <RolePrivilege name="prvReadleidos_StateAidAssessment" level="Global" />
     <RolePrivilege name="prvReadleidos_StateAidAssessmentDetail" level="Global" />
@@ -454,7 +457,6 @@
     <RolePrivilege name="prvWriteImport" level="Basic" />
     <RolePrivilege name="prvWriteImportFile" level="Basic" />
     <RolePrivilege name="prvWriteImportMap" level="Local" />
-    <RolePrivilege name="prvWriteleidos_AccountManagementRecord" level="Local" />
     <RolePrivilege name="prvWriteleidos_EmploymentDetails" level="Local" />
     <RolePrivilege name="prvWriteleidos_enquiry" level="Global" />
     <RolePrivilege name="prvWriteleidos_enquirybusinessflow" level="Global" />
