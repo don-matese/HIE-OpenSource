@@ -2,7 +2,6 @@
 <EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <EntityRelationship Name="adx_webrole_systemuser" />
   <EntityRelationship Name="bpf_account_leidos_bpfaccountprocess" />
-  <EntityRelationship Name="bpf_account_leidos_enquirybusinessflow" />
   <EntityRelationship Name="bpf_leidos_accountmanagementclientplan_leidos_bpf_amclientplan" />
   <EntityRelationship Name="bpf_leidos_accountmanagementrecord_leidos_bpfaccountprocess" />
   <EntityRelationship Name="bpf_leidos_accountmanagementrecord_leidos_bpfamrdirectcreation" />
