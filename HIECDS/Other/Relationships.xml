@@ -79,7 +79,6 @@
   <EntityRelationship Name="leidos_enquiry_RelevantPerson_SystemUser" />
   <EntityRelationship Name="leidos_enquiry_RelevantTeam_Team" />
   <EntityRelationship Name="leidos_enquiry_Sector_leidos_Sector" />
-  <EntityRelationship Name="leidos_enquiry_Sector_leidos_Sector_account" />
   <EntityRelationship Name="leidos_enquiry_SEPPartnerOrganisation_Acc" />
   <EntityRelationship Name="leidos_enquiry_Turnover_leidos_Turnover" />
   <EntityRelationship Name="leidos_enquiry_Turnover_leidos_Turnover_account" />
