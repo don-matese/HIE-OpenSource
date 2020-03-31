@@ -36,14 +36,6 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{1ef3a871-3bdf-43a5-af88-bb4fc19830cd}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Reference Number" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_referencenumber" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="leidos_referencenumber" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
                       <cell id="{dc9c7bc8-874e-44e4-ba8f-aace8ed3679a}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Enquiry Source" languagecode="1033" />
