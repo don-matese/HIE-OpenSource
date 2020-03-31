@@ -107,7 +107,7 @@
       <mxswa:ActivityReference.Properties>
         <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
         <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
-          <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.StageComposite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="StageStep11: New Stage">
+          <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.StageComposite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="StageStep11: Details">
             <mxswa:ActivityReference.Properties>
               <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
               <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
@@ -197,7 +197,7 @@
                 </mxswa:ActivityReference>
               </sco:Collection>
               <sco:Collection x:TypeArguments="mcwo:StepLabel" x:Key="StepLabels">
-                <mcwo:StepLabel Description="New Stage" LabelId="6f54e3ef-0209-4ced-819d-8cbf268f77f8" LanguageCode="1033" />
+                <mcwo:StepLabel Description="Details" LabelId="6f54e3ef-0209-4ced-819d-8cbf268f77f8" LanguageCode="1033" />
               </sco:Collection>
               <x:String x:Key="StageId">6f54e3ef-0209-4ced-819d-8cbf268f77f8</x:String>
               <x:String x:Key="StageCategory">-1</x:String>
@@ -214,7 +214,7 @@
       <mxswa:ActivityReference.Properties>
         <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
         <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
-          <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.StageComposite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="StageStep21: New Stage">
+          <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.StageComposite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="StageStep21: Approval ">
             <mxswa:ActivityReference.Properties>
               <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
               <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
@@ -283,7 +283,7 @@
                 </mxswa:ActivityReference>
               </sco:Collection>
               <sco:Collection x:TypeArguments="mcwo:StepLabel" x:Key="StepLabels">
-                <mcwo:StepLabel Description="New Stage" LabelId="1803be2c-d1e9-49e5-bd23-27184cc08c2b" LanguageCode="1033" />
+                <mcwo:StepLabel Description="Approval " LabelId="1803be2c-d1e9-49e5-bd23-27184cc08c2b" LanguageCode="1033" />
               </sco:Collection>
               <x:String x:Key="StageId">1803be2c-d1e9-49e5-bd23-27184cc08c2b</x:String>
               <x:String x:Key="StageCategory">-1</x:String>

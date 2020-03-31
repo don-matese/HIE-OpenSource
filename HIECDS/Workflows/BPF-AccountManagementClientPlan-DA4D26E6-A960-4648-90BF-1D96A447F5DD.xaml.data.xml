@@ -40,7 +40,7 @@
       <label languagecode="1033" description="Financial Year" />
     </steplabels>
     <steplabels id="{6f54e3ef-0209-4ced-819d-8cbf268f77f8}">
-      <label languagecode="1033" description="New Stage" />
+      <label languagecode="1033" description="Details" />
     </steplabels>
     <steplabels id="{a7c8da35-1339-4fd6-b035-fea1678222bd}">
       <label languagecode="1033" description="Review Summary Complete" />
@@ -55,7 +55,7 @@
       <label languagecode="1033" description="Action Plan Complete" />
     </steplabels>
     <steplabels id="{1803be2c-d1e9-49e5-bd23-27184cc08c2b}">
-      <label languagecode="1033" description="New Stage" />
+      <label languagecode="1033" description="Approval " />
     </steplabels>
     <steplabels id="{9e3b77c0-dc1b-49e4-a50f-9e454f00f756}">
       <label languagecode="1033" description="Submit Client Plan for Approval" />

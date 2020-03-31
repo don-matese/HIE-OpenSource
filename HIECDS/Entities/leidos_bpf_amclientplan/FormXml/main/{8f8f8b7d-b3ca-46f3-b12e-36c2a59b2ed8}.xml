@@ -51,14 +51,14 @@
         </tab>
         <tab verticallayout="true" id="{6f54e3ef-0209-4ced-819d-8cbf268f77f8}" name="StageStep11" locklevel="0" expanded="true" visible="false" labelid="{07b59f6c-e276-494b-80ad-bddbd0b285fc}">
           <labels>
-            <label description="New Stage" languagecode="1033" />
+            <label description="Details" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
                 <section showbar="false" columns="1" id="{6f54e3ef-0209-4ced-819d-8cbf268f77f8}" name="StageStep11_section1" labelid="{a30ebc0a-fc98-4c84-9aa7-305a6fb97279}">
                   <labels>
-                    <label description="New Stage" languagecode="1033" />
+                    <label description="Details" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
@@ -101,14 +101,14 @@
         </tab>
         <tab verticallayout="true" id="{1803be2c-d1e9-49e5-bd23-27184cc08c2b}" name="StageStep21" locklevel="0" expanded="true" visible="false" labelid="{4866e963-2b90-41a2-a454-684a614a113d}">
           <labels>
-            <label description="New Stage" languagecode="1033" />
+            <label description="Approval " languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
                 <section showbar="false" columns="1" id="{1803be2c-d1e9-49e5-bd23-27184cc08c2b}" name="StageStep21_section1" labelid="{1e0c0899-8c7e-4f83-a9cc-352c62f720d6}">
                   <labels>
-                    <label description="New Stage" languagecode="1033" />
+                    <label description="Approval " languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
