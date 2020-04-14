@@ -9,7 +9,7 @@
       <tabs>
         <tab verticallayout="true" id="{28d41d28-2711-4e9c-974f-b37fd8f27a78}" IsUserDefined="1" name="Enquiry" locklevel="0" expanded="true" showlabel="true" labelid="{1763d3a7-3c37-40b9-a4a9-b7c80921cb8b}" visible="true">
           <labels>
-            <label description="Enquiry" languagecode="1033" />
+            <label description="Enquiry Details" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
@@ -62,7 +62,7 @@
                     </row>
                   </rows>
                 </section>
-                <section name="Enquiry Details" showlabel="true" showbar="false" locklevel="0" id="{b3a8e48c-8db7-0507-047e-d10449212778}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{aa09c0da-8007-4021-86e6-e57ca8457f06}">
+                <section name="Enquiry Details" showlabel="false" showbar="false" locklevel="0" id="{b3a8e48c-8db7-0507-047e-d10449212778}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{aa09c0da-8007-4021-86e6-e57ca8457f06}">
                   <labels>
                     <label description="Enquiry Details" languagecode="1033" />
                   </labels>
@@ -91,8 +91,15 @@
                         <control id="leidos_productorservice" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_productorservice" disabled="false" />
                       </cell>
                     </row>
+                  </rows>
+                </section>
+                <section name="Enquiry_Documents" id="a5cc4ce5-106a-4273-bba3-87d024ac8857" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Documents" languagecode="1033" />
+                  </labels>
+                  <rows>
                     <row>
-                      <cell id="{d50d4835-aa4e-4c59-3b08-acb3367ee0b7}" showlabel="true" rowspan="5" auto="false" colspan="1" locklevel="0">
+                      <cell id="{d50d4835-aa4e-4c59-3b08-acb3367ee0b7}" showlabel="true" rowspan="1" auto="false" colspan="1" locklevel="0">
                         <labels>
                           <label description="Note Text" languagecode="1033" />
                         </labels>
@@ -119,10 +126,6 @@
                         </control>
                       </cell>
                     </row>
-                    <row />
-                    <row />
-                    <row />
-                    <row />
                   </rows>
                 </section>
               </sections>
