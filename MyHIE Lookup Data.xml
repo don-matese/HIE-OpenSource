@@ -195,6 +195,7 @@
       <field displayname="State Aid Types" name="leidos_stateaidtypes" type="bool" customfield="true" />
       <field displayname="Status" name="statecode" type="state" />
       <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Category" name="leidos_category" type="string" customfield="true" />
     </fields>
   </entity>
   <entity name="leidos_stateaidsubcategory" displayname="State Aid Sub - Category" etc="10293" primaryidfield="leidos_stateaidsubcategoryid" primarynamefield="leidos_subtype" disableplugins="false">
