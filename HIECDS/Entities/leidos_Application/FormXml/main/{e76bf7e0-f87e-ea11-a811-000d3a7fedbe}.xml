@@ -35,22 +35,6 @@
                         <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
                       </cell>
                     </row>
-                    <row>
-                      <cell id="{e2c7997a-b06a-4c1f-9575-9ef466d6f181}" showlabel="true" locklevel="0" labelid="{4012c930-8255-462a-8ea0-00d8ff912130}">
-                        <labels>
-                          <label description="Areas for Potential HIE Intervention" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_areasforpotentialhieintervention" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="leidos_areasforpotentialhieintervention" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{6bd99843-e2b3-44a0-959d-45fd4347475f}" showlabel="true" locklevel="0" labelid="{61932a95-d31e-4ffd-87ba-03496400eb31}">
-                        <labels>
-                          <label description="Long Term Vision" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_longtermvision" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="leidos_longtermvision" disabled="false" />
-                      </cell>
-                    </row>
                   </rows>
                 </section>
                 <section name="tab_7_section_3" id="7a6072d0-26dc-4979-b3cb-84693d115233" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" height="auto" labelid="{f2d8d0e5-dd7d-4986-8930-1dd7b668569f}">
@@ -108,6 +92,48 @@
                           <label description="Application Declaration Signed on Date" languagecode="1033" />
                         </labels>
                         <control id="leidos_applicationdeclarationsignedondate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="leidos_applicationdeclarationsignedondate" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="Projects" id="ed95b097-ebc7-4d70-a30d-cdb7c9b64302" IsUserDefined="0" locklevel="0" showlabel="true" labelid="{4a6cbed2-7eb1-45ce-a82f-3954ae99b3d0}">
+          <labels>
+            <label description="Projects" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_4_section_1" id="965a676b-8ef8-40cc-b1f6-ef24fbdd0533" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" labelid="{a332573c-2781-46a2-8468-34d7d2e201e7}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{15c512b7-c2f1-480f-9946-f1554832e507}" rowspan="1" colspan="1" labelid="{2de97920-08ca-455a-a506-fb1b7b623502}">
+                        <labels>
+                          <label description="New SG control 1582296541760" languagecode="1033" />
+                        </labels>
+                        <control id="Subgrid_2" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>leidos_project</TargetEntityType>
+                            <ViewId>{C7AF7026-6C7E-EA11-A811-000D3A7FEDBE}</ViewId>
+                            <ViewIds>{8078ACE2-EAE7-45E6-86AA-E2A651FE5E68},{C7AF7026-6C7E-EA11-A811-000D3A7FEDBE}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>leidos_Project_ParentApplication_leidos_A</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{503837c6-262f-4068-b520-864a1cf87ae3}" showlabel="true" locklevel="0" labelid="{6b71366a-83a3-48ef-83d2-abc287da8513}">
+                        <labels>
+                          <label description="Projects Approved Budget Total" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_projectsapprovedbudgettotal" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_projectsapprovedbudgettotal" disabled="false" />
                       </cell>
                     </row>
                   </rows>
@@ -193,195 +219,6 @@
                             <RelationshipName>leidos_leidos_tradinggeography_leidos_Par</RelationshipName>
                           </parameters>
                         </control>
-                      </cell>
-                    </row>
-                  </rows>
-                </section>
-              </sections>
-            </column>
-          </columns>
-        </tab>
-        <tab name="Projects" id="ed95b097-ebc7-4d70-a30d-cdb7c9b64302" IsUserDefined="0" locklevel="0" showlabel="true" labelid="{4a6cbed2-7eb1-45ce-a82f-3954ae99b3d0}">
-          <labels>
-            <label description="Projects" languagecode="1033" />
-          </labels>
-          <columns>
-            <column width="100%">
-              <sections>
-                <section name="tab_4_section_1" id="965a676b-8ef8-40cc-b1f6-ef24fbdd0533" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" labelid="{a332573c-2781-46a2-8468-34d7d2e201e7}">
-                  <labels>
-                    <label description="New Section" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell showlabel="false" locklevel="0" id="{15c512b7-c2f1-480f-9946-f1554832e507}" rowspan="1" colspan="1" labelid="{2de97920-08ca-455a-a506-fb1b7b623502}">
-                        <labels>
-                          <label description="New SG control 1582296541760" languagecode="1033" />
-                        </labels>
-                        <control id="Subgrid_2" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
-                          <parameters>
-                            <TargetEntityType>leidos_project</TargetEntityType>
-                            <ViewId>{C7AF7026-6C7E-EA11-A811-000D3A7FEDBE}</ViewId>
-                            <ViewIds>{8078ACE2-EAE7-45E6-86AA-E2A651FE5E68},{C7AF7026-6C7E-EA11-A811-000D3A7FEDBE}</ViewIds>
-                            <EnableViewPicker>false</EnableViewPicker>
-                            <RelationshipName>leidos_Project_ParentApplication_leidos_A</RelationshipName>
-                          </parameters>
-                        </control>
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{503837c6-262f-4068-b520-864a1cf87ae3}" showlabel="true" locklevel="0" labelid="{6b71366a-83a3-48ef-83d2-abc287da8513}">
-                        <labels>
-                          <label description="Projects Approved Budget Total" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_projectsapprovedbudgettotal" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_projectsapprovedbudgettotal" disabled="false" />
-                      </cell>
-                    </row>
-                  </rows>
-                </section>
-              </sections>
-            </column>
-          </columns>
-        </tab>
-        <tab name="Details" id="2b8de755-c9f7-405f-97ba-99008ac16d0f" IsUserDefined="0" locklevel="0" showlabel="true" labelid="{74478a26-55aa-43d9-8702-6f1f2f72c7fc}">
-          <labels>
-            <label description="Details" languagecode="1033" />
-          </labels>
-          <columns>
-            <column width="50%">
-              <sections>
-                <section name="Details" id="d746688b-9657-4c1a-ac58-7445693fdda2" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" labelid="{73e297e7-76e2-48b5-964e-a522da2004ff}">
-                  <labels>
-                    <label description="Details" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell id="{988e4b23-062d-4f18-a53a-9c3e81efc6e5}" showlabel="true" locklevel="0" labelid="{d7daf25d-fffc-4836-ace2-fd8f3da417f7}">
-                        <labels>
-                          <label description="Source Enquiry" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_sourceenquiry" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_sourceenquiry" disabled="false" />
-                      </cell>
-                    </row>
-                  </rows>
-                </section>
-                <section name="Pre Application" id="95591bc9-55cd-40d7-bc41-ebd2569e7f9a" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" labelid="{ef835977-5a37-494e-b33d-5974c2b73569}">
-                  <labels>
-                    <label description="Pre Application" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell id="{4b0e1bb1-e7b0-46f8-9a04-8c5e73b2aff2}" showlabel="true" locklevel="0" labelid="{6e3bc6c0-bc57-48f6-a083-d491618b47c6}">
-                        <labels>
-                          <label description="Is support identified in growth plan?" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_issupportidentifiedingrowthplan" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="leidos_issupportidentifiedingrowthplan" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{99e6cb67-b6b0-421f-b697-aa7443146413}" showlabel="true" locklevel="0" labelid="{9859702a-37ac-4dc2-b1fd-b4acb55f38fb}">
-                        <labels>
-                          <label description="Is it within timescale?" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_isitwithintimescale" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="leidos_isitwithintimescale" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{46249435-8d74-4929-a98c-6bef47914a85}" showlabel="true" locklevel="0" labelid="{009fef40-6350-4a57-90ef-3224909b23a6}">
-                        <labels>
-                          <label description="Is it under £50k, not novel or contentious?" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_isitunder50knotnovelorcontentious" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="leidos_isitunder50knotnovelorcontentious" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{7469899f-70cc-438b-bd0b-3aaedcb88b35}" showlabel="true" locklevel="0" labelid="{85249829-82b8-4d8f-9b71-217b5a53ac41}">
-                        <labels>
-                          <label description="Pre-Application Route" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_preapplicationroute" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="leidos_preapplicationroute" disabled="false" />
-                      </cell>
-                    </row>
-                  </rows>
-                </section>
-                <section name="ApplicationFormsDetails" id="2f550036-7b5d-4940-9d7d-eec78d408985" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" labelid="{c7da710d-d6c8-4bd1-a601-6995f35e178c}">
-                  <labels>
-                    <label description="Application" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell id="{8dfcf7de-0ef3-4b5a-b66c-1fe2ee8a28b5}" showlabel="true" locklevel="0" labelid="{580b3b90-4e39-4c2a-8979-749894e75a09}">
-                        <labels>
-                          <label description="Client Submits Part 1 Form" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_clientsubmitspart1form" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="leidos_clientsubmitspart1form" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{8aa373e0-e12f-4ff5-b3f5-4db9876f46f6}" showlabel="true" locklevel="0" labelid="{b50cd4cd-3560-47b5-8965-398a8919c0cb}">
-                        <labels>
-                          <label description="Client Submits Part 2 Form" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_clientsubmitspart2form" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="leidos_clientsubmitspart2form" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{94a54985-09d9-4118-998f-bce8bedbbfb7}" showlabel="true" locklevel="0" labelid="{da7b3595-3bb0-4fb7-a9ec-21cae7160bb5}">
-                        <labels>
-                          <label description="Application forms Complete" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_applicationformscomplete" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="leidos_applicationformscomplete" disabled="false" />
-                      </cell>
-                    </row>
-                  </rows>
-                </section>
-              </sections>
-            </column>
-            <column width="50%">
-              <sections>
-                <section name="Details_section_5" id="e92fa574-40e8-4c14-9e6b-e2e92b53c4e3" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" labelid="{89c5afae-1994-4d01-8600-d35e330cad0b}">
-                  <labels>
-                    <label description="Project Justification" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell id="{5f0f6d4b-937c-4cb6-b756-512c8d4dbb88}" showlabel="true" locklevel="0" labelid="{1b8c6fe2-c5cc-4e8b-8d40-7fc9dc14d548}">
-                        <labels>
-                          <label description="Project Justification Path" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_projectjustificationpath" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="leidos_projectjustificationpath" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{44258ad0-68c9-43c9-a2c2-5531402bceda}" showlabel="true" locklevel="0" labelid="{e5a57b6c-ca3f-4a7c-b8f8-934416e2669c}">
-                        <labels>
-                          <label description="Delegated Authority" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_delegatedauthority" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_delegatedauthority" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{12a93ca4-c269-4503-83be-934ace928d87}" showlabel="true" locklevel="0" labelid="{3a1e1f8a-e156-4eae-82fe-61b9d6a78a19}">
-                        <labels>
-                          <label description="Area Office " languagecode="1033" />
-                        </labels>
-                        <control id="leidos_areaoffice" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_areaoffice" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{e399886e-f2db-4e84-9490-2bdf6c1cd704}" showlabel="true" locklevel="0" labelid="{28d5b183-4c5f-41aa-b3d6-9ae82d4e4443}">
-                        <labels>
-                          <label description="Board Representative " languagecode="1033" />
-                        </labels>
-                        <control id="leidos_boardrepresentative" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_boardrepresentative" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{5209b6e7-49b7-409e-99f5-674b04b7166a}" showlabel="true" locklevel="0" labelid="{5b230f47-6f4f-4ddb-8da4-ae7e88f5a41d}">
-                        <labels>
-                          <label description="Budget Approval Delegated Authority" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_budgetapprovaldelegatedauthority" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_budgetapprovaldelegatedauthority" disabled="true" />
                       </cell>
                     </row>
                   </rows>
