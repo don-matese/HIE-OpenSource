@@ -291,6 +291,7 @@
       <RootComponent type="60" id="{e00edc9b-bd33-4095-8297-c82839b9299b}" behavior="0" />
       <RootComponent type="60" id="{e365bd18-0c3d-ea11-a812-000d3a0bad17}" behavior="0" />
       <RootComponent type="60" id="{e76bf7e0-f87e-ea11-a811-000d3a7fedbe}" behavior="0" />
+      <RootComponent type="60" id="{e7b17d64-f37f-ea11-a811-000d3a7fedbe}" behavior="0" />
       <RootComponent type="60" id="{e85f3335-ca36-ea11-a813-000d3a0bad7c}" behavior="0" />
       <RootComponent type="60" id="{ea38a0f6-dd40-ea11-a812-000d3a0bad17}" behavior="0" />
       <RootComponent type="60" id="{f5a2c2d3-517f-4a06-af18-f433e53539fd}" behavior="0" />
@@ -572,10 +573,6 @@
       </MissingDependency>
       <MissingDependency>
         <Required key="50" type="66" schemaName="MscrmControls.FlipSwitch.FlipSwitchControl" displayName="MscrmControls.FlipSwitch.FlipSwitchControl" solution="CustomControlsCore (9.1.0000.15941)" />
-        <Dependent key="40" type="60" displayName="Web - Account Financial Assistance" parentDisplayName="Account" id="{431d1a95-ff55-46d9-9bd5-6caa578216c9}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="50" type="66" schemaName="MscrmControls.FlipSwitch.FlipSwitchControl" displayName="MscrmControls.FlipSwitch.FlipSwitchControl" solution="CustomControlsCore (9.1.0000.15941)" />
         <Dependent key="44" type="60" displayName="Web - Project Form" parentDisplayName="Project" id="{18d7078d-4559-ea11-a811-000d3a7f1bbb}" />
       </MissingDependency>
       <MissingDependency>
@@ -708,11 +705,11 @@
       </MissingDependency>
       <MissingDependency>
         <Required key="68" type="61" schemaName="north52_/javascript/n52.rest" displayName="north52_/javascript/n52.rest" solution="North52FormulaManager (1.0.0.596)" />
-        <Dependent key="45" type="60" displayName="HIE Client Plan" parentDisplayName="Account Management Client Plan" id="{ad8c144e-8504-4b79-9c20-3f6de3689120}" />
+        <Dependent key="64" type="60" displayName="Web - HIE Application Form" parentDisplayName="Application" id="{e76bf7e0-f87e-ea11-a811-000d3a7fedbe}" />
       </MissingDependency>
       <MissingDependency>
         <Required key="68" type="61" schemaName="north52_/javascript/n52.rest" displayName="north52_/javascript/n52.rest" solution="North52FormulaManager (1.0.0.596)" />
-        <Dependent key="64" type="60" displayName="Web - HIE Application Form" parentDisplayName="Application" id="{e76bf7e0-f87e-ea11-a811-000d3a7fedbe}" />
+        <Dependent key="45" type="60" displayName="HIE Client Plan" parentDisplayName="Account Management Client Plan" id="{ad8c144e-8504-4b79-9c20-3f6de3689120}" />
       </MissingDependency>
       <MissingDependency>
         <Required key="68" type="61" schemaName="north52_/javascript/n52.rest" displayName="north52_/javascript/n52.rest" solution="North52FormulaManager (1.0.0.596)" />
