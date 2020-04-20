@@ -122,7 +122,7 @@
                     </row>
                   </rows>
                 </section>
-                <section name="CostandFundingSummary" id="a1d05b91-6e84-434e-b84e-00672616f964" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="111" labelwidth="115">
+                <section name="CostandFundingSummary" id="a1d05b91-6e84-434e-b84e-00672616f964" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="111" labelwidth="250">
                   <labels>
                     <label description="Cost and Funding Summary" languagecode="1033" />
                   </labels>
@@ -130,13 +130,13 @@
                     <row>
                       <cell id="{a8b9d8ef-6bca-42e8-a4bb-d31474e75089}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Total Costs (Calculated)" languagecode="1033" />
+                          <label description="Total Costs" languagecode="1033" />
                         </labels>
                         <control id="leidos_totalcostscalculated" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_totalcostscalculated" disabled="false" />
                       </cell>
                       <cell id="{03703132-9e17-43e1-bec9-9f09568b72d9}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Total Funding (Calcualted)" languagecode="1033" />
+                          <label description="Total Funding " languagecode="1033" />
                         </labels>
                         <control id="leidos_totalfundingcalcualted" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_totalfundingcalcualted" disabled="false" />
                       </cell>
@@ -194,7 +194,7 @@
           <columns>
             <column width="100%">
               <sections>
-                <section name="ProjectCosts" id="1dea9e60-d675-4b58-b953-32c501f08d03" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="111" labelwidth="115">
+                <section name="ProjectCosts" id="1dea9e60-d675-4b58-b953-32c501f08d03" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="111" labelwidth="250">
                   <labels>
                     <label description="Project Costs" languagecode="1033" />
                   </labels>
@@ -233,7 +233,7 @@
                     <row>
                       <cell id="{5510d2a8-fc50-41b5-9564-26c8fcacc44e}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Total Costs (Calculated)" languagecode="1033" />
+                          <label description="Total Costs" languagecode="1033" />
                         </labels>
                         <control id="leidos_totalcostscalculated" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_totalcostscalculated" disabled="false" />
                       </cell>
@@ -320,7 +320,7 @@
                     <row>
                       <cell id="{2cb06664-5b4d-4fb8-acc9-9fe8b75e91da}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Total Funding (Calcualted)" languagecode="1033" />
+                          <label description="Total Funding" languagecode="1033" />
                         </labels>
                         <control id="leidos_totalfundingcalcualted" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_totalfundingcalcualted" disabled="false" />
                       </cell>
