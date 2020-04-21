@@ -86,6 +86,7 @@
   <EntityRelationship Name="leidos_FundDetail_FundingSource_leidos_Fu" />
   <EntityRelationship Name="leidos_leidos_accountmanagementclientplan" />
   <EntityRelationship Name="leidos_leidos_accountmanagementclientplan_leidos_employmentdetails_ParentAccountManagementClientPlan" />
+  <EntityRelationship Name="leidos_leidos_anticipatedspendprofile_lei" />
   <EntityRelationship Name="leidos_leidos_application_leidos_Applicat" />
   <EntityRelationship Name="leidos_leidos_areaoffice_leidos_AreaOffic" />
   <EntityRelationship Name="leidos_leidos_clientplanquestion_leidos_C" />
@@ -94,6 +95,7 @@
   <EntityRelationship Name="leidos_leidos_enquiry_leidos_ProductorSer" />
   <EntityRelationship Name="leidos_leidos_geographies_leidos_tradinggeography_Geography" />
   <EntityRelationship Name="leidos_leidos_natureofenquiry_leidos_enquiry_NatureofEnquiry" />
+  <EntityRelationship Name="leidos_leidos_projectfunding_leidos_Paren" />
   <EntityRelationship Name="leidos_leidos_tradinggeography_leidos_Par" />
   <EntityRelationship Name="leidos_leidos_tradingstatus_leidos_enquiry_TradingStatus" />
   <EntityRelationship Name="leidos_natureofenquiry_Category_leidos_Ca" />

@@ -1228,12 +1228,6 @@
           </customControl>
         </controlDescription>
       </controlDescriptions>
-      <formLibraries>
-        <Library name="leidos_/AMClientPlan/disableColumninGrid.js" libraryUniqueId="{b57b7b32-915c-c7a8-9c04-0ebbd5caa2e9}" />
-        <Library name="north52_/javascript/n52.json2" libraryUniqueId="183ffe29-2958-4626-94d3-8e25df08c739" />
-        <Library name="north52_/javascript/n52.rest" libraryUniqueId="252985dc-e309-4650-8bb7-b9c552ab2107" />
-        <Library name="north52_/javascript/n52.clientside" libraryUniqueId="6a11dbcc-f585-4c48-9769-2ee1aa124f95" />
-      </formLibraries>
       <events>
         <event name="onrecordselect" application="false" active="false" relationship="" control="Subgrid_2">
           <Handlers>
@@ -1294,6 +1288,12 @@
       <DisplayConditions Order="0" FallbackForm="true">
         <Everyone />
       </DisplayConditions>
+      <formLibraries>
+        <Library name="leidos_/AMClientPlan/disableColumninGrid.js" libraryUniqueId="{b57b7b32-915c-c7a8-9c04-0ebbd5caa2e9}" />
+        <Library name="north52_/javascript/n52.json2" libraryUniqueId="03fcbc90-05a9-409f-aec3-335f5318f5cc" />
+        <Library name="north52_/javascript/n52.rest" libraryUniqueId="49325967-9185-457b-9f41-f962d3b9e87b" />
+        <Library name="north52_/javascript/n52.clientside" libraryUniqueId="515a0776-b18d-4ef3-a6eb-4780221e6f22" />
+      </formLibraries>
     </form>
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>

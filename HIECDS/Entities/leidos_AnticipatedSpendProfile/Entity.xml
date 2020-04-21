@@ -319,6 +319,87 @@
             <Description description="Value of the Capital in base currency." languagecode="1033" />
           </Descriptions>
         </attribute>
+        <attribute PhysicalName="leidos_FundingAmount">
+          <Type>money</Type>
+          <Name>leidos_fundingamount</Name>
+          <LogicalName>leidos_fundingamount</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.4.0.5</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <MinValue>0</MinValue>
+          <MaxValue>922337203685477</MaxValue>
+          <Accuracy>2</Accuracy>
+          <AccuracySource>2</AccuracySource>
+          <displaynames>
+            <displayname description="Funding Amount " languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="leidos_fundingamount_Base">
+          <Type>money</Type>
+          <Name>leidos_fundingamount_base</Name>
+          <LogicalName>leidos_fundingamount_base</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>disabled</ImeMode>
+          <ValidForReadApi>1</ValidForReadApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.4.0.5</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <MinValue>-922337203685477</MinValue>
+          <MaxValue>922337203685477</MaxValue>
+          <Accuracy>2</Accuracy>
+          <AccuracySource>2</AccuracySource>
+          <CalculationOf>leidos_FundingAmount</CalculationOf>
+          <displaynames>
+            <displayname description="Funding Amount  (Base)" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Value of the Funding Amount  in base currency." languagecode="1033" />
+          </Descriptions>
+        </attribute>
         <attribute PhysicalName="leidos_HIEFinancialYear">
           <Type>lookup</Type>
           <Name>leidos_hiefinancialyear</Name>
@@ -422,7 +503,7 @@
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <IsDataSourceSecret>0</IsDataSourceSecret>
           <AutoNumberFormat></AutoNumberFormat>
-          <IsSearchable>0</IsSearchable>
+          <IsSearchable>1</IsSearchable>
           <IsFilterable>0</IsFilterable>
           <IsRetrievable>1</IsRetrievable>
           <IsLocalizable>0</IsLocalizable>
@@ -430,6 +511,44 @@
           <LookupTypes />
           <displaynames>
             <displayname description="Parent Project" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="leidos_ParentProjectFunding">
+          <Type>lookup</Type>
+          <Name>leidos_parentprojectfunding</Name>
+          <LogicalName>leidos_parentprojectfunding</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.4.0.5</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Parent Project Funding" languagecode="1033" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -516,84 +635,44 @@
             <Description description="Value of the Revenue in base currency." languagecode="1033" />
           </Descriptions>
         </attribute>
-        <attribute PhysicalName="leidos_Total">
-          <Type>money</Type>
-          <Name>leidos_total</Name>
-          <LogicalName>leidos_total</LogicalName>
+        <attribute PhysicalName="leidos_SpendProfileReference">
+          <Type>nvarchar</Type>
+          <Name>leidos_spendprofilereference</Name>
+          <LogicalName>leidos_spendprofilereference</LogicalName>
           <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <DisplayMask>ReadOnlyInUI|ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
           <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
           <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
           <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsAuditEnabled>1</IsAuditEnabled>
           <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.2.0.1</IntroducedVersion>
+          <IntroducedVersion>1.4.0.5</IntroducedVersion>
           <IsCustomizable>1</IsCustomizable>
           <IsRenameable>1</IsRenameable>
           <CanModifySearchSettings>1</CanModifySearchSettings>
           <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
           <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
-          <SourceType>1</SourceType>
+          <SourceType>0</SourceType>
           <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
           <IsSortableEnabled>0</IsSortableEnabled>
           <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <IsSearchable>0</IsSearchable>
+          <AutoNumberFormat>PASP-{SEQNUM:7}</AutoNumberFormat>
+          <IsSearchable>1</IsSearchable>
           <IsFilterable>0</IsFilterable>
           <IsRetrievable>0</IsRetrievable>
           <IsLocalizable>0</IsLocalizable>
-          <MinValue>-922337203685477</MinValue>
-          <MaxValue>922337203685477</MaxValue>
-          <Accuracy>2</Accuracy>
-          <AccuracySource>2</AccuracySource>
+          <Format>text</Format>
+          <MaxLength>100</MaxLength>
+          <Length>200</Length>
           <displaynames>
-            <displayname description="Total" languagecode="1033" />
+            <displayname description="Spend Profile Reference " languagecode="1033" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
-          </Descriptions>
-          <FormulaDefinitionFileName>/Formulas/leidos_anticipatedspendprofile-leidos_total.xaml</FormulaDefinitionFileName>
-        </attribute>
-        <attribute PhysicalName="leidos_total_Base">
-          <Type>money</Type>
-          <Name>leidos_total_base</Name>
-          <LogicalName>leidos_total_base</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>disabled</ImeMode>
-          <ValidForReadApi>1</ValidForReadApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>0</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.2.0.1</IntroducedVersion>
-          <IsCustomizable>1</IsCustomizable>
-          <IsRenameable>1</IsRenameable>
-          <CanModifySearchSettings>1</CanModifySearchSettings>
-          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
-          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
-          <SourceType>1</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
-          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <IsSearchable>0</IsSearchable>
-          <IsFilterable>0</IsFilterable>
-          <IsRetrievable>0</IsRetrievable>
-          <IsLocalizable>0</IsLocalizable>
-          <MinValue>-922337203685477</MinValue>
-          <MaxValue>922337203685477</MaxValue>
-          <Accuracy>2</Accuracy>
-          <AccuracySource>2</AccuracySource>
-          <CalculationOf>leidos_Total</CalculationOf>
-          <displaynames>
-            <displayname description="Total (Base)" languagecode="1033" />
-          </displaynames>
-          <Descriptions>
-            <Description description="Value of the Total in base currency." languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="ModifiedBy">

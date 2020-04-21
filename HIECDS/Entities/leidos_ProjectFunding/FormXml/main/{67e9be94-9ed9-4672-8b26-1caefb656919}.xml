@@ -20,11 +20,23 @@
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{0863ef91-e40b-42ba-be2e-3339242b9047}">
+                      <cell id="{235e9cd0-0932-421b-8bd7-3805a40f99dd}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Name" languagecode="1033" />
+                          <label description="Parent Project Cost" languagecode="1033" />
                         </labels>
-                        <control id="leidos_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="leidos_name" />
+                        <control id="leidos_parentprojectcost" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_parentprojectcost" disabled="false" uniqueid="{a0733e39-1d65-018d-a008-4511cabaece5}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A9F66518-10EE-4A94-BC02-51D1EE4B331F}</DefaultViewId>
+                            <FilterRelationshipName>leidos_ProjectCost_ParentProject_leidos_P</FilterRelationshipName>
+                            <DependentAttributeName>leidos_projectfunding.leidos_parentproject</DependentAttributeName>
+                            <DependentAttributeType>leidos_project</DependentAttributeType>
+                            <AllowFilterOff>true</AllowFilterOff>
+                          </parameters>
+                        </control>
                       </cell>
                     </row>
                     <row>
@@ -110,6 +122,37 @@
                     </row>
                   </rows>
                 </section>
+                <section name="null_section_3" id="61adaed1-0329-4ffc-87fe-f33361c5aa88" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Anticipated Funding Profile" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{5730488b-8cde-4ff1-bd34-27eaa5309a78}" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="New SG control 1587463438014" languagecode="1033" />
+                        </labels>
+                        <control id="Subgrid_1" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>leidos_anticipatedspendprofile</TargetEntityType>
+                            <ViewId>{EBC1563F-E556-EA11-A811-000D3A7F1BBB}</ViewId>
+                            <ViewIds>{81503CB9-4BCB-493F-8DD0-398BB659147B},{EBC1563F-E556-EA11-A811-000D3A7F1BBB}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>leidos_leidos_anticipatedspendprofile_lei</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{21f8904d-0c4a-494c-959e-02fa5ae6740d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Total Profiled" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_totalprofiled" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_totalprofiled" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
               </sections>
             </column>
           </columns>
@@ -138,6 +181,12 @@
                 <label description="Parent Project" languagecode="1033" />
               </labels>
               <control id="header_leidos_parentproject" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_parentproject" disabled="false" />
+            </cell>
+            <cell id="{196f2e06-808a-46f5-806c-899225cd8690}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Project Funding Reference" languagecode="1033" />
+              </labels>
+              <control id="header_leidos_projectfundingreference" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="leidos_projectfundingreference" disabled="false" />
             </cell>
             <cell id="{9d5f8f64-bc4d-4877-875e-b4037f04042e}">
               <labels>
@@ -170,7 +219,7 @@
         </rows>
       </footer>
       <Navigation>
-        <NavBar></NavBar>
+        <NavBar />
         <NavBarAreas>
           <NavBarArea Id="Info">
             <Titles>
@@ -203,6 +252,23 @@
       <DisplayConditions Order="0" FallbackForm="true">
         <Everyone />
       </DisplayConditions>
+      <events>
+        <event name="onsave" application="false" active="false">
+          <Handlers>
+            <Handler functionName="N52.Clientside.ExecuteFormulas" libraryName="north52_/javascript/n52.clientside" handlerUniqueId="46b66b11-d5cf-4345-ae88-f95e1832b69d" enabled="true" parameters="'53C:*:CreateUpdate::0:217890000:217890000:217890000:217890000'" passExecutionContext="true" />
+          </Handlers>
+        </event>
+        <event name="onchange" application="false" active="false" attribute="leidos_fundingamount">
+          <Handlers>
+            <Handler functionName="N52.Clientside.ExecuteFormulas" libraryName="north52_/javascript/n52.clientside" handlerUniqueId="5ede9a4c-b343-4afb-9268-f8d1d1472429" enabled="true" parameters="'53C:*:CreateUpdate::0:217890000:217890000:217890000:217890000'" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+      <formLibraries>
+        <Library name="north52_/javascript/n52.json2" libraryUniqueId="7e0bf6c5-0225-4912-ac16-a02ca80b60eb" />
+        <Library name="north52_/javascript/n52.rest" libraryUniqueId="b924284f-fc3f-47d9-95a4-db540117dd50" />
+        <Library name="north52_/javascript/n52.clientside" libraryUniqueId="4794b416-b918-44cf-98c7-0592adcfeee1" />
+      </formLibraries>
     </form>
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>

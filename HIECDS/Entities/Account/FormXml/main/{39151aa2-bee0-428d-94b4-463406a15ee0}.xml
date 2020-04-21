@@ -1759,9 +1759,9 @@
         <Everyone />
       </DisplayConditions>
       <formLibraries>
-        <Library name="north52_/javascript/n52.json2" libraryUniqueId="f4d985a4-51f2-4f84-8ed7-959b81b4f5ad" />
-        <Library name="north52_/javascript/n52.rest" libraryUniqueId="17931618-bbe9-4d99-87fa-169a46933d03" />
-        <Library name="north52_/javascript/n52.clientside" libraryUniqueId="2b38ee16-a1d5-47fb-9bb8-1637855288a5" />
+        <Library name="north52_/javascript/n52.json2" libraryUniqueId="c962755f-47dd-4731-9374-bd1dc5e44737" />
+        <Library name="north52_/javascript/n52.rest" libraryUniqueId="10885d5a-972f-4bd4-8c01-d022b165b79b" />
+        <Library name="north52_/javascript/n52.clientside" libraryUniqueId="9cb8983a-b95e-4882-b0ec-492b65f3d060" />
       </formLibraries>
     </form>
     <IsCustomizable>1</IsCustomizable>

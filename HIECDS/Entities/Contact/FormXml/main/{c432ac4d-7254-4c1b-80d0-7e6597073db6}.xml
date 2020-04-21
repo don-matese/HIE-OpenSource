@@ -669,14 +669,14 @@
           </row>
         </rows>
       </footer>
-      <formLibraries>
-        <Library name="north52_/javascript/n52.json2" libraryUniqueId="0950267c-4bcc-4862-b173-8e3e2944878e" />
-        <Library name="north52_/javascript/n52.rest" libraryUniqueId="5c1e4cea-18f0-4351-937d-3eb442dfae8a" />
-        <Library name="north52_/javascript/n52.clientside" libraryUniqueId="dca85ec9-ccfa-4c4f-87a0-d11d688a82d7" />
-      </formLibraries>
       <DisplayConditions FallbackForm="true" Order="6">
         <Everyone />
       </DisplayConditions>
+      <formLibraries>
+        <Library name="north52_/javascript/n52.json2" libraryUniqueId="038b62a6-cb7a-4728-a577-ab9dff163e97" />
+        <Library name="north52_/javascript/n52.rest" libraryUniqueId="e4dffad4-a46d-4af3-8d90-9167f4d991ac" />
+        <Library name="north52_/javascript/n52.clientside" libraryUniqueId="80017353-80e4-4d8a-ac04-e1b8b51fb739" />
+      </formLibraries>
     </form>
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>

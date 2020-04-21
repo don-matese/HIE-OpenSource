@@ -155,9 +155,9 @@
         </event>
       </events>
       <formLibraries>
-        <Library name="north52_/javascript/n52.json2" libraryUniqueId="93c0d309-cff8-4240-8587-c250dad7e73f" />
-        <Library name="north52_/javascript/n52.rest" libraryUniqueId="53543bf9-2b30-4141-a3db-8380cbf89537" />
-        <Library name="north52_/javascript/n52.clientside" libraryUniqueId="2b4312af-e812-4cce-ae42-f1708a61caa9" />
+        <Library name="north52_/javascript/n52.json2" libraryUniqueId="5e0c3002-14e7-45c9-a3c1-759146e45f37" />
+        <Library name="north52_/javascript/n52.rest" libraryUniqueId="2da27722-d9aa-402e-9306-3a6600c6f5c2" />
+        <Library name="north52_/javascript/n52.clientside" libraryUniqueId="d0a20e99-3838-4ab5-b1fe-b608bfb8788f" />
       </formLibraries>
     </form>
     <IsCustomizable>1</IsCustomizable>

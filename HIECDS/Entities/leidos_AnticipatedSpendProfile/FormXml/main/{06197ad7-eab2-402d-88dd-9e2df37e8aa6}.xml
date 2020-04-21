@@ -20,6 +20,26 @@
                   </labels>
                   <rows>
                     <row>
+                      <cell id="{11d67dac-86de-4218-a65c-6adedcfe9b59}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Parent Project Funding" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_parentprojectfunding" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_parentprojectfunding" disabled="false" uniqueid="{aecb5624-845c-7bc0-be15-703e0c89aeaa}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{9B89498C-2491-4BE5-997A-8197A61C3599}</DefaultViewId>
+                            <FilterRelationshipName>leidos_ProjectFunding_ParentProject_leido</FilterRelationshipName>
+                            <DependentAttributeName>leidos_anticipatedspendprofile.leidos_parentproject</DependentAttributeName>
+                            <DependentAttributeType>leidos_project</DependentAttributeType>
+                            <AllowFilterOff>true</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
                       <cell id="{f1685a5a-b23a-425c-8dd4-0a2cd3d63dad}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="HIE Financial Year" languagecode="1033" />
@@ -28,27 +48,11 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{f1e9932a-6962-4926-9b36-4c35ce380680}" showlabel="true" locklevel="0">
+                      <cell id="{bdc4c9f9-8149-418b-860f-c315831ea76d}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Capital" languagecode="1033" />
+                          <label description="Funding Amount " languagecode="1033" />
                         </labels>
-                        <control id="leidos_capital" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_capital" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{28577382-fe7f-4f38-9f53-970e8a5f942b}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Revenue" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_revenue" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_revenue" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{8d09fba8-d088-48ed-8d25-98890da900fe}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Total" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_total" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_total" disabled="false" />
+                        <control id="leidos_fundingamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_fundingamount" disabled="false" />
                       </cell>
                     </row>
                   </rows>
@@ -112,9 +116,52 @@
           </row>
         </rows>
       </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
       <DisplayConditions Order="0" FallbackForm="true">
         <Everyone />
       </DisplayConditions>
+      <events>
+        <event name="onsave" application="false" active="false">
+          <Handlers>
+            <Handler functionName="N52.Clientside.ExecuteFormulas" libraryName="north52_/javascript/n52.clientside" handlerUniqueId="0dd1d48b-f584-4427-9964-9e0a8aa73677" enabled="true" parameters="'GbT:*:Create::0:217890000:217890000:217890000:217890000','fP1:*:Update::0:217890000:217890000:217890000:217890000'" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+      <formLibraries>
+        <Library name="north52_/javascript/n52.json2" libraryUniqueId="7e41b849-cf5e-427e-816d-4673186fac12" />
+        <Library name="north52_/javascript/n52.rest" libraryUniqueId="a9ae56c2-7f3e-427a-aa6b-2fa16ba29a67" />
+        <Library name="north52_/javascript/n52.clientside" libraryUniqueId="0fb652e3-5867-4186-8c7d-9e7cd4c1c6c8" />
+      </formLibraries>
     </form>
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>

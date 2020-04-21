@@ -28,6 +28,8 @@
           </filter>
           <filter type="or" isquickfindfields="1">
             <condition attribute="leidos_name" operator="like" value="{0}" />
+            <condition attribute="leidos_parentproject" operator="like" value="{0}" />
+            <condition attribute="leidos_spendprofilereference" operator="like" value="{0}" />
           </filter>
           <attribute name="leidos_hiefinancialyear" />
           <attribute name="leidos_parentproject" />

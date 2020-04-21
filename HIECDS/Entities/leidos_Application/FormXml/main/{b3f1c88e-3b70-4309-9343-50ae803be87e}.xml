@@ -767,11 +767,6 @@
         </NavBarAreas>
       </Navigation>
       <controlDescriptions />
-      <formLibraries>
-        <Library name="north52_/javascript/n52.json2" libraryUniqueId="ab68e7a5-3581-4669-b664-45931c938e00" />
-        <Library name="north52_/javascript/n52.rest" libraryUniqueId="1b710530-5962-4368-a8f1-a953ac92d20f" />
-        <Library name="north52_/javascript/n52.clientside" libraryUniqueId="412ee62e-8c79-4700-8c3f-af41fac6fa60" />
-      </formLibraries>
       <events>
         <event name="onchange" application="false" active="false" attribute="leidos_issupportidentifiedingrowthplan">
           <Handlers>
@@ -792,6 +787,11 @@
       <DisplayConditions Order="0" FallbackForm="true">
         <Everyone />
       </DisplayConditions>
+      <formLibraries>
+        <Library name="north52_/javascript/n52.json2" libraryUniqueId="496f6b18-67a6-469f-9ee3-4edca5e1be0e" />
+        <Library name="north52_/javascript/n52.rest" libraryUniqueId="a2b40639-e6b9-490b-aff2-74f5636d1b87" />
+        <Library name="north52_/javascript/n52.clientside" libraryUniqueId="54f78e9d-d217-4678-9505-8f5c356781d7" />
+      </formLibraries>
     </form>
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>

@@ -34,4 +34,24 @@
       </AttributeMap>
     </AttributeMaps>
   </EntityMap>
+  <EntityMap>
+    <EntitySource>leidos_projectcost</EntitySource>
+    <EntityTarget>leidos_projectfunding</EntityTarget>
+    <AttributeMaps>
+      <AttributeMap>
+        <AttributeSource>leidos_parentproject</AttributeSource>
+        <AttributeTarget>leidos_parentproject</AttributeTarget>
+      </AttributeMap>
+    </AttributeMaps>
+  </EntityMap>
+  <EntityMap>
+    <EntitySource>leidos_projectfunding</EntitySource>
+    <EntityTarget>leidos_anticipatedspendprofile</EntityTarget>
+    <AttributeMaps>
+      <AttributeMap>
+        <AttributeSource>leidos_parentproject</AttributeSource>
+        <AttributeTarget>leidos_parentproject</AttributeTarget>
+      </AttributeMap>
+    </AttributeMaps>
+  </EntityMap>
 </EntityMaps>
