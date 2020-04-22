@@ -252,23 +252,6 @@
       <DisplayConditions Order="0" FallbackForm="true">
         <Everyone />
       </DisplayConditions>
-      <events>
-        <event name="onsave" application="false" active="false">
-          <Handlers>
-            <Handler functionName="N52.Clientside.ExecuteFormulas" libraryName="north52_/javascript/n52.clientside" handlerUniqueId="46b66b11-d5cf-4345-ae88-f95e1832b69d" enabled="true" parameters="'53C:*:CreateUpdate::0:217890000:217890000:217890000:217890000'" passExecutionContext="true" />
-          </Handlers>
-        </event>
-        <event name="onchange" application="false" active="false" attribute="leidos_fundingamount">
-          <Handlers>
-            <Handler functionName="N52.Clientside.ExecuteFormulas" libraryName="north52_/javascript/n52.clientside" handlerUniqueId="5ede9a4c-b343-4afb-9268-f8d1d1472429" enabled="true" parameters="'53C:*:CreateUpdate::0:217890000:217890000:217890000:217890000'" passExecutionContext="true" />
-          </Handlers>
-        </event>
-      </events>
-      <formLibraries>
-        <Library name="north52_/javascript/n52.json2" libraryUniqueId="7e0bf6c5-0225-4912-ac16-a02ca80b60eb" />
-        <Library name="north52_/javascript/n52.rest" libraryUniqueId="b924284f-fc3f-47d9-95a4-db540117dd50" />
-        <Library name="north52_/javascript/n52.clientside" libraryUniqueId="4794b416-b918-44cf-98c7-0592adcfeee1" />
-      </formLibraries>
     </form>
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>

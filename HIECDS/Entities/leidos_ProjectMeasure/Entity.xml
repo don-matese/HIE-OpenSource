@@ -435,7 +435,7 @@
           <Type>lookup</Type>
           <Name>leidos_strategicpriority</Name>
           <LogicalName>leidos_strategicpriority</LogicalName>
-          <RequiredLevel>required</RequiredLevel>
+          <RequiredLevel>none</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
           <ValidForUpdateApi>1</ValidForUpdateApi>
           <ValidForReadApi>1</ValidForReadApi>
