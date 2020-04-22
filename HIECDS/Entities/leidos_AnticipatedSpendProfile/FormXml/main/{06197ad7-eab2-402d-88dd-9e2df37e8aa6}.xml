@@ -150,18 +150,6 @@
       <DisplayConditions Order="0" FallbackForm="true">
         <Everyone />
       </DisplayConditions>
-      <events>
-        <event name="onsave" application="false" active="false">
-          <Handlers>
-            <Handler functionName="N52.Clientside.ExecuteFormulas" libraryName="north52_/javascript/n52.clientside" handlerUniqueId="0dd1d48b-f584-4427-9964-9e0a8aa73677" enabled="true" parameters="'GbT:*:Create::0:217890000:217890000:217890000:217890000','fP1:*:Update::0:217890000:217890000:217890000:217890000'" passExecutionContext="true" />
-          </Handlers>
-        </event>
-      </events>
-      <formLibraries>
-        <Library name="north52_/javascript/n52.json2" libraryUniqueId="7e41b849-cf5e-427e-816d-4673186fac12" />
-        <Library name="north52_/javascript/n52.rest" libraryUniqueId="a9ae56c2-7f3e-427a-aa6b-2fa16ba29a67" />
-        <Library name="north52_/javascript/n52.clientside" libraryUniqueId="0fb652e3-5867-4186-8c7d-9e7cd4c1c6c8" />
-      </formLibraries>
     </form>
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>
