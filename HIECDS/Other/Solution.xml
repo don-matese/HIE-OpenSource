@@ -294,6 +294,7 @@
       <RootComponent type="60" id="{dd8d1a8d-2392-4069-8324-d627f2d69f46}" behavior="0" />
       <RootComponent type="60" id="{e00edc9b-bd33-4095-8297-c82839b9299b}" behavior="0" />
       <RootComponent type="60" id="{e365bd18-0c3d-ea11-a812-000d3a0bad17}" behavior="0" />
+      <RootComponent type="60" id="{e3c09fb1-6e85-ea11-a811-000d3a7fedbe}" behavior="0" />
       <RootComponent type="60" id="{e76bf7e0-f87e-ea11-a811-000d3a7fedbe}" behavior="0" />
       <RootComponent type="60" id="{e7b17d64-f37f-ea11-a811-000d3a7fedbe}" behavior="0" />
       <RootComponent type="60" id="{e85f3335-ca36-ea11-a813-000d3a0bad7c}" behavior="0" />
@@ -508,11 +509,11 @@
       </MissingDependency>
       <MissingDependency>
         <Required key="39" type="60" displayName="account contact card" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{29de27bc-a257-4f29-99cf-bab4a84e688f}" />
-        <Dependent key="41" type="60" displayName="Web - Account Financial Assistance" parentDisplayName="Account" id="{431d1a95-ff55-46d9-9bd5-6caa578216c9}" />
+        <Dependent key="13" type="60" displayName="HIE Client Form" parentDisplayName="Account" id="{39151aa2-bee0-428d-94b4-463406a15ee0}" />
       </MissingDependency>
       <MissingDependency>
         <Required key="39" type="60" displayName="account contact card" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{29de27bc-a257-4f29-99cf-bab4a84e688f}" />
-        <Dependent key="13" type="60" displayName="HIE Client Form" parentDisplayName="Account" id="{39151aa2-bee0-428d-94b4-463406a15ee0}" />
+        <Dependent key="41" type="60" displayName="Web - Account Financial Assistance" parentDisplayName="Account" id="{431d1a95-ff55-46d9-9bd5-6caa578216c9}" />
       </MissingDependency>
       <MissingDependency>
         <Required key="39" type="60" displayName="account contact card" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{29de27bc-a257-4f29-99cf-bab4a84e688f}" />
