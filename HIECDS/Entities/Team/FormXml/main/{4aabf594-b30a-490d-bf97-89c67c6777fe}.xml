@@ -136,33 +136,15 @@
         </internalresources>
       </clientresources>
       <header id="{C4057CC3-270C-40D8-BAB7-4418CB323D2C}" columns="111">
-        <rows>
-          <row>
-            <cell id="{93BCC9EF-6750-4BFE-BB32-BB56C6BC0CE8}" showlabel="false" labelid="{e36cbb7f-c6a7-4f4b-a112-65b5539d2751}">
-              <labels>
-                <label description="" languagecode="1033" />
-              </labels>
-            </cell>
-            <cell id="{1DCAD190-7FDE-4F7D-870A-BA20127DACE9}" showlabel="false" labelid="{0d2c93b4-2233-489b-93b7-6a774a970c0c}">
-              <labels>
-                <label description="" languagecode="1033" />
-              </labels>
-            </cell>
-            <cell id="{d6036a1d-e470-c952-bbe4-80e829db6487}" showlabel="false" labelid="{571869ed-07dc-4f36-b503-90c6155c3aae}">
-              <labels>
-                <label description="" languagecode="1033" />
-              </labels>
-            </cell>
-          </row>
-        </rows>
+        <rows></rows>
       </header>
       <DisplayConditions FallbackForm="true" Order="3">
-        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
-        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
         <Role Id="{E00ED7FA-5192-4A55-AC69-1F6611F4C301}" />
         <Role Id="{F8C3A948-C7AF-E611-80C3-02155DC6FE07}" />
         <Role Id="{F7D10F1B-C9FA-3103-AF8A-1874D79503FA}" />
         <Role Id="{DC738938-C7AF-E611-80C3-02155DC6FE07}" />
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
       </DisplayConditions>
       <events>
         <event name="onload" application="true" active="true">
@@ -225,6 +207,8 @@
               <Title Text="成员" LCID="2052" />
               <Title Text="成員" LCID="3076" />
               <Title Text="成員" LCID="1028" />
+              <Title Text="Чланови" LCID="3098" />
+              <Title Text="Članovi" LCID="2074" />
             </Titles>
           </NavBarByRelationshipItem>
           <NavBarByRelationshipItem Id="navRoles" Area="Info" Sequence="0" RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navRoles" Show="false">
@@ -274,6 +258,8 @@
               <Title Text="安全角色" LCID="2052" />
               <Title Text="資訊安全角色" LCID="3076" />
               <Title Text="資訊安全角色" LCID="1028" />
+              <Title Text="Безбедносне улоге" LCID="3098" />
+              <Title Text="Bezbednosne uloge" LCID="2074" />
             </Titles>
           </NavBarByRelationshipItem>
           <NavBarByRelationshipItem Id="navFieldSecurityProfiles" Area="Info" Sequence="0" RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navFieldSecurityProfiles" Show="false">
@@ -323,6 +309,8 @@
               <Title Text="字段安全配置文件" LCID="2052" />
               <Title Text="欄位安全性設定檔" LCID="3076" />
               <Title Text="欄位安全性設定檔" LCID="1028" />
+              <Title Text="Безбедносни профили поља" LCID="3098" />
+              <Title Text="Bezbednosni profili polja" LCID="2074" />
             </Titles>
           </NavBarByRelationshipItem>
           <NavBarByRelationshipItem Id="navConnections" Area="Info" Sequence="8500" RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navConnections" Show="false">
@@ -372,6 +360,8 @@
               <Title Text="连接" LCID="2052" />
               <Title Text="人脈" LCID="3076" />
               <Title Text="人脈" LCID="1028" />
+              <Title Text="Везе" LCID="3098" />
+              <Title Text="Veze" LCID="2074" />
             </Titles>
           </NavBarByRelationshipItem>
           <NavBarByRelationshipItem Id="navAsyncOperations" Area="ProcessCenter" Sequence="9500" RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navAsyncOperations" Show="false">
@@ -421,6 +411,8 @@
               <Title Text="后台处理" LCID="2052" />
               <Title Text="背景程序" LCID="3076" />
               <Title Text="背景程序" LCID="1028" />
+              <Title Text="Процеси у позадини" LCID="3098" />
+              <Title Text="Procesi u pozadini" LCID="2074" />
             </Titles>
           </NavBarByRelationshipItem>
           <NavBarByRelationshipItem Id="navAudit" Area="Info" Sequence="9600" RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navAudit" Show="false">
@@ -470,6 +462,8 @@
               <Title Text="审核历史记录" LCID="2052" />
               <Title Text="稽核歷程記錄" LCID="3076" />
               <Title Text="稽核歷程記錄" LCID="1028" />
+              <Title Text="Историја надгледања" LCID="3098" />
+              <Title Text="Istorija nadgledanja" LCID="2074" />
             </Titles>
           </NavBarByRelationshipItem>
           <NavBarByRelationshipItem Id="navProcessSessions" Area="ProcessCenter" Sequence="9700" RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navProcessSessions" Show="false">
@@ -519,6 +513,8 @@
               <Title Text="流程会话" LCID="2052" />
               <Title Text="程序工作階段" LCID="3076" />
               <Title Text="程序工作階段" LCID="1028" />
+              <Title Text="Сесије процеса" LCID="3098" />
+              <Title Text="Sesije procesa" LCID="2074" />
             </Titles>
           </NavBarByRelationshipItem>
         </NavBar>
@@ -570,6 +566,8 @@
               <Title LCID="2052" Text="通用" />
               <Title LCID="3076" Text="一般" />
               <Title LCID="1028" Text="一般" />
+              <Title LCID="3098" Text="Уобичајено" />
+              <Title LCID="2074" Text="Uobičajeno" />
             </Titles>
           </NavBarArea>
           <NavBarArea Id="Sales">
@@ -619,6 +617,8 @@
               <Title LCID="2052" Text="销售" />
               <Title LCID="3076" Text="銷售" />
               <Title LCID="1028" Text="銷售" />
+              <Title LCID="3098" Text="Продаја" />
+              <Title LCID="2074" Text="Prodaja" />
             </Titles>
           </NavBarArea>
           <NavBarArea Id="Service">
@@ -668,6 +668,8 @@
               <Title LCID="2052" Text="服务" />
               <Title LCID="3076" Text="服務" />
               <Title LCID="1028" Text="服務" />
+              <Title LCID="3098" Text="Услуга" />
+              <Title LCID="2074" Text="Usluga" />
             </Titles>
           </NavBarArea>
           <NavBarArea Id="Marketing">
@@ -717,6 +719,8 @@
               <Title LCID="2052" Text="市场营销" />
               <Title LCID="3076" Text="行銷" />
               <Title LCID="1028" Text="行銷" />
+              <Title LCID="3098" Text="Маркетинг" />
+              <Title LCID="2074" Text="Marketing" />
             </Titles>
           </NavBarArea>
           <NavBarArea Id="ProcessCenter">
@@ -766,6 +770,8 @@
               <Title LCID="2052" Text="流程会话" />
               <Title LCID="3076" Text="程序工作階段" />
               <Title LCID="1028" Text="程序工作階段" />
+              <Title LCID="3098" Text="Сесије процеса" />
+              <Title LCID="2074" Text="Sesije procesa" />
             </Titles>
           </NavBarArea>
         </NavBarAreas>
