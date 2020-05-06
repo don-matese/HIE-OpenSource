@@ -81,6 +81,18 @@
     <steplabels id="{8f40dc10-d9e5-4df3-baeb-888032fd9ed8}">
       <label languagecode="1033" description="Enquiry Triage" />
     </steplabels>
+    <steplabels id="{481bf2be-a566-4fd3-9bfb-a73b958164eb}">
+      <label languagecode="1033" description="Turnover" />
+    </steplabels>
+    <steplabels id="{54e72eb6-56a8-4285-8758-52c30ceeb046}">
+      <label languagecode="1033" description="No of Employees" />
+    </steplabels>
+    <steplabels id="{619712d8-b3f8-4c2c-9400-1f813eee3d89}">
+      <label languagecode="1033" description="Sector" />
+    </steplabels>
+    <steplabels id="{4888d796-6ede-484e-9ebc-46d9ffb3c939}">
+      <label languagecode="1033" description="Do you currently trade outwith the UK" />
+    </steplabels>
     <steplabels id="{e00879b3-4851-4755-93c0-4ef0f918c53e}">
       <label languagecode="1033" description="Fisheries" />
     </steplabels>
@@ -89,15 +101,6 @@
     </steplabels>
     <steplabels id="{47e750e2-b037-4a9a-a875-148126151b87}">
       <label languagecode="1033" description="Road Freight Transport" />
-    </steplabels>
-    <steplabels id="{619712d8-b3f8-4c2c-9400-1f813eee3d89}">
-      <label languagecode="1033" description="Sector" />
-    </steplabels>
-    <steplabels id="{481bf2be-a566-4fd3-9bfb-a73b958164eb}">
-      <label languagecode="1033" description="Turnover" />
-    </steplabels>
-    <steplabels id="{54e72eb6-56a8-4285-8758-52c30ceeb046}">
-      <label languagecode="1033" description="No of Employees" />
     </steplabels>
     <steplabels id="{4834109a-38b7-4d6a-bbfb-bd8593eac8af}">
       <label languagecode="1033" description="New Account Route To Relevant Team Or Person" />

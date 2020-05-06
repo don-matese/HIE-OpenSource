@@ -35,22 +35,6 @@
                         <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
                       </cell>
                     </row>
-                    <row>
-                      <cell id="{1b493db6-167b-6b45-a790-8039e48ba201}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Main Phone" languagecode="1033" />
-                        </labels>
-                        <control id="telephone1" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="telephone1" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{74462bc8-31ba-726c-e195-bc30857d41e5}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Primary Contact" languagecode="1033" />
-                        </labels>
-                        <control id="primarycontactid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="primarycontactid" disabled="false" />
-                      </cell>
-                    </row>
                   </rows>
                 </section>
               </sections>
@@ -112,31 +96,6 @@
                         </labels>
                       </cell>
                     </row>
-                    <row>
-                      <cell id="{ebb8e093-c034-a6d1-e4d3-e43923ec1d7d}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Annual Revenue" languagecode="1033" />
-                        </labels>
-                        <control id="revenue" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="revenue" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{d0c7e234-97a8-473c-39d9-78381c372375}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Number of Employees" languagecode="1033" />
-                        </labels>
-                        <control id="numberofemployees" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="numberofemployees" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{4b76aee6-8414-a9d0-3066-78ed2ed42eb8}" showlabel="true" locklevel="0" rowspan="2">
-                        <labels>
-                          <label description="Description" languagecode="1033" />
-                        </labels>
-                        <control id="description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="description" disabled="false" />
-                      </cell>
-                    </row>
-                    <row />
                   </rows>
                 </section>
               </sections>
