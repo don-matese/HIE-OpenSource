@@ -483,7 +483,7 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{a30934ec-7e06-4020-a8c7-1653e9abc614}" showlabel="true" locklevel="0" rowspan="4">
+                      <cell id="{a30934ec-7e06-4020-a8c7-1653e9abc614}" showlabel="true" locklevel="0" rowspan="3">
                         <labels>
                           <label description=" Main Activities, Products And Services" languagecode="1033" />
                         </labels>
@@ -492,9 +492,18 @@
                     </row>
                     <row />
                     <row />
+                    <row>
+                      <cell id="{3f6cb95b-09d5-4bd3-a499-05a552e4085c}" showlabel="true" locklevel="0" rowspan="3">
+                        <labels>
+                          <label description="Scale and Resources" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_scaleandresources" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="leidos_scaleandresources" disabled="false" />
+                      </cell>
+                    </row>
+                    <row />
                     <row />
                     <row>
-                      <cell id="{0cbceb09-577b-47c7-87f4-1f1fc909027f}" showlabel="true" locklevel="0" rowspan="4">
+                      <cell id="{8f791683-d59c-447b-a54b-02e787976251}" showlabel="true" locklevel="0" rowspan="3">
                         <labels>
                           <label description="Goals And Vision" languagecode="1033" />
                         </labels>
@@ -503,20 +512,18 @@
                     </row>
                     <row />
                     <row />
-                    <row />
                     <row>
-                      <cell id="{fdb0371b-d498-4c6b-9473-7ed94e162e1a}" showlabel="true" locklevel="0" rowspan="4">
+                      <cell id="{fdb0371b-d498-4c6b-9473-7ed94e162e1a}" showlabel="true" locklevel="0" rowspan="3">
                         <labels>
-                          <label description="Proposed Projects" languagecode="1033" />
+                          <label description="Areas of Potential Support" languagecode="1033" />
                         </labels>
                         <control id="leidos_proposedprojects" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="leidos_proposedprojects" disabled="false" />
                       </cell>
                     </row>
                     <row />
                     <row />
-                    <row />
                     <row>
-                      <cell showlabel="true" locklevel="0" id="{ca6c075a-929a-4b84-870d-f67941b8b8d7}">
+                      <cell showlabel="true" locklevel="0" id="{f40bf271-3f3d-45e3-9e75-062e7c78b61a}">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>

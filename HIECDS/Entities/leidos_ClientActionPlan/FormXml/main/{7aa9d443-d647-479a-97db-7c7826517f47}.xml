@@ -135,23 +135,14 @@
                 </section>
                 <section name="Project" id="c6f03044-5cc5-4a8a-962e-635dcf99daf4" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
                   <labels>
-                    <label description="Project" languagecode="1033" />
+                    <label description="Associated Projects" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{577fc759-5a61-4809-98a4-80008b3b012e}" showlabel="true" locklevel="0">
+                      <cell showlabel="false" locklevel="0" id="{e23299e9-fd23-4d53-b725-9e09dcbb6fa5}">
                         <labels>
-                          <label description="Project" languagecode="1033" />
+                          <label description="" languagecode="1033" />
                         </labels>
-                        <control id="leidos_project" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_project" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{4ea305b6-7a9e-4dd3-b93a-be549432a82b}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Project Status" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_projectstatus" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="leidos_projectstatus" disabled="false" />
                       </cell>
                     </row>
                   </rows>

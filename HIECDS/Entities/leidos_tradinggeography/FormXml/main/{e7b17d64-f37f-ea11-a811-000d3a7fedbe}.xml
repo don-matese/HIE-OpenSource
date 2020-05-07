@@ -44,14 +44,6 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{a5a778aa-2a05-0718-01e4-1b818b23c65b}" showlabel="true" locklevel="0" labelid="{0e8357b5-2e87-448d-9206-703dc2aa7b95}">
-                        <labels>
-                          <label description="Export Ladder" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_exportladder" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="leidos_exportladder" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
                       <cell id="{53413b97-5c50-4212-8387-6b97ea1874a9}" labelid="{c2efdc2a-4862-4fe1-9ec7-56a14cf1db83}">
                         <labels>
                           <label description="Owner" languagecode="1033" />

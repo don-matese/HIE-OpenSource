@@ -155,14 +155,72 @@
             </column>
           </columns>
         </tab>
-        <tab verticallayout="true" id="{92b356d1-878a-44c3-878c-381bd0733930}" name="StageStep36" locklevel="0" expanded="true" visible="false" labelid="{48093550-20d3-46ea-8772-c2397fc2b880}">
+        <tab verticallayout="true" id="{455b6bf6-cdf5-490c-aad0-d721c03ba429}" name="StageStep36" locklevel="0" expanded="true" visible="false" labelid="{fd75f6f7-3140-4694-b63a-164f50e32398}">
+          <labels>
+            <label description="Account Profile" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{455b6bf6-cdf5-490c-aad0-d721c03ba429}" name="StageStep36_section1" labelid="{208a637c-40a4-47c2-aa7e-17a5f4112759}">
+                  <labels>
+                    <label description="Account Profile" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4d40df3d-4b83-4d7d-a1fc-4a0063187537}" showlabel="true" visible="true" labelid="{1bfcccd3-d7af-4005-ad63-2748a0c86fd8}">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_account_leidos_bpfaccountprocess:description" classid="{e0dece4b-6fc8-4a8f-a065-082708572369}" datafieldname="description" relationship="bpf_account_leidos_bpfaccountprocess" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ceb8bea0-404a-4986-b0b0-d45c986ed7e8}" showlabel="true" visible="true" labelid="{c95a5b0a-c829-4a8c-8f96-878011d9afd9}">
+                        <labels>
+                          <label description=" Main Activities, Products And Services" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_account_leidos_bpfaccountprocess:leidos_mainactivitiesproductsandservices" classid="{e0dece4b-6fc8-4a8f-a065-082708572369}" datafieldname="leidos_mainactivitiesproductsandservices" relationship="bpf_account_leidos_bpfaccountprocess" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{86fd2c7c-51a2-4ef8-978f-4d03ae1453a2}" showlabel="true" visible="true" labelid="{30ca14da-ae53-4bf7-8553-62852072ebef}">
+                        <labels>
+                          <label description="Scale and Resources" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_account_leidos_bpfaccountprocess:leidos_scaleandresources" classid="{e0dece4b-6fc8-4a8f-a065-082708572369}" datafieldname="leidos_scaleandresources" relationship="bpf_account_leidos_bpfaccountprocess" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2006c6b3-9ea6-43a5-bf73-bb99fbae9eb2}" showlabel="true" visible="true" labelid="{0326329b-e49d-42ef-ac6f-0c9d0df2f5e7}">
+                        <labels>
+                          <label description="Areas of Potential Support" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_account_leidos_bpfaccountprocess:leidos_proposedprojects" classid="{e0dece4b-6fc8-4a8f-a065-082708572369}" datafieldname="leidos_proposedprojects" relationship="bpf_account_leidos_bpfaccountprocess" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ffc9756d-c785-4082-99cb-4ed3872d2bd7}" showlabel="true" visible="true" labelid="{4f52e3a2-3c13-4fa4-a9cb-b2a18580af15}">
+                        <labels>
+                          <label description="Goals And Vision" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_account_leidos_bpfaccountprocess:leidos_goalsandvision" classid="{e0dece4b-6fc8-4a8f-a065-082708572369}" datafieldname="leidos_goalsandvision" relationship="bpf_account_leidos_bpfaccountprocess" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{92b356d1-878a-44c3-878c-381bd0733930}" name="StageStep48" locklevel="0" expanded="true" visible="false" labelid="{48093550-20d3-46ea-8772-c2397fc2b880}">
           <labels>
             <label description="Proposed For Account Management" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showbar="false" columns="1" id="{92b356d1-878a-44c3-878c-381bd0733930}" name="StageStep36_section1" labelid="{208a637c-40a4-47c2-aa7e-17a5f4112759}">
+                <section showbar="false" columns="1" id="{92b356d1-878a-44c3-878c-381bd0733930}" name="StageStep48_section1" labelid="{b10213de-1678-4d41-87b6-7250c46b15c3}">
                   <labels>
                     <label description="Proposed For Account Management" languagecode="1033" />
                   </labels>
@@ -213,14 +271,14 @@
             </column>
           </columns>
         </tab>
-        <tab verticallayout="true" id="{e15c4961-588b-4ea1-b542-0b28b55eb8ec}" name="StageStep48" locklevel="0" expanded="true" visible="false" labelid="{861ba062-d59b-431b-bd05-c4d3168c405d}">
+        <tab verticallayout="true" id="{e15c4961-588b-4ea1-b542-0b28b55eb8ec}" name="StageStep60" locklevel="0" expanded="true" visible="false" labelid="{861ba062-d59b-431b-bd05-c4d3168c405d}">
           <labels>
             <label description="Recommendation" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showbar="false" columns="1" id="{e15c4961-588b-4ea1-b542-0b28b55eb8ec}" name="StageStep48_section1" labelid="{b10213de-1678-4d41-87b6-7250c46b15c3}">
+                <section showbar="false" columns="1" id="{e15c4961-588b-4ea1-b542-0b28b55eb8ec}" name="StageStep60_section1" labelid="{66db4d10-38bf-4743-8e18-2baa1465f807}">
                   <labels>
                     <label description="Recommendation" languagecode="1033" />
                   </labels>
@@ -255,14 +313,14 @@
             </column>
           </columns>
         </tab>
-        <tab verticallayout="true" id="{47206328-fdc0-424e-9354-1ad96a985aa9}" name="StageStep56" locklevel="0" expanded="true" visible="false" labelid="{d0353bed-f53b-4d0b-a041-b0b7c0534a85}">
+        <tab verticallayout="true" id="{47206328-fdc0-424e-9354-1ad96a985aa9}" name="StageStep68" locklevel="0" expanded="true" visible="false" labelid="{d0353bed-f53b-4d0b-a041-b0b7c0534a85}">
           <labels>
             <label description="AMR Approval" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showbar="false" columns="1" id="{47206328-fdc0-424e-9354-1ad96a985aa9}" name="StageStep56_section1" labelid="{0320d058-a957-4492-be1c-494f0aac972d}">
+                <section showbar="false" columns="1" id="{47206328-fdc0-424e-9354-1ad96a985aa9}" name="StageStep68_section1" labelid="{bb499c48-2133-4400-82dd-8e90470eacf6}">
                   <labels>
                     <label description="AMR Approval" languagecode="1033" />
                   </labels>
@@ -313,14 +371,14 @@
             </column>
           </columns>
         </tab>
-        <tab verticallayout="true" id="{b71402b4-1240-46c8-b81a-6491af723713}" name="StageStep68" locklevel="0" expanded="true" visible="false" labelid="{14b2fe5e-180d-4860-9f5d-2696f3785ad8}">
+        <tab verticallayout="true" id="{b71402b4-1240-46c8-b81a-6491af723713}" name="StageStep80" locklevel="0" expanded="true" visible="false" labelid="{14b2fe5e-180d-4860-9f5d-2696f3785ad8}">
           <labels>
             <label description="Review Process" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showbar="false" columns="1" id="{b71402b4-1240-46c8-b81a-6491af723713}" name="StageStep68_section1" labelid="{bb499c48-2133-4400-82dd-8e90470eacf6}">
+                <section showbar="false" columns="1" id="{b71402b4-1240-46c8-b81a-6491af723713}" name="StageStep80_section1" labelid="{7cc64b79-d0a9-4da1-89ac-7fd47ce1801c}">
                   <labels>
                     <label description="Review Process" languagecode="1033" />
                   </labels>

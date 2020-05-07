@@ -43,22 +43,6 @@
                         <control id="leidos_parentaccount" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_parentaccount" disabled="false" />
                       </cell>
                     </row>
-                    <row>
-                      <cell id="{e2c7997a-b06a-4c1f-9575-9ef466d6f181}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Areas for Potential HIE Intervention" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_areasforpotentialhieintervention" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="leidos_areasforpotentialhieintervention" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{6bd99843-e2b3-44a0-959d-45fd4347475f}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Long Term Vision" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_longtermvision" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="leidos_longtermvision" disabled="false" />
-                      </cell>
-                    </row>
                   </rows>
                 </section>
                 <section name="Project" id="7a6072d0-26dc-4979-b3cb-84693d115233" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" height="auto">

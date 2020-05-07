@@ -75,6 +75,24 @@
     <steplabels id="{68ebde64-1710-4f1f-98ad-eca3dcfabe2b}">
       <label languagecode="1033" description="Recommendation to Area Manager" />
     </steplabels>
+    <steplabels id="{455b6bf6-cdf5-490c-aad0-d721c03ba429}">
+      <label languagecode="1033" description="Account Profile" />
+    </steplabels>
+    <steplabels id="{4d40df3d-4b83-4d7d-a1fc-4a0063187537}">
+      <label languagecode="1033" description="Description" />
+    </steplabels>
+    <steplabels id="{ceb8bea0-404a-4986-b0b0-d45c986ed7e8}">
+      <label languagecode="1033" description=" Main Activities, Products And Services" />
+    </steplabels>
+    <steplabels id="{86fd2c7c-51a2-4ef8-978f-4d03ae1453a2}">
+      <label languagecode="1033" description="Scale and Resources" />
+    </steplabels>
+    <steplabels id="{2006c6b3-9ea6-43a5-bf73-bb99fbae9eb2}">
+      <label languagecode="1033" description="Areas of Potential Support" />
+    </steplabels>
+    <steplabels id="{ffc9756d-c785-4082-99cb-4ed3872d2bd7}">
+      <label languagecode="1033" description="Goals And Vision" />
+    </steplabels>
     <steplabels id="{92b356d1-878a-44c3-878c-381bd0733930}">
       <label languagecode="1033" description="Proposed For Account Management" />
     </steplabels>

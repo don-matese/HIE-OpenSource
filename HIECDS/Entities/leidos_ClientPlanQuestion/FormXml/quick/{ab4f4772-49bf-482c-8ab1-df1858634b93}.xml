@@ -36,11 +36,53 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{a71aed94-baec-1915-49bc-191eeb2cd765}" showlabel="true" locklevel="0">
+                      <cell id="{a71aed94-baec-1915-49bc-191eeb2cd765}" showlabel="true" locklevel="0" rowspan="15">
                         <labels>
                           <label description="INDICATORS OF GOOD PRACTICE" languagecode="1033" />
                         </labels>
                         <control id="leidos_indicatorsofgoodpractice" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="leidos_indicatorsofgoodpractice" disabled="false" uniqueid="{4bb6267e-79ee-468e-de3c-75ee162960c5}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{51d436b4-c036-45d7-b880-13bcf4d615bb}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{24fa3008-c789-4b39-af51-ff8d20ebe303}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{d818cbb9-65af-4aef-b333-d4731e7ceb6c}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{e52f0474-d8a1-4536-8f93-09fa21f39d08}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{56a13b8b-1e09-43af-8d3d-37b38dd97253}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{f69e9c46-0e93-43dd-93e0-ca3488a022db}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
                       </cell>
                     </row>
                   </rows>

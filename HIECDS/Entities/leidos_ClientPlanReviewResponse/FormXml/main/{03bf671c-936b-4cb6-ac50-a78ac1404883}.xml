@@ -45,7 +45,7 @@
                         </labels>
                         <control id="leidos_category" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_category" disabled="false" />
                       </cell>
-                      <cell showlabel="false" locklevel="0" id="{7e438c12-d765-4f67-b8fe-22c1fa1a2a16}">
+                      <cell showlabel="false" locklevel="0" id="{6413a51a-61bc-4165-b6d8-5ad9810ec82d}">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -58,7 +58,7 @@
                         </labels>
                         <control id="leidos_previousratingvalue" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="leidos_previousratingvalue" disabled="false" />
                       </cell>
-                      <cell showlabel="false" locklevel="0" id="{6413a51a-61bc-4165-b6d8-5ad9810ec82d}">
+                      <cell showlabel="false" locklevel="0" id="{98e55bed-c16c-47cc-9e99-c2d8d322263c}">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -71,7 +71,7 @@
                         </labels>
                         <control id="leidos_ratingvalue" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="leidos_ratingvalue" disabled="false" />
                       </cell>
-                      <cell showlabel="false" locklevel="0" id="{98e55bed-c16c-47cc-9e99-c2d8d322263c}">
+                      <cell showlabel="false" locklevel="0" id="{e1e02470-89bb-47e9-9196-84cc3120eea6}">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -84,7 +84,7 @@
                         </labels>
                         <control id="leidos_notapplicable" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="leidos_notapplicable" disabled="false" />
                       </cell>
-                      <cell showlabel="false" locklevel="0" id="{e1e02470-89bb-47e9-9196-84cc3120eea6}">
+                      <cell showlabel="true" locklevel="0" id="{0379fe2d-8880-43ea-87ec-f5d5fc3b72b9}">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -97,7 +97,7 @@
                         </labels>
                         <control id="leidos_notes" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="leidos_notes" disabled="false" />
                       </cell>
-                      <cell showlabel="true" locklevel="0" id="{0379fe2d-8880-43ea-87ec-f5d5fc3b72b9}">
+                      <cell showlabel="true" locklevel="0" id="{9ea9a65f-e038-4a56-b05e-5e88b7bceae0}">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>

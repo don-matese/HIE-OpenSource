@@ -13,7 +13,6 @@
           <cell name="leidos_name" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
           <cell name="leidos_geography" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
           <cell name="leidos_percentageofsales" width="100" />
-          <cell name="leidos_exportladder" width="100" />
           <cell name="leidos_markets" width="100" />
           <cell name="statuscode" width="100" />
           <cell name="leidos_parentapplication" width="100" />
@@ -36,10 +35,9 @@
           <attribute name="leidos_percentageofsales" />
           <attribute name="leidos_markets" />
           <attribute name="leidos_geography" />
-          <attribute name="leidos_exportladder" />
-          <attribute name="leidos_tradinggeographyid" />
           <attribute name="leidos_parentapplication" />
           <attribute name="leidos_parentclientplan" />
+          <attribute name="leidos_tradinggeographyid" />
         </entity>
       </fetch>
     </fetchxml>
