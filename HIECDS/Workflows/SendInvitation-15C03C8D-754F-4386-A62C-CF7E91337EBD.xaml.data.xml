@@ -16,6 +16,7 @@
   <RunAs>1</RunAs>
   <IsTransacted>1</IsTransacted>
   <IntroducedVersion>1.0</IntroducedVersion>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
   <PrimaryEntity>adx_invitation</PrimaryEntity>
   <LocalizedNames>
     <LocalizedName languagecode="1033" description="Send Invitation" />

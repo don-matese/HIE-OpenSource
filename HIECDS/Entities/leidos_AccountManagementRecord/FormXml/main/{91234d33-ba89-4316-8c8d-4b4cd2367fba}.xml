@@ -53,68 +53,38 @@
                     </row>
                   </rows>
                 </section>
-                <section name="Product and Services" id="d56db5aa-21d6-4110-a674-08f65ea5e17e" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
-                  <labels>
-                    <label description="Product and Services" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell id="{6a9d7164-5065-4e74-a18b-cd2c4c1aac01}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Product and Service Description" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_productandservicedescription" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="leidos_productandservicedescription" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{ea3bb0f2-ce62-46b1-aedf-053fe729d1a1}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Geographical Scope Description" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_geographicalscopedescription" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="leidos_geographicalscopedescription" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{e0623cfa-fb55-4943-9040-557ed1b5afc2}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Geographical scope %" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_geographicalscope" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="leidos_geographicalscope" disabled="false" />
-                      </cell>
-                    </row>
-                  </rows>
-                </section>
               </sections>
             </column>
             <column width="50%">
               <sections>
-                <section name="Finance" id="70e0ac02-e4ab-43e2-a099-75020dd0431a" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                <section name="TimeLine" id="744bd2d8-dd07-40c6-a6d8-d770e143b0c6" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
                   <labels>
-                    <label description="Finance" languagecode="1033" />
+                    <label description="TimeLine" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{90601384-9005-4b4a-b6dd-6ff8ce83a803}" showlabel="true" locklevel="0">
+                      <cell showlabel="true" locklevel="0" id="{200babf0-ecf6-4054-96ea-5e6cb2106635}">
                         <labels>
-                          <label description="Turnover" languagecode="1033" />
+                          <label description="Parent Account Card" languagecode="1033" />
                         </labels>
-                        <control id="leidos_turnover" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_turnover" disabled="false" />
+                        <control id="AccountQuickView" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="leidos_parentaccount" disabled="false">
+                          <parameters>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="account"&gt;c19ef749-a13e-ea11-a812-000d3a0bad17&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                          </parameters>
+                        </control>
                       </cell>
                     </row>
                     <row>
-                      <cell id="{e3f41604-a72b-49d2-8b04-0c2017d8736a}" showlabel="true" locklevel="0">
+                      <cell showlabel="false" rowspan="1" auto="false" id="{cf6aed04-94ed-45ea-8b04-935406d74d3e}">
                         <labels>
-                          <label description="Assets &amp; Capital" languagecode="1033" />
+                          <label description="Note Text" languagecode="1033" />
                         </labels>
-                        <control id="leidos_assetscapital" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_assetscapital" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{b8d60a0c-13e4-46a0-a6f0-afb6c631f2ac}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="No Of employees" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_noofemployees" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="leidos_noofemployees" disabled="false" />
+                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}">
+                          <parameters>
+                            <DefaultTabId>NotesTab</DefaultTabId>
+                          </parameters>
+                        </control>
                       </cell>
                     </row>
                   </rows>
@@ -329,50 +299,6 @@
                         <control id="leidos_automaticallysenddisengagementletter" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="leidos_automaticallysenddisengagementletter" disabled="false" uniqueid="{11d0ed26-fed2-475f-88cc-7ea60d9cafeb}" />
                       </cell>
                     </row>
-                  </rows>
-                </section>
-              </sections>
-            </column>
-          </columns>
-        </tab>
-        <tab name="Time Line" id="6b7b0628-a7bc-46fb-8b04-9f2a7976ebac" IsUserDefined="0" locklevel="0" showlabel="true">
-          <labels>
-            <label description="Time Line" languagecode="1033" />
-          </labels>
-          <columns>
-            <column width="100%">
-              <sections>
-                <section showlabel="false" showbar="false" id="{56043f0f-8272-4bd6-b6b0-d480c6f58536}" IsUserDefined="0" height="auto" name="Time Line_section_3">
-                  <labels>
-                    <label description="Notes" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell showlabel="false" rowspan="15" auto="false" id="{cf6aed04-94ed-45ea-8b04-935406d74d3e}">
-                        <labels>
-                          <label description="Note Text" languagecode="1033" />
-                        </labels>
-                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}">
-                          <parameters>
-                            <DefaultTabId>NotesTab</DefaultTabId>
-                          </parameters>
-                        </control>
-                      </cell>
-                    </row>
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row height="auto" />
                   </rows>
                 </section>
               </sections>

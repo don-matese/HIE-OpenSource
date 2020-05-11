@@ -20,7 +20,7 @@
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{96c8026e-92d7-456a-a450-b54cdd18a9c1}">
+                      <cell id="{96c8026e-92d7-456a-a450-b54cdd18a9c1}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -44,17 +44,16 @@
                         </labels>
                         <control id="statuscode" classid="{5D68B988-0661-4db2-BC3E-17598AD3BE6C}" datafieldname="statuscode" disabled="false" />
                       </cell>
-                      <cell id="{e3cd56c2-c64c-3ee0-3c57-8b52227649b4}" showlabel="true" locklevel="0">
+                      <cell id="{76d1472c-3204-e500-baec-cee77968038c}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="AMR Start Date" languagecode="1033" />
+                          <label description="AMR Reference " languagecode="1033" />
                         </labels>
-                        <control id="leidos_amrstartdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="leidos_amrstartdate" disabled="false" />
+                        <control id="leidos_amrreference" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="leidos_amrreference" disabled="false" />
                       </cell>
-                      <cell id="{e16e4397-d205-c5e4-81c7-9784c436cc7c}" showlabel="true" locklevel="0">
+                      <cell id="{c46a564c-6a73-8ee1-b149-9a7ed6edcc6b}" showlabel="false">
                         <labels>
-                          <label description="AMR End Date" languagecode="1033" />
+                          <label description="" languagecode="1033" />
                         </labels>
-                        <control id="leidos_amrenddate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="leidos_amrenddate" disabled="false" />
                       </cell>
                     </row>
                   </rows>
@@ -81,19 +80,19 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{34c44367-9cc0-ca56-4bbe-80655b7ceca0}" showlabel="true" locklevel="0">
+                      <cell id="{e3cd56c2-c64c-3ee0-3c57-8b52227649b4}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Turnover" languagecode="1033" />
+                          <label description="AMR Start Date" languagecode="1033" />
                         </labels>
-                        <control id="leidos_turnover" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="leidos_turnover" disabled="false" />
+                        <control id="leidos_amrstartdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="leidos_amrstartdate" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{89e6d86b-95a9-341e-84dd-7db4e752b877}" showlabel="true" locklevel="0">
+                      <cell id="{e16e4397-d205-c5e4-81c7-9784c436cc7c}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="No Of employees" languagecode="1033" />
+                          <label description="AMR End Date" languagecode="1033" />
                         </labels>
-                        <control id="leidos_noofemployees" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="leidos_noofemployees" disabled="false" />
+                        <control id="leidos_amrenddate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="leidos_amrenddate" disabled="false" />
                       </cell>
                     </row>
                   </rows>

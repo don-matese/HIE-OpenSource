@@ -322,7 +322,6 @@
   <EntityRelationship Name="team_leidos_stateaidassessmentdetail" />
   <EntityRelationship Name="team_leidos_tradinggeography" />
   <EntityRelationship Name="TransactionCurrency_leidos_AccountManagementClientPlan" />
-  <EntityRelationship Name="TransactionCurrency_leidos_AccountManagementRecord" />
   <EntityRelationship Name="TransactionCurrency_leidos_AnticipatedSpendProfile" />
   <EntityRelationship Name="TransactionCurrency_leidos_Application" />
   <EntityRelationship Name="TransactionCurrency_leidos_ApplicationAnswer" />

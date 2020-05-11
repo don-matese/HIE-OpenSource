@@ -35,44 +35,20 @@
                         <control id="bpf_leidos_accountmanagementrecord_leidos_bpfamrdirectcreation:leidos_areaoffice" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="leidos_areaoffice" relationship="bpf_leidos_accountmanagementrecord_leidos_bpfamrdirectcreation" isrequired="false" disabled="false" />
                       </cell>
                     </row>
-                    <row>
-                      <cell id="{dabdc16e-51f7-44e8-8cbc-efc2d5a6d49d}" showlabel="true" visible="true" labelid="{44974054-cdb8-4833-a73a-5625e40591de}">
-                        <labels>
-                          <label description="Turnover" languagecode="1033" />
-                        </labels>
-                        <control id="bpf_leidos_accountmanagementrecord_leidos_bpfamrdirectcreation:leidos_turnover" classid="{533b9e00-756b-4312-95a0-dc888637ac78}" datafieldname="leidos_turnover" relationship="bpf_leidos_accountmanagementrecord_leidos_bpfamrdirectcreation" isrequired="true" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{a7855c84-c3fb-4458-b60b-dbea3c4ebf59}" showlabel="true" visible="true" labelid="{5e6cb333-e3ce-4628-86c5-69cd1ccc8330}">
-                        <labels>
-                          <label description="Assets &amp; Capital (Base)" languagecode="1033" />
-                        </labels>
-                        <control id="bpf_leidos_accountmanagementrecord_leidos_bpfamrdirectcreation:leidos_assetscapital" classid="{533b9e00-756b-4312-95a0-dc888637ac78}" datafieldname="leidos_assetscapital" relationship="bpf_leidos_accountmanagementrecord_leidos_bpfamrdirectcreation" isrequired="true" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{a62dc18a-d3ba-44fe-b17d-ee15698fed80}" showlabel="true" visible="true" labelid="{9611bb85-3816-4064-94fe-1389414774ce}">
-                        <labels>
-                          <label description="No Of employees" languagecode="1033" />
-                        </labels>
-                        <control id="bpf_leidos_accountmanagementrecord_leidos_bpfamrdirectcreation:leidos_noofemployees" classid="{c6d124ca-7eda-4a60-aea9-7fb8d318b68f}" datafieldname="leidos_noofemployees" relationship="bpf_leidos_accountmanagementrecord_leidos_bpfamrdirectcreation" isrequired="true" disabled="false" />
-                      </cell>
-                    </row>
                   </rows>
                 </section>
               </sections>
             </column>
           </columns>
         </tab>
-        <tab verticallayout="true" id="{d8195ae2-c3e9-4408-b931-3fd9d0c496f6}" name="StageStep15" locklevel="0" expanded="true" visible="false" labelid="{ea2ad134-69c6-427e-8137-389b56f9453a}">
+        <tab verticallayout="true" id="{d8195ae2-c3e9-4408-b931-3fd9d0c496f6}" name="StageStep9" locklevel="0" expanded="true" visible="false" labelid="{ea2ad134-69c6-427e-8137-389b56f9453a}">
           <labels>
             <label description="Recommendation" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showbar="false" columns="1" id="{d8195ae2-c3e9-4408-b931-3fd9d0c496f6}" name="StageStep15_section1" labelid="{4454ea6e-58ae-4d74-b67a-e461e33a919e}">
+                <section showbar="false" columns="1" id="{d8195ae2-c3e9-4408-b931-3fd9d0c496f6}" name="StageStep9_section1" labelid="{1e723a3d-7cc1-4b42-b6fa-8899bcf7ca49}">
                   <labels>
                     <label description="Recommendation" languagecode="1033" />
                   </labels>
@@ -107,14 +83,14 @@
             </column>
           </columns>
         </tab>
-        <tab verticallayout="true" id="{668b825f-ccf3-4280-811f-f01c39902a30}" name="StageStep23" locklevel="0" expanded="true" visible="false" labelid="{99e9e159-4c98-4a72-bdf2-2a56bd6225e0}">
+        <tab verticallayout="true" id="{668b825f-ccf3-4280-811f-f01c39902a30}" name="StageStep17" locklevel="0" expanded="true" visible="false" labelid="{99e9e159-4c98-4a72-bdf2-2a56bd6225e0}">
           <labels>
             <label description="Approval " languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showbar="false" columns="1" id="{668b825f-ccf3-4280-811f-f01c39902a30}" name="StageStep23_section1" labelid="{dada0aa1-c996-4707-9500-0b2829c004a7}">
+                <section showbar="false" columns="1" id="{668b825f-ccf3-4280-811f-f01c39902a30}" name="StageStep17_section1" labelid="{6fedfc55-1ed1-4c40-ab5a-2ce5c2a97092}">
                   <labels>
                     <label description="Approval " languagecode="1033" />
                   </labels>
@@ -165,14 +141,14 @@
             </column>
           </columns>
         </tab>
-        <tab verticallayout="true" id="{1d7fbbf6-31a7-4055-a076-3137cf383b61}" name="StageStep35" locklevel="0" expanded="true" visible="false" labelid="{f3f357b2-3cac-4f26-9d5e-a6e61acbee18}">
+        <tab verticallayout="true" id="{1d7fbbf6-31a7-4055-a076-3137cf383b61}" name="StageStep29" locklevel="0" expanded="true" visible="false" labelid="{f3f357b2-3cac-4f26-9d5e-a6e61acbee18}">
           <labels>
             <label description="Monitoring &amp; Aftercare" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showbar="false" columns="1" id="{1d7fbbf6-31a7-4055-a076-3137cf383b61}" name="StageStep35_section1" labelid="{20c72443-9473-46c0-8b4a-0482f681f20f}">
+                <section showbar="false" columns="1" id="{1d7fbbf6-31a7-4055-a076-3137cf383b61}" name="StageStep29_section1" labelid="{d5fe35d1-dcf0-4f4f-91f5-402ca0b11d56}">
                   <labels>
                     <label description="Monitoring &amp; Aftercare" languagecode="1033" />
                   </labels>
@@ -207,14 +183,14 @@
             </column>
           </columns>
         </tab>
-        <tab verticallayout="true" id="{677f85cf-5880-402f-9d26-3527f9811437}" name="StageStep43" locklevel="0" expanded="true" visible="false" labelid="{b18fe487-aa32-4179-84e8-c1b192f25e66}">
+        <tab verticallayout="true" id="{677f85cf-5880-402f-9d26-3527f9811437}" name="StageStep37" locklevel="0" expanded="true" visible="false" labelid="{b18fe487-aa32-4179-84e8-c1b192f25e66}">
           <labels>
             <label description="Complete  / Disengage" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showbar="false" columns="1" id="{677f85cf-5880-402f-9d26-3527f9811437}" name="StageStep43_section1" labelid="{621329d6-cffc-445c-baa6-cab6299333e3}">
+                <section showbar="false" columns="1" id="{677f85cf-5880-402f-9d26-3527f9811437}" name="StageStep37_section1" labelid="{be831a97-7a6a-4cbe-aa6b-9021cb621fcb}">
                   <labels>
                     <label description="Complete  / Disengage" languagecode="1033" />
                   </labels>

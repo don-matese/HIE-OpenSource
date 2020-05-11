@@ -20,6 +20,7 @@
   <IsTransacted>1</IsTransacted>
   <IntroducedVersion>1.4.0.5</IntroducedVersion>
   <IsCustomizable>1</IsCustomizable>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
   <PrimaryEntity>leidos_AnticipatedSpendProfile</PrimaryEntity>
   <LocalizedNames>
     <LocalizedName languagecode="1033" description="Anticipated Spend - Sync Workflow - Check Total Roll back" />

@@ -20,6 +20,7 @@
   <IsTransacted>1</IsTransacted>
   <IntroducedVersion>1.4.0.5</IntroducedVersion>
   <IsCustomizable>1</IsCustomizable>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
   <PrimaryEntity>leidos_ProjectFunding</PrimaryEntity>
   <LocalizedNames>
     <LocalizedName languagecode="1033" description="Project Funding - Sync Workflow  - Check Totals for Roll back" />
