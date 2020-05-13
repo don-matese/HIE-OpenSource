@@ -1,0 +1,6 @@
+var Leidos = window.Leidos || {};
+
+Leidos.ExpandBPF = function(context)
+{ 
+	Xrm.Page.ui.process.setDisplayState("expanded");  
+}

@@ -5,9 +5,9 @@
     <IntroducedVersion>1.0.0.0</IntroducedVersion>
     <FormPresentation>1</FormPresentation>
     <FormActivationState>1</FormActivationState>
-    <form headerdensity="HighWithControls">
+    <form headerdensity="HighWithControls" shownavigationbar="true" showImage="false" maxWidth="1920">
       <tabs>
-        <tab verticallayout="true" id="{28d41d28-2711-4e9c-974f-b37fd8f27a78}" IsUserDefined="1" name="Enquiry" locklevel="0" expanded="true" showlabel="true">
+        <tab verticallayout="true" id="{28d41d28-2711-4e9c-974f-b37fd8f27a78}" IsUserDefined="1" name="Enquiry" locklevel="0" expanded="false" showlabel="true">
           <labels>
             <label description="Enquiry" languagecode="1033" />
           </labels>
@@ -28,14 +28,6 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{68fcc677-e845-4308-b6bc-ad16f76f63e1}">
-                        <labels>
-                          <label description="Owner" languagecode="1033" />
-                        </labels>
-                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
-                      </cell>
-                    </row>
-                    <row>
                       <cell id="{dc9c7bc8-874e-44e4-ba8f-aace8ed3679a}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Enquiry Source" languagecode="1033" />
@@ -44,11 +36,11 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{f450421c-c1d9-4b08-9949-cc4f8acc76d4}" showlabel="true" locklevel="0">
+                      <cell id="{3992559c-2e7e-8329-c581-114aa4a7040b}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Privacy Statement Agreement" languagecode="1033" />
+                          <label description="Enquiry Message" languagecode="1033" />
                         </labels>
-                        <control id="leidos_privacystatementagreement" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="leidos_privacystatementagreement" disabled="false" />
+                        <control id="leidos_enquirymessage" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="leidos_enquirymessage" disabled="false" />
                       </cell>
                     </row>
                   </rows>
@@ -58,22 +50,6 @@
                     <label description="Enquiry Details" languagecode="1033" />
                   </labels>
                   <rows>
-                    <row>
-                      <cell id="{3992559c-2e7e-8329-c581-114aa4a7040b}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Enquiry Message" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_enquirymessage" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="leidos_enquirymessage" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{6d838a47-c531-4121-bdce-ec4c76283f9a}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Product or Service" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_productorservice" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_productorservice" disabled="true" />
-                      </cell>
-                    </row>
                     <row>
                       <cell id="{875d3371-7133-65b6-2872-d1d34b21976d}" showlabel="true" locklevel="0">
                         <labels>
@@ -96,53 +72,6 @@
                           <label description="Nature of Enquiry Free Text" languagecode="1033" />
                         </labels>
                         <control id="leidos_natureofenquiryfreetext" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="leidos_natureofenquiryfreetext" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{39c6a5b1-71ad-4b8b-aa5e-30d4fd79098a}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Nature of Business Activity" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_natureofbusinessactivity" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="leidos_natureofbusinessactivity" disabled="false" />
-                      </cell>
-                    </row>
-                  </rows>
-                </section>
-                <section name="Enquiry_section_9" showlabel="false" showbar="false" locklevel="0" id="{4688175e-4a6e-6a9c-5712-a1b920374732}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
-                  <labels>
-                    <label description="Client Details" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell id="{cc5abd5e-7b9b-10be-2906-2549d4e03389}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Company Name" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_companyname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="leidos_companyname" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{7267bd1b-c26b-3105-dc81-81da14648911}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Company Postcode" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_companypostcode" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="leidos_companypostcode" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{f12a5f92-25a8-4001-a4a1-5de6ec76dbd9}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Account" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_account" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_account" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{5b23fdaa-7446-4032-80e2-4df3e671960c}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="New Account Created by Enquiry" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_newaccountcreatedbyenquiry" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="leidos_newaccountcreatedbyenquiry" disabled="false" />
                       </cell>
                     </row>
                   </rows>
@@ -194,6 +123,37 @@
                     </row>
                   </rows>
                 </section>
+                <section name="Enquiry_section_9" showlabel="false" showbar="false" locklevel="0" id="{4688175e-4a6e-6a9c-5712-a1b920374732}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Client Details" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{cc5abd5e-7b9b-10be-2906-2549d4e03389}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Company Name" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_companyname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="leidos_companyname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7267bd1b-c26b-3105-dc81-81da14648911}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Company Postcode" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_companypostcode" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="leidos_companypostcode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f12a5f92-25a8-4001-a4a1-5de6ec76dbd9}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Account" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_account" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_account" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
                 <section name="Enquiry_section_9" id="8b7e21a3-2829-496e-8b79-96ed5af7505a" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115">
                   <labels>
                     <label description="Process" languagecode="1033" />
@@ -226,7 +186,20 @@
                         </labels>
                         <control id="leidos_forwardtoenquiryteam" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="leidos_forwardtoenquiryteam" disabled="false" uniqueid="{290f30db-60ee-42b1-a00c-d7eee72ead73}" />
                       </cell>
-                      <cell id="{e9d9de32-4ed4-e9d1-c07a-308e18d23b6e}" showlabel="false">
+                      <cell showlabel="true" locklevel="0" id="{3aac01bc-2144-4cfe-8395-4c3396e47e78}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f450421c-c1d9-4b08-9949-cc4f8acc76d4}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Privacy Statement Agreement" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_privacystatementagreement" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="leidos_privacystatementagreement" disabled="false" />
+                      </cell>
+                      <cell showlabel="true" locklevel="0" id="{d9e0b5a9-8298-4718-85eb-45b949daf87e}">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -244,6 +217,22 @@
                   </labels>
                   <rows>
                     <row>
+                      <cell id="{39c6a5b1-71ad-4b8b-aa5e-30d4fd79098a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Nature of Business Activity" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_natureofbusinessactivity" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="leidos_natureofbusinessactivity" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{72892c35-bc74-42dd-b9a6-8b049bd9bf2b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Sector" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_sector" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_sector" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
                       <cell id="{71391cb1-cc37-4608-8bad-54090379657c}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Turnover" languagecode="1033" />
@@ -257,14 +246,6 @@
                           <label description="No of Employees" languagecode="1033" />
                         </labels>
                         <control id="leidos_noofemployees" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_noofemployees" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{72892c35-bc74-42dd-b9a6-8b049bd9bf2b}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Sector" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_sector" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_sector" disabled="false" />
                       </cell>
                     </row>
                     <row>
@@ -284,31 +265,63 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{0d43702b-c841-418b-9820-ca5fc810245f}" showlabel="true" locklevel="0">
+                      <cell id="{6d838a47-c531-4121-bdce-ec4c76283f9a}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Farming/Horticulture" languagecode="1033" />
+                          <label description="Product or Service" languagecode="1033" />
                         </labels>
-                        <control id="leidos_farminghorticulture" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="leidos_farminghorticulture" disabled="false" uniqueid="{aa600441-c682-4342-8536-b44b5c83f5bb}" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{aa3ad97a-fe87-4fe8-80bc-8b82459f95bb}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Fisheries" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_fisheries" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="leidos_fisheries" disabled="false" uniqueid="{18bc6f5d-101b-4e48-b730-8c345fa3687f}" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{765ad798-8b4f-43a3-85be-892f2bd35b7a}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Road Freight Transport" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_roadfreighttransport" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="leidos_roadfreighttransport" disabled="false" uniqueid="{cbebdc19-e6e2-4d7a-b4ab-8d7ae04fc4cd}" />
+                        <control id="leidos_productorservice" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_productorservice" disabled="false" />
                       </cell>
                     </row>
                   </rows>
                 </section>
+                <section name="ref_pan_{28d41d28-2711-4e9c-974f-b37fd8f27a78}_section_3" showlabel="false" showbar="false" locklevel="0" id="{baac3e44-51db-7b0e-5c4d-129a4d1d8b24}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" rowheight="4" autoexpand="false" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Reference Panel" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{8baa30be-6c59-5c00-2c37-242320c62958}" showlabel="true" colspan="1" auto="false">
+                        <labels>
+                          <label description="Client" languagecode="1033" />
+                        </labels>
+                        <control id="Client" classid="{B68B05F0-A46D-43F8-843B-917920AF806A}" datafieldname="leidos_account" disabled="false">
+                          <parameters>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="account"&gt;098ae145-1567-41ec-8398-86dbaac70c9b&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                            <ControlMode>Edit</ControlMode>
+                            <ReferencePanelQuickFormCollectionIconUrl>adx_List_32.png</ReferencePanelQuickFormCollectionIconUrl>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c69784c1-7667-d1eb-b937-0d730327a29d}" showlabel="true" colspan="1" auto="false">
+                        <labels>
+                          <label description="Contact" languagecode="1033" />
+                        </labels>
+                        <control id="Contact" classid="{B68B05F0-A46D-43F8-843B-917920AF806A}" datafieldname="leidos_contact" disabled="false">
+                          <parameters>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="contact"&gt;d880c3cf-80e2-42f3-82f9-24d040d09f17&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                            <ControlMode>Edit</ControlMode>
+                            <ReferencePanelQuickFormCollectionIconUrl>leidos_/enquiry/headicon.png</ReferencePanelQuickFormCollectionIconUrl>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="Discussions" id="9c5cb1ec-b2b0-408a-8e81-14338114fdd6" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Discussions" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
                 <section name="TimeLine" showlabel="true" showbar="false" locklevel="0" id="{c65c0663-1833-c971-30eb-40498959d0d6}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Top" height="auto">
                   <labels>
                     <label description="Timeline" languagecode="1033" />
@@ -358,53 +371,9 @@
                     <row height="auto" />
                   </rows>
                 </section>
-                <section name="ref_pan_{28d41d28-2711-4e9c-974f-b37fd8f27a78}_section_3" showlabel="false" showbar="false" locklevel="0" id="{baac3e44-51db-7b0e-5c4d-129a4d1d8b24}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" rowheight="4" autoexpand="false" celllabelalignment="Left" celllabelposition="Left">
-                  <labels>
-                    <label description="Reference Panel" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell id="{8baa30be-6c59-5c00-2c37-242320c62958}" showlabel="true" colspan="1" auto="false">
-                        <labels>
-                          <label description="Client" languagecode="1033" />
-                        </labels>
-                        <control id="Client" classid="{B68B05F0-A46D-43F8-843B-917920AF806A}" datafieldname="leidos_account" disabled="false">
-                          <parameters>
-                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="account"&gt;098ae145-1567-41ec-8398-86dbaac70c9b&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
-                            <ControlMode>Edit</ControlMode>
-                            <ReferencePanelQuickFormCollectionIconUrl>adx_List_32.png</ReferencePanelQuickFormCollectionIconUrl>
-                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
-                          </parameters>
-                        </control>
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{c69784c1-7667-d1eb-b937-0d730327a29d}" showlabel="true" colspan="1" auto="false">
-                        <labels>
-                          <label description="Contact" languagecode="1033" />
-                        </labels>
-                        <control id="Contact" classid="{B68B05F0-A46D-43F8-843B-917920AF806A}" datafieldname="leidos_contact" disabled="false">
-                          <parameters>
-                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="contact"&gt;d880c3cf-80e2-42f3-82f9-24d040d09f17&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
-                            <ControlMode>Edit</ControlMode>
-                            <ReferencePanelQuickFormCollectionIconUrl>leidos_/enquiry/headicon.png</ReferencePanelQuickFormCollectionIconUrl>
-                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
-                          </parameters>
-                        </control>
-                      </cell>
-                    </row>
-                  </rows>
-                </section>
               </sections>
             </column>
-          </columns>
-        </tab>
-        <tab name="Discussions" id="9c5cb1ec-b2b0-408a-8e81-14338114fdd6" IsUserDefined="0" locklevel="0" showlabel="true">
-          <labels>
-            <label description="Discussions" languagecode="1033" />
-          </labels>
-          <columns>
-            <column width="100%">
+            <column width="50%">
               <sections>
                 <section name="tab_2_section_1" id="c32a4493-9fce-4c47-843e-209f7a1bf1fb" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" height="auto">
                   <labels>
@@ -432,10 +401,27 @@
                     <row />
                     <row height="auto" />
                     <row>
-                      <cell showlabel="true" locklevel="0" id="{1a9a00a7-f12a-4803-9177-06a5cc42a035}">
+                      <cell id="{03fd28a0-4fd5-435b-89ff-1e0a786e8f5c}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Relevant Person or Team" languagecode="1033" />
                         </labels>
+                        <control id="leidos_relevantpersonorteam" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="leidos_relevantpersonorteam" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3df10e83-08aa-4003-b705-130abced0df8}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Relevant Team" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_relevantteam" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_relevantteam" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c677faf6-39a9-4c98-9fbe-fad30b9771c2}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Relevant Person" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_relevantperson" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_relevantperson" disabled="false" />
                       </cell>
                     </row>
                   </rows>
@@ -476,7 +462,7 @@
         </rows>
       </header>
       <Navigation>
-        <NavBar />
+        <NavBar></NavBar>
         <NavBarAreas>
           <NavBarArea Id="Info">
             <Titles>
@@ -577,80 +563,12 @@
             </parameters>
           </customControl>
         </controlDescription>
-        <controlDescription forControl="{aa600441-c682-4342-8536-b44b5c83f5bb}">
-          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
-            <parameters>
-              <datafieldname>leidos_farminghorticulture</datafieldname>
-            </parameters>
-          </customControl>
-          <customControl formFactor="2" name="MscrmControls.FlipSwitch.FlipSwitchControl">
-            <parameters>
-              <value>leidos_farminghorticulture</value>
-            </parameters>
-          </customControl>
-          <customControl formFactor="1" name="MscrmControls.FlipSwitch.FlipSwitchControl">
-            <parameters>
-              <value>leidos_farminghorticulture</value>
-            </parameters>
-          </customControl>
-          <customControl formFactor="0" name="MscrmControls.FlipSwitch.FlipSwitchControl">
-            <parameters>
-              <value>leidos_farminghorticulture</value>
-            </parameters>
-          </customControl>
-        </controlDescription>
-        <controlDescription forControl="{18bc6f5d-101b-4e48-b730-8c345fa3687f}">
-          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
-            <parameters>
-              <datafieldname>leidos_fisheries</datafieldname>
-            </parameters>
-          </customControl>
-          <customControl formFactor="2" name="MscrmControls.FlipSwitch.FlipSwitchControl">
-            <parameters>
-              <value>leidos_fisheries</value>
-            </parameters>
-          </customControl>
-          <customControl formFactor="1" name="MscrmControls.FlipSwitch.FlipSwitchControl">
-            <parameters>
-              <value>leidos_fisheries</value>
-            </parameters>
-          </customControl>
-          <customControl formFactor="0" name="MscrmControls.FlipSwitch.FlipSwitchControl">
-            <parameters>
-              <value>leidos_fisheries</value>
-            </parameters>
-          </customControl>
-        </controlDescription>
-        <controlDescription forControl="{cbebdc19-e6e2-4d7a-b4ab-8d7ae04fc4cd}">
-          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
-            <parameters>
-              <datafieldname>leidos_roadfreighttransport</datafieldname>
-            </parameters>
-          </customControl>
-          <customControl formFactor="2" name="MscrmControls.FlipSwitch.FlipSwitchControl">
-            <parameters>
-              <value>leidos_roadfreighttransport</value>
-            </parameters>
-          </customControl>
-          <customControl formFactor="1" name="MscrmControls.FlipSwitch.FlipSwitchControl">
-            <parameters>
-              <value>leidos_roadfreighttransport</value>
-            </parameters>
-          </customControl>
-          <customControl formFactor="0" name="MscrmControls.FlipSwitch.FlipSwitchControl">
-            <parameters>
-              <value>leidos_roadfreighttransport</value>
-            </parameters>
-          </customControl>
-        </controlDescription>
       </controlDescriptions>
-      <DisplayConditions Order="0" FallbackForm="true">
-        <Everyone />
-      </DisplayConditions>
       <events>
         <event name="onload" application="false" active="false">
           <Handlers>
             <Handler functionName="N52.Clientside.ExecuteFormulas" libraryName="north52_/javascript/n52.clientside" handlerUniqueId="f5d3881c-1a93-4514-9251-2724a63d2a1c" enabled="true" parameters="'Z1W:*:CreateUpdate::0:217890000:217890000:217890000:217890000'" passExecutionContext="true" />
+            <Handler functionName="Leidos.ExpandBPF" libraryName="leidos_common" handlerUniqueId="{0b906a2d-53d0-7656-ceba-e200a87ea89a}" enabled="true" parameters="" passExecutionContext="true" />
           </Handlers>
         </event>
         <event name="onchange" application="false" active="false" attribute="leidos_newaccountcreatedbyenquiry">
@@ -658,12 +576,31 @@
             <Handler functionName="N52.Clientside.ExecuteFormulas" libraryName="north52_/javascript/n52.clientside" handlerUniqueId="8a4271d1-cea8-4948-927d-65d62117d25c" enabled="true" parameters="'Z1W:*:CreateUpdate::0:217890000:217890000:217890000:217890000'" passExecutionContext="true" />
           </Handlers>
         </event>
+        <event name="onchange" application="false" active="false" attribute="leidos_emailaddress">
+          <Handlers>
+            <Handler functionName="N52.Clientside.ExecuteFormulas" libraryName="north52_/javascript/n52.clientside" handlerUniqueId="953bb562-38c9-4f70-a58e-54003b8b19d2" enabled="true" parameters="'4It:*:CreateUpdate::0:217890000:217890000:217890000:217890000'" passExecutionContext="true" />
+          </Handlers>
+        </event>
+        <event name="onchange" application="false" active="false" attribute="leidos_account">
+          <Handlers>
+            <Handler functionName="N52.Clientside.ExecuteFormulas" libraryName="north52_/javascript/n52.clientside" handlerUniqueId="9484da73-a4cc-400d-b4a7-5ba024d83c73" enabled="true" parameters="'4It:*:CreateUpdate::0:217890000:217890000:217890000:217890000'" passExecutionContext="true" />
+          </Handlers>
+        </event>
+        <event name="onchange" application="false" active="false" attribute="leidos_seppartnerorganisation">
+          <Handlers>
+            <Handler functionName="N52.Clientside.ExecuteFormulas" libraryName="north52_/javascript/n52.clientside" handlerUniqueId="fbb0c111-6085-4dc3-9fa7-eb46ec6f709b" enabled="true" parameters="'4It:*:CreateUpdate::0:217890000:217890000:217890000:217890000'" passExecutionContext="true" />
+          </Handlers>
+        </event>
       </events>
       <formLibraries>
-        <Library name="north52_/javascript/n52.json2" libraryUniqueId="994013b2-e392-46bc-8a4c-f2103b2595a8" />
-        <Library name="north52_/javascript/n52.rest" libraryUniqueId="56fef016-6e5b-4340-a624-a97adeaacb3d" />
-        <Library name="north52_/javascript/n52.clientside" libraryUniqueId="5850f0df-e437-4f82-9950-3e7d97bc20b0" />
+        <Library name="north52_/javascript/n52.json2" libraryUniqueId="610f7386-e818-424e-911a-2757a069c077" />
+        <Library name="north52_/javascript/n52.rest" libraryUniqueId="ee324df5-8bfb-439b-8b07-31b02bf34dc9" />
+        <Library name="north52_/javascript/n52.clientside" libraryUniqueId="ead3d1f8-199d-48f4-be7a-643f795e83d8" />
+        <Library name="leidos_common" libraryUniqueId="{58a0cd32-0128-27e5-31d9-01ea6e9ae70e}" />
       </formLibraries>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
     </form>
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>

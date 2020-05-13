@@ -28,21 +28,36 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{9b8e4ed7-3431-70ab-db0b-b53687c3ca49}" showlabel="true" locklevel="0">
+                      <cell id="{359120fa-60c8-46e3-a6b0-ef30744db0ad}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Annual Revenue" languagecode="1033" />
+                          <label description="Status Reason" languagecode="1033" />
                         </labels>
-                        <control id="revenue" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="revenue" disabled="false" />
+                        <control id="statuscode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statuscode" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{3829a983-e182-3156-edc6-5de236d8c769}" showlabel="true" locklevel="0">
+                      <cell id="{b1c399ba-06e1-8e97-8c8e-49372be5d7ec}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Number of Employees" languagecode="1033" />
+                          <label description="Owner" languagecode="1033" />
                         </labels>
-                        <control id="numberofemployees" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="numberofemployees" disabled="false" />
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
                       </cell>
                     </row>
+                    <row>
+                      <cell id="{fd287528-1084-4a4d-ac80-f640c0bb74e0}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Account Reference" languagecode="1033" />
+                        </labels>
+                        <control id="leidos_accountreference" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="leidos_accountreference" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="Address" id="ec6361d4-fc0d-47b1-8bdc-221b21b2aea6" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Address" languagecode="1033" />
+                  </labels>
+                  <rows>
                     <row>
                       <cell id="{b4d0c4aa-c0a9-e2bc-0b44-1292bca7637a}" showlabel="true" locklevel="0">
                         <labels>
@@ -73,14 +88,6 @@
                           <label description="Postal Code" languagecode="1033" />
                         </labels>
                         <control id="address1_postalcode" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="address1_postalcode" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{b1c399ba-06e1-8e97-8c8e-49372be5d7ec}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Owner" languagecode="1033" />
-                        </labels>
-                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
                       </cell>
                     </row>
                   </rows>
@@ -136,37 +143,6 @@
                           <label description="Road Freight Transport" languagecode="1033" />
                         </labels>
                         <control id="leidos_roadfreighttransport" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="leidos_roadfreighttransport" disabled="false" />
-                      </cell>
-                    </row>
-                  </rows>
-                </section>
-                <section name="tab_1_section_2" showlabel="true" showbar="false" locklevel="0" id="{a882a5cb-3560-74a0-2607-d54b41713d4c}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
-                  <labels>
-                    <label description="OTHER DETAILS" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell id="{e03aaa3e-4a14-9818-0180-6aa0b06524c6}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Primary Contact" languagecode="1033" />
-                        </labels>
-                        <control id="primarycontactid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="primarycontactid" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{50d7c7e8-940b-9c9e-33c8-aed15162b150}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Email" languagecode="1033" />
-                        </labels>
-                        <control id="emailaddress1" classid="{ADA2203E-B4CD-49be-9DDF-234642B43B52}" datafieldname="emailaddress1" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{7309b514-9691-9186-2996-38613e832a03}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Main Phone" languagecode="1033" />
-                        </labels>
-                        <control id="telephone1" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="telephone1" disabled="false" />
                       </cell>
                     </row>
                   </rows>

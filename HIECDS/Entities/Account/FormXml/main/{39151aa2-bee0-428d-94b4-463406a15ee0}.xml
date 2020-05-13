@@ -621,7 +621,7 @@
               <sections>
                 <section name="CompanyProfile" showlabel="true" showbar="false" id="{ca8587c5-18c0-cac1-7c34-6c639eade090}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelposition="Left" labelid="{5bd3ea39-26a4-46e9-a24a-93c48b7f5104}">
                   <labels>
-                    <label description="COMPANY PROFILE" languagecode="1033" />
+                    <label description="ORGANISATION PROFILE" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
@@ -732,30 +732,6 @@
                           <label description="Road Freight Transport" languagecode="1033" />
                         </labels>
                         <control id="leidos_roadfreighttransport" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="leidos_roadfreighttransport" disabled="false" uniqueid="{f457fe7f-9013-4aa0-876a-a29e44907fba}" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{b5617df9-d505-4da7-960a-a7025f6891dd}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Sector" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_sector" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_sector" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{0a9220c0-f47c-4c2b-974b-469f606f7785}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="No of Employees" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_noofemployees" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_noofemployees" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{caed2af8-5ca2-408a-9fea-229abbcef561}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Turnover" languagecode="1033" />
-                        </labels>
-                        <control id="leidos_turnover" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="leidos_turnover" disabled="false" />
                       </cell>
                     </row>
                   </rows>
